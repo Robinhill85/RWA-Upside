@@ -1,0 +1,16 @@
+# secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+*.key
+
+# node / next
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+.DS_Store
+
+# keep snapshot data, ignore raw dumps if large
+data/raw/
