@@ -10,6 +10,7 @@ import { connectCmc, tokenProfile, unlockImpact, kolSentiment } from "./lib/cmc.
 import { fetchTweets, pickHero } from "./lib/creatorcrawl.mjs";
 import { grokBrief } from "./lib/grok.mjs";
 import { scoreCohort } from "./lib/score.mjs";
+import { fetchMarketCaps } from "./lib/coingecko.mjs";
 
 const ROOT = path.resolve(process.cwd());
 const CONC = Number(process.env.SNAPSHOT_CONCURRENCY || 3);
@@ -64,7 +65,7 @@ function collectProse(obj) {
 const numOr = (v) => (Number.isFinite(v) ? v : null);
 
 // Grok-extracted figures are preferred (robust to non-deterministic CMC prose); regex is fallback.
-function extractMetrics(profile, unlock, grok = {}) {
+function extractMetrics(profile, unlock, grok = {}, cgMcap = null) {
   const blob = { profile, unlock };
   const prose = collectProse(blob);
   let market_cap_usd =
@@ -73,6 +74,12 @@ function extractMetrics(profile, unlock, grok = {}) {
     parseMoney(prose, "market cap");
   // sanity floor: sub-$50k "caps" are almost always a misread (price, TVL, holder count) → unknown
   if (Number.isFinite(market_cap_usd) && market_cap_usd < 50000) market_cap_usd = null;
+  // fall back to CoinGecko when CMC doesn't give us a usable cap
+  let market_cap_source = Number.isFinite(market_cap_usd) ? "cmc" : null;
+  if (!Number.isFinite(market_cap_usd) && Number.isFinite(cgMcap) && cgMcap >= 50000) {
+    market_cap_usd = cgMcap;
+    market_cap_source = "coingecko";
+  }
   const fdv_usd =
     numOr(grok.fdv_usd) ??
     deepFind(blob, ["fdv_usd"]) ??
@@ -92,6 +99,7 @@ function extractMetrics(profile, unlock, grok = {}) {
   return {
     price_usd: price_usd ?? null,
     market_cap_usd: market_cap_usd ?? null,
+    market_cap_source,
     fdv_usd: fdv_usd ?? null,
     fully_unlocked,
     forward_unlock_state: deepFind(blob, ["sell_pressure_state"], "string") ?? "unknown",
@@ -117,7 +125,7 @@ async function pool(items, n, fn) {
   return out;
 }
 
-async function gather(client, token) {
+async function gather(client, token, cgMcap = null) {
   const gaps = [];
   const safe = async (label, p) => {
     try { return await p; } catch (e) { gaps.push(`${token.slug}:${label}: ${e.message}`); return null; }
@@ -131,7 +139,7 @@ async function gather(client, token) {
   const tweets = await tweetsP;
   const cmcProse = collectProse({ profile, unlock });
   const grok = await safe("grok", grokBrief({ token, tweets: tweets || [], cmcProse }));
-  const metrics = extractMetrics(profile, unlock, grok || {});
+  const metrics = extractMetrics(profile, unlock, grok || {}, cgMcap);
   return {
     slug: token.slug,
     symbol: token.symbol,
@@ -152,10 +160,20 @@ async function main() {
   const tokens = watchlist.tokens;
   console.log(`[snapshot] ${today} — ${tokens.length} tokens, concurrency ${CONC}`);
 
+  // CoinGecko market-cap fallback (single batched call for the whole cohort)
+  let cgBySlug = new Map();
+  try {
+    const caps = await fetchMarketCaps(tokens.map((t) => t.coingecko_id));
+    cgBySlug = new Map(tokens.map((t) => [t.slug, caps.get(t.coingecko_id) ?? null]));
+    console.log(`[snapshot] CoinGecko caps: ${[...caps.values()].length}/${tokens.length} resolved`);
+  } catch (e) {
+    console.warn(`[snapshot] CoinGecko fallback unavailable: ${e.message}`);
+  }
+
   const client = await connectCmc();
   let rows;
   try {
-    rows = await pool(tokens, CONC, (t) => gather(client, t));
+    rows = await pool(tokens, CONC, (t) => gather(client, t, cgBySlug.get(t.slug)));
   } finally {
     await client.close?.();
   }

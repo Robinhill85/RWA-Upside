@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "generated_at_utc": "2026-06-26T17:39:52.310Z",
+  "generated_at_utc": "2026-06-26T17:59:47.528Z",
   "skills_used": [
     "altcoin_token_profile",
     "analyze_token_unlock_impact",
@@ -19,11 +19,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 9830000,
-        "fdv_usd": 9830000,
+        "market_cap_usd": 9760000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 9760000,
         "fully_unlocked": true,
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 23.93,
+        "top10_holder_pct": 23.9,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
@@ -180,27 +181,26 @@
         "hero_tweet_id": "2044017113120030805"
       },
       "grok_brief": {
-        "one_line": "IXS community pushes RWA vaults, onchain yield, tokenized assets and institutional adoption",
+        "one_line": "IXS community posts highlight RWA tokenization, onchain yield, vaults and institutional adoption trends",
         "key_events": [
-          "Permissionless trading demand noted",
-          "IXS RWA vault deposits via prompt",
-          "Tokenized treasuries as proof of concept",
-          "2025 institutions arrive timeline",
-          "Agent economy scaling to 165M txns"
+          "Permissionless trading demand now shifting to yield/lending",
+          "IXS RWA vault deposits via simple prompt",
+          "Tokenized treasuries as proof of concept for trillions onchain",
+          "2025-2027 roadmap: institutions arrive then full onchain markets"
         ],
         "post_count_24h": 18,
-        "bullish_score": 0.82,
+        "bullish_score": 0.72,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.88,
-        "market_cap_usd": 9830000,
-        "fdv_usd": 9830000,
+        "market_cap_usd": 9760000,
+        "fdv_usd": 9760000,
         "fully_unlocked": true,
-        "top10_holder_pct": 23.93
+        "top10_holder_pct": 23.9
       },
-      "upside_score": 89.9,
+      "upside_score": 86.9,
       "eligible": true,
       "score_breakdown": {
-        "newsworthy": 24.6,
+        "newsworthy": 21.6,
         "themeFit": 26.6,
         "unlock": 22,
         "social": 8.8,
@@ -221,8 +221,9 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 18630000,
-        "fdv_usd": 19100000,
+        "market_cap_usd": 18570000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 19030000,
         "fully_unlocked": true,
         "forward_unlock_state": "unknown",
         "top10_holder_pct": 52.8,
@@ -230,7 +231,7 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.92
+        "score": 0.9
       },
       "social": {
         "tweets": [
@@ -1038,29 +1039,30 @@
         "hero_tweet_id": "1867193475974025681"
       },
       "grok_brief": {
-        "one_line": "Clearpool pushes Ozean RWA testnet, new listings, partnerships & yield products amid strong protocol growth.",
+        "one_line": "Clearpool pushes Ozean RWA testnet, partnerships, exchange listings & yield pools with rising TVL/loans.",
         "key_events": [
-          "Ozean Poseidon Testnet LIVE",
+          "Ozean Poseidon Testnet live",
           "Binance Alpha & multiple CEX listings",
-          "$CPOOL buybacks & revenue up 76%",
-          "TVL milestones & Prime loans >$200M"
+          "$800M+ total loans originated",
+          "USDX T-Pool TVL >$30M",
+          "Prime loans >$200M"
         ],
         "post_count_24h": 100,
-        "bullish_score": 0.9,
+        "bullish_score": 0.85,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.92,
-        "market_cap_usd": 18630000,
-        "fdv_usd": 19100000,
+        "sentiment_score": 0.9,
+        "market_cap_usd": 18570000,
+        "fdv_usd": 19030000,
         "fully_unlocked": true,
         "top10_holder_pct": 52.8
       },
-      "upside_score": 90.4,
+      "upside_score": 88.7,
       "eligible": true,
       "score_breakdown": {
-        "newsworthy": 27,
+        "newsworthy": 25.5,
         "themeFit": 26.6,
         "unlock": 22,
-        "social": 9.2,
+        "social": 9,
         "holders": 2.8,
         "marketCap": 2.8
       },
@@ -1077,11 +1079,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 1720000,
-        "fdv_usd": 4170000,
+        "market_cap_usd": 4172922,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 89.3,
+        "top10_holder_pct": null,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
@@ -1846,34 +1849,34 @@
         "hero_tweet_id": "1401929676302348293"
       },
       "grok_brief": {
-        "one_line": "Polytrade pushes RWA marketplace growth via Phase 2 launch, Reflections NFTs, partnerships, staking and airdrops.",
+        "one_line": "Polytrade pushes RWA marketplace growth via Phase 2 launch, Reflections NFTs, partnerships, airdrops and staking.",
         "key_events": [
-          "Marketplace Phase 2 live",
-          "Reflections NFT mint",
-          "Chainlink CCIP + Base integration",
-          "Ondo USDY listing",
-          "$2.56M total volume, $29k fees"
+          "Marketplace Phase 2 live with secret XP",
+          "Reflections NFT mint live for rewards",
+          "Partnerships with Mastercard, Chainlink, Ondo, Clearpool",
+          "Multiple airdrops and community quests live",
+          "Staking live, $2.5M+ volumes reported"
         ],
         "post_count_24h": 94,
         "bullish_score": 0.85,
-        "theme_fit_score": 1,
+        "theme_fit_score": 0.95,
         "sentiment_score": 0.9,
-        "market_cap_usd": 1720000,
-        "fdv_usd": 4170000,
-        "fully_unlocked": false,
-        "top10_holder_pct": 89.3
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null
       },
-      "upside_score": 71.4,
+      "upside_score": 72.2,
       "eligible": true,
       "score_breakdown": {
         "newsworthy": 25.5,
-        "themeFit": 28,
+        "themeFit": 26.6,
         "unlock": 4.4,
         "social": 9,
-        "holders": 0.6,
-        "marketCap": 3.9
+        "holders": 3,
+        "marketCap": 3.7
       },
-      "rank_today": 5
+      "rank_today": 4
     },
     {
       "slug": "credefi",
@@ -1886,16 +1889,17 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 602500,
-        "fdv_usd": 804900,
+        "market_cap_usd": 601500,
+        "market_cap_source": "cmc",
+        "fdv_usd": 803600,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 59.53,
+        "top10_holder_pct": 59.5,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.82
+        "score": 0.88
       },
       "social": {
         "tweets": [
@@ -2695,34 +2699,34 @@
         "hero_tweet_id": "1451565332485709826"
       },
       "grok_brief": {
-        "one_line": "Credefi ($CREDI) pushes RWA/yield platform with listings, burns, XRPL/IBAN integrations, NFT bonds and Module X staking.",
+        "one_line": "Credefi pushes RWA lending via burns, CEX listings, XRPL/BNB integrations, Module X staking and NFT bonds.",
         "key_events": [
-          "Multiple CEX listings (KuCoin, Gate.io, BitMart, BingX)",
-          "Module X staking + double burn campaigns (58M+ burned)",
-          "XRPL integration, IBAN beta, NFT bonds roadmap",
-          "Partnerships (Polytrade, Lumia, DWFLabs, Creditcoin)",
-          "Platform 2.0 live with $5M+ active loans"
+          "Double CREDI burn to 58M total",
+          "KuCoin/Gate.io/BingX listings",
+          "Module X permanent 6mo staking",
+          "XRPL/BNB/Lumia integrations live",
+          "IBAN beta and testnet launched"
         ],
         "post_count_24h": 99,
-        "bullish_score": 0.75,
+        "bullish_score": 0.82,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.82,
-        "market_cap_usd": 602500,
-        "fdv_usd": 804900,
+        "sentiment_score": 0.88,
+        "market_cap_usd": 601500,
+        "fdv_usd": 803600,
         "fully_unlocked": false,
-        "top10_holder_pct": 59.53
+        "top10_holder_pct": 59.5
       },
-      "upside_score": 68.1,
+      "upside_score": 70.8,
       "eligible": true,
       "score_breakdown": {
-        "newsworthy": 22.5,
+        "newsworthy": 24.6,
         "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 8.2,
+        "social": 8.8,
         "holders": 2.4,
         "marketCap": 4
       },
-      "rank_today": 8
+      "rank_today": 6
     },
     {
       "slug": "truflation",
@@ -2736,7 +2740,8 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": null,
+        "market_cap_usd": 1924033,
+        "market_cap_source": "coingecko",
         "fdv_usd": null,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
@@ -2745,7 +2750,7 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.8
+        "score": 0.7
       },
       "social": {
         "tweets": [
@@ -2761,7 +2766,7 @@
             "id": "2070528898278830108",
             "url": "https://x.com/truflation/status/2070528898278830108",
             "text": "🔮📈📉: If you look at the services sector, categories like education, healthcare and recreation have seen an increase in prices over the years due to labor.\n\nWe are not expecting this to stop anytime soon, especially with federal funding 'disappearing'.",
-            "likes": 7,
+            "likes": 8,
             "retweets": 0,
             "posted_at": "2026-06-26T15:25:32.000Z"
           },
@@ -2889,33 +2894,33 @@
         "hero_tweet_id": "2069762720506024293"
       },
       "grok_brief": {
-        "one_line": "Truflation posts daily US/UK CPI readings (~1.8-2.4% YoY) plus PCE forecasts and macro-expert spaces on real-time inflation data.",
+        "one_line": "Truflation posts daily US/UK CPI readings (1.81-1.93%), PCE forecasts, and macro events with experts.",
         "key_events": [
           "Daily US CPI updates (1.81%-1.93% YoY)",
-          "Daily UK CPI updates (2.13%-2.36% YoY)",
-          "PCE forecast live ahead of BEA release",
-          "Macro Twitter Space with Warsh/PCE discussion June 25"
+          "UK CPI updates (2.13%-2.36% YoY)",
+          "PCE forecast live ahead of BEA data",
+          "Upcoming space with macro experts on June 25"
         ],
         "post_count_24h": 17,
         "bullish_score": 0.75,
-        "theme_fit_score": 0.85,
-        "sentiment_score": 0.8,
+        "theme_fit_score": 0.8,
+        "sentiment_score": 0.7,
         "market_cap_usd": null,
         "fdv_usd": null,
         "fully_unlocked": null,
         "top10_holder_pct": null
       },
-      "upside_score": 64.5,
-      "eligible": null,
+      "upside_score": 63.2,
+      "eligible": true,
       "score_breakdown": {
         "newsworthy": 22.5,
-        "themeFit": 23.8,
+        "themeFit": 22.4,
         "unlock": 4.4,
-        "social": 8,
+        "social": 7,
         "holders": 3,
-        "marketCap": 2.8
+        "marketCap": 3.9
       },
-      "rank_today": 9
+      "rank_today": 8
     },
     {
       "slug": "landshare",
@@ -2930,6 +2935,7 @@
       "metrics": {
         "price_usd": null,
         "market_cap_usd": null,
+        "market_cap_source": null,
         "fdv_usd": 20666,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
@@ -2938,7 +2944,7 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.9
+        "score": 0.8
       },
       "social": {
         "tweets": [
@@ -3738,30 +3744,31 @@
         "hero_tweet_id": "1819036065862201609"
       },
       "grok_brief": {
-        "one_line": "Landshare pushes RWA tokenization via Plume integration, LSRWA presale, loan protocol, ambassador programs and multiple CEX listings.",
+        "one_line": "Landshare ($LAND) advancing RWA real estate tokenization via Plume integration, presales, roadmaps, CEX listings & community events.",
         "key_events": [
           "Plume testnet/mainnet integration for tokenized US real estate",
-          "LSRWA presale completed in <24h, $350k LP reached",
-          "Loan protocol live with auto-redeem USDC airdrops",
-          "Multiple Zealy/ambassador campaigns with 1k-35k $LAND rewards",
-          "Listings on MEXC, AscendEX, BitMart; Chainlink integration"
+          "LSRWA presale completed & main sale upcoming",
+          "Loan protocol live with auto-redeem USDC",
+          "Multiple CEX listings (MEXC, AscendEX, BitMart)",
+          "2025 roadmap focus on refinement & adoption",
+          "Partnerships: Roofstock, Stobox, Polytrade, Pantera"
         ],
         "post_count_24h": 99,
-        "bullish_score": 0.75,
+        "bullish_score": 0.65,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.9,
-        "market_cap_usd": 11041,
+        "sentiment_score": 0.8,
+        "market_cap_usd": 11040,
         "fdv_usd": 20666,
         "fully_unlocked": false,
         "top10_holder_pct": null
       },
-      "upside_score": 68.3,
+      "upside_score": 64.3,
       "eligible": null,
       "score_breakdown": {
-        "newsworthy": 22.5,
+        "newsworthy": 19.5,
         "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 9,
+        "social": 8,
         "holders": 3,
         "marketCap": 2.8
       },
@@ -3780,15 +3787,16 @@
       "metrics": {
         "price_usd": null,
         "market_cap_usd": null,
+        "market_cap_source": null,
         "fdv_usd": 18230000,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 99.79,
+        "top10_holder_pct": 99.8,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.65
+        "score": 0.7
       },
       "social": {
         "tweets": [
@@ -4596,34 +4604,34 @@
         "hero_tweet_id": "1514678745491128352"
       },
       "grok_brief": {
-        "one_line": "Tangible ($TNGBL) pushes RWA real estate yield via USDR, NFTs, PoR transparency and recovery after depeg.",
+        "one_line": "Tangible ($TNGBL) pushes RWA real estate tokenization, USDR yield, and marketplace with $100K bounties and Chainlink PoR.",
         "key_events": [
-          "$100K bounty campaigns",
-          "USDR on Polygon/Arbitrum",
-          "Chainlink PoR live",
-          "100% USDR collateral restored",
-          "First fractional real estate sold out"
+          "$100K TNGBL bounty campaigns live",
+          "USDR deployed on Polygon and Arbitrum",
+          "First fractionalized real estate sold out",
+          "Chainlink Proof of Reserves integration live",
+          "CAVIAR single-stake yield product launched"
         ],
         "post_count_24h": 100,
-        "bullish_score": 0.6,
+        "bullish_score": 0.65,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.65,
+        "sentiment_score": 0.7,
         "market_cap_usd": null,
         "fdv_usd": 18230000,
         "fully_unlocked": null,
-        "top10_holder_pct": 99.79
+        "top10_holder_pct": 99.8
       },
-      "upside_score": 58.3,
+      "upside_score": 60.3,
       "eligible": null,
       "score_breakdown": {
-        "newsworthy": 18,
+        "newsworthy": 19.5,
         "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 6.5,
+        "social": 7,
         "holders": 0,
         "marketCap": 2.8
       },
-      "rank_today": 10
+      "rank_today": 9
     },
     {
       "slug": "swarm-markets",
@@ -4637,8 +4645,9 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 1270000,
-        "fdv_usd": 2030000,
+        "market_cap_usd": 1250000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 2000000,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
         "top10_holder_pct": 63.4,
@@ -5462,22 +5471,24 @@
         "hero_tweet_id": "1422176211367874560"
       },
       "grok_brief": {
-        "one_line": "Swarm ($SMT) pushes RWA/tokenization with Hedera stocks, Chainlink CCIP, CEX listings, dOTC launches, gold on BTC, and 1/3 token burn vote.",
+        "one_line": "Swarm ($SMT) closes Inveniam acquisition, lists on Uniswap/MEXC/Bitstamp/Gate/BingX/Uphold, launches Hedera tokenized stocks, Chainlink CCIP, gold on BTC, burns 34% supply, adds dOTC/Base/Arbitrum, multiple RWA partnerships.",
         "key_events": [
           "Acquisition by Inveniam closed",
-          "Hedera tokenized stocks (AAPL, TSLA) live",
+          "SMT live on Uniswap/MEXC/Bitstamp/Gate/BingX/Uphold",
+          "Hedera tokenized stocks (AAPL/TSLA/MSTR) launched",
           "Chainlink CCIP integration",
-          "Multiple CEX listings (MEXC, Bitstamp, Gate.io)",
-          "1/3 $SMT burn approved by community",
-          "dOTC v2 and Open dOTC on Base live",
-          "Gold NFTs and tokenized stocks expanded"
+          "34% token burn voted/passed",
+          "Gold on Bitcoin via Trio",
+          "dOTC v2/Open dOTC live on Base",
+          "MELD/Plume/MetaStreet/Polytrade partnerships",
+          "New stocks (BLK/COIN/NVDA etc) added"
         ],
         "post_count_24h": 101,
         "bullish_score": 0.85,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.9,
-        "market_cap_usd": 1270000,
-        "fdv_usd": 2030000,
+        "market_cap_usd": 1250000,
+        "fdv_usd": 2000000,
         "fully_unlocked": false,
         "top10_holder_pct": 63.4
       },
@@ -5491,7 +5502,7 @@
         "holders": 2.2,
         "marketCap": 3.9
       },
-      "rank_today": 4
+      "rank_today": 5
     },
     {
       "slug": "dusk-network",
@@ -5505,7 +5516,8 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": null,
+        "market_cap_usd": 47433169,
+        "market_cap_source": "coingecko",
         "fdv_usd": null,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
@@ -6330,13 +6342,13 @@
         "hero_tweet_id": "1812123061904433595"
       },
       "grok_brief": {
-        "one_line": "Dusk ($DUSK) pushes RWA/tokenization with NPEX partnership, mainnet live Sept 20, testnets, node growth & dev fund.",
+        "one_line": "Dusk mainnet live; RWA tokenization via NPEX partnership, compliance focus, 15M dev fund, 1k+ nodes.",
         "key_events": [
-          "Mainnet live Sept 20 with 3rd-party contracts",
-          "NPEX partnership for regulated RWA exchange €300M AUM",
-          "15M $DUSK dev fund & BWRE bond tokenization",
-          "ITN: 8K+ nodes, Nocturne testnet live",
-          "1000+ nodes, privacy KYC & ZKP focus"
+          "Mainnet launched Sept 20",
+          "Dusk Trade waitlist open with NPEX (€300M AUM)",
+          "15M $DUSK dev fund announced",
+          "Partnerships: BwreCapital (Italian bonds), Quantoz (MiCA euro)",
+          "ITN had 8k+ nodes; 1k+ nodes live"
         ],
         "post_count_24h": 101,
         "bullish_score": 0.85,
@@ -6347,17 +6359,17 @@
         "fully_unlocked": null,
         "top10_holder_pct": null
       },
-      "upside_score": 71.3,
-      "eligible": null,
+      "upside_score": 20,
+      "eligible": false,
       "score_breakdown": {
         "newsworthy": 25.5,
         "themeFit": 26.6,
         "unlock": 4.4,
         "social": 9,
         "holders": 3,
-        "marketCap": 2.8
+        "marketCap": 0
       },
-      "rank_today": 6
+      "rank_today": 10
     },
     {
       "slug": "chintai",
@@ -6372,7 +6384,8 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": null,
+        "market_cap_usd": 15156471,
+        "market_cap_source": "coingecko",
         "fdv_usd": null,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
@@ -7189,16 +7202,15 @@
         "hero_tweet_id": "1955328714859847686"
       },
       "grok_brief": {
-        "one_line": "Chintai ($CHEX) ramps up RWA tokenization with Chainlink CCIP, multiple $100M-$1.6B funds live on Nexus, Solana/Bitcoin expansions.",
+        "one_line": "Chintai ($CHEX) driving RWA tokenization via major institutional funds, Chainlink/Solana/Bitcoin partnerships and listings.",
         "key_events": [
-          "Chainlink CCIP integration for institutional on-chain transfers",
-          "$795M R3 Sustainability tokenized infrastructure fund",
-          "$570M RealNOI real estate cash-flow platform live",
+          "$795M R3 Sustainability tokenized fund",
           "$1.6B SmartGold IRA gold tokenization",
-          "Kin Capital $100M real estate debt fund live (15% yield)",
-          "Bitcoin-native RWA platform with Arch Network (no bridge/wrap)",
-          "Solana distribution via Splyce for retail access",
-          "Multiple $30M funds (AlteriEnergy, DPI Capital) and $50M art tokenization"
+          "$570M RealNOI real estate platform live",
+          "Chainlink CCIP integration for institutional on-chain assets",
+          "Bitcoin-native RWA platform with Arch Network",
+          "Solana distribution via Splyce and $CHEX token launch",
+          "Multiple $100M+ real estate/VC funds live on Nexus"
         ],
         "post_count_24h": 100,
         "bullish_score": 0.9,
@@ -7209,15 +7221,15 @@
         "fully_unlocked": null,
         "top10_holder_pct": null
       },
-      "upside_score": 73,
-      "eligible": null,
+      "upside_score": 73.2,
+      "eligible": true,
       "score_breakdown": {
         "newsworthy": 27,
         "themeFit": 26.6,
         "unlock": 4.4,
         "social": 9.2,
         "holders": 3,
-        "marketCap": 2.8
+        "marketCap": 3
       },
       "rank_today": 3
     }
