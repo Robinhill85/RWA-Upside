@@ -59,5 +59,13 @@ Return JSON with this exact shape:
   }
   const data = await resp.json();
   const content = data.choices?.[0]?.message?.content ?? "{}";
-  return JSON.parse(content);
+  const parsed = JSON.parse(content);
+  // No tweets = absence of signal, NOT bearishness. Leave bullish/sentiment neutral
+  // (null → treated as 0.5 in scoring) instead of penalizing tokens with a wrong/empty handle.
+  if (!tweets?.length) {
+    parsed.bullish_score = null;
+    parsed.sentiment_score = null;
+    parsed.no_social_data = true;
+  }
+  return parsed;
 }

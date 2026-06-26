@@ -1,15 +1,15 @@
 {
   "_note": "Fixed cohort. ALWAYS reference tokens by slug/cmcid, never bare symbol. 'verified' flags whether the CMC slug + X handle have been confirmed — run `npm run resolve` to validate slugs against CMC and fill cmcid. The daily top-10 ranking is computed over this cohort.",
   "tokens": [
-    { "slug": "ix-swap",       "cmcid": null, "symbol": "IXS",   "name": "IX Swap",        "x_handle": "IXSwap",          "themes": ["rwa", "tokenization", "yield"],            "verified": false },
+    { "slug": "ix-swap",       "cmcid": null, "symbol": "IXS",   "name": "IX Swap",        "x_handle": "ixsfinance",      "themes": ["rwa", "tokenization", "yield"],            "verified": true },
     { "slug": "clearpool",     "cmcid": null, "symbol": "CPOOL", "name": "Clearpool",      "x_handle": "ClearpoolFin",    "themes": ["rwa", "yield", "stablecoin"],              "verified": false },
     { "slug": "polytrade",     "cmcid": null, "symbol": "TRADE", "name": "Polytrade",      "x_handle": "Polytrade_fin",   "themes": ["rwa", "tokenization"],                     "verified": false },
-    { "slug": "credefi",       "cmcid": null, "symbol": "CREDI", "name": "Credefi",        "x_handle": "CredefiFinance",  "themes": ["rwa", "yield"],                            "verified": false },
+    { "slug": "credefi",       "cmcid": null, "symbol": "CREDI", "name": "Credefi",        "x_handle": "credefi_finance", "themes": ["rwa", "yield"],                            "verified": true },
     { "slug": "truflation",    "cmcid": null, "symbol": "TRUF",  "name": "Truflation",     "x_handle": "truflation",      "themes": ["rwa", "ai", "data"],                       "verified": false },
     { "slug": "landshare",     "cmcid": null, "symbol": "LAND",  "name": "Landshare",      "x_handle": "landshareio",     "themes": ["rwa", "tokenization", "realestate"],       "verified": false },
     { "slug": "tangible",      "cmcid": null, "symbol": "TNGBL", "name": "Tangible",       "x_handle": "tangibleDAO",     "themes": ["rwa", "realestate", "yield"],              "verified": false },
     { "slug": "swarm-markets", "cmcid": null, "symbol": "SMT",   "name": "Swarm Markets",  "x_handle": "swarmmarkets",    "themes": ["rwa", "tokenization", "defi"],             "verified": false },
     { "slug": "dusk-network",  "cmcid": null, "symbol": "DUSK",  "name": "Dusk",           "x_handle": "DuskFoundation",  "themes": ["rwa", "tokenization", "compliance"],       "verified": false },
-    { "slug": "chintai",       "cmcid": null, "symbol": "CHEX",  "name": "Chintai",        "x_handle": "chintai_markets", "themes": ["rwa", "tokenization", "ai", "agentic"],    "verified": false }
+    { "slug": "chintai",       "cmcid": null, "symbol": "CHEX",  "name": "Chintai",        "x_handle": "ChintaiNexus",    "themes": ["rwa", "tokenization", "ai", "agentic"],    "verified": true }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "generated_at_utc": "2026-06-26T17:25:56.561Z",
+  "generated_at_utc": "2026-06-26T17:39:52.310Z",
   "skills_used": [
     "altcoin_token_profile",
     "analyze_token_unlock_impact",
@@ -11,7 +11,7 @@
       "slug": "ix-swap",
       "symbol": "IXS",
       "name": "IX Swap",
-      "x_handle": "IXSwap",
+      "x_handle": "ixsfinance",
       "themes": [
         "rwa",
         "tokenization",
@@ -19,8 +19,8 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 9800000,
-        "fdv_usd": 9800000,
+        "market_cap_usd": 9830000,
+        "fdv_usd": 9830000,
         "fully_unlocked": true,
         "forward_unlock_state": "unknown",
         "top10_holder_pct": 23.93,
@@ -28,35 +28,186 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.4
+        "score": 0.88
       },
       "social": {
-        "tweets": [],
-        "hero_tweet_id": null
+        "tweets": [
+          {
+            "id": "2044017113120030805",
+            "url": "https://x.com/IxsFinance/status/2044017113120030805",
+            "text": "https://t.co/IRMKLxUW6B",
+            "likes": 194,
+            "retweets": 0,
+            "posted_at": "2026-04-14T11:37:10.000Z"
+          },
+          {
+            "id": "2070462790863561040",
+            "url": "https://x.com/IxsFinance/status/2070462790863561040",
+            "text": "Looking forward to this in a few hours!",
+            "likes": 30,
+            "retweets": 0,
+            "posted_at": "2026-06-26T11:02:51.000Z"
+          },
+          {
+            "id": "2070120994165928280",
+            "url": "https://x.com/IxsFinance/status/2070120994165928280",
+            "text": "https://t.co/LovjT8hLRP",
+            "likes": 71,
+            "retweets": 0,
+            "posted_at": "2026-06-25T12:24:40.000Z"
+          },
+          {
+            "id": "2069827076312502507",
+            "url": "https://x.com/IxsFinance/status/2069827076312502507",
+            "text": "https://t.co/MQJmGztRJt",
+            "likes": 83,
+            "retweets": 0,
+            "posted_at": "2026-06-24T16:56:45.000Z"
+          },
+          {
+            "id": "2069504425417179602",
+            "url": "https://x.com/IxsFinance/status/2069504425417179602",
+            "text": "RT @julian2kwan: The next phase of RWAs is not TradFi versus DeFi.\n\nIt is TradFi at the entry point, DeFi in the middle, and TradFi again a…",
+            "likes": 0,
+            "retweets": 0,
+            "posted_at": "2026-06-23T19:34:39.000Z"
+          },
+          {
+            "id": "2069355244354420889",
+            "url": "https://x.com/IxsFinance/status/2069355244354420889",
+            "text": "Permissionless trading proved the demand.\n\nNow watch what happens when the same assets plug into onchain yield, lending, and autonomous capital allocation.",
+            "likes": 63,
+            "retweets": 0,
+            "posted_at": "2026-06-23T09:41:51.000Z"
+          },
+          {
+            "id": "2068691039594979613",
+            "url": "https://x.com/IxsFinance/status/2068691039594979613",
+            "text": "Chainlink is showing what the institutional stack looks like:\n\nBanks, tokenized assets, payments, settlement and compliance all connected onchain.\n\nThe next step is simple: make those assets usable, yield-bearing and accessible through regulated RWA vaults.",
+            "likes": 61,
+            "retweets": 0,
+            "posted_at": "2026-06-21T13:42:32.000Z"
+          },
+          {
+            "id": "2068421419638337581",
+            "url": "https://x.com/IxsFinance/status/2068421419638337581",
+            "text": "\"Deposit $100,000 into the IXS RWA vault.\"\n\nNo forms.\nNo phone calls.\nNo dashboard.\n\nJust a prompt.\n\nCloser than most think. https://t.co/gG7f9UFAH7",
+            "likes": 86,
+            "retweets": 0,
+            "posted_at": "2026-06-20T19:51:10.000Z"
+          },
+          {
+            "id": "2067996703844687973",
+            "url": "https://x.com/IxsFinance/status/2067996703844687973",
+            "text": "Tokenized treasuries weren't the destination.\n\nThey were the proof.\n\nThe first glimpse of what happens when trillions of dollars of institutional financial products move onchain. https://t.co/viGg0m95ST",
+            "likes": 61,
+            "retweets": 0,
+            "posted_at": "2026-06-19T15:43:30.000Z"
+          },
+          {
+            "id": "2067607792874393933",
+            "url": "https://x.com/IxsFinance/status/2067607792874393933",
+            "text": "Everyone used to ignore fundamentals.\n\nNow it’s all anyone asks for:\n\n→ real revenue\n→ real clients\n→ real utility\n\nFunny how cycles work. https://t.co/82GOFlHzCH",
+            "likes": 66,
+            "retweets": 0,
+            "posted_at": "2026-06-18T13:58:06.000Z"
+          },
+          {
+            "id": "2067231016083734608",
+            "url": "https://x.com/IxsFinance/status/2067231016083734608",
+            "text": "Most people see tokenization as putting existing assets on-chain.\n\nThat's like looking at the early internet and seeing newspapers on a screen.\n\nThe real opportunity isn't digitising what already exists.\n\nIt's creating what couldn't exist before.\n\n→24/7 markets.\n→Atomic https://t.co/g7lEUt5O0g",
+            "likes": 79,
+            "retweets": 0,
+            "posted_at": "2026-06-17T13:00:56.000Z"
+          },
+          {
+            "id": "2066919423571632635",
+            "url": "https://x.com/IxsFinance/status/2066919423571632635",
+            "text": "Tokenized stocks are the bait.\n\nThe real prize is rebuilding the entire market structure around them:\n\n24/7 access, instant settlement, programmable collateral, automated dividends, and global distribution.\n\nWall Street is not coming onchain.\n\nOnchain is coming for Wall Street.",
+            "likes": 78,
+            "retweets": 0,
+            "posted_at": "2026-06-16T16:22:46.000Z"
+          },
+          {
+            "id": "2066795575673286699",
+            "url": "https://x.com/IxsFinance/status/2066795575673286699",
+            "text": "Checked the yield.\n\nStill regulated.\nStill onchain.\nStill earning while you slept. https://t.co/SZyehZbsbA",
+            "likes": 90,
+            "retweets": 0,
+            "posted_at": "2026-06-16T08:10:39.000Z"
+          },
+          {
+            "id": "2066486477890965576",
+            "url": "https://x.com/IxsFinance/status/2066486477890965576",
+            "text": "https://t.co/QvXoRVpvxu",
+            "likes": 68,
+            "retweets": 0,
+            "posted_at": "2026-06-15T11:42:24.000Z"
+          },
+          {
+            "id": "2066220325654659112",
+            "url": "https://x.com/IxsFinance/status/2066220325654659112",
+            "text": "The winning model for long-tail markets won’t look like an exchange.\n\nIt’ll look like a broker that abstracts liquidity fragmentation away from the user.\n\nCrypto was the demo.\nRWAs are the endgame.",
+            "likes": 63,
+            "retweets": 0,
+            "posted_at": "2026-06-14T18:04:48.000Z"
+          },
+          {
+            "id": "2065786696935854345",
+            "url": "https://x.com/IxsFinance/status/2065786696935854345",
+            "text": "🧪 2021: Can we tokenize assets?\n🏗️ 2022: Can we build the rails?\n🏛️ 2023: Treasuries.\n💰 2024: Yield.\n🏦 2025: Institutions arrive.\n🌍 2026: Every major asset class moves onchain.\n\n⚡ 2027: The distinction between finance and crypto disappears.",
+            "likes": 89,
+            "retweets": 0,
+            "posted_at": "2026-06-13T13:21:43.000Z"
+          },
+          {
+            "id": "2065463162728546423",
+            "url": "https://x.com/IxsFinance/status/2065463162728546423",
+            "text": "x402 went from 50M+ transactions to 165M+ transactions in roughly two months.\n\nThat's over 115M additional machine-to-machine payments.\n\nThe agent economy is scaling faster than most people realise https://t.co/C2GmDCMJew",
+            "likes": 86,
+            "retweets": 0,
+            "posted_at": "2026-06-12T15:56:07.000Z"
+          },
+          {
+            "id": "2065073944831385796",
+            "url": "https://x.com/IxsFinance/status/2065073944831385796",
+            "text": "Agent wallets went from \"interesting idea\" to \"real infra category\" in about 18 months. \n\nMultiple credible builds, multiple design philosophies, and real production volume on a few of them.\n\nQuick frame on why this category exists:\n\nAI agents need to hold, send, swap, and earn. https://t.co/Fx9gA7JrHg",
+            "likes": 88,
+            "retweets": 0,
+            "posted_at": "2026-06-11T14:09:30.000Z"
+          }
+        ],
+        "hero_tweet_id": "2044017113120030805"
       },
       "grok_brief": {
-        "one_line": "IXS at $0.054 with $9.8M MC/FDV, 7344 holders, 23.93% top-10 concentration, $113k TVL",
-        "key_events": [],
-        "post_count_24h": 0,
-        "bullish_score": 0.25,
-        "theme_fit_score": 0.85,
-        "sentiment_score": 0.4,
-        "market_cap_usd": 9800000,
-        "fdv_usd": 9800000,
+        "one_line": "IXS community pushes RWA vaults, onchain yield, tokenized assets and institutional adoption",
+        "key_events": [
+          "Permissionless trading demand noted",
+          "IXS RWA vault deposits via prompt",
+          "Tokenized treasuries as proof of concept",
+          "2025 institutions arrive timeline",
+          "Agent economy scaling to 165M txns"
+        ],
+        "post_count_24h": 18,
+        "bullish_score": 0.82,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.88,
+        "market_cap_usd": 9830000,
+        "fdv_usd": 9830000,
         "fully_unlocked": true,
         "top10_holder_pct": 23.93
       },
-      "upside_score": 65.2,
+      "upside_score": 89.9,
       "eligible": true,
       "score_breakdown": {
-        "newsworthy": 7.5,
-        "themeFit": 23.8,
+        "newsworthy": 24.6,
+        "themeFit": 26.6,
         "unlock": 22,
-        "social": 4,
+        "social": 8.8,
         "holders": 4.6,
         "marketCap": 3.3
       },
-      "rank_today": 6
+      "rank_today": 2
     },
     {
       "slug": "clearpool",
@@ -70,7 +221,7 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 18640000,
+        "market_cap_usd": 18630000,
         "fdv_usd": 19100000,
         "fully_unlocked": true,
         "forward_unlock_state": "unknown",
@@ -79,7 +230,7 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.9
+        "score": 0.92
       },
       "social": {
         "tweets": [
@@ -391,7 +542,7 @@
             "id": "1930248651764576751",
             "url": "https://x.com/ClearpoolFin/status/1930248651764576751",
             "text": "Designed to unlock the $16 trillion projected to flowing into RWAs, the platform powers the next era of tokenized global capital markets.\n\nWhere assets, code, and compliance converge on-chain.\n\nOzean x @Hex_Trust\n\nComing 🔜\n\n$CPOOL https://t.co/4pbq8Y3MbP",
-            "likes": 391,
+            "likes": 390,
             "retweets": 0,
             "posted_at": "2025-06-04T13:01:55.000Z"
           },
@@ -887,30 +1038,29 @@
         "hero_tweet_id": "1867193475974025681"
       },
       "grok_brief": {
-        "one_line": "Clearpool pushes Ozean RWA testnet, partnerships, exchange listings & stablecoin yield pools amid rising TVL/loans",
+        "one_line": "Clearpool pushes Ozean RWA testnet, new listings, partnerships & yield products amid strong protocol growth.",
         "key_events": [
           "Ozean Poseidon Testnet LIVE",
           "Binance Alpha & multiple CEX listings",
-          "$800M+ total loans originated",
-          "USDX T-Pool TVL >$30M at ~9% APR",
-          "Clearpool Prime >$200M loans"
+          "$CPOOL buybacks & revenue up 76%",
+          "TVL milestones & Prime loans >$200M"
         ],
         "post_count_24h": 100,
-        "bullish_score": 0.85,
+        "bullish_score": 0.9,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.9,
-        "market_cap_usd": 18640000,
+        "sentiment_score": 0.92,
+        "market_cap_usd": 18630000,
         "fdv_usd": 19100000,
         "fully_unlocked": true,
         "top10_holder_pct": 52.8
       },
-      "upside_score": 88.7,
+      "upside_score": 90.4,
       "eligible": true,
       "score_breakdown": {
-        "newsworthy": 25.5,
+        "newsworthy": 27,
         "themeFit": 26.6,
         "unlock": 22,
-        "social": 9,
+        "social": 9.2,
         "holders": 2.8,
         "marketCap": 2.8
       },
@@ -936,7 +1086,7 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.85
+        "score": 0.9
       },
       "social": {
         "tweets": [
@@ -1696,84 +1846,883 @@
         "hero_tweet_id": "1401929676302348293"
       },
       "grok_brief": {
-        "one_line": "Polytrade pushes RWA marketplace Phase 2, Reflections NFTs, staking, partnerships & airdrops amid high holder concentration.",
+        "one_line": "Polytrade pushes RWA marketplace growth via Phase 2 launch, Reflections NFTs, partnerships, staking and airdrops.",
         "key_events": [
-          "Marketplace Phase 2 live with secret XP",
-          "Reflections NFT mint & staking live",
-          "New chains/Base integration & Chainlink CCIP",
-          "Multiple airdrops & community quests",
-          "$2.56M total volume, $29k fees, buybacks"
+          "Marketplace Phase 2 live",
+          "Reflections NFT mint",
+          "Chainlink CCIP + Base integration",
+          "Ondo USDY listing",
+          "$2.56M total volume, $29k fees"
         ],
         "post_count_24h": 94,
-        "bullish_score": 0.75,
+        "bullish_score": 0.85,
         "theme_fit_score": 1,
-        "sentiment_score": 0.85,
+        "sentiment_score": 0.9,
         "market_cap_usd": 1720000,
         "fdv_usd": 4170000,
         "fully_unlocked": false,
         "top10_holder_pct": 89.3
       },
-      "upside_score": 67.9,
+      "upside_score": 71.4,
       "eligible": true,
       "score_breakdown": {
-        "newsworthy": 22.5,
+        "newsworthy": 25.5,
         "themeFit": 28,
         "unlock": 4.4,
-        "social": 8.5,
+        "social": 9,
         "holders": 0.6,
         "marketCap": 3.9
       },
-      "rank_today": 4
+      "rank_today": 5
     },
     {
       "slug": "credefi",
       "symbol": "CREDI",
       "name": "Credefi",
-      "x_handle": "CredefiFinance",
+      "x_handle": "credefi_finance",
       "themes": [
         "rwa",
         "yield"
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 600350,
-        "fdv_usd": 802000,
+        "market_cap_usd": 602500,
+        "fdv_usd": 804900,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 59.5,
+        "top10_holder_pct": 59.53,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0
+        "score": 0.82
       },
       "social": {
-        "tweets": [],
-        "hero_tweet_id": null
+        "tweets": [
+          {
+            "id": "1901697046983196780",
+            "url": "https://x.com/credefi_finance/status/1901697046983196780",
+            "text": "Good evening Credefians,  \n\nPlease Follow our new channel where all project updates, news and infographics will be posted.  \n\n REV SHARE IS LIVE!\n\n👇👇👇👇",
+            "likes": 137,
+            "retweets": 0,
+            "posted_at": "2025-03-17T18:08:02.000Z"
+          },
+          {
+            "id": "1451565332485709826",
+            "url": "https://x.com/credefi_finance/status/1451565332485709826",
+            "text": "🔔And the day has arrived that all #Credefians were waiting for!\n\n🎉We are thrilled to announce our #IDO on @CardStarter platform🚀\n\n📝Registration begins on 31st October, 3PM UTC &amp; ends on 3rd November, 3PM UTC\n\n🌐For more details click here👇\nhttps://t.co/z5jCbY3bwf\n\n#Definews https://t.co/Smaq0rRZO5",
+            "likes": 7961,
+            "retweets": 0,
+            "posted_at": "2021-10-22T15:05:18.000Z"
+          },
+          {
+            "id": "1451886887942045701",
+            "url": "https://x.com/credefi_finance/status/1451886887942045701",
+            "text": "🥳Announcing the #Credefi #Airdrop Event\n\n🎁Participate and win from a prize pool of 350000 $CREDI by completing few simple steps\n\n⏳The airdrop starts from Oct 23rd and ends on Nov 07th 2021.\n\nTo start, click👇\nhttps://t.co/Q6I9pMoHwp",
+            "likes": 7343,
+            "retweets": 0,
+            "posted_at": "2021-10-23T12:23:03.000Z"
+          },
+          {
+            "id": "1693669630865186861",
+            "url": "https://x.com/credefi_finance/status/1693669630865186861",
+            "text": "🔥 A massive DOUBLE $CREDI Burn Campaign is coming!\n\n🤔 Do you remember the previous ones?\n\nUp until now we've burnt more than 31 million $CREDI tokens. \n\nWith the upcoming Module X Round 2 around the corner, and the surprise burn we have prepared for you, we are about to https://t.co/bee951pIAT",
+            "likes": 1296,
+            "retweets": 0,
+            "posted_at": "2023-08-21T17:01:21.000Z"
+          },
+          {
+            "id": "1695060148119556168",
+            "url": "https://x.com/credefi_finance/status/1695060148119556168",
+            "text": "The moment we've all been waiting for is here! 🚀\n\n$CREDI has officially landed on @BitMartExchange 's trading platform! 🔥\n\nOpportunities don't come to you, you create them! 💡\n\nDon't miss your chance to be a part of this revolutionary journey. 👋🏻 \n\nSecure your tokens now and https://t.co/ip9qT2Sfty",
+            "likes": 608,
+            "retweets": 0,
+            "posted_at": "2023-08-25T13:06:46.000Z"
+          },
+          {
+            "id": "1668514636012957696",
+            "url": "https://x.com/credefi_finance/status/1668514636012957696",
+            "text": "We don't want you to miss out on this last chance to enjoy exceptional savings and benefits. Act now and seize this opportunity before it's gone forever. Don't delay any longer! Time is running out. Take advantage of this one time offer, make your purchase, and enjoy the benefits https://t.co/VDMJBLHbxF",
+            "likes": 590,
+            "retweets": 0,
+            "posted_at": "2023-06-13T07:04:23.000Z"
+          },
+          {
+            "id": "1704828114470142016",
+            "url": "https://x.com/credefi_finance/status/1704828114470142016",
+            "text": "🚀 Exciting News! 🚀\n\n🔥 CREDI Stake is LIVE! 🔥\n\nWe're thrilled to announce that the CREDI/USDT Liquidity Pool is now open on Uniswap V2, and you can start earning rewards today! Here's how to get started in just a few quick steps:\n\n1️⃣ Visit Uniswap: Head over to Uniswap and https://t.co/cYZjoFQ7Cr",
+            "likes": 509,
+            "retweets": 0,
+            "posted_at": "2023-09-21T12:01:11.000Z"
+          },
+          {
+            "id": "1656338197817720834",
+            "url": "https://x.com/credefi_finance/status/1656338197817720834",
+            "text": "Why $CREDI beats Memecoins?\n\nIt has an actual utility. \n$CREDI farm stake's coming soon.\nIt has a burn mechanism by the end of each year.\nThe projected burn amount of $CREDI for the first 5 years after launch is over 100 million.\n\nLet's see what you think in the comments section https://t.co/BfqL4KR3qE",
+            "likes": 718,
+            "retweets": 0,
+            "posted_at": "2023-05-10T16:39:34.000Z"
+          },
+          {
+            "id": "1694365613982941383",
+            "url": "https://x.com/credefi_finance/status/1694365613982941383",
+            "text": "Another day, another giant leap for us.\n\nWe are proud to say that we are embarking on a new journey. \n\n$CREDI is now integrated on @okxweb3 \n\nWe hope that with this move, we are opening new horizons, not just for us, but for our communities as well!\n\nLet's dive into the world of https://t.co/uujDHJj0Mn",
+            "likes": 259,
+            "retweets": 0,
+            "posted_at": "2023-08-23T15:06:56.000Z"
+          },
+          {
+            "id": "1689742356268953600",
+            "url": "https://x.com/credefi_finance/status/1689742356268953600",
+            "text": "🚀 Exciting News! Introducing Credefi Finance Platform 2.0 is now LIVE \n\n🎉 We are thrilled to unveil the next evolution of Credefi Finance - Platform 2.0! \n\n🌐 What's New?\nLet's recap one more time what's to be expected:\n\nAutonomous Earning \nCredefi Security Module X Round 2 https://t.co/dzp5TPNmdd",
+            "likes": 615,
+            "retweets": 0,
+            "posted_at": "2023-08-10T20:55:46.000Z"
+          },
+          {
+            "id": "1726665916920844775",
+            "url": "https://x.com/credefi_finance/status/1726665916920844775",
+            "text": "We’re happy to announce our integration with XRP Ledger!\n\nHere's our latest news which will give you a handful insight 👇\n\nhttps://t.co/OsdTRJZLnW\n\nWe are excited to bring more light into what Credefi is trying to achieve in the near future. Expanding the boundaries of",
+            "likes": 662,
+            "retweets": 0,
+            "posted_at": "2023-11-20T18:16:49.000Z"
+          },
+          {
+            "id": "1738235880878334154",
+            "url": "https://x.com/credefi_finance/status/1738235880878334154",
+            "text": "CREDI and xCREDI are getting their utilities as we speak  so let's remind you about their importance, for our ecosystem and for you, the HODLers.\n\n$CREDI Benefits:\n\n1. Fee Discount Yield/Boost:\n     - Lenders can boost their yield by up to 33%.\n     - Borrowers can reduce https://t.co/ch2iNFo5ow",
+            "likes": 502,
+            "retweets": 0,
+            "posted_at": "2023-12-22T16:31:43.000Z"
+          },
+          {
+            "id": "1441379551183921157",
+            "url": "https://x.com/credefi_finance/status/1441379551183921157",
+            "text": "📢Announcing the launch of the first edition of #Credefi Meme Contest\n\n🏆10 Winners will win a slice from the prize pool of $800\n   \n📅The contest ends on 08th October 2021\n\n👉Participate via the Gleam link below 👇\nhttps://t.co/R0nPrRgJEZ\n\n#CredefiMemeContest #Crypto #Giveaways",
+            "likes": 304,
+            "retweets": 0,
+            "posted_at": "2021-09-24T12:30:39.000Z"
+          },
+          {
+            "id": "1439922934756302854",
+            "url": "https://x.com/credefi_finance/status/1439922934756302854",
+            "text": "📢  #Credefi partners with @X21_Digital \n\nThis alliance will allow Credefi to implement the project’s sustainable marketing and growth strategies 📈  within X21 Digital’s active network of institutions and strategic partners 🚀 \n\nLearn more👇 \nhttps://t.co/vzvo9Tlxkp\n\n#cryptonews",
+            "likes": 211,
+            "retweets": 0,
+            "posted_at": "2021-09-20T12:02:34.000Z"
+          },
+          {
+            "id": "1466809011429416970",
+            "url": "https://x.com/credefi_finance/status/1466809011429416970",
+            "text": "🎉We are beyond excited to announce that our native token, $CREDI, will be listed on one of the best CEXs next week🥳\n\nTo celebrate this and thank our loyal &amp; patient community 🙏, we'll be giving away $1,000 worth of $CREDI tokens🤩\n\nFor more details👇\nhttps://t.co/5rX8PjpzFB",
+            "likes": 455,
+            "retweets": 0,
+            "posted_at": "2021-12-03T16:38:14.000Z"
+          },
+          {
+            "id": "1864731462362108347",
+            "url": "https://x.com/credefi_finance/status/1864731462362108347",
+            "text": "🚀 IBANs arrive at Beta Testing! 🚀\n\nBe among the first to test it! 🎉\n\n💰 First 100 wallets to reply below enter a 1000 USDT raffle.\n🎁 All participants get a special surprise after testing is complete.\n\nReply with your wallet below 👇\n\n#Credefi #IBAN #Crypto #whitelist #RWA https://t.co/ywGZKj2xsq",
+            "likes": 505,
+            "retweets": 0,
+            "posted_at": "2024-12-05T18:00:00.000Z"
+          },
+          {
+            "id": "1694750775694487988",
+            "url": "https://x.com/credefi_finance/status/1694750775694487988",
+            "text": "Official $CREDI Stake and Burn Announcement\n\nWe've mentioned a couple of days ago that a Double $CREDI Burn Campaign is coming. 🔥\n\nWell, this is stage 1️⃣!\n\nAs an appreciation to your constant support, the team decided to return the favor back. ❤️\n\nHere how it's going to happen: https://t.co/MbQW5gfa1x",
+            "likes": 92,
+            "retweets": 0,
+            "posted_at": "2023-08-24T16:37:26.000Z"
+          },
+          {
+            "id": "1467499938913218560",
+            "url": "https://x.com/credefi_finance/status/1467499938913218560",
+            "text": "📢In celebration of the launch of the $CREDI token on one of the best #CEXs, we are giving away $1,000 worth of $CREDI tokens🤑\n\n⌛️Contest ends on 14th December 2021 at 23:59 UTC.\n\n🤔Wondering how to take part? Click below to find out👇\n\nhttps://t.co/w5vns0Yicz",
+            "likes": 370,
+            "retweets": 0,
+            "posted_at": "2021-12-05T14:23:44.000Z"
+          },
+          {
+            "id": "1727020872664273220",
+            "url": "https://x.com/credefi_finance/status/1727020872664273220",
+            "text": "We'd like to welcome every new supporter from the last couple of weeks and thank to all of those who have been with us during our lowest!\n\nThe future starts to look very bright! ☀️\n\nIf there's any of you, wondering what to do with your $CREDI tokens until we release its utility https://t.co/9OQTaHmJNg",
+            "likes": 265,
+            "retweets": 0,
+            "posted_at": "2023-11-21T17:47:17.000Z"
+          },
+          {
+            "id": "1728109698572754983",
+            "url": "https://x.com/credefi_finance/status/1728109698572754983",
+            "text": "To appreciate the constant support you’ve been giving us, here’s a Reward System you don’t want to miss!\n\nDetails:\n\n- Every new account on the XRPL Network that is connected to Credefi Finance Platform 2.0, will be automatically rewarded 12 $XRP.\n\n- For every 1$ or 1€ deployed https://t.co/scJ7PWY5ts",
+            "likes": 272,
+            "retweets": 0,
+            "posted_at": "2023-11-24T17:53:53.000Z"
+          },
+          {
+            "id": "1727790165094015273",
+            "url": "https://x.com/credefi_finance/status/1727790165094015273",
+            "text": "We've seen a lot of surveys on different topics lately, so we decided we'll make one ourselves.\n\nLet's see if you can guess one of our next moves:\n\n1.  Airdrop\n2. Airdrop\n3. Airdrop\n\n#Credefi #CREDI #xCREDI #DeFi #TradFi #CeDeFi #RWA #RWFA #Borrowing #Lending #P2P #SME https://t.co/6ib8j2OfLz",
+            "likes": 220,
+            "retweets": 0,
+            "posted_at": "2023-11-23T20:44:10.000Z"
+          },
+          {
+            "id": "1726518259175034905",
+            "url": "https://x.com/credefi_finance/status/1726518259175034905",
+            "text": "Morning, fam! ☀️\n\nThe mood for this week is nothing unexpected:\nWork, work, work, work 😤\n\nSome updates are knocking on the door, so stay focused!\n\n#Credefi #CREDI #xCREDI #DeFi #TradFi #CeDeFi #RWA #Borrowing #Lending #P2P #SME #FirstMovers #Web3 #NFTBonds #CREDIARMY https://t.co/xqJMAosynr",
+            "likes": 182,
+            "retweets": 0,
+            "posted_at": "2023-11-20T08:30:04.000Z"
+          },
+          {
+            "id": "1726286484716572800",
+            "url": "https://x.com/credefi_finance/status/1726286484716572800",
+            "text": "NFT Bonds Case Scenario 3\n\nFinancial Institution 3: \nThis institution is focused on factoring loans (they cover the expenses of companies for up to 90 days), it is a form of a credit line, it operates with ticket sizes of up to 50 000 USD. \nThe institution has a creditors license https://t.co/1KQ8Yy8NqZ",
+            "likes": 179,
+            "retweets": 0,
+            "posted_at": "2023-11-19T17:09:05.000Z"
+          },
+          {
+            "id": "1455860009737154565",
+            "url": "https://x.com/credefi_finance/status/1455860009737154565",
+            "text": "📅Today is the last day of registration for our #IDO\n\n🔖 Registration ends at 3PM UTC, 3rd November.\n\n🏃‍♂️ Don't get left behind!\n\n🌐Registration details⬇️\nhttps://t.co/LQBByQsCsk\n\n#cryptocurrency #Blockchain #fintech",
+            "likes": 327,
+            "retweets": 0,
+            "posted_at": "2021-11-03T11:30:49.000Z"
+          },
+          {
+            "id": "1724009881185730648",
+            "url": "https://x.com/credefi_finance/status/1724009881185730648",
+            "text": "GM, fam! ☀️\n\nWe took the weekend off for a deserved break to chill and relax, so we can totally smash the rest of 2023!\n\nThis is a kind reminder that we have exactly 7 weeks left until 2024, which will include:\n\nAutomated Portfolio;\nNFT Bonds;\n$CREDI Utility;\nModule X Round 2 and https://t.co/QsuGmt787i",
+            "likes": 181,
+            "retweets": 0,
+            "posted_at": "2023-11-13T10:22:40.000Z"
+          },
+          {
+            "id": "1451174073615065089",
+            "url": "https://x.com/credefi_finance/status/1451174073615065089",
+            "text": "#Credefians are you ready for takeoff?🚀 https://t.co/UDgMdSqBBp",
+            "likes": 351,
+            "retweets": 0,
+            "posted_at": "2021-10-21T13:10:35.000Z"
+          },
+          {
+            "id": "1451978327250464774",
+            "url": "https://x.com/credefi_finance/status/1451978327250464774",
+            "text": "#CredefiUpdate\n\nWe broke through the resistance at 10K on Twitter today🥳\n\nThank you everyone for your consistent support🙏\n\nLet's reach 20K together🌕🚀\n\nJoin our rapidly growing community at https://t.co/kqDkLWI0Ky",
+            "likes": 278,
+            "retweets": 0,
+            "posted_at": "2021-10-23T18:26:24.000Z"
+          },
+          {
+            "id": "1724165835160166799",
+            "url": "https://x.com/credefi_finance/status/1724165835160166799",
+            "text": "The last post of the series \"Get to know Credefi Finance\" would be our Financial Plan.\n\nAs you should probably know so far, Credefi Finance, as a business, is built in a way to withstand even the harshest bear cycles, so here's the financial plan that we've projected for the next https://t.co/0oLBDa6tZQ",
+            "likes": 162,
+            "retweets": 0,
+            "posted_at": "2023-11-13T20:42:23.000Z"
+          },
+          {
+            "id": "1631715365607686145",
+            "url": "https://x.com/credefi_finance/status/1631715365607686145",
+            "text": "Real world assets tokenization have been a hot topic lately, but Credefi has been paving the way for years. We believe true adoption of blockchain tech means integrating with the fiat economy and bringing #RWA assets on-chain. Proud to have successfully done so with over $3M USD.",
+            "likes": 93,
+            "retweets": 0,
+            "posted_at": "2023-03-03T17:57:13.000Z"
+          },
+          {
+            "id": "1456034460068106241",
+            "url": "https://x.com/credefi_finance/status/1456034460068106241",
+            "text": "📌 #IDO Announcement\n\n🤩Due to high demand and numerous requests from our community members, we are extending the registration deadline for our IDO!\n\n📆 Registration now ends on 4th November, 3PM UTC!\n\n😇Don't miss the chance to participate!\n\nLearn more👇\nhttps://t.co/LQBByQb1AM",
+            "likes": 287,
+            "retweets": 0,
+            "posted_at": "2021-11-03T23:04:01.000Z"
+          },
+          {
+            "id": "1869415697828495700",
+            "url": "https://x.com/credefi_finance/status/1869415697828495700",
+            "text": "🚨MAJOR ANNOUNCEMENT🚨\n\nOur new website is now LIVE!\n\n✨ Modern design, smoother navigation, &amp; real-world stats:\n\n$5M+ Active Loans\n\n12% Fixed Interest Rate\n\n💡 New features, CREDI Whales Club &amp; liquidity campaigns.\n\nExplore now: https://t.co/QBZe3bbpG9\n\n #DeFi #RWA #Credefi https://t.co/Ks0c4n25W8",
+            "likes": 194,
+            "retweets": 0,
+            "posted_at": "2024-12-18T16:13:29.000Z"
+          },
+          {
+            "id": "1792978559230767142",
+            "url": "https://x.com/credefi_finance/status/1792978559230767142",
+            "text": "Hey Credefians,\n\nAs we gear up for the launch of our Security Module X Round 2, we want to ensure you're fully prepared. Here are some key points you need to know:\n\n∎ $CREDI Burn: After staking your $CREDI tokens for 6 months, they will be burned. This is a crucial step in our",
+            "likes": 125,
+            "retweets": 0,
+            "posted_at": "2024-05-21T17:59:35.000Z"
+          },
+          {
+            "id": "1725203381235454296",
+            "url": "https://x.com/credefi_finance/status/1725203381235454296",
+            "text": "We've promised to present you a few different NFT Bonds cases, so here's the first one:\n\nFinancial Institution 1: \nThis institution is focused on small consumer loans, it operates with ticket sizes of up to 1000 USD. The institution has a creditors license within the EU. Their https://t.co/WErPeSp15D",
+            "likes": 166,
+            "retweets": 0,
+            "posted_at": "2023-11-16T17:25:13.000Z"
+          },
+          {
+            "id": "1723080769696875005",
+            "url": "https://x.com/credefi_finance/status/1723080769696875005",
+            "text": "Do you think that we are too serious?\n\nWe have an invitation to get listed on a DEX and their token has around 1.7 million holders;\nTheir media outreach is above 2 million people;\nLet's say we also have an invitation to strike a longterm partnership with them; \nIt's a meme https://t.co/6sUY2hdTHA",
+            "likes": 148,
+            "retweets": 0,
+            "posted_at": "2023-11-10T20:50:43.000Z"
+          },
+          {
+            "id": "1864252372781822280",
+            "url": "https://x.com/credefi_finance/status/1864252372781822280",
+            "text": "GM Credefi\n\nWe have just surpassed $1M in 24-hour trading volume and have broken through 0.02$.\n\nTime to buy moon suits and fly 🚀🚀🚀\n\n#CREDI #RWA #altseason #Trending https://t.co/qtW3ylOZhu",
+            "likes": 246,
+            "retweets": 0,
+            "posted_at": "2024-12-04T10:16:16.000Z"
+          },
+          {
+            "id": "1721799274004893926",
+            "url": "https://x.com/credefi_finance/status/1721799274004893926",
+            "text": "We are more than hyped to share with you that our native token $CREDI is now fully supported on @Trezor wallet!\n\nIt's been quite the journey so far and our investors can finally store their favorite token in one of the best hardware wallets out there.\n\nThank you, guys, for making https://t.co/Fqc0ctIyEn",
+            "likes": 155,
+            "retweets": 0,
+            "posted_at": "2023-11-07T07:58:31.000Z"
+          },
+          {
+            "id": "1722358839159214556",
+            "url": "https://x.com/credefi_finance/status/1722358839159214556",
+            "text": "When we talk about experience, this is what we mean:\n\nPlease meet Credefi Finance Founders\n\nIvo Grigorov (@ivo_grigorov)\nCo-founder and CEO Ivo is an experienced Finance Specialist with a demonstrated history of working in the banking industry. He was extensively involved in the https://t.co/6ZPxsBEjGX",
+            "likes": 149,
+            "retweets": 0,
+            "posted_at": "2023-11-08T21:02:01.000Z"
+          },
+          {
+            "id": "1721219242714931361",
+            "url": "https://x.com/credefi_finance/status/1721219242714931361",
+            "text": "European Market Analysis and Credefi's Solution\n\nThe European Union's financial landscape is undergoing significant transformation. At present, there exists a yawning debt financing gap of €176 billion, representing a considerable undersupply of debt capital for Small and https://t.co/WRxk9q4Acc",
+            "likes": 138,
+            "retweets": 0,
+            "posted_at": "2023-11-05T17:33:40.000Z"
+          },
+          {
+            "id": "1725591852257054859",
+            "url": "https://x.com/credefi_finance/status/1725591852257054859",
+            "text": "Case Scenario 2\n\nFinancial Institution 2:\nThis institution is focused on retail real estate mortgage loans, it operates with ticket sizes of up to 350 000 USD. The institution has a creditors license within the EU. \nTheir portfolio consists of around 75 exposures currently, https://t.co/xIOIbjuETd",
+            "likes": 153,
+            "retweets": 0,
+            "posted_at": "2023-11-17T19:08:52.000Z"
+          },
+          {
+            "id": "1724708514394669392",
+            "url": "https://x.com/credefi_finance/status/1724708514394669392",
+            "text": "To ensure a smooth release and a complete understanding from our investors' side, we've prepared a few posts about the upcoming release of the first ever such product the crypto world would witness - NFT Bonds.\n\nThe Corporate Bond\nCredefi has crafted a Corporate Bond that can be https://t.co/G9Kv2EJV4h",
+            "likes": 154,
+            "retweets": 0,
+            "posted_at": "2023-11-15T08:38:48.000Z"
+          },
+          {
+            "id": "1721982410466693239",
+            "url": "https://x.com/credefi_finance/status/1721982410466693239",
+            "text": "Credefi's Competitive Edge\n\nCredefi Finance is uniquely situated to revolutionize the digital assets lending space. We've identified a robust opportunity to fill a niche, serving as an alternative lending platform that bridges the gap between liquidity providers both retail as https://t.co/qlbZjr9wTz",
+            "likes": 144,
+            "retweets": 0,
+            "posted_at": "2023-11-07T20:06:14.000Z"
+          },
+          {
+            "id": "1725813783245791232",
+            "url": "https://x.com/credefi_finance/status/1725813783245791232",
+            "text": "Check out the latest article for Credefi from @TheCoinriseCom , available on their website and on CoinMarketCap 🚀\n📖 CMC: https://t.co/LMPEsySpgK\n📖 The Coin Rise: https://t.co/YiIgVuzkj3\n\n#Credefi #CREDI #xCREDI #DeFi #TradFi #CeDeFi #RWA #Borrowing #Lending #P2P #SME",
+            "likes": 152,
+            "retweets": 0,
+            "posted_at": "2023-11-18T09:50:44.000Z"
+          },
+          {
+            "id": "1721488898419790297",
+            "url": "https://x.com/credefi_finance/status/1721488898419790297",
+            "text": "Reminder that you can still boost your holdings absolutely for free!\n\nThe $CREDI LP Stake is still live and you can increase both your holdings - $CREDI and $xCREDI.\n\nHere's the full description:\nhttps://t.co/pb9tEiSy0O\n\nAnd a video tutorial:\nhttps://t.co/L3a6fYnPnq\n\nHere are the https://t.co/wc9DHZVXeL",
+            "likes": 136,
+            "retweets": 0,
+            "posted_at": "2023-11-06T11:25:11.000Z"
+          },
+          {
+            "id": "1793576179653574789",
+            "url": "https://x.com/credefi_finance/status/1793576179653574789",
+            "text": "The industry keeps evolving faster than ever, and we are here to embrace this evolution 💪 Come and join us for an insightful conversation on the topic with @crypto_birb 💬",
+            "likes": 91,
+            "retweets": 0,
+            "posted_at": "2024-05-23T09:34:18.000Z"
+          },
+          {
+            "id": "1725059073463238766",
+            "url": "https://x.com/credefi_finance/status/1725059073463238766",
+            "text": "Let's talk #RWA with our friends from @Arctonhq \n\n🗓️ Today\n🕟 4PM UTC\n\nYou can set a reminder here 👇\nhttps://t.co/QXg3HSXqg9\n\n#Credefi #CREDI #xCREDI #DeFi #TradFi #CeDeFi #RWA #Borrowing #Lending #P2P #SME #FirstMovers #Web3 #CREDIARMY",
+            "likes": 139,
+            "retweets": 0,
+            "posted_at": "2023-11-16T07:51:47.000Z"
+          },
+          {
+            "id": "1468163613894479872",
+            "url": "https://x.com/credefi_finance/status/1468163613894479872",
+            "text": "🌟The Best #Christmas present you can get🎄\n\n$CREDI tokens are finally coming to town!🤩\n\n🎆And they come with a BANG!\n\n⏰Prepare your bags for 10 AM UTC on Dec 9 because $CREDI will start trading on @kucoincom \n\nLearn more👇\nhttps://t.co/p2vyQ1Qgd7\n\n#definews #Crypto #KuCoin",
+            "likes": 247,
+            "retweets": 0,
+            "posted_at": "2021-12-07T10:20:57.000Z"
+          },
+          {
+            "id": "1773772602160402818",
+            "url": "https://x.com/credefi_finance/status/1773772602160402818",
+            "text": "🔔 Attention Everyone! 🔔\n\n🚀 The excitement is here as the TESTNET is now LIVE! 🚀\n\nExplore our platform's full spectrum of features and capabilities without needing an account!\n\nThis is the link for the TESTNET platform👇\nhttps://t.co/Kpktn8PZwY\n\nAnd here's what you can test https://t.co/sCFcpjykpg",
+            "likes": 243,
+            "retweets": 0,
+            "posted_at": "2024-03-29T18:01:58.000Z"
+          },
+          {
+            "id": "1869805113558380859",
+            "url": "https://x.com/credefi_finance/status/1869805113558380859",
+            "text": "🚀 Credefi 2025 Roadmap:🚀 \n\nPermissionless P2P lending 🔓👥\n\nStaking pools for retail &amp; Whales 💰\n\nTradFi integration (IBANs on/off ramp) 🌉\n\nNFT bonds with RWA 🏦\n\nAsset-backed debt instruments (INDEX) 📊\n\nJoin us in shaping the future of lending and finance! 🌐 #Roadmap2025 https://t.co/QBA8SsnqmF",
+            "likes": 239,
+            "retweets": 0,
+            "posted_at": "2024-12-19T18:00:53.000Z"
+          },
+          {
+            "id": "1433097727018082309",
+            "url": "https://x.com/credefi_finance/status/1433097727018082309",
+            "text": "📢We are glad to announce the upcoming integration with #Reef Finance, the builders of #Ethereum VM-compatible smart contract #blockchain called #ReefChain \n\n👨‍💻Learn how the integration is going to help SMEs, lenders and more here👇\nhttps://t.co/5pQlzIFJ0d\n\n#ReefFinance #DeFi",
+            "likes": 93,
+            "retweets": 0,
+            "posted_at": "2021-09-01T16:01:38.000Z"
+          },
+          {
+            "id": "1855309090794135918",
+            "url": "https://x.com/credefi_finance/status/1855309090794135918",
+            "text": "We are fully geared up and ready for next week! 🚀\n\nFasten up tightly for your flight ✈️, as we unleash the full force of our stratospheric 🌌 alliance with @BuildOnLumia \n\nThis will be a full-blown integration 💥, bringing the power of synthetic #RWA assets 📊 to its most https://t.co/9VY9ajsemQ",
+            "likes": 212,
+            "retweets": 0,
+            "posted_at": "2024-11-09T17:58:51.000Z"
+          },
+          {
+            "id": "1469244578205077506",
+            "url": "https://x.com/credefi_finance/status/1469244578205077506",
+            "text": "After a successful launch, $CREDI is now listed on the following exchanges👇\n\n💠@kucoincom \n💠@Uniswap \n💠@PancakeSwap \n\nTracking is now available on👇\n💠@CoinMarketCap \n💠@coingecko \n\nAlso launched 👉 Module X program for early-stage staking of $CREDI to receive xCREDI https://t.co/YNTD5a5TRp",
+            "likes": 41,
+            "retweets": 0,
+            "posted_at": "2021-12-10T09:56:19.000Z"
+          },
+          {
+            "id": "1676627177264087041",
+            "url": "https://x.com/credefi_finance/status/1676627177264087041",
+            "text": "Exciting News: Credefi X @RippleXDev\n\nCredefi is thrilled to unveil our latest collaboration and integration onto the XRP Ledger, a layer-1 decentralized and energy efficient blockchain.\n\nIn the upcoming weeks, we're embarking on a new chapter, bringing our extensive suite of https://t.co/U9rYOGlrDF",
+            "likes": 184,
+            "retweets": 0,
+            "posted_at": "2023-07-05T16:20:43.000Z"
+          },
+          {
+            "id": "1793280797060870611",
+            "url": "https://x.com/credefi_finance/status/1793280797060870611",
+            "text": "Hey Credefians,\n\nIt's official 🔥\n\nModule X has been successfully relaunched! 🚀\n\nHere's the best part - Module X is now Permanent Feature on Credefi Finance Platform 2.0!\n\nHere are the details:\n\n1. The staking period is 6 months with an initial ratio 10:1.\nFor every 100 000 https://t.co/Id0tw4rEfn",
+            "likes": 183,
+            "retweets": 0,
+            "posted_at": "2024-05-22T14:00:34.000Z"
+          },
+          {
+            "id": "1783471976650064335",
+            "url": "https://x.com/credefi_finance/status/1783471976650064335",
+            "text": "🗓 Mark you calendars for April 26 ‼️\nA long-awaited listing date: $CREDI is going live on https://t.co/P955dj8Zdi Exchange! \n\n@gate_io is a Tier 1 global CEX and a leading trading platform 🌐\n\nDon't miss out on this opportunity to be part of the action from day one, as this is https://t.co/NWzCGpRuLS",
+            "likes": 189,
+            "retweets": 0,
+            "posted_at": "2024-04-25T12:23:49.000Z"
+          },
+          {
+            "id": "1456321326390513665",
+            "url": "https://x.com/credefi_finance/status/1456321326390513665",
+            "text": "📢Whitelist registration for our upcoming #IDO is officially closed\n\n🥳 Congratulations to all successful participants who were able to secure a whitelist spot!🎉\n\n😊Next step: November 8th, 03:00PM UTC when the IDO goes live!🚀 https://t.co/A1CHAgKme3",
+            "likes": 164,
+            "retweets": 0,
+            "posted_at": "2021-11-04T18:03:56.000Z"
+          },
+          {
+            "id": "1750282928154706272",
+            "url": "https://x.com/credefi_finance/status/1750282928154706272",
+            "text": "Hey #CREDIARMY,\n\nFollowing up on today’s burn, we’re glad to say that the Binane Smart Chain LP staking is now LIVE at https://t.co/p2cgTOSi1y! 🔥\n\nThe steps, as usual, are quite simple:\n\n1. Go to https://t.co/zCqfqIAHYt\n\n2. Select BSC or ETH LP staking programme 👇🏻\n(You can https://t.co/MPgwIXTf2H",
+            "likes": 97,
+            "retweets": 0,
+            "posted_at": "2024-01-24T22:22:23.000Z"
+          },
+          {
+            "id": "1818678114987196513",
+            "url": "https://x.com/credefi_finance/status/1818678114987196513",
+            "text": "Greetings Credefians,\n\nWe are officially joining forces with @Creditcoin!\n\nWith this significant partnership, we aim to integrate the Creditcoin Network, providing their users with access to our innovative NFT Bonds and new derivative instruments. This move not only broadens the https://t.co/nzs8j3D5Ku",
+            "likes": 178,
+            "retweets": 0,
+            "posted_at": "2024-07-31T16:00:26.000Z"
+          },
+          {
+            "id": "1865090999237615912",
+            "url": "https://x.com/credefi_finance/status/1865090999237615912",
+            "text": "🚀Big news: @Ripple &amp; @RippleXDev is launching $RLUSD🚀\n\n 1) Should Credefi list a CREDI/RLUSD trading pair on the #XRPL blockchain?\n 2) Should we accept $RLUSD as a form of LP asset?\n\n👇Vote in our Official TG 👇\n\n       https://t.co/kqDkLWZC98\n\n #DeFi #XRPL #CREDI #RWA #XRP https://t.co/2UYHhJ1Os4",
+            "likes": 196,
+            "retweets": 0,
+            "posted_at": "2024-12-06T17:48:40.000Z"
+          },
+          {
+            "id": "1790265208562200799",
+            "url": "https://x.com/credefi_finance/status/1790265208562200799",
+            "text": "We’ve kept this one a secret for a while now, but finally - Open Sesame 🧙‍♂️👇\n\nWe've teamed up with @DWFLabs to take our ecosystem to the next level! ✅\n\nTo say we are thrilled to announce our strategic partnership with @DWFLabs will be an understatement 🙌\n\nThey are the wizards https://t.co/ft4p97MO5k",
+            "likes": 178,
+            "retweets": 0,
+            "posted_at": "2024-05-14T06:17:41.000Z"
+          },
+          {
+            "id": "1660681466638942215",
+            "url": "https://x.com/credefi_finance/status/1660681466638942215",
+            "text": "ROADMAP Alert\n\nWe've been hinting you lately with what's to be expected in the near future from us, in terms of products and business development.\n\nSo, this is how it goes month by month.\n\nJune:\n\n- A partnership with a player who has been in this game since the beginning.\nSpoiler https://t.co/KECTZbxsUP",
+            "likes": 135,
+            "retweets": 0,
+            "posted_at": "2023-05-22T16:18:10.000Z"
+          },
+          {
+            "id": "1796588923587641378",
+            "url": "https://x.com/credefi_finance/status/1796588923587641378",
+            "text": "Hello Credefians,\n\nWe're thrilled to announce that @BNBCHAIN is now officially live on the Credefi Finance Platform! 🚀\n\nThis milestone reinforces our commitment to delivering top-notch service on a multi-chain basis. ⛓\n\nBinance Smart Chain is a favorite among many users and https://t.co/HppsVGvTKS",
+            "likes": 177,
+            "retweets": 0,
+            "posted_at": "2024-05-31T17:05:53.000Z"
+          },
+          {
+            "id": "1860382566605324464",
+            "url": "https://x.com/credefi_finance/status/1860382566605324464",
+            "text": "Hello Credefians,\n\nWe know you've been waiting for our IBAN services and we have prepared a short demo.\n\nIt showcases the IBAN page on our platform and how to navigate through a Fiat to Crypto swap from your account.\n\nExpect more in the coming weeks!\n#RWA #Credefi #TradFi #DeFi https://t.co/03G0dkSXQF",
+            "likes": 178,
+            "retweets": 0,
+            "posted_at": "2024-11-23T17:59:02.000Z"
+          },
+          {
+            "id": "1846971605332750387",
+            "url": "https://x.com/credefi_finance/status/1846971605332750387",
+            "text": "🎉Today’s a big day 🎉\n\nCredefi is teaming up with @BuildOnLumia! \n\n“If you want to go fast, go alone. If you want to go far, go together.” 😉\n\nWe constantly strive to level up in everything we do and teaming up with Lumia feels like a match made in blockchain heaven \n\nWith the https://t.co/zapFnbLq5j",
+            "likes": 195,
+            "retweets": 0,
+            "posted_at": "2024-10-17T17:48:40.000Z"
+          },
+          {
+            "id": "1778069136800637183",
+            "url": "https://x.com/credefi_finance/status/1778069136800637183",
+            "text": "We are thrilled to announce our participation in @RWAUnwind by @Polytrade_fin, happening in the vibrant city of Dubai on April 16th! 🌟\n\n✨ Credefi is honored to be invited as an official partner of this exceptional event, where industry leaders come together to explore https://t.co/hFQkuGwwSP",
+            "likes": 168,
+            "retweets": 0,
+            "posted_at": "2024-04-10T14:34:51.000Z"
+          },
+          {
+            "id": "1756001475690438818",
+            "url": "https://x.com/credefi_finance/status/1756001475690438818",
+            "text": "🚀 Dev Team Update: NFT Corporate Bonds &amp; Tech Innovations 🚀\nWe're excited to share that our NFT corporate bonds product has advanced beyond its initial experimentation phase and is now moving towards becoming production-ready! 🌟 Our current focus is on reinforcing our security https://t.co/bhqrYC4FjD",
+            "likes": 95,
+            "retweets": 0,
+            "posted_at": "2024-02-09T17:05:51.000Z"
+          },
+          {
+            "id": "1856759920298782819",
+            "url": "https://x.com/credefi_finance/status/1856759920298782819",
+            "text": "The long-awaited liquidity provision has officially begun!\n\nMassive thanks to @MarshlandGroup one of Credefi’s earliest and strongest supporters, for helping bring this milestone to life. Liquidity is the lifeblood of any successful project—it builds trust, ensures stability for https://t.co/6nXWitvcKe",
+            "likes": 163,
+            "retweets": 0,
+            "posted_at": "2024-11-13T18:03:56.000Z"
+          },
+          {
+            "id": "1771621943449436323",
+            "url": "https://x.com/credefi_finance/status/1771621943449436323",
+            "text": "Hey fam, 👋\n\nThe official Testnet launch is just around the corner, set to go live next week. This is a major milestone for us, and we're gearing up to make it an unforgettable experience. 🔥\n\nHere's a glimpse of what you can expect to be included in this launch:\n\n1. NFT https://t.co/P5aRnfqvsr",
+            "likes": 145,
+            "retweets": 0,
+            "posted_at": "2024-03-23T19:36:01.000Z"
+          },
+          {
+            "id": "1839350522358411407",
+            "url": "https://x.com/credefi_finance/status/1839350522358411407",
+            "text": "Greetings Credefians,\n\nWe’re thrilled to announce that our developers are in the final stages of rolling out Bank Transfers, a major advancement that will significantly enhance your experience on our platform. As we expand our ecosystem, both $CREDI and $xCREDI will play crucial https://t.co/StV1Y1RrKJ",
+            "likes": 175,
+            "retweets": 0,
+            "posted_at": "2024-09-26T17:05:12.000Z"
+          },
+          {
+            "id": "1757467983666925843",
+            "url": "https://x.com/credefi_finance/status/1757467983666925843",
+            "text": "Attention investors! \nThe halving is imminent, and Bitcoin has surged past $50,000. Enter a new era of opportunities as Credefi Finance gears up for a strategic ascent.\n\nWe're not just riding the wave; we're poised for a cycle of unparalleled opportunities. Picture advanced https://t.co/Wrc0YCCwAH",
+            "likes": 88,
+            "retweets": 0,
+            "posted_at": "2024-02-13T18:13:14.000Z"
+          },
+          {
+            "id": "1774747710899315142",
+            "url": "https://x.com/credefi_finance/status/1774747710899315142",
+            "text": "March was a bustling month for Credefi Finance, marked by significant milestones and exciting developments:\n\n1. CryptoExpoEurope: Our team actively participated in Crypto Expo Europe, engaging with numerous like-minded individuals and establishing valuable connections for future https://t.co/sXC3CUNGsk",
+            "likes": 159,
+            "retweets": 0,
+            "posted_at": "2024-04-01T10:36:42.000Z"
+          },
+          {
+            "id": "1481976068420825088",
+            "url": "https://x.com/credefi_finance/status/1481976068420825088",
+            "text": "Something BIG is coming... 👀 https://t.co/U7g9iow4tk",
+            "likes": 140,
+            "retweets": 0,
+            "posted_at": "2022-01-14T13:06:43.000Z"
+          },
+          {
+            "id": "1780306044083662989",
+            "url": "https://x.com/credefi_finance/status/1780306044083662989",
+            "text": "A massive thank you 💪 to @RWAUnwind for the top class organization and for putting together this beast of an event!\n\nThe discussion we had was truly inspirational and I was honoured to be able to share my expertise and knowledge as a speaker at the panel. It gives me hope and https://t.co/QFFia3HHYQ",
+            "likes": 155,
+            "retweets": 0,
+            "posted_at": "2024-04-16T18:43:32.000Z"
+          },
+          {
+            "id": "1468897795889254405",
+            "url": "https://x.com/credefi_finance/status/1468897795889254405",
+            "text": "🤩The $CREDI mania just keeps on growing🚀\n\n⚠️HERE ARE THE OFFICIAL CONTRACT ADDRESSES:\n\n▶️ $CREDI #BSC Contract address: 0x2235e79086dd23135119366da45851c741874e5b\n\n▶️ $CREDI #ETH Contract Address: 0xaE6e307c3Fe9E922E5674DBD7F830Ed49c014c6B\n\nLearn more👇\nhttps://t.co/iTGBFAR6cP",
+            "likes": 140,
+            "retweets": 0,
+            "posted_at": "2021-12-09T10:58:19.000Z"
+          },
+          {
+            "id": "1785739096838565903",
+            "url": "https://x.com/credefi_finance/status/1785739096838565903",
+            "text": "We’ve always stated that this is the way forward for security and financial assets trading.\n\nHence, when our NFT Corporate Bonds are released, it will pave the way because it will be the first solely issued on-chain such instrument.\n\nSoon enough, we are going to be recognised for",
+            "likes": 153,
+            "retweets": 0,
+            "posted_at": "2024-05-01T18:32:32.000Z"
+          },
+          {
+            "id": "1456913615781388292",
+            "url": "https://x.com/credefi_finance/status/1456913615781388292",
+            "text": "In the third part of Discover #Credefi Series, we discuss:\n\n☑️Credefi’s #Staking Program\n☑️What’s the Utility of $CREDI &amp; xCREDI? \n☑️How does Credefi’s #Token Ecosystem Function? \n\nLearn more🔽\nhttps://t.co/bB8D9gI9r5",
+            "likes": 137,
+            "retweets": 0,
+            "posted_at": "2021-11-06T09:17:28.000Z"
+          },
+          {
+            "id": "1862496738944458983",
+            "url": "https://x.com/credefi_finance/status/1862496738944458983",
+            "text": "🌊 CREDI Whale Club is here! 🐋\n\nHold 500,000+ $CREDI to unlock:\n\n✅ Early access to updates &amp; features\n✅ Premium yields &amp; fee rebates\n✅ Exclusive AMAs &amp; whale-only polls\n✅ Private networking\n\nTo join simply reach out to one of our admins in the official TG group.\n\n#whalesonly https://t.co/vPlQI28Qf7",
+            "likes": 150,
+            "retweets": 0,
+            "posted_at": "2024-11-29T14:00:00.000Z"
+          },
+          {
+            "id": "1866909250964033554",
+            "url": "https://x.com/credefi_finance/status/1866909250964033554",
+            "text": "Today's forecast warns for wilfires🔥🚒\n\nWe've executed another burn via Security Module X that brings the total burned amount to 58,000,000 in less than a year!\nThis solidifies the long-term scarcity and the total supply now stands at 942,000,000 tokens🎯\nhttps://t.co/a1gLhADEz3 https://t.co/dTtmiUs9i7",
+            "likes": 146,
+            "retweets": 0,
+            "posted_at": "2024-12-11T18:13:45.000Z"
+          },
+          {
+            "id": "1757857810958680236",
+            "url": "https://x.com/credefi_finance/status/1757857810958680236",
+            "text": "Hey Fam,\n\nWe're pleased to announce the official launch of our all-encompassing project hub, your go-to resource for a deep dive into our mission, methodologies, and purpose.\n\n👉🏻 https://t.co/fGF9qvqXDg\n\nThis meticulously curated space houses crucial elements like legal https://t.co/WFtYba7E08",
+            "likes": 89,
+            "retweets": 0,
+            "posted_at": "2024-02-14T20:02:16.000Z"
+          },
+          {
+            "id": "1772363985083326571",
+            "url": "https://x.com/credefi_finance/status/1772363985083326571",
+            "text": "Hey fam,\n\nHere's a quick sum up of what the team has been onto during the last week:\n\n1. Testnet Finalization and BETA Testing: We're in the final stages of preparing our Testnet for user access and BETA testing. This pivotal step brings us closer to unveiling our platform's https://t.co/MyKuKYpkpk",
+            "likes": 141,
+            "retweets": 0,
+            "posted_at": "2024-03-25T20:44:37.000Z"
+          },
+          {
+            "id": "1792600477823066245",
+            "url": "https://x.com/credefi_finance/status/1792600477823066245",
+            "text": "🚀 🚀 Dev Team Update:  BSC Integration finalization, Bank Transfers updates and XRPL Enhancements\nHere’s what our team has been up to in the past week:\n\n∎ Binance Smart Chain Testing: Final testing and minor stability fixes were completed on the Binance Smart Chain, ensuring a https://t.co/iom0HUwU5i",
+            "likes": 141,
+            "retweets": 0,
+            "posted_at": "2024-05-20T16:57:13.000Z"
+          },
+          {
+            "id": "1776306194988044634",
+            "url": "https://x.com/credefi_finance/status/1776306194988044634",
+            "text": "Hey fam,\n\nOur Dev team has been continuously delivering, enhancing and preparing for the upcoming releases of the NFT Corporate Bonds, Tokens Utilities and Module X 2.0.\nHere's a quick rundown of the latest updates that they have been working on:\n\n1. Platform Stability https://t.co/Cl16BfWwrC",
+            "likes": 135,
+            "retweets": 0,
+            "posted_at": "2024-04-05T17:49:33.000Z"
+          },
+          {
+            "id": "1773070093175459903",
+            "url": "https://x.com/credefi_finance/status/1773070093175459903",
+            "text": "https://t.co/Hjy0O5bJHo\n\nHSBC introduces tokenized gold for retail clients in Hong Kong, a first for the bank's private distributed ledger. This move reflects its broader exploration of blockchain technology in finance. It follows previous launches of digital bonds and precedes",
+            "likes": 137,
+            "retweets": 0,
+            "posted_at": "2024-03-27T19:30:26.000Z"
+          },
+          {
+            "id": "1802689921527750855",
+            "url": "https://x.com/credefi_finance/status/1802689921527750855",
+            "text": "Greetings Credefians,\n\nWe are thrilled to announce that Credefi Finance is officially joining forces with @Polytrade_fin ! 🤝\n\nThis partnership is a game-changer, paving the way for an impressive debt financial instrument release. We're at the dawn of a #RWA growth surge that’s https://t.co/Ssb2VrrtsP",
+            "likes": 147,
+            "retweets": 0,
+            "posted_at": "2024-06-17T13:09:04.000Z"
+          },
+          {
+            "id": "1857079502398009750",
+            "url": "https://x.com/credefi_finance/status/1857079502398009750",
+            "text": "🚀 We are reaching new heights!\n\nWe're glad to be featured in @Crypto_Potato 's latest piece.\n\nCheck out the full article for all the details &gt; https://t.co/RnDxh7NZSL\n\n#Credefi #CREDI #xCREDI #DeFi #TradFi #CeDeFi #RWA #RWFA #Borrowing #Lending #P2P #SME #Web3",
+            "likes": 133,
+            "retweets": 0,
+            "posted_at": "2024-11-14T15:13:50.000Z"
+          },
+          {
+            "id": "1788634197298426103",
+            "url": "https://x.com/credefi_finance/status/1788634197298426103",
+            "text": "We are approaching the finish line with the promised development 🏁\n\nFinish the poem 🙃👇\n\nIt rains it pours,\ndigital gold galore,\nBSC unlocks…….\n\n#Credefi #CREDI #xCREDI #DeFi #TradFi #CeDeFi #RWA #RWFA #Borrowing #Lending #P2P #SME #FirstMovers #Web3 #CREDIARMY @BSCNews https://t.co/cz5wtHmozi",
+            "likes": 142,
+            "retweets": 0,
+            "posted_at": "2024-05-09T18:16:38.000Z"
+          },
+          {
+            "id": "1480968184664498176",
+            "url": "https://x.com/credefi_finance/status/1480968184664498176",
+            "text": "#Credefians, the wait is over🎉\n\nWe are proud to announce the launch of our long-awaited #Testnet!🥳\n\n🤑5,000 $USDT will be distributed among 100 lucky winners🤯 who take part within the stipulated period &amp; complete all the tasks👇\n\n#USDT #Giveaway #DeFi \nhttps://t.co/yrMBhatvzy",
+            "likes": 113,
+            "retweets": 0,
+            "posted_at": "2022-01-11T18:21:44.000Z"
+          },
+          {
+            "id": "1784257541335073067",
+            "url": "https://x.com/credefi_finance/status/1784257541335073067",
+            "text": "Not to brag, but @RWAUnwind has been a total blast. Of course, you already know this. 😀\n\nSo here’s an update that’s been brewing since then 👉We've had some great chats with @polytrade_fin and found awesome ways we can work together. Yay!\n\n👏We pride on being transparent, but we https://t.co/yNScFWpxSM",
+            "likes": 138,
+            "retweets": 0,
+            "posted_at": "2024-04-27T16:25:22.000Z"
+          },
+          {
+            "id": "1838986270585901408",
+            "url": "https://x.com/credefi_finance/status/1838986270585901408",
+            "text": "Greetings Credefians,\n\nThe strength of a crypto project's token lies in its utility, as it drives demand and sustains long-term value. \n\nTake $CREDI, for example - it plays a vital role on our platform by boosting users' rewards. As our platform grows in popularity, users will https://t.co/UsS05Ttmvu",
+            "likes": 151,
+            "retweets": 0,
+            "posted_at": "2024-09-25T16:57:48.000Z"
+          },
+          {
+            "id": "1772688373552979984",
+            "url": "https://x.com/credefi_finance/status/1772688373552979984",
+            "text": "Hey fam,\n\nThe process of launching the Testnet has just begun.\n\nHow to get your mock tokens?\n\nWe've opened a Telegram group in order to gather your addresses for the Airdrop of the tokens and there's just two simple steps to perform:\n\n1. Join the group through the link below 👇 https://t.co/A68drqzfX4",
+            "likes": 130,
+            "retweets": 0,
+            "posted_at": "2024-03-26T18:13:37.000Z"
+          },
+          {
+            "id": "1457069245993406466",
+            "url": "https://x.com/credefi_finance/status/1457069245993406466",
+            "text": "✨Join the wonderful #Credefi AMA hosted by @CardStarter and win $100!\n\n🏠Venue: Twitter Spaces\n📅Date: November 08\n⏰Time: 3:30 PM UTC\n\n😇Get answers to all your queries \n\n🔁Don't forget to spread the word! https://t.co/r6ypvZy4XV",
+            "likes": 121,
+            "retweets": 0,
+            "posted_at": "2021-11-06T19:35:53.000Z"
+          },
+          {
+            "id": "1799120977642565656",
+            "url": "https://x.com/credefi_finance/status/1799120977642565656",
+            "text": "Hey Credefians,\n\nToday we celebrate a new listing of our native token $CREDI on @BingXOfficial 🚀\n\nDeposit: 2024-06-07, 10:00 (UTC) \nTrading: 2024-06-11, 10:00 (UTC) \nWithdrawal: 2024-06-11, 10:00 (UTC)\n\n#BingXFam #Credefi #CREDI #xCREDI #DeFi #TradFi #CeDeFi #RWA #RWFA https://t.co/ge1ZxQMZE6",
+            "likes": 122,
+            "retweets": 0,
+            "posted_at": "2024-06-07T16:47:21.000Z"
+          },
+          {
+            "id": "1858632247257296934",
+            "url": "https://x.com/credefi_finance/status/1858632247257296934",
+            "text": "RWA coins are bringing the real in crypto! Tokenized financial assets are making the market less to the moon and more to the mansion. Now, if you have got the smart money, you will have the bricks before everyone else 🤫\nhttps://t.co/tBmmxqhp5J https://t.co/DhQeCBiqKz",
+            "likes": 137,
+            "retweets": 0,
+            "posted_at": "2024-11-18T22:03:54.000Z"
+          },
+          {
+            "id": "1848410178342818226",
+            "url": "https://x.com/credefi_finance/status/1848410178342818226",
+            "text": "We’re excited to share that Credefi Finance has officially joined the @Polytrade_fin and @polytrade_app  ecosystem! 🎉\n\nThis partnership is a huge step forward for us as we work together to create more value and expand opportunities within the #DeFi space. We’re looking forward https://t.co/g1pphPXdOa",
+            "likes": 140,
+            "retweets": 0,
+            "posted_at": "2024-10-21T17:05:02.000Z"
+          },
+          {
+            "id": "1790823935379947788",
+            "url": "https://x.com/credefi_finance/status/1790823935379947788",
+            "text": "Well, well, well…\n\nIt’s us, again🔥\n\nSeems like the news about us partnering with @DWFLabs has been noticed and reflected!\n\nRead the full details below 👇🏻\n\nhttps://t.co/bscb5Ao6cX",
+            "likes": 134,
+            "retweets": 0,
+            "posted_at": "2024-05-15T19:17:52.000Z"
+          },
+          {
+            "id": "1881024079807009088",
+            "url": "https://x.com/credefi_finance/status/1881024079807009088",
+            "text": "Hey @Ripple @RippleXDev Thank you for the invite!\n\nDear Credefi Community, what do you think, shall we attend the event?\n\nVote in the poll in the comments below 👇 #XRPL \n\n#Credefi #RWA $CREDI $XRP https://t.co/tVC7Vkyygt",
+            "likes": 132,
+            "retweets": 0,
+            "posted_at": "2025-01-19T17:01:03.000Z"
+          },
+          {
+            "id": "1457317113765384200",
+            "url": "https://x.com/credefi_finance/status/1457317113765384200",
+            "text": "📢Whitelisted Addresses have been published!\n\n😇Congratulations to all who made it to the whitelist\n\n#IDO Event opens on Monday, November 08th at 8AM PST/3PM UTC\n\nLearn more👇\nhttps://t.co/KiKtabFrR2",
+            "likes": 113,
+            "retweets": 0,
+            "posted_at": "2021-11-07T12:00:50.000Z"
+          },
+          {
+            "id": "1797651720807317907",
+            "url": "https://x.com/credefi_finance/status/1797651720807317907",
+            "text": "Greetings Credefians,\n\nMay was a month filled with exciting developments and strategic advancements for Credefi Finance. Here’s a summary of our key accomplishments:\n\nRegular Tech Updates: Our platform has been consistently updated and enhanced to improve user experience and https://t.co/r4grYYeuEo",
+            "likes": 124,
+            "retweets": 0,
+            "posted_at": "2024-06-03T15:29:03.000Z"
+          },
+          {
+            "id": "1776669594179994011",
+            "url": "https://x.com/credefi_finance/status/1776669594179994011",
+            "text": "Hey fam,\n\nDid you know that our Portfolio Lending has been thriving for 796 days now!\n\nSince the successful launch of our inaugural lending smart contract on January 31, 2022, we've been steadfastly supporting SMEs in securing the funding they require, all while prioritizing https://t.co/KQcrI83Ari",
+            "likes": 123,
+            "retweets": 0,
+            "posted_at": "2024-04-06T17:53:34.000Z"
+          },
+          {
+            "id": "1775922004593365319",
+            "url": "https://x.com/credefi_finance/status/1775922004593365319",
+            "text": "We're happy to see that our hard work and dedication are getting recognized!  🚀🙏\nCheck out this fantastic article from @cryptodailyuk  highlighting the intricate details of our project 🔍\n🚀 Dive into it:  https://t.co/ZgRpandbCR\nThank you to Crypto Daily for shedding light on",
+            "likes": 124,
+            "retweets": 0,
+            "posted_at": "2024-04-04T16:22:55.000Z"
+          }
+        ],
+        "hero_tweet_id": "1451565332485709826"
       },
       "grok_brief": {
-        "one_line": "CREDI at $0.000802 with ~$600k MC, ~$802k FDV, 59.5% top-10 concentration; no tweets or protocol data.",
-        "key_events": [],
-        "post_count_24h": 0,
-        "bullish_score": 0.2,
-        "theme_fit_score": 0.85,
-        "sentiment_score": 0,
-        "market_cap_usd": 600350,
-        "fdv_usd": 802000,
+        "one_line": "Credefi ($CREDI) pushes RWA/yield platform with listings, burns, XRPL/IBAN integrations, NFT bonds and Module X staking.",
+        "key_events": [
+          "Multiple CEX listings (KuCoin, Gate.io, BitMart, BingX)",
+          "Module X staking + double burn campaigns (58M+ burned)",
+          "XRPL integration, IBAN beta, NFT bonds roadmap",
+          "Partnerships (Polytrade, Lumia, DWFLabs, Creditcoin)",
+          "Platform 2.0 live with $5M+ active loans"
+        ],
+        "post_count_24h": 99,
+        "bullish_score": 0.75,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.82,
+        "market_cap_usd": 602500,
+        "fdv_usd": 804900,
         "fully_unlocked": false,
-        "top10_holder_pct": 59.5
+        "top10_holder_pct": 59.53
       },
-      "upside_score": 40.6,
+      "upside_score": 68.1,
       "eligible": true,
       "score_breakdown": {
-        "newsworthy": 6,
-        "themeFit": 23.8,
+        "newsworthy": 22.5,
+        "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 0,
+        "social": 8.2,
         "holders": 2.4,
         "marketCap": 4
       },
-      "rank_today": 9
+      "rank_today": 8
     },
     {
       "slug": "truflation",
@@ -1796,7 +2745,7 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.75
+        "score": 0.8
       },
       "social": {
         "tweets": [
@@ -1940,33 +2889,33 @@
         "hero_tweet_id": "2069762720506024293"
       },
       "grok_brief": {
-        "one_line": "Truflation posts daily US/UK CPI updates (~1.8-2.4% YoY) plus PCE forecasts and macro events with experts.",
+        "one_line": "Truflation posts daily US/UK CPI readings (~1.8-2.4% YoY) plus PCE forecasts and macro-expert spaces on real-time inflation data.",
         "key_events": [
-          "Daily US CPI 1.81-1.93% YoY",
-          "Daily UK CPI 2.13-2.36% YoY",
-          "PCE forecast live pre-BEA",
-          "Macro space with Warsh/PCE focus June 25"
+          "Daily US CPI updates (1.81%-1.93% YoY)",
+          "Daily UK CPI updates (2.13%-2.36% YoY)",
+          "PCE forecast live ahead of BEA release",
+          "Macro Twitter Space with Warsh/PCE discussion June 25"
         ],
         "post_count_24h": 17,
-        "bullish_score": 0.65,
+        "bullish_score": 0.75,
         "theme_fit_score": 0.85,
-        "sentiment_score": 0.75,
+        "sentiment_score": 0.8,
         "market_cap_usd": null,
         "fdv_usd": null,
         "fully_unlocked": null,
         "top10_holder_pct": null
       },
-      "upside_score": 61,
+      "upside_score": 64.5,
       "eligible": null,
       "score_breakdown": {
-        "newsworthy": 19.5,
+        "newsworthy": 22.5,
         "themeFit": 23.8,
         "unlock": 4.4,
-        "social": 7.5,
+        "social": 8,
         "holders": 3,
         "marketCap": 2.8
       },
-      "rank_today": 7
+      "rank_today": 9
     },
     {
       "slug": "landshare",
@@ -1989,7 +2938,7 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.85
+        "score": 0.9
       },
       "social": {
         "tweets": [
@@ -2501,7 +3450,7 @@
             "id": "1846613827275968994",
             "url": "https://x.com/Landshareio/status/1846613827275968994",
             "text": "🚨 Landshare Ambassador Program Update\n\nWe’re excited to announce that Season 6 of the Landshare Ambassador Program (LAP) kicks off this Friday, Oct. 18th and runs through Nov. 15th!\n\nThis season will be hosted entirely on the Zealy platform and is open to everyone—no more https://t.co/M5cxtupkba",
-            "likes": 256,
+            "likes": 257,
             "retweets": 0,
             "posted_at": "2024-10-16T18:06:59.000Z"
           },
@@ -2789,34 +3738,34 @@
         "hero_tweet_id": "1819036065862201609"
       },
       "grok_brief": {
-        "one_line": "Landshare pushes RWA/tokenization via Plume integration, exchange listings, roadmaps, presales, and community events.",
+        "one_line": "Landshare pushes RWA tokenization via Plume integration, LSRWA presale, loan protocol, ambassador programs and multiple CEX listings.",
         "key_events": [
-          "Plume testnet/mainnet integration and Zealy campaign",
-          "2025 roadmap and Q3-Q4 2024 roadmap updates",
-          "Listings on BitMart, MEXC, AscendEX",
-          "$LSRWA presale completed, Loan Protocol live",
-          "Partnerships with Roofstock, Stobox, Pantera, Polytrade"
+          "Plume testnet/mainnet integration for tokenized US real estate",
+          "LSRWA presale completed in <24h, $350k LP reached",
+          "Loan protocol live with auto-redeem USDC airdrops",
+          "Multiple Zealy/ambassador campaigns with 1k-35k $LAND rewards",
+          "Listings on MEXC, AscendEX, BitMart; Chainlink integration"
         ],
         "post_count_24h": 99,
         "bullish_score": 0.75,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.85,
-        "market_cap_usd": 11040,
+        "sentiment_score": 0.9,
+        "market_cap_usd": 11041,
         "fdv_usd": 20666,
         "fully_unlocked": false,
         "top10_holder_pct": null
       },
-      "upside_score": 67.8,
+      "upside_score": 68.3,
       "eligible": null,
       "score_breakdown": {
         "newsworthy": 22.5,
         "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 8.5,
+        "social": 9,
         "holders": 3,
         "marketCap": 2.8
       },
-      "rank_today": 5
+      "rank_today": 7
     },
     {
       "slug": "tangible",
@@ -2839,7 +3788,7 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.55
+        "score": 0.65
       },
       "social": {
         "tweets": [
@@ -2847,7 +3796,7 @@
             "id": "1514678745491128352",
             "url": "https://x.com/tangibleDAO/status/1514678745491128352",
             "text": "We are giving away $100K in Tangible ($TNGBL) Bounties Across 4 Campaigns! \nhttps://t.co/jIyIEsYfay",
-            "likes": 5151,
+            "likes": 5152,
             "retweets": 0,
             "posted_at": "2022-04-14T18:55:28.000Z"
           },
@@ -3647,34 +4596,34 @@
         "hero_tweet_id": "1514678745491128352"
       },
       "grok_brief": {
-        "one_line": "Tangible ($TNGBL) runs $100K bounties, USDR Polygon/Arbitrum pushes, real estate yield focus amid past depeg and transparency upgrades.",
+        "one_line": "Tangible ($TNGBL) pushes RWA real estate yield via USDR, NFTs, PoR transparency and recovery after depeg.",
         "key_events": [
-          "$100K TNGBL bounties across 4 campaigns",
-          "USDR deployed on Polygon and Arbitrum",
-          "First fractionalized real estate sold out",
-          "USDR depeg from DAI treasury redemption",
-          "Chainlink PoR integration for transparency"
+          "$100K bounty campaigns",
+          "USDR on Polygon/Arbitrum",
+          "Chainlink PoR live",
+          "100% USDR collateral restored",
+          "First fractional real estate sold out"
         ],
         "post_count_24h": 100,
-        "bullish_score": 0.45,
+        "bullish_score": 0.6,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.55,
+        "sentiment_score": 0.65,
         "market_cap_usd": null,
         "fdv_usd": 18230000,
         "fully_unlocked": null,
         "top10_holder_pct": 99.79
       },
-      "upside_score": 52.8,
+      "upside_score": 58.3,
       "eligible": null,
       "score_breakdown": {
-        "newsworthy": 13.5,
+        "newsworthy": 18,
         "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 5.5,
+        "social": 6.5,
         "holders": 0,
         "marketCap": 2.8
       },
-      "rank_today": 8
+      "rank_today": 10
     },
     {
       "slug": "swarm-markets",
@@ -3688,8 +4637,8 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 1260000,
-        "fdv_usd": 2020000,
+        "market_cap_usd": 1270000,
+        "fdv_usd": 2030000,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
         "top10_holder_pct": 63.4,
@@ -3697,7 +4646,7 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0.88
+        "score": 0.9
       },
       "social": {
         "tweets": [
@@ -4513,36 +5462,36 @@
         "hero_tweet_id": "1422176211367874560"
       },
       "grok_brief": {
-        "one_line": "Swarm ($SMT) pushes RWA/tokenization via Hedera stocks, Chainlink CCIP, CEX listings, Base/Arbitrum deploys, 1/3 token burn vote, Inveniam acquisition close.",
+        "one_line": "Swarm ($SMT) pushes RWA/tokenization with Hedera stocks, Chainlink CCIP, CEX listings, dOTC launches, gold on BTC, and 1/3 token burn vote.",
         "key_events": [
           "Acquisition by Inveniam closed",
-          "Stocks (AAPL, TSLA, MSTR) live on Hedera, EU compliant",
-          "Chainlink CCIP integration for cross-chain RWAs",
-          "1/3 $SMT supply burn voted/approved",
-          "CEX listings: MEXC, Gate.io, Bitstamp, Uphold, BingX",
-          "$SMT deployed on Base, Arbitrum; dOTC v2 live",
-          "MoU with MELD for retail RWA access; gold NFTs on BTC"
+          "Hedera tokenized stocks (AAPL, TSLA) live",
+          "Chainlink CCIP integration",
+          "Multiple CEX listings (MEXC, Bitstamp, Gate.io)",
+          "1/3 $SMT burn approved by community",
+          "dOTC v2 and Open dOTC on Base live",
+          "Gold NFTs and tokenized stocks expanded"
         ],
         "post_count_24h": 101,
         "bullish_score": 0.85,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.88,
-        "market_cap_usd": 1260000,
-        "fdv_usd": 2020000,
+        "sentiment_score": 0.9,
+        "market_cap_usd": 1270000,
+        "fdv_usd": 2030000,
         "fully_unlocked": false,
         "top10_holder_pct": 63.4
       },
-      "upside_score": 71.4,
+      "upside_score": 71.6,
       "eligible": true,
       "score_breakdown": {
         "newsworthy": 25.5,
         "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 8.8,
+        "social": 9,
         "holders": 2.2,
         "marketCap": 3.9
       },
-      "rank_today": 2
+      "rank_today": 4
     },
     {
       "slug": "dusk-network",
@@ -5381,13 +6330,13 @@
         "hero_tweet_id": "1812123061904433595"
       },
       "grok_brief": {
-        "one_line": "Dusk mainnet live Sept 20 with NPEX RWA exchange partnership, 15M $DUSK dev fund, privacy ZKP compliance focus.",
+        "one_line": "Dusk ($DUSK) pushes RWA/tokenization with NPEX partnership, mainnet live Sept 20, testnets, node growth & dev fund.",
         "key_events": [
-          "Mainnet live Sept 20",
-          "NPEX licensed exchange partnership for tokenized assets",
-          "15M $DUSK development fund announced",
-          "1000+ nodes on testnet",
-          "BWRE Capital bond tokenization live"
+          "Mainnet live Sept 20 with 3rd-party contracts",
+          "NPEX partnership for regulated RWA exchange €300M AUM",
+          "15M $DUSK dev fund & BWRE bond tokenization",
+          "ITN: 8K+ nodes, Nocturne testnet live",
+          "1000+ nodes, privacy KYC & ZKP focus"
         ],
         "post_count_24h": 101,
         "bullish_score": 0.85,
@@ -5408,13 +6357,13 @@
         "holders": 3,
         "marketCap": 2.8
       },
-      "rank_today": 3
+      "rank_today": 6
     },
     {
       "slug": "chintai",
       "symbol": "CHEX",
       "name": "Chintai",
-      "x_handle": "chintai_markets",
+      "x_handle": "ChintaiNexus",
       "themes": [
         "rwa",
         "tokenization",
@@ -5432,37 +6381,845 @@
         "vol_to_mcap_pct": null
       },
       "sentiment": {
-        "score": 0
+        "score": 0.92
       },
       "social": {
-        "tweets": [],
-        "hero_tweet_id": null
+        "tweets": [
+          {
+            "id": "1955328714859847686",
+            "url": "https://x.com/ChintaiNexus/status/1955328714859847686",
+            "text": "We’re excited to work with @chainlink to bring more financial institutions on-chain and make $CHEX natively transferable via CCIP. \n\nTogether, we’re accelerating the global institutional adoption of regulated digital assets. https://t.co/UPHvLR9Q5H",
+            "likes": 838,
+            "retweets": 0,
+            "posted_at": "2025-08-12T18:01:08.000Z"
+          },
+          {
+            "id": "1886827582303428639",
+            "url": "https://x.com/ChintaiNexus/status/1886827582303428639",
+            "text": "R3 Sustainability, Chintai to launch $795M Tokenized Infrastructure Fund, powered by $CHEX.\n\nhttps://t.co/ryhoWznskJ via @cointelegraph",
+            "likes": 587,
+            "retweets": 0,
+            "posted_at": "2025-02-04T17:22:05.000Z"
+          },
+          {
+            "id": "1927051969241211291",
+            "url": "https://x.com/ChintaiNexus/status/1927051969241211291",
+            "text": "It's happening soon.\n$CHEX https://t.co/8ITS2n9XR1",
+            "likes": 620,
+            "retweets": 0,
+            "posted_at": "2025-05-26T17:19:27.000Z"
+          },
+          {
+            "id": "1945941962974273896",
+            "url": "https://x.com/ChintaiNexus/status/1945941962974273896",
+            "text": "🚨 BREAKING: Bitcoin Mining Infrastructure Funds are launching on Chintai!\n\nChintai is partnering with @AlteriEnergy to launch a $30M tokenized fund, providing accredited investors with direct, on-chain access to infrastructure-backed yield opportunities targeting consistent https://t.co/MX4aIOwIQH",
+            "likes": 253,
+            "retweets": 0,
+            "posted_at": "2025-07-17T20:21:32.000Z"
+          },
+          {
+            "id": "1948691120982020552",
+            "url": "https://x.com/ChintaiNexus/status/1948691120982020552",
+            "text": "When organizations tokenize more than one asset, they unlock markets without boundaries.\n\nAnd we’re doing just that.\n\nWhat was once a blueprint is now coming to life, powered by $CHEX. https://t.co/fh3MuxKgzg",
+            "likes": 235,
+            "retweets": 0,
+            "posted_at": "2025-07-25T10:25:42.000Z"
+          },
+          {
+            "id": "1894089068214120568",
+            "url": "https://x.com/ChintaiNexus/status/1894089068214120568",
+            "text": "🚨 Breaking News: RealNOI’s $570M tokenized real estate cash-flow platform is now live—fully powered by Chintai.\n\nThis marks a major step forward for real-world asset tokenization, bringing institutional-grade yield on-chain through rental income.\n\nWith this launch, $CHEX https://t.co/BswHD10XuU",
+            "likes": 401,
+            "retweets": 0,
+            "posted_at": "2025-02-24T18:16:38.000Z"
+          },
+          {
+            "id": "1863676692121731577",
+            "url": "https://x.com/ChintaiNexus/status/1863676692121731577",
+            "text": "Welcome to Chintai!\n\n$CHEX 🤝 PowerDime https://t.co/nrjGW1Qvdc",
+            "likes": 465,
+            "retweets": 0,
+            "posted_at": "2024-12-02T20:08:43.000Z"
+          },
+          {
+            "id": "1952400298842136625",
+            "url": "https://x.com/ChintaiNexus/status/1952400298842136625",
+            "text": "Multiplying for every asset that's tokenized on Chintai Nexus. https://t.co/GKrtmYZfx5",
+            "likes": 172,
+            "retweets": 0,
+            "posted_at": "2025-08-04T16:04:39.000Z"
+          },
+          {
+            "id": "1937776659312103644",
+            "url": "https://x.com/ChintaiNexus/status/1937776659312103644",
+            "text": "Together with @ArchNtwrk, we’re gearing up for the launch of HoneyB, the first native platform for tokenizing RWAs on Bitcoin.\n\nFor the very first time, institutional-grade RWAs will tap into Bitcoin’s unmatched security and liquidity WITHOUT wrapping or bridging.\n\nBuilt on https://t.co/TU9735aHVx",
+            "likes": 339,
+            "retweets": 0,
+            "posted_at": "2025-06-25T07:35:32.000Z"
+          },
+          {
+            "id": "1935345968989487170",
+            "url": "https://x.com/ChintaiNexus/status/1935345968989487170",
+            "text": "That's the post.\n$CHEX https://t.co/kGLV9qGwXm",
+            "likes": 246,
+            "retweets": 0,
+            "posted_at": "2025-06-18T14:36:50.000Z"
+          },
+          {
+            "id": "1940798661060923678",
+            "url": "https://x.com/ChintaiNexus/status/1940798661060923678",
+            "text": "First up in our Partnership Spotlight Week is @DNADealDesk, a fully on-chain investment platform built for high-net-worth individuals, built by @ThisIsDNA.\n\nDeveloped on our compliance-focused Layer 1 blockchain, DNA Deal Desk makes it easier than ever to access top-tier Web3, https://t.co/IdEPkOuunS",
+            "likes": 247,
+            "retweets": 0,
+            "posted_at": "2025-07-03T15:43:53.000Z"
+          },
+          {
+            "id": "1945751316212621789",
+            "url": "https://x.com/ChintaiNexus/status/1945751316212621789",
+            "text": "Up next in our Partnership Spotlight series: Kin Capital!\n\nKin Capital has launched a $100M tokenized real estate debt fund on Chintai, offering accredited investors access to high-yield, income-generating debt backed by commercial properties, with quarterly distributions.\n\nBuilt https://t.co/6H0mbffRbW",
+            "likes": 233,
+            "retweets": 0,
+            "posted_at": "2025-07-17T07:43:58.000Z"
+          },
+          {
+            "id": "1944659006951141822",
+            "url": "https://x.com/ChintaiNexus/status/1944659006951141822",
+            "text": "Tokenization without compliance isn’t innovation, it’s just an experiment. Far too often, platforms race to launch and ride the momentum of early hype, only to hit a wall when regulatory frameworks catch up.\n\nWhen regulation is treated as an afterthought, teams are forced to https://t.co/5oeMqHUgSk",
+            "likes": 237,
+            "retweets": 0,
+            "posted_at": "2025-07-14T07:23:31.000Z"
+          },
+          {
+            "id": "1950812432902803941",
+            "url": "https://x.com/ChintaiNexus/status/1950812432902803941",
+            "text": "Partnership Spotlight: DPI Capital!\n\nDPI Capital has launched its $30M flagship crypto-focused venture fund on our tokenization platform, combining traditional VC structure with blockchain-enabled liquidity.\n\nBuilt on our regulated Layer 1 and powered by our white-label https://t.co/zZnKzgFcz0",
+            "likes": 217,
+            "retweets": 0,
+            "posted_at": "2025-07-31T06:55:03.000Z"
+          },
+          {
+            "id": "1951165975220605270",
+            "url": "https://x.com/ChintaiNexus/status/1951165975220605270",
+            "text": "Before you know it, we’ll be at the tipping point where tokenized assets take the lead.\n\n$CHEX https://t.co/Zo3UV46umm",
+            "likes": 210,
+            "retweets": 0,
+            "posted_at": "2025-08-01T06:19:54.000Z"
+          },
+          {
+            "id": "1938658267703500811",
+            "url": "https://x.com/ChintaiNexus/status/1938658267703500811",
+            "text": "The opportunity is endless.\nPush the boundaries of what’s possible with $CHEX. https://t.co/dT9PxZAC69",
+            "likes": 219,
+            "retweets": 0,
+            "posted_at": "2025-06-27T17:58:44.000Z"
+          },
+          {
+            "id": "1943393020214202674",
+            "url": "https://x.com/ChintaiNexus/status/1943393020214202674",
+            "text": "Next up in our Partnership Spotlight series: R3 Sustainability!\n\nR3 Sustainability is utilizing Chintai Nexus’ white-label infrastructure to tokenize $795M in real-world assets, transforming private markets into faster, more transparent, and liquid ecosystems.\n\nTogether, we’re: https://t.co/tClEZqOtld",
+            "likes": 220,
+            "retweets": 0,
+            "posted_at": "2025-07-10T19:32:57.000Z"
+          },
+          {
+            "id": "1882068563617251730",
+            "url": "https://x.com/ChintaiNexus/status/1882068563617251730",
+            "text": "Chintai’s official statement on U.S. expansion and pursuit of additional securities licensing: https://t.co/EaMhY36qkU",
+            "likes": 415,
+            "retweets": 0,
+            "posted_at": "2025-01-22T14:11:27.000Z"
+          },
+          {
+            "id": "1927805605768561059",
+            "url": "https://x.com/ChintaiNexus/status/1927805605768561059",
+            "text": "🚨 BREAKING: Real World Assets are coming to Bitcoin!\n\nChintai is partnering with @ArchNtwrk to launch the first Bitcoin-native RWA platform:\n\n🔹 Earn BTC-native yield backed by RWAs\n🔒 No bridging. No wrapping.\n⚡ Powered by $CHEX\n\nPS: More Bitcoin x RWA news is coming soon 👀 https://t.co/A77XkWgMD4",
+            "likes": 404,
+            "retweets": 0,
+            "posted_at": "2025-05-28T19:14:07.000Z"
+          },
+          {
+            "id": "1949855259494355313",
+            "url": "https://x.com/ChintaiNexus/status/1949855259494355313",
+            "text": "Forming the bridge that connects users to compliant, tokenized assets, powered by $CHEX. https://t.co/JOdY486R59",
+            "likes": 201,
+            "retweets": 0,
+            "posted_at": "2025-07-28T15:31:35.000Z"
+          },
+          {
+            "id": "1951619083549425865",
+            "url": "https://x.com/ChintaiNexus/status/1951619083549425865",
+            "text": "Industry reports estimate global data center investment could exceed $1 trillion per year by 2027 to meet explosive AI and cloud demand. BlackRock’s Larry Fink highlighted that AI-driven growth could push data center spend to require 300 GW of power, together representing a https://t.co/VVQ8oQHrzY",
+            "likes": 196,
+            "retweets": 0,
+            "posted_at": "2025-08-02T12:20:23.000Z"
+          },
+          {
+            "id": "1940469037747614042",
+            "url": "https://x.com/ChintaiNexus/status/1940469037747614042",
+            "text": "Starting today, we’re launching a weekly series that highlights the incredible clients building with Chintai Nexus, our institutional-grade, white-label RWA tokenization platform.\n\nEvery Thursday, we’ll showcase a new partner, explore their journey, and how they’re utilizing https://t.co/rMZqYnQBeg",
+            "likes": 291,
+            "retweets": 0,
+            "posted_at": "2025-07-02T17:54:05.000Z"
+          },
+          {
+            "id": "1950237553262555153",
+            "url": "https://x.com/ChintaiNexus/status/1950237553262555153",
+            "text": "Tokenization has promised to revolutionize traditional finance, and it's delivering.\n\nWe've seen real estate, private credit, and fine art enter the blockchain era. But now, a new asset class, data center infrastructure, is emerging as a key player in the tokenization race.\n\nData https://t.co/FZP2NaZbb5",
+            "likes": 178,
+            "retweets": 0,
+            "posted_at": "2025-07-29T16:50:41.000Z"
+          },
+          {
+            "id": "1926699455723565253",
+            "url": "https://x.com/ChintaiNexus/status/1926699455723565253",
+            "text": "The future of finance is tokenized, and it's powered by $CHEX.\n\nThat's it. That's the post. https://t.co/LamJMKAQnq",
+            "likes": 272,
+            "retweets": 0,
+            "posted_at": "2025-05-25T17:58:41.000Z"
+          },
+          {
+            "id": "1975223214780645405",
+            "url": "https://x.com/ChintaiNexus/status/1975223214780645405",
+            "text": "Chintai originates. @solana distributes.\n\nChintai tokenizes institutional RWAs and brings them on-chain.\n\nNow we're bringing those assets to Solana, the marquee distribution venue for liquidity and real-time settlement.\n\nPowered by @SplyceFi and available to anyone with a wallet. https://t.co/mWHF0aKdGm",
+            "likes": 383,
+            "retweets": 0,
+            "posted_at": "2025-10-06T15:34:46.000Z"
+          },
+          {
+            "id": "1932811020826788251",
+            "url": "https://x.com/ChintaiNexus/status/1932811020826788251",
+            "text": "And so it begins...\n\n$CHEX deposits are now live on @BingXOfficial with trading set to go live at 12:00 UTC tomorrow!",
+            "likes": 272,
+            "retweets": 0,
+            "posted_at": "2025-06-11T14:43:51.000Z"
+          },
+          {
+            "id": "1931784429527007388",
+            "url": "https://x.com/ChintaiNexus/status/1931784429527007388",
+            "text": "Stocks &amp; Equities.\nBonds.\nFunds.\nDerivatives.\nReal Estate.\nPrecious Metals &amp; Gemstones.\nFine Arts &amp; Collectables.\nCarbon, Hydrogen &amp; Green Tech.\n\nWhat they all have in common is that they are tokenized on Chintai Nexus. https://t.co/VHWYWGLLfy",
+            "likes": 239,
+            "retweets": 0,
+            "posted_at": "2025-06-08T18:44:33.000Z"
+          },
+          {
+            "id": "1939972504535064607",
+            "url": "https://x.com/ChintaiNexus/status/1939972504535064607",
+            "text": "When we said RWA tokenization is already happening and it’s powered by $CHEX, we meant it. https://t.co/nnlGLNEecc",
+            "likes": 255,
+            "retweets": 0,
+            "posted_at": "2025-07-01T09:01:02.000Z"
+          },
+          {
+            "id": "1935033269051170849",
+            "url": "https://x.com/ChintaiNexus/status/1935033269051170849",
+            "text": "It's happening!\n\n$CHEX debuts on @krakenfx TOMORROW. https://t.co/Jiifzs0btr",
+            "likes": 246,
+            "retweets": 0,
+            "posted_at": "2025-06-17T17:54:17.000Z"
+          },
+          {
+            "id": "1924832017771811079",
+            "url": "https://x.com/ChintaiNexus/status/1924832017771811079",
+            "text": "🚨 Breaking: Kin Capital’s tokenized real estate debt fund is now live!\n\nDeFi-style yield. TradFi-grade product. Powered by $CHEX.\n\nThe first tranche of Kin Capital’s $100M institutional-grade offering is officially open to accredited investors — delivering 15% targeted yield, https://t.co/KWSwL881Zv",
+            "likes": 347,
+            "retweets": 0,
+            "posted_at": "2025-05-20T14:18:09.000Z"
+          },
+          {
+            "id": "1937075935607390345",
+            "url": "https://x.com/ChintaiNexus/status/1937075935607390345",
+            "text": "The fuel behind Chintai's fully compliant, institutional-grade RWA platform is $CHEX, more than just a token.\n\n$CHEX accrues value through protocol fees, staking rewards, and deflationary mechanics. With 100% of its supply already in circulation, it combines real utility with https://t.co/Gaeuh50st2",
+            "likes": 243,
+            "retweets": 0,
+            "posted_at": "2025-06-23T09:11:06.000Z"
+          },
+          {
+            "id": "1927410253752131947",
+            "url": "https://x.com/ChintaiNexus/status/1927410253752131947",
+            "text": "The future of real estate investing is here.\nBut do you know how it works?\n\nWatch this to learn more about Patel’s tokenized institutional real estate fund—powered by $CHEX and built on Chintai’s compliance focused infrastructure.\n\nInstitutional-grade real estate, now on-chain. https://t.co/OsFhtQZbBR",
+            "likes": 332,
+            "retweets": 0,
+            "posted_at": "2025-05-27T17:03:08.000Z"
+          },
+          {
+            "id": "1933631909885509869",
+            "url": "https://x.com/ChintaiNexus/status/1933631909885509869",
+            "text": "It’s happening!\n$CHEX",
+            "likes": 212,
+            "retweets": 0,
+            "posted_at": "2025-06-13T21:05:47.000Z"
+          },
+          {
+            "id": "1946158515946406222",
+            "url": "https://x.com/ChintaiNexus/status/1946158515946406222",
+            "text": "Till today, a lot has been said about the transformative power of tokenization. From real estate to private credit, we've seen traditional asset classes enter the blockchain era. But as we look toward the future of finance, one sector is emerging as a powerful contender in the",
+            "likes": 222,
+            "retweets": 0,
+            "posted_at": "2025-07-18T10:42:02.000Z"
+          },
+          {
+            "id": "1939695675240833468",
+            "url": "https://x.com/ChintaiNexus/status/1939695675240833468",
+            "text": "Tokenization of RWAs is projected to unlock $16T+ in value by 2030, but only if done with institutional-grade compliance and infrastructure.\n\nAt Chintai Nexus, we’re enabling this transformation by turning real estate, credit, funds, and more into regulated, programmable digital https://t.co/N3xKoXjCsf",
+            "likes": 220,
+            "retweets": 0,
+            "posted_at": "2025-06-30T14:41:01.000Z"
+          },
+          {
+            "id": "1931380418349035639",
+            "url": "https://x.com/ChintaiNexus/status/1931380418349035639",
+            "text": "A complete white-label platform that empowers businesses to launch and manage digital assets from start to finish.\n\nAt Chintai Nexus, we handle it all.\n\nFrom setting up the right fund structure and conducting due diligence to designing digital assets and managing administration. https://t.co/IXVkg0hxBc",
+            "likes": 215,
+            "retweets": 0,
+            "posted_at": "2025-06-07T15:59:09.000Z"
+          },
+          {
+            "id": "1902406492331847720",
+            "url": "https://x.com/ChintaiNexus/status/1902406492331847720",
+            "text": "RWA tokenization is set to revolutionize finance, unlocking new investment opportunities and global accessibility. However, scaling requires solid infrastructure and clear regulatory frameworks.\n\nAt Chintai Nexus, we provide advanced tech &amp; compliance solutions, enabling https://t.co/oFhmsdtspS",
+            "likes": 195,
+            "retweets": 0,
+            "posted_at": "2025-03-19T17:07:07.000Z"
+          },
+          {
+            "id": "1962912363633369408",
+            "url": "https://x.com/ChintaiNexus/status/1962912363633369408",
+            "text": "🚨 BREAKING NEWS 🚨\n\nChintai x SmartGold are tokenizing $1.6 BILLION in IRA gold, powered by $CHEX.\n\nIRA gold stays vaulted &amp; tax-advantaged, but tokenization brings it on-chain — unlocking regulated DeFi collateral from retirement accounts.\n\n$1.6B today. Billions more coming https://t.co/72Cn5mSuCg",
+            "likes": 323,
+            "retweets": 0,
+            "posted_at": "2025-09-02T16:15:51.000Z"
+          },
+          {
+            "id": "1933529282485071953",
+            "url": "https://x.com/ChintaiNexus/status/1933529282485071953",
+            "text": "The $CHEX trading season begins on:\n\n@BingXOfficial 👉 https://t.co/McrfUPMVGL https://t.co/3paUBBx1XQ",
+            "likes": 206,
+            "retweets": 0,
+            "posted_at": "2025-06-13T14:17:58.000Z"
+          },
+          {
+            "id": "1934588298808201282",
+            "url": "https://x.com/ChintaiNexus/status/1934588298808201282",
+            "text": "At Chintai Nexus, we’ve built the infrastructure to bridge traditional finance and Web3 in a compliant, scalable, and capital-efficient way.\n\n@krakenfx aligning with the movement we’ve led since day one only reinforces what we’ve always believed: bringing the world on-chain isn’t",
+            "likes": 211,
+            "retweets": 0,
+            "posted_at": "2025-06-16T12:26:08.000Z"
+          },
+          {
+            "id": "1887531944788799787",
+            "url": "https://x.com/ChintaiNexus/status/1887531944788799787",
+            "text": "https://t.co/ijw8wneSEK",
+            "likes": 313,
+            "retweets": 0,
+            "posted_at": "2025-02-06T16:00:58.000Z"
+          },
+          {
+            "id": "1945363609082847654",
+            "url": "https://x.com/ChintaiNexus/status/1945363609082847654",
+            "text": "Tokenizing RWAs means so much more than just real estate. It’s about stocks, bonds, funds, derivatives, precious metals, fine arts, carbon credits, and even green tech.\n\nBy supporting a wide range of asset classes, we're establishing Chintai Nexus as the essential backbone of RWA https://t.co/UunOTTwT1b",
+            "likes": 192,
+            "retweets": 0,
+            "posted_at": "2025-07-16T06:03:22.000Z"
+          },
+          {
+            "id": "1917252169364840552",
+            "url": "https://x.com/ChintaiNexus/status/1917252169364840552",
+            "text": "We’re proud to be recognized by @Forbes as a key player driving the future of RWA tokenization.\n\nAs institutions embrace tokenization, Chintai is powering the compliant, scalable infrastructure behind it.\n\nThe future of finance is tokenized, and it's powered by $CHEX https://t.co/TtM6aDhGNN",
+            "likes": 305,
+            "retweets": 0,
+            "posted_at": "2025-04-29T16:18:32.000Z"
+          },
+          {
+            "id": "1932103239387726005",
+            "url": "https://x.com/ChintaiNexus/status/1932103239387726005",
+            "text": "When it comes to digital assets, institutions need more than just technology. They need trust, efficiency, and compliance.\n\nThat’s why, Chintai Nexus is licensed, regulated, and supports a full on-chain lifecycle from issuance to management. Assets are fully compliant by design, https://t.co/QgVnsVHCgZ",
+            "likes": 206,
+            "retweets": 0,
+            "posted_at": "2025-06-09T15:51:23.000Z"
+          },
+          {
+            "id": "1943359824890064916",
+            "url": "https://x.com/ChintaiNexus/status/1943359824890064916",
+            "text": "Asia’s top wealth managers are turning toward digital asset tokenization.\n\nFrom the latest @hubbisnews x Chintai report:\n🔹 2.5% already offer tokenised RWAs\n🔹 3.75% are testing platforms\n🔹 16.25% see it as a near-term opportunity\n\nWhich means, nearly 1 in 4 are preparing for",
+            "likes": 176,
+            "retweets": 0,
+            "posted_at": "2025-07-10T17:21:02.000Z"
+          },
+          {
+            "id": "1938306136249405883",
+            "url": "https://x.com/ChintaiNexus/status/1938306136249405883",
+            "text": "And the $CHEX trading season is still in full swing.",
+            "likes": 185,
+            "retweets": 0,
+            "posted_at": "2025-06-26T18:39:29.000Z"
+          },
+          {
+            "id": "1800164789852975533",
+            "url": "https://x.com/ChintaiNexus/status/1800164789852975533",
+            "text": "Chintai, Coinbase, working together to bring RWA’s onto Base.\n\nhttps://t.co/HveXN3bkTc",
+            "likes": 274,
+            "retweets": 0,
+            "posted_at": "2024-06-10T13:55:06.000Z"
+          },
+          {
+            "id": "1957478295362039947",
+            "url": "https://x.com/ChintaiNexus/status/1957478295362039947",
+            "text": "Institutional RWA adoption is moving from pilots to production.\n\nChintai x @chainlink are working together to accelerate that shift.\n\n📢 Join our live Spaces: Scaling Regulated RWA Adoption\n📅 Wed 8/20 · 12PM EST\n🔗https://t.co/OGJU1C3oCI",
+            "likes": 278,
+            "retweets": 0,
+            "posted_at": "2025-08-18T16:22:48.000Z"
+          },
+          {
+            "id": "1772611880307081365",
+            "url": "https://x.com/ChintaiNexus/status/1772611880307081365",
+            "text": "Attention $CHEX community: our first issuance is live!  \n\nLeveraging Chintai's technology, @GreeniumX has launched BioChar carbon-credits.   \n\nThis pilot project is the first of several carbon credits projects GX Labs is launching with Chintai in 2024.  \n\nLearn more here: https://t.co/gjFAhGyees",
+            "likes": 266,
+            "retweets": 0,
+            "posted_at": "2024-03-26T13:09:40.000Z"
+          },
+          {
+            "id": "1963277482691576198",
+            "url": "https://x.com/ChintaiNexus/status/1963277482691576198",
+            "text": "Tokenized assets on Solana. Powered by $CHEX. \n\nComing soon.",
+            "likes": 292,
+            "retweets": 0,
+            "posted_at": "2025-09-03T16:26:42.000Z"
+          },
+          {
+            "id": "1951895332062744748",
+            "url": "https://x.com/ChintaiNexus/status/1951895332062744748",
+            "text": "What gives you the most confidence when using a tokenized asset platform?",
+            "likes": 73,
+            "retweets": 0,
+            "posted_at": "2025-08-03T06:38:06.000Z"
+          },
+          {
+            "id": "1753231748643840318",
+            "url": "https://x.com/ChintaiNexus/status/1753231748643840318",
+            "text": "Join us to democratize financial opportunity and registration to earn $25 USD* in $CHEX tokens.\n\nEarly user registration is now open at https://t.co/dJuzIQKQg1   \n\n#ChintaiNetwork #ChintaiNexus #Chintai #UtilityTokens #DigitalAssets \n\n*T&amp;C Apply. https://t.co/L7qETUorQT",
+            "likes": 194,
+            "retweets": 0,
+            "posted_at": "2024-02-02T01:39:57.000Z"
+          },
+          {
+            "id": "1841472920956104750",
+            "url": "https://x.com/ChintaiNexus/status/1841472920956104750",
+            "text": "Welcoming Kin Capital as they launch a $100M tokenized real estate debt fund on #Chintai!\n\nThe fund provides accredited investors with an exclusive opportunity to access high-yield real estate debt backed by commercial properties, with quarterly distributions. By leveraging the https://t.co/LcpDPIq1sk",
+            "likes": 268,
+            "retweets": 0,
+            "posted_at": "2024-10-02T13:38:51.000Z"
+          },
+          {
+            "id": "1942959618335887859",
+            "url": "https://x.com/ChintaiNexus/status/1942959618335887859",
+            "text": "Institutions demand:\n✔️ Scalable infrastructure\n✔️ Regulatory-grade compliance\n✔️ Institutional-level performance\n✔️ Real-world asset support from day one\n\nWe deliver all of the above and more.\n\nWhether it’s tokenized bonds, real estate, or carbon credits, if it’s not built for https://t.co/OD45KcoiN9",
+            "likes": 169,
+            "retweets": 0,
+            "posted_at": "2025-07-09T14:50:46.000Z"
+          },
+          {
+            "id": "1948263031386894450",
+            "url": "https://x.com/ChintaiNexus/status/1948263031386894450",
+            "text": "Next in our Partnership Spotlight series: Patel Real Estate Holdings (PREH)\n\nPREH has launched a $100M tokenized multifamily fund on Chintai, giving accredited investors access to vintage Class A multifamily units across top US growth markets.\n\nBuilt on our regulated Layer 1 and https://t.co/FfIg2wfWt5",
+            "likes": 267,
+            "retweets": 0,
+            "posted_at": "2025-07-24T06:04:38.000Z"
+          },
+          {
+            "id": "1950530628333494545",
+            "url": "https://x.com/ChintaiNexus/status/1950530628333494545",
+            "text": "10 years of the chain that started it all.\n$ETH https://t.co/8FApLIjLOJ",
+            "likes": 158,
+            "retweets": 0,
+            "posted_at": "2025-07-30T12:15:15.000Z"
+          },
+          {
+            "id": "1940045975298666645",
+            "url": "https://x.com/ChintaiNexus/status/1940045975298666645",
+            "text": "Another giant enters the RWA arena. \nWelcome aboard, @RobinhoodApp!",
+            "likes": 164,
+            "retweets": 0,
+            "posted_at": "2025-07-01T13:52:59.000Z"
+          },
+          {
+            "id": "1940430738144338039",
+            "url": "https://x.com/ChintaiNexus/status/1940430738144338039",
+            "text": "“Tokenization is an innovation. My whole goal is to make things transparent.” - Paul Atkins, SEC Chairman.\n\nWe’re already building that future which is compliant, transparent, and powered by tokenized assets.\n\nThe momentum is real and the market is just waking up. ⏳",
+            "likes": 165,
+            "retweets": 0,
+            "posted_at": "2025-07-02T15:21:54.000Z"
+          },
+          {
+            "id": "1866822205252030757",
+            "url": "https://x.com/ChintaiNexus/status/1866822205252030757",
+            "text": "The $13 trillion private investing market is moving on-chain!\n\nSay Hello to DNA deal desk, a fully on-chain investment platform, built using our white label technology, powered by $CHEX. By leveraging blockchain, DNA Deal Desk transforms private market investing into an efficient https://t.co/Dlmh1zSXP4",
+            "likes": 237,
+            "retweets": 0,
+            "posted_at": "2024-12-11T12:27:52.000Z"
+          },
+          {
+            "id": "1866504283765481591",
+            "url": "https://x.com/ChintaiNexus/status/1866504283765481591",
+            "text": "The future of finance is here, and it’s tokenized, powered by $CHEX.",
+            "likes": 249,
+            "retweets": 0,
+            "posted_at": "2024-12-10T15:24:33.000Z"
+          },
+          {
+            "id": "1971603514188292143",
+            "url": "https://x.com/ChintaiNexus/status/1971603514188292143",
+            "text": "🚨 Breaking: Institutional-grade RWAs are officially coming to Solana.\n\nChintai × Splyce open the door for retail access via S-Tokens — making RWAs tradable on DEXs.\n\nA new era for Solana DeFi starts now, powered by $CHEX. https://t.co/2p0aYMBfu3",
+            "likes": 272,
+            "retweets": 0,
+            "posted_at": "2025-09-26T15:51:23.000Z"
+          },
+          {
+            "id": "1900128643663171826",
+            "url": "https://x.com/ChintaiNexus/status/1900128643663171826",
+            "text": "Despite its potential, institutional adoption of tokenization is still slow. The hesitation stems from three key challenges:\n\n1️⃣ Unclear Regulations: Without well-defined legal frameworks, institutions hesitate to fully commit, fearing compliance risks.\n\n2️⃣ Liquidity Barriers: https://t.co/twXqUulwRM",
+            "likes": 139,
+            "retweets": 0,
+            "posted_at": "2025-03-13T10:15:45.000Z"
+          },
+          {
+            "id": "1853443857595150652",
+            "url": "https://x.com/ChintaiNexus/status/1853443857595150652",
+            "text": "The tokenization of assets is revolutionizing the way we think about ownership and investment, paving the way for a more inclusive financial ecosystem. By bringing traditional assets like fine art, collectibles, and luxury items onto the blockchain, #Chintai empowers individuals https://t.co/xugxfn7QlA",
+            "likes": 146,
+            "retweets": 0,
+            "posted_at": "2024-11-04T14:27:05.000Z"
+          },
+          {
+            "id": "1887434693324218857",
+            "url": "https://x.com/ChintaiNexus/status/1887434693324218857",
+            "text": "R3 Sustainability is leveraging Chintai’s white-label blockchain solution to tokenize $795M in Real-World Assets, making private markets faster, more transparent, and more liquid than ever.\n\nThis fund is part of the growing RWA tokenization sector, where financial and tangible https://t.co/sk7YGQdLEL",
+            "likes": 239,
+            "retweets": 0,
+            "posted_at": "2025-02-06T09:34:32.000Z"
+          },
+          {
+            "id": "1844033570798526928",
+            "url": "https://x.com/ChintaiNexus/status/1844033570798526928",
+            "text": "Take a sneak peek at Kin Capital’s tokenization platform, powered by $CHEX.\n\nWith our white-label solution, businesses can swiftly launch fully compliant tokenization platforms on Chintai's Layer-1 blockchain for #RWAs. https://t.co/y61fFnzExR",
+            "likes": 241,
+            "retweets": 0,
+            "posted_at": "2024-10-09T15:13:58.000Z"
+          },
+          {
+            "id": "1765467122006622592",
+            "url": "https://x.com/ChintaiNexus/status/1765467122006622592",
+            "text": "The $CHEX token is now officially live on Solana!\n\nContract Address: 6dKCoWjpj5MFU5gWDEFdpUUeBasBLK3wLEwhUzQPAa1e\n\nMarket i.d. on Raydium: D8JjVpFdXjFvHmsX7LyFy8iHXEqzhbQo576Rt8rZkyiq\n\nAvailable for trading here: https://t.co/fO0BNWUbMW https://t.co/jEQbUD79JD",
+            "likes": 202,
+            "retweets": 0,
+            "posted_at": "2024-03-06T19:58:57.000Z"
+          },
+          {
+            "id": "1885310478135472540",
+            "url": "https://x.com/ChintaiNexus/status/1885310478135472540",
+            "text": "Welcome onboard!\n\nDPI Capital 🤝 Chintai\n\nThe future of finance is here, and it’s tokenized, powered by $CHEX",
+            "likes": 240,
+            "retweets": 0,
+            "posted_at": "2025-01-31T12:53:40.000Z"
+          },
+          {
+            "id": "1864722356536557663",
+            "url": "https://x.com/ChintaiNexus/status/1864722356536557663",
+            "text": "We've teamed up with Premier Art Holdings to revolutionize the fine art market with the launch of The Premier Art Token (TPAT), a $50M initiative to bring tokenization to art investments.\n\nThrough our tokenization technology, fractional ownership of fine art masterpieces is now https://t.co/owXx9pQfgv",
+            "likes": 238,
+            "retweets": 0,
+            "posted_at": "2024-12-05T17:23:49.000Z"
+          },
+          {
+            "id": "1922038336987832523",
+            "url": "https://x.com/ChintaiNexus/status/1922038336987832523",
+            "text": "🚨 Breaking News: Patel Real Estate tokenizes institutional fund through Chintai\n\nThis fund is part of a broader $750 million JV with institutional partners including KKR &amp; Carlyle.\n\nThe first of many institutional-grade offerings coming on-chain in 2025, powered by $CHEX! https://t.co/DMEfhrSba6",
+            "likes": 240,
+            "retweets": 0,
+            "posted_at": "2025-05-12T21:17:03.000Z"
+          },
+          {
+            "id": "1876582135802306731",
+            "url": "https://x.com/ChintaiNexus/status/1876582135802306731",
+            "text": "As the world of decentralized finance evolves, tokenizing #RWAs is becoming a strategic priority for forward-thinking financial institutions. But how easy is it to adopt?\n\nHere’s what it takes to transition successfully:\n\n▪️ Investment in Technology: Firms must invest in https://t.co/JVIeiTMN9V",
+            "likes": 226,
+            "retweets": 0,
+            "posted_at": "2025-01-07T10:50:21.000Z"
+          },
+          {
+            "id": "1775766298305393113",
+            "url": "https://x.com/ChintaiNexus/status/1775766298305393113",
+            "text": "In collaboration with our institutional distribution partners the first carbon credit deal on Chintai Nexus is 86% filled in under two weeks! \n\nWith this pilot nearly filled, we look ahead to USD billions in RWAs being issued on the Chintai platform in the near future. \n\n$CHEX",
+            "likes": 226,
+            "retweets": 0,
+            "posted_at": "2024-04-04T06:04:12.000Z"
+          },
+          {
+            "id": "1908114183855493304",
+            "url": "https://x.com/ChintaiNexus/status/1908114183855493304",
+            "text": "Q1 2025 was significant for us, marking numerous milestones, strategic collaborations, global reach, and much more.\n\nWe’re just getting started with the rest of 2025 and can’t wait to share what’s ahead!\n\nThe future is tokenized, and it’s powered by $CHEX. https://t.co/PGpuu53ae1",
+            "likes": 211,
+            "retweets": 0,
+            "posted_at": "2025-04-04T11:07:27.000Z"
+          },
+          {
+            "id": "1873764986356371826",
+            "url": "https://x.com/ChintaiNexus/status/1873764986356371826",
+            "text": "The RWA narrative is gaining momentum, with 2025 shaping up to be a significant year of growth and innovation. \n\nShifting interest rates present challenges for tokenized treasuries, but they also open doors to redefine the #RWA landscape in transformative ways:\n1️⃣ Activating Idle https://t.co/9NwsOJXC1F",
+            "likes": 221,
+            "retweets": 0,
+            "posted_at": "2024-12-30T16:16:00.000Z"
+          },
+          {
+            "id": "1882780770181304828",
+            "url": "https://x.com/ChintaiNexus/status/1882780770181304828",
+            "text": "2024 has been a landmark year for the tokenization of RWAs, with market capitalization increasing by an impressive 32%. This growth reflects not only the rising interest in blockchain technology but also a fundamental shift in how #TradFi markets view and interact with tokenized https://t.co/w4Got8ugWq",
+            "likes": 221,
+            "retweets": 0,
+            "posted_at": "2025-01-24T13:21:30.000Z"
+          },
+          {
+            "id": "1958211178813063671",
+            "url": "https://x.com/ChintaiNexus/status/1958211178813063671",
+            "text": "🔴 Happening now\n\nChintai x @ChainlinkLabs: Scaling Regulated RWA Adoption 🎙️\n\nFrom pilots to production. Compliance, tokenization and cross-chain infrastructure shaping the future of RWAs.\n\n🔗https://t.co/OGJU1C3Wsg https://t.co/V1Z3Nv4YwQ",
+            "likes": 218,
+            "retweets": 0,
+            "posted_at": "2025-08-20T16:55:01.000Z"
+          },
+          {
+            "id": "1870098027844907337",
+            "url": "https://x.com/ChintaiNexus/status/1870098027844907337",
+            "text": "December has been a busy month for Chintai. Here’s a quick recap of the highlights so far:\n\n🔳 Partnership with PowerDime\nLed by former Shell executives, PowerDime is leveraging Chintai’s white-label technology to revolutionize the energy market by tokenizing $250M in Virtual https://t.co/PZ6u8pH0SQ",
+            "likes": 224,
+            "retweets": 0,
+            "posted_at": "2024-12-20T13:24:49.000Z"
+          },
+          {
+            "id": "1930962182138667373",
+            "url": "https://x.com/ChintaiNexus/status/1930962182138667373",
+            "text": "While others bring one layer of RWA on-chain, Chintai Nexus brings the entire infrastructure. https://t.co/hG2kajNHFx",
+            "likes": 216,
+            "retweets": 0,
+            "posted_at": "2025-06-06T12:17:14.000Z"
+          },
+          {
+            "id": "1978520573291724906",
+            "url": "https://x.com/ChintaiNexus/status/1978520573291724906",
+            "text": "🚨Connecting the dots: $CHEX utility BOOM\n\nWhat we're doing: Making CHEX power the full lifecycle of institutional RWAs. \n\nWhat we've done: White labeled tokenization for Tradfi via Chintai rails.\n\nWhere it's going: @ArchNtwrk = RWAs on BTC; @SplyceFi  = RWAs on @solana. \n\n...",
+            "likes": 223,
+            "retweets": 0,
+            "posted_at": "2025-10-15T17:57:18.000Z"
+          },
+          {
+            "id": "1957814789129814193",
+            "url": "https://x.com/ChintaiNexus/status/1957814789129814193",
+            "text": "📢 Tomorrow: Chintai x @chainlink Spaces 🎙️\n\nWe’ll be joined by Jordan Calinoff, Global Head of Stablecoin &amp; RWA Issuer Sales at Chainlink Labs.\n\nHe’s led strategy with leading tokenization issuers, co-launched ApeChain, and helped drive the $100M Banana Bill program, after a https://t.co/ChM8a58pxf",
+            "likes": 231,
+            "retweets": 0,
+            "posted_at": "2025-08-19T14:39:54.000Z"
+          },
+          {
+            "id": "1928865670076219448",
+            "url": "https://x.com/ChintaiNexus/status/1928865670076219448",
+            "text": "We aim to bridge regulated markets with the power of blockchain tech. At Chintai Nexus, real-world assets are being brought on-chain through institutional-grade infrastructure.\n\nOur integration with Arch Network to enable RWA tokenization on Bitcoin was just the beginning.\n\nAt https://t.co/xxd5D4aO8V",
+            "likes": 215,
+            "retweets": 0,
+            "posted_at": "2025-05-31T17:26:26.000Z"
+          },
+          {
+            "id": "1845834646652674054",
+            "url": "https://x.com/ChintaiNexus/status/1845834646652674054",
+            "text": "Real-World Assets (RWAs) have taken 2024 by storm, establishing themselves as a game-changer in blockchain by bringing traditional digital assets like real estate, private equity, and alternative investments on-chain. This transformation lies at the heart of #Chintai, powered by https://t.co/OIGNwqINyX",
+            "likes": 205,
+            "retweets": 0,
+            "posted_at": "2024-10-14T14:30:48.000Z"
+          },
+          {
+            "id": "1962968871440126127",
+            "url": "https://x.com/ChintaiNexus/status/1962968871440126127",
+            "text": "🚨 $1.6 BILLION in gold tokenized 🚨\n\nThe largest tokenized gold structure — just the beginning for precious metals.\n\nVaulted &amp; tax-advantaged → tokenized → earning yield in DeFi.\n\nStablecoins were step one. RWAs are step two. The future of finance is on-chain, powered by $CHEX https://t.co/hckQcp2BmX",
+            "likes": 219,
+            "retweets": 0,
+            "posted_at": "2025-09-02T20:00:23.000Z"
+          },
+          {
+            "id": "1942246687512076427",
+            "url": "https://x.com/ChintaiNexus/status/1942246687512076427",
+            "text": "According to you, what’s the biggest benefit of bringing RWAs on-chain?",
+            "likes": 98,
+            "retweets": 0,
+            "posted_at": "2025-07-07T15:37:50.000Z"
+          },
+          {
+            "id": "1968320631059210684",
+            "url": "https://x.com/ChintaiNexus/status/1968320631059210684",
+            "text": "Hype fades. Infrastructure lasts.\n\nChintai has built the rails for the entire RWA economy.\n\nAs trillions flow on-chain, one platform is fully regulated &amp; ready. 👀\n\n... And $CHEX powers it all.",
+            "likes": 218,
+            "retweets": 0,
+            "posted_at": "2025-09-17T14:26:22.000Z"
+          },
+          {
+            "id": "1780958213762166867",
+            "url": "https://x.com/ChintaiNexus/status/1780958213762166867",
+            "text": "Our CEO @GunnisonCap was invited to sit down with @RaoulGMI to discuss RWA tokenization and $CHEX.\n\nCheck it out here:\nhttps://t.co/j7iHZKse4J",
+            "likes": 187,
+            "retweets": 0,
+            "posted_at": "2024-04-18T13:55:01.000Z"
+          },
+          {
+            "id": "1864666220597006485",
+            "url": "https://x.com/ChintaiNexus/status/1864666220597006485",
+            "text": "PowerDime, led by former Shell executives with over 18 years of expertise in the energy sector, is leveraging Chintai’s white-label technology to revolutionize the energy market.\n\nBy tokenizing $250 million in Virtual Power Purchase Agreements (VPPA), PowerDime is transforming an https://t.co/tJwgKxeH1U",
+            "likes": 203,
+            "retweets": 0,
+            "posted_at": "2024-12-05T13:40:45.000Z"
+          },
+          {
+            "id": "1865070953807442357",
+            "url": "https://x.com/ChintaiNexus/status/1865070953807442357",
+            "text": "Welcome to Chintai!\n\n$CHEX 🤝 Premier Art https://t.co/clwrtOWK0u",
+            "likes": 205,
+            "retweets": 0,
+            "posted_at": "2024-12-06T16:29:01.000Z"
+          },
+          {
+            "id": "1896468935676928019",
+            "url": "https://x.com/ChintaiNexus/status/1896468935676928019",
+            "text": "Sooner or later, tokenization will unlock new investment possibilities!\n\nFrom real estate to equities and alternative assets - markets will become more transparent, liquid, and efficient. With Chintai’s $CHEX-powered platform, you'll be able to create compliant, customizable https://t.co/TMa51xHBRt",
+            "likes": 200,
+            "retweets": 0,
+            "posted_at": "2025-03-03T07:53:23.000Z"
+          },
+          {
+            "id": "1763697632411595154",
+            "url": "https://x.com/ChintaiNexus/status/1763697632411595154",
+            "text": "The $CHEX token is launching on Solana this Wednesday (March 6)!\n\nAs the Solana integration for the automated bridge is not complete yet, we have set up a manual bridge. You can send your CHEX to the address https://t.co/hqxefuidio on the EOS mainnet, and you must specify the https://t.co/fvpc2nSI45",
+            "likes": 184,
+            "retweets": 0,
+            "posted_at": "2024-03-01T22:47:38.000Z"
+          },
+          {
+            "id": "1925914574936514562",
+            "url": "https://x.com/ChintaiNexus/status/1925914574936514562",
+            "text": "Tokenization is rapidly transforming the financial landscape, enabling fractional ownership, enhancing liquidity, and broadening access to various asset classes.\n\nAs this trend continues, several asset classes are emerging as prime candidates for tokenization:\n🔹 Real Estate: https://t.co/EhdGKlbhPS",
+            "likes": 198,
+            "retweets": 0,
+            "posted_at": "2025-05-23T13:59:51.000Z"
+          },
+          {
+            "id": "1890065715291463860",
+            "url": "https://x.com/ChintaiNexus/status/1890065715291463860",
+            "text": "Real-World Assets are redefining the financial landscape.\n\n🔹 Increased Liquidity: Tokenizing large, illiquid assets makes them accessible and tradable, offering liquidity like never before.\n🔹 Enhanced Transparency: Blockchain’s immutable ledger builds trust in historically https://t.co/ks3FeasfqF",
+            "likes": 188,
+            "retweets": 0,
+            "posted_at": "2025-02-13T15:49:16.000Z"
+          },
+          {
+            "id": "1816136558606504236",
+            "url": "https://x.com/ChintaiNexus/status/1816136558606504236",
+            "text": "Chintai Partners With @allo_xyz to Enter US Market and Tokenize Real-World Assets.\nhttps://t.co/w2rcUWyqy8 https://t.co/FhpsJfZUqm",
+            "likes": 198,
+            "retweets": 0,
+            "posted_at": "2024-07-24T15:41:12.000Z"
+          },
+          {
+            "id": "1843321586067112177",
+            "url": "https://x.com/ChintaiNexus/status/1843321586067112177",
+            "text": "Why has asset tokenization stalled, and why now is the time to pay attention.\n\nThe potential of tokenizing #RWAs has long been a vision in the blockchain space, but only now is it starting to gain real momentum.\n\n@MSN features insights from our CEO and Founder, @GunnisonCap, on",
+            "likes": 190,
+            "retweets": 0,
+            "posted_at": "2024-10-07T16:04:48.000Z"
+          },
+          {
+            "id": "1982831896284606475",
+            "url": "https://x.com/ChintaiNexus/status/1982831896284606475",
+            "text": "Chintai is proud to be sponsoring #Smartcon at New York Blockchain Week with @chainlink. \n\nThe world’s brightest minds in blockchain, DeFi, banking, and tech converge Nov 4-5 at SmartCon to shape what’s next for on chain finance and RWAs. https://t.co/yRH0xR8wFV",
+            "likes": 210,
+            "retweets": 0,
+            "posted_at": "2025-10-27T15:28:57.000Z"
+          },
+          {
+            "id": "1889721288270422053",
+            "url": "https://x.com/ChintaiNexus/status/1889721288270422053",
+            "text": "Tokenized securities are projected to hit $10T by 2030, yet most institutions still rely on slow, outdated financial processes. The next decade will define who adapts—and who gets left behind.",
+            "likes": 198,
+            "retweets": 0,
+            "posted_at": "2025-02-12T17:00:39.000Z"
+          },
+          {
+            "id": "1973051873331388662",
+            "url": "https://x.com/ChintaiNexus/status/1973051873331388662",
+            "text": "RWAs demand liquidity and real-time settlement at scale.\n\nIn partnership with @SplyceFi and powered by $CHEX, access to institutional-grade yield is now open to anyone in DeFi.🤝",
+            "likes": 204,
+            "retweets": 0,
+            "posted_at": "2025-09-30T15:46:38.000Z"
+          },
+          {
+            "id": "1922736490045469183",
+            "url": "https://x.com/ChintaiNexus/status/1922736490045469183",
+            "text": "Tokenization isn’t just a buzzword. It’s actively solving real problems in private market placements, from liquidity constraints to transparency challenges.\n\nWith Patel Real Estate Holdings (PREH) launching a $100M tokenized fund on Chintai, we’re taking a meaningful step forward https://t.co/dQ04Vnjv9S",
+            "likes": 187,
+            "retweets": 0,
+            "posted_at": "2025-05-14T19:31:16.000Z"
+          },
+          {
+            "id": "1849108112982126605",
+            "url": "https://x.com/ChintaiNexus/status/1849108112982126605",
+            "text": "At @ChintaiNexus, we aim to support the complete trade life cycle management across various asset classes through our fully on-chain and customizable white label solution, encompassing dynamic issuance, high-speed secondary trading, automated corporate actions, custody solutions, https://t.co/gQ4NnSisGc",
+            "likes": 185,
+            "retweets": 0,
+            "posted_at": "2024-10-23T15:18:23.000Z"
+          },
+          {
+            "id": "1973397952249971139",
+            "url": "https://x.com/ChintaiNexus/status/1973397952249971139",
+            "text": "🚨Tomorrow: Chintai and Splyce Finance discuss the recent partnership and retail access to institutional assets on Solana. \n\n🗓10/2 8am EST \n⛓ https://t.co/l96ZotaURH",
+            "likes": 199,
+            "retweets": 0,
+            "posted_at": "2025-10-01T14:41:50.000Z"
+          },
+          {
+            "id": "1874035357051666501",
+            "url": "https://x.com/ChintaiNexus/status/1874035357051666501",
+            "text": "What a year 2024 has been for all of us at Chintai!\n\nThis journey wouldn’t have been possible without the incredible support of the $CHEX community, our valued partners, and every contributor to the Chintai ecosystem.\n\nHere’s to achieving even bigger and better milestones in https://t.co/cJV73EVfdW",
+            "likes": 174,
+            "retweets": 0,
+            "posted_at": "2024-12-31T10:10:21.000Z"
+          }
+        ],
+        "hero_tweet_id": "1955328714859847686"
       },
       "grok_brief": {
-        "one_line": "No recent tweets or market data for Chintai ($CHEX) due to upstream access error.",
+        "one_line": "Chintai ($CHEX) ramps up RWA tokenization with Chainlink CCIP, multiple $100M-$1.6B funds live on Nexus, Solana/Bitcoin expansions.",
         "key_events": [
-          "Access error prevented token profile generation"
+          "Chainlink CCIP integration for institutional on-chain transfers",
+          "$795M R3 Sustainability tokenized infrastructure fund",
+          "$570M RealNOI real estate cash-flow platform live",
+          "$1.6B SmartGold IRA gold tokenization",
+          "Kin Capital $100M real estate debt fund live (15% yield)",
+          "Bitcoin-native RWA platform with Arch Network (no bridge/wrap)",
+          "Solana distribution via Splyce for retail access",
+          "Multiple $30M funds (AlteriEnergy, DPI Capital) and $50M art tokenization"
         ],
-        "post_count_24h": 0,
-        "bullish_score": 0,
-        "theme_fit_score": 0,
-        "sentiment_score": 0,
+        "post_count_24h": 100,
+        "bullish_score": 0.9,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.92,
         "market_cap_usd": null,
         "fdv_usd": null,
         "fully_unlocked": null,
         "top10_holder_pct": null
       },
-      "upside_score": 10.2,
+      "upside_score": 73,
       "eligible": null,
       "score_breakdown": {
-        "newsworthy": 0,
-        "themeFit": 0,
+        "newsworthy": 27,
+        "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 0,
+        "social": 9.2,
         "holders": 3,
         "marketCap": 2.8
       },
-      "rank_today": 10
+      "rank_today": 3
     }
   ],
   "data_gaps": []
