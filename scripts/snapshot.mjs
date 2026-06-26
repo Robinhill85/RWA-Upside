@@ -61,33 +61,41 @@ function collectProse(obj) {
   })(obj);
   return out.join(" \n ");
 }
-function extractMetrics(profile, unlock) {
+const numOr = (v) => (Number.isFinite(v) ? v : null);
+
+// Grok-extracted figures are preferred (robust to non-deterministic CMC prose); regex is fallback.
+function extractMetrics(profile, unlock, grok = {}) {
   const blob = { profile, unlock };
   const prose = collectProse(blob);
-  const market_cap_usd =
-    deepFind(blob, ["market_cap_usd", "marketCap"]) ?? parseMoney(prose, "market cap");
+  let market_cap_usd =
+    numOr(grok.market_cap_usd) ??
+    deepFind(blob, ["market_cap_usd", "marketCap"]) ??
+    parseMoney(prose, "market cap");
+  // sanity floor: sub-$50k "caps" are almost always a misread (price, TVL, holder count) → unknown
+  if (Number.isFinite(market_cap_usd) && market_cap_usd < 50000) market_cap_usd = null;
   const fdv_usd =
+    numOr(grok.fdv_usd) ??
     deepFind(blob, ["fdv_usd"]) ??
-    parseMoney(prose, "fully diluted valuation") ??
-    parseMoney(prose, "fdv");
+    parseMoney(prose, "fully diluted valuation");
   const price_usd = deepFind(blob, ["price_usd"]) ?? parseMoney(prose, "price");
   const vol_24h_usd = deepFind(blob, ["volume_24h_usd", "vol_24h_usd"]);
-  const top10 = prose.match(/top[\s-]?10[^%]*?([\d.]+)\s*%/i);
+  const top10re = prose.match(/top[\s-]?10[^%]*?([\d.]+)\s*%/i);
+  const top10_holder_pct = numOr(grok.top10_holder_pct) ?? (top10re ? Number(top10re[1]) : null);
   const fully_unlocked =
-    /full circulating supply|fully unlocked|at full circulating|fully diluted valuation equals current market cap|fdv\s*(?:=|≈|equals)\s*(?:current\s*)?market cap/i.test(
-      prose
-    ) ||
-    (Number.isFinite(market_cap_usd) &&
-      Number.isFinite(fdv_usd) &&
-      fdv_usd > 0 &&
-      market_cap_usd / fdv_usd >= 0.98);
+    typeof grok.fully_unlocked === "boolean"
+      ? grok.fully_unlocked
+      : /full circulating supply|fully unlocked|fully diluted valuation equals current market cap/i.test(prose) ||
+        (Number.isFinite(market_cap_usd) &&
+          Number.isFinite(fdv_usd) &&
+          fdv_usd > 0 &&
+          market_cap_usd / fdv_usd >= 0.98);
   return {
     price_usd: price_usd ?? null,
     market_cap_usd: market_cap_usd ?? null,
     fdv_usd: fdv_usd ?? null,
     fully_unlocked,
     forward_unlock_state: deepFind(blob, ["sell_pressure_state"], "string") ?? "unknown",
-    top10_holder_pct: top10 ? Number(top10[1]) : null,
+    top10_holder_pct,
     vol_24h_usd: vol_24h_usd ?? null,
     vol_to_mcap_pct:
       vol_24h_usd && market_cap_usd ? round((vol_24h_usd / market_cap_usd) * 100, 2) : null,
@@ -121,8 +129,9 @@ async function gather(client, token) {
   const unlock = await safe("unlock", unlockImpact(client, token.slug));
   const sentiment = await safe("sentiment", kolSentiment(client, token));
   const tweets = await tweetsP;
-  const grok = await safe("grok", grokBrief({ token, tweets: tweets || [] }));
-  const metrics = extractMetrics(profile, unlock);
+  const cmcProse = collectProse({ profile, unlock });
+  const grok = await safe("grok", grokBrief({ token, tweets: tweets || [], cmcProse }));
+  const metrics = extractMetrics(profile, unlock, grok || {});
   return {
     slug: token.slug,
     symbol: token.symbol,

@@ -18,8 +18,8 @@ export default async function Page() {
       <header className="hdr">
         <h1>RWA-Upside</h1>
         <p className="tag">
-          Daily low-market-cap <strong>RWA / tokenization / stablecoin-yield</strong> radar ·
-          ranked by upside potential
+          Daily <strong>RWA / tokenization / stablecoin-yield</strong> radar · market cap ≤ $30M ·
+          ranked by bullishness, AI/theme-fit &amp; unlock status — not by size alone
         </p>
         <p className="status">
           {latest

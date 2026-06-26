@@ -54,15 +54,18 @@ renders committed snapshots — all keys live on the VPS cron). Each snapshot pu
 
 ### Scoring weights
 
+**Market cap is a GATE (≤ $30M), not a linear factor.** Inside the band a $1M coin is not
+meaningfully better than a $10M or $20M coin — upside comes from the other factors. Above $30M a
+token is ineligible (score capped). Market cap therefore carries only a tiny tilt.
+
 | Factor | Direction | Weight |
 |---|---|---|
-| Market cap | lower = better | 18 |
-| Unlock cleanliness | fully unlocked = better | 18 |
-| Holder distribution | lower top-10 % = better | 9 |
-| **Theme fit** (AI/agentic · yield · stablecoin · RWA · tokenization) | higher = better | 18 |
-| **Newsworthy / bullish momentum** | higher = better | 19 |
+| **Newsworthy / bullish momentum** | higher = better | 30 |
+| **Theme fit** (AI-ready · agentic · yield · stablecoin · RWA · tokenization) | higher = better | 28 |
+| **Fully unlocked** | no dilution overhang = better | 22 |
 | Social momentum | higher = better | 10 |
-| Liquidity | thin = penalty | 8 |
+| Holder distribution | lower top-10 % = better | 6 |
+| Market cap | gate ≤ $30M; gentle tilt only | 4 |
 
 ## Integration points to smoke-test on first run
 

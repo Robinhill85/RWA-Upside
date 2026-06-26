@@ -17,11 +17,16 @@ Answers to SPEC §14, as decided by Robin:
 
 4. **Repo:** `RWA-Upside` (public). **Vercel project:** `rwa-upside`.
 
-5. **Scoring — two new factors added** (per Robin):
-   - **Theme fit** — alignment with hot trends (AI/agentic, yield, stablecoin, RWA, tokenization), weight 18.
-   - **Newsworthy / bullish momentum** — recent bullish catalysts/news, weight 19 (absorbs the old "catalyst" factor).
-   Both are produced by Grok (`theme_fit_score`, `bullish_score`) grounded on fetched tweets.
-   Full weight table in `README.md` / `scripts/lib/score.mjs`.
+5. **Scoring rubric — v2 (revised Jun 26 after first live run):**
+   - **Market cap is a GATE, not linear.** ≤ $30M to qualify; above = ineligible (score capped at 20).
+     Within the band, market cap carries only a tiny tilt (weight 4) — a $1M coin is NOT treated as
+     much better than a $10M/$20M coin. Upside comes from the other factors.
+   - **Newsworthy / bullish momentum** weight **30** (valued most).
+   - **Theme fit / AI-ready** (AI/agentic, yield, stablecoin, RWA, tokenization) weight **28**.
+   - **Fully unlocked** weight **22** — and now extracted reliably via Grok (grounded on CMC prose),
+     not brittle regex, since it's weighted heavily.
+   - Social momentum 10, holder distribution 6.
+   Theme/bullish/extraction all produced by Grok. Full table in `README.md` / `scripts/lib/score.mjs`.
 
 ## Still open / to confirm on first run
 
