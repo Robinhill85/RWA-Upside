@@ -21,6 +21,12 @@ function deepFind(obj, keys, type = "number") {
   const want = new Set(keys);
   (function walk(o) {
     if (hit !== undefined || o == null) return;
+    if (typeof o === "string") {
+      // some skills nest their structured payload inside a JSON string (e.g. result.output)
+      const s = o.trim();
+      if (s[0] === "{" || s[0] === "[") { try { walk(JSON.parse(s)); } catch {} }
+      return;
+    }
     if (Array.isArray(o)) return o.forEach(walk);
     if (typeof o === "object") {
       for (const [k, v] of Object.entries(o)) {
@@ -30,6 +36,16 @@ function deepFind(obj, keys, type = "number") {
     }
   })(obj);
   return hit;
+}
+function parseMoney(str, label) {
+  const m = str.match(new RegExp(label + "[^$]{0,60}\\$([\\d.,]+)\\s*([KMB])?", "i"));
+  if (!m) return null;
+  const n = parseFloat(m[1].replace(/,/g, ""));
+  const u = (m[2] || "").toUpperCase();
+  const val = n * (u === "B" ? 1e9 : u === "M" ? 1e6 : u === "K" ? 1e3 : 1);
+  // reject stray small numbers (prices, holder counts) when no magnitude unit is present
+  if (!u && val < 100000) return null;
+  return val;
 }
 function collectProse(obj) {
   const out = [];
@@ -47,19 +63,28 @@ function collectProse(obj) {
 }
 function extractMetrics(profile, unlock) {
   const blob = { profile, unlock };
-  const market_cap_usd = deepFind(blob, ["market_cap_usd", "marketCap"]);
-  const price_usd = deepFind(blob, ["price_usd"]);
-  const vol_24h_usd = deepFind(blob, ["volume_24h_usd", "vol_24h_usd"]);
   const prose = collectProse(blob);
+  const market_cap_usd =
+    deepFind(blob, ["market_cap_usd", "marketCap"]) ?? parseMoney(prose, "market cap");
+  const fdv_usd =
+    deepFind(blob, ["fdv_usd"]) ??
+    parseMoney(prose, "fully diluted valuation") ??
+    parseMoney(prose, "fdv");
+  const price_usd = deepFind(blob, ["price_usd"]) ?? parseMoney(prose, "price");
+  const vol_24h_usd = deepFind(blob, ["volume_24h_usd", "vol_24h_usd"]);
   const top10 = prose.match(/top[\s-]?10[^%]*?([\d.]+)\s*%/i);
   const fully_unlocked =
-    /full circulating supply|fully unlocked|fdv\s*(?:equals|=|≈|sits at|of)?[^.]{0,40}(?:equal|=|≈)\s*(?:current\s*)?market cap|fully diluted valuation equals current market cap/i.test(
+    /full circulating supply|fully unlocked|at full circulating|fully diluted valuation equals current market cap|fdv\s*(?:=|≈|equals)\s*(?:current\s*)?market cap/i.test(
       prose
-    );
+    ) ||
+    (Number.isFinite(market_cap_usd) &&
+      Number.isFinite(fdv_usd) &&
+      fdv_usd > 0 &&
+      market_cap_usd / fdv_usd >= 0.98);
   return {
     price_usd: price_usd ?? null,
     market_cap_usd: market_cap_usd ?? null,
-    fdv_usd: deepFind(blob, ["fdv_usd"]) ?? null,
+    fdv_usd: fdv_usd ?? null,
     fully_unlocked,
     forward_unlock_state: deepFind(blob, ["sell_pressure_state"], "string") ?? "unknown",
     top10_holder_pct: top10 ? Number(top10[1]) : null,
@@ -89,12 +114,13 @@ async function gather(client, token) {
   const safe = async (label, p) => {
     try { return await p; } catch (e) { gaps.push(`${token.slug}:${label}: ${e.message}`); return null; }
   };
-  const [profile, unlock, sentiment, tweets] = await Promise.all([
-    safe("profile", tokenProfile(client, token)),
-    safe("unlock", unlockImpact(client, token.slug)),
-    safe("sentiment", kolSentiment(client, token)),
-    safe("tweets", fetchTweets(token.x_handle)),
-  ]);
+  // Tweets (CreatorCrawl) can run in parallel, but serialize the CMC/MCP calls —
+  // the skill-hub times out under many concurrent requests.
+  const tweetsP = safe("tweets", fetchTweets(token.x_handle));
+  const profile = await safe("profile", tokenProfile(client, token));
+  const unlock = await safe("unlock", unlockImpact(client, token.slug));
+  const sentiment = await safe("sentiment", kolSentiment(client, token));
+  const tweets = await tweetsP;
   const grok = await safe("grok", grokBrief({ token, tweets: tweets || [] }));
   const metrics = extractMetrics(profile, unlock);
   return {

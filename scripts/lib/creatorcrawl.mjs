@@ -16,7 +16,7 @@ export async function fetchTweets(handle, { limit = 5 } = {}) {
   u.searchParams.set("handle", handle);
   u.searchParams.set("limit", String(limit));
 
-  const resp = await fetch(u, { headers: { Authorization: `Bearer ${key}` } });
+  const resp = await fetch(u, { headers: { "x-api-key": key } });
   if (!resp.ok) {
     const body = await resp.text().catch(() => "");
     throw new Error(`CreatorCrawl ${resp.status}: ${body.slice(0, 200)}`);

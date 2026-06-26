@@ -18,10 +18,11 @@ export async function connectCmc() {
 
 // Run a skill and return the parsed structured result (or throw).
 export async function runSkill(client, unique_name, parameters = {}) {
-  const res = await client.callTool({
-    name: "execute_skill",
-    arguments: { unique_name, parameters },
-  });
+  const res = await client.callTool(
+    { name: "execute_skill", arguments: { unique_name, parameters } },
+    undefined,
+    { timeout: 120000 } // some skills run 30-120s; default SDK timeout is too low under load
+  );
   // MCP tool results come back as content parts; the skill returns JSON text.
   const text = (res.content || [])
     .filter((c) => c.type === "text")
