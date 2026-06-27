@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated_at_utc": "2026-06-27T13:48:00.189Z",
+  "generated_at_utc": "2026-06-27T23:27:08.435Z",
   "skills_used": [
     "altcoin_token_profile",
     "analyze_token_unlock_impact",
@@ -19,12 +19,14 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 9910000,
-        "market_cap_source": "cmc",
-        "fdv_usd": 9910000,
+        "market_cap_usd": 10021251,
+        "market_cap_source": "coingecko",
+        "fdv_usd": 10030000,
         "fully_unlocked": true,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 23.9,
+        "top10_holder_pct": 23.77,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
@@ -33,7 +35,7 @@
         "status": "active",
         "collapsed": false,
         "stale": false,
-        "days_since_last_tweet": 1,
+        "days_since_last_tweet": 0,
         "red_flags": []
       },
       "sentiment": {
@@ -42,10 +44,18 @@
       "social": {
         "tweets": [
           {
+            "id": "2070892368228950019",
+            "url": "https://x.com/IxsFinance/status/2070892368228950019",
+            "text": "Checked the route.\n\nUSDC to yield.\nVia regulated RWA vaults.\nOn schedule. https://t.co/D1b2OKTE7n",
+            "likes": 60,
+            "retweets": 12,
+            "posted_at": "2026-06-27T15:29:50.000Z"
+          },
+          {
             "id": "2070462790863561040",
             "url": "https://x.com/IxsFinance/status/2070462790863561040",
             "text": "Looking forward to this in a few hours!",
-            "likes": 39,
+            "likes": 42,
             "retweets": 6,
             "posted_at": "2026-06-26T11:02:51.000Z"
           },
@@ -192,33 +202,25 @@
             "likes": 84,
             "retweets": 20,
             "posted_at": "2026-06-22T06:38:20.000Z"
-          },
-          {
-            "id": "2064756467463504095",
-            "url": "https://x.com/IxsFinance/status/2064756467463504095",
-            "text": "AI agents are about to earn real-world yield.\n\nSoon, agents on BNB Chain will be able to deposit USDC into institutional-grade RWA vaults powered by IXS through the Finance District Agent Wallet.\n\n→No manual transaction signing.\n→No custom integrations.\n→Just programmable https://t.co/jsDpCQwaj5",
-            "likes": 154,
-            "retweets": 43,
-            "posted_at": "2026-06-10T17:07:57.000Z"
           }
         ],
         "hero_tweet_id": "2068946668267979184"
       },
       "grok_brief": {
-        "one_line": "IXS pushes RWA vaults, XDC validator role, AI agent yield integration amid tokenization momentum",
+        "one_line": "IXS pushing regulated RWA vaults for onchain yield; became XDC institutional validator amid tokenization momentum",
         "key_events": [
-          "IXS joins XDC Network as institutional masternode validator alongside Animoca, Deutsche Telekom",
-          "AI agents on BNB Chain to deposit USDC into IXS RWA vaults via Finance District Agent Wallet",
-          "Focus on yield-bearing tokenized assets, 24/7 markets, programmable collateral"
+          "IXS now institutional masternode validator on XDC Network",
+          "Focus on RWA vaults enabling USDC to yield via regulated onchain assets",
+          "Emphasis on 24/7 markets, atomic settlement, and agentic finance"
         ],
         "post_count_24h": 20,
         "bullish_score": 0.85,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.9,
-        "market_cap_usd": 9910000,
-        "fdv_usd": 9910000,
-        "fully_unlocked": true,
-        "top10_holder_pct": 23.9,
+        "market_cap_usd": null,
+        "fdv_usd": 10030000,
+        "fully_unlocked": null,
+        "top10_holder_pct": 23.77,
         "project_status": "active",
         "red_flags": []
       },
@@ -247,12 +249,14 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 19730000,
+        "market_cap_usd": 19260000,
         "market_cap_source": "cmc",
-        "fdv_usd": 20230000,
-        "fully_unlocked": false,
+        "fdv_usd": 19750000,
+        "fully_unlocked": true,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 52.83,
+        "top10_holder_pct": 52.8,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
@@ -261,7 +265,7 @@
         "status": "active",
         "collapsed": false,
         "stale": false,
-        "days_since_last_tweet": 0,
+        "days_since_last_tweet": 1,
         "red_flags": []
       },
       "sentiment": {
@@ -273,15 +277,15 @@
             "id": "2070749395641827424",
             "url": "https://x.com/ClearpoolFin/status/2070749395641827424",
             "text": "US regulators are moving to require stablecoin issuers to run customer identification programs. Six agencies, including the Fed, OCC and FDIC, advanced KYC rules under the GENIUS Act this month, with final regulations due by July 18.\n\nKnow-your-customer is becoming the baseline",
-            "likes": 60,
-            "retweets": 13,
+            "likes": 89,
+            "retweets": 19,
             "posted_at": "2026-06-27T06:01:43.000Z"
           },
           {
             "id": "2069308017146052936",
             "url": "https://x.com/ClearpoolFin/status/2069308017146052936",
             "text": "Bernstein report this week: tokenized RWAs at $51B, up 40% YTD, despite the broader crypto market falling.\n\nPrivate credit is the largest category at 47% of the total.\n\nInstitutional interest in tokenization is accelerating independent of crypto market conditions.\n\nStep by step,",
-            "likes": 103,
+            "likes": 104,
             "retweets": 24,
             "posted_at": "2026-06-23T06:34:11.000Z"
           },
@@ -297,7 +301,7 @@
             "id": "2064967179532218848",
             "url": "https://x.com/ClearpoolFin/status/2064967179532218848",
             "text": "Clearpool is live on @XDCNetwork. Now XDC-native institutions can tap into Clearpool's credit markets directly⚡️\n\nMore to come.\n\n$CPOOL https://t.co/wjPkhfbTqI",
-            "likes": 283,
+            "likes": 284,
             "retweets": 69,
             "posted_at": "2026-06-11T07:05:15.000Z"
           },
@@ -433,37 +437,36 @@
         "hero_tweet_id": "2064231281681162344"
       },
       "grok_brief": {
-        "one_line": "Clearpool expanding XDC integration, Prime loans hit $5M, X-Pool stablecoin yields growing amid rising RWA/tokenization momentum",
+        "one_line": "Clearpool expanding on XDC, Prime loans hit $5M, X-Pool at $2.5M deposits with 6-15% stable yields amid RWA/tokenization momentum",
         "key_events": [
           "Prime active loans crossed $5M",
           "Live on XDCNetwork as Masternode Validator",
-          "X-Pool deposits crossed $2.5M (6-15% APR on stables)",
-          "Citi Tokenization 2030 report: $5.5T base case by 2030",
-          "Bernstein: tokenized RWAs at $51B (+40% YTD)"
+          "X-Pool crossed $2.5M deposits (6-15% APR on stables)",
+          "Citi Tokenization 2030 report: $5.5T base case by 2030"
         ],
         "post_count_24h": 20,
         "bullish_score": 0.85,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.9,
-        "market_cap_usd": 19730000,
-        "fdv_usd": 20230000,
-        "fully_unlocked": false,
-        "top10_holder_pct": 52.83,
+        "market_cap_usd": 19260000,
+        "fdv_usd": 19750000,
+        "fully_unlocked": true,
+        "top10_holder_pct": 52.8,
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 71.5,
+      "upside_score": 89.2,
       "eligible": true,
       "active": true,
       "score_breakdown": {
         "newsworthy": 25.5,
         "themeFit": 26.6,
-        "unlock": 4.4,
+        "unlock": 22,
         "social": 9,
         "holders": 2.8,
         "marketCap": 3.2
       },
-      "rank_today": 3
+      "rank_today": 4
     },
     {
       "slug": "polytrade",
@@ -476,10 +479,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 1560000,
+        "market_cap_usd": 1540000,
         "market_cap_source": "cmc",
-        "fdv_usd": 3780000,
+        "fdv_usd": 3730000,
         "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
         "forward_unlock_state": "unknown",
         "top10_holder_pct": 89.3,
         "vol_24h_usd": null,
@@ -491,7 +496,9 @@
         "collapsed": false,
         "stale": false,
         "days_since_last_tweet": 3,
-        "red_flags": []
+        "red_flags": [
+          "high top-10 holder concentration 89.3%"
+        ]
       },
       "sentiment": {
         "score": 0.8
@@ -542,7 +549,7 @@
             "id": "2063871867656810911",
             "url": "https://x.com/Polytrade_fin/status/2063871867656810911",
             "text": "RT @RWAFoundation_: The big 3:\n\n&gt; Tokenized Real World Assets \n&gt; Vaults \n&gt; Stablecoins",
-            "likes": 109,
+            "likes": 110,
             "retweets": 15,
             "posted_at": "2026-06-08T06:32:52.000Z"
           },
@@ -558,8 +565,8 @@
             "id": "2062395054682243500",
             "url": "https://x.com/Polytrade_fin/status/2062395054682243500",
             "text": "$TRADE is now listed on @T1dotpro markets.\n\nhttps://t.co/XutbHXYlh3 https://t.co/13UFVaXLSL",
-            "likes": 34,
-            "retweets": 7,
+            "likes": 35,
+            "retweets": 8,
             "posted_at": "2026-06-04T04:44:33.000Z"
           },
           {
@@ -662,35 +669,39 @@
         "hero_tweet_id": "2061072225147703715"
       },
       "grok_brief": {
-        "one_line": "Polytrade ($TRADE) shares RWA/tokenization updates including Integra milestone and new listing amid positive market metrics",
+        "one_line": "Polytrade pushes RWA/tokenization narrative with Ondo mentions, new listing, and community activity amid $1.54M MC snapshot.",
         "key_events": [
-          "Integra hits 550K testnet users",
           "$TRADE listed on T1dotpro",
-          "RWA growth stats and discussions shared"
+          "Congrats to Integra Layer on 550K testnet users",
+          "RWA world cup analogies for equities and treasuries",
+          "RTs on tokenization growth and $34B RWA figure",
+          "788K tokenized RWA owners noted"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.7,
+        "bullish_score": 0.65,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.8,
-        "market_cap_usd": 1560000,
-        "fdv_usd": 3780000,
+        "market_cap_usd": 1540000,
+        "fdv_usd": 3730000,
         "fully_unlocked": false,
         "top10_holder_pct": 89.3,
         "project_status": "active",
-        "red_flags": []
+        "red_flags": [
+          "high top-10 holder concentration 89.3%"
+        ]
       },
-      "upside_score": 64.6,
+      "upside_score": 80.7,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 21,
+        "newsworthy": 19.5,
         "themeFit": 26.6,
-        "unlock": 4.4,
+        "unlock": 22,
         "social": 8,
         "holders": 0.6,
         "marketCap": 3.9
       },
-      "rank_today": 8
+      "rank_today": 6
     },
     {
       "slug": "credefi",
@@ -703,10 +714,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 602642,
+        "market_cap_usd": 599983,
         "market_cap_source": "cmc",
-        "fdv_usd": 805054,
+        "fdv_usd": 801502,
         "fully_unlocked": false,
+        "unlock_locked_pct": 13.8,
+        "unlock_light": "yellow",
         "forward_unlock_state": "unknown",
         "top10_holder_pct": 59.5,
         "vol_24h_usd": null,
@@ -889,34 +902,33 @@
         "hero_tweet_id": "2056434613933789618"
       },
       "grok_brief": {
-        "one_line": "Credefi pushing RWA/yield narrative via REAL mainnet, $ASSET launch, revenue share resume, 60M burns, TradFi deal.",
+        "one_line": "Credefi pushes RWA/yield narrative via REAL mainnet prep, $ASSET launch, 60M CREDI burns, revenue share resume, and TradFi tie-up.",
         "key_events": [
-          "REAL mainnet launch campaign",
-          "$ASSET token live on ETH",
-          "Revenue share resumed",
+          "REAL mainnet launch campaign announced",
+          "$ASSET token live on Ethereum",
           "60M $CREDI burned via Module X",
-          "Deal with $160M TradFi institution",
-          "10M $CREDI bought back",
-          "xCREDI profit share ongoing since Jun 2024"
+          "Revenue share resumed for xCREDI holders",
+          "Deal with TradFi institution managing $160M assets",
+          "10M $CREDI bought back recently"
         ],
         "post_count_24h": 20,
         "bullish_score": 0.75,
         "theme_fit_score": 0.9,
         "sentiment_score": 0.8,
-        "market_cap_usd": 602642,
-        "fdv_usd": 805054,
+        "market_cap_usd": 599983,
+        "fdv_usd": 801502,
         "fully_unlocked": false,
         "top10_holder_pct": 59.5,
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 66.5,
+      "upside_score": 75.3,
       "eligible": true,
       "active": true,
       "score_breakdown": {
         "newsworthy": 22.5,
         "themeFit": 25.2,
-        "unlock": 4.4,
+        "unlock": 13.2,
         "social": 8,
         "holders": 2.4,
         "marketCap": 4
@@ -935,10 +947,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 1919410,
+        "market_cap_usd": 1911075,
         "market_cap_source": "coingecko",
         "fdv_usd": null,
         "fully_unlocked": false,
+        "unlock_locked_pct": 46.3,
+        "unlock_light": "red",
         "forward_unlock_state": "unknown",
         "top10_holder_pct": null,
         "vol_24h_usd": null,
@@ -961,16 +975,16 @@
             "id": "2070857685634089404",
             "url": "https://x.com/truflation/status/2070857685634089404",
             "text": "🇬🇧 Truflation Daily UK CPI: 2.00% YoY, ⬇️ -0.36% 🇬🇧\n\nClaim FREE CREDITS NOW and explore more https://t.co/EfAgPRDzue https://t.co/0siWwHMS6m",
-            "likes": 4,
-            "retweets": 1,
+            "likes": 13,
+            "retweets": 2,
             "posted_at": "2026-06-27T13:12:01.000Z"
           },
           {
             "id": "2070851141890666878",
             "url": "https://x.com/truflation/status/2070851141890666878",
             "text": "🇺🇸 Truflation Daily US CPI is 1.94% YoY today, ⬆️ +0.01%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/IemIgx51s8",
-            "likes": 13,
-            "retweets": 0,
+            "likes": 24,
+            "retweets": 1,
             "posted_at": "2026-06-27T12:46:01.000Z"
           },
           {
@@ -985,7 +999,7 @@
             "id": "2070488333663560131",
             "url": "https://x.com/truflation/status/2070488333663560131",
             "text": "🇺🇸 Truflation Daily US CPI is 1.93% YoY today, ⬆️ +0.03%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/bPvDYeAZI4",
-            "likes": 28,
+            "likes": 29,
             "retweets": 5,
             "posted_at": "2026-06-26T12:44:21.000Z"
           },
@@ -993,7 +1007,7 @@
             "id": "2070426064007147741",
             "url": "https://x.com/truflation/status/2070426064007147741",
             "text": "🇬🇧 Truflation Daily UK CPI: 2.36% YoY, ⬆️ +0.08% 🇬🇧\n\nClaim FREE CREDITS NOW and explore more https://t.co/EfAgPRDzue https://t.co/tRJ8PPLZQ3",
-            "likes": 11,
+            "likes": 12,
             "retweets": 0,
             "posted_at": "2026-06-26T08:36:54.000Z"
           },
@@ -1121,16 +1135,16 @@
         "hero_tweet_id": "2069762720506024293"
       },
       "grok_brief": {
-        "one_line": "Truflation posts daily US/UK CPI figures, launches TruOil crude index, and runs PCE forecast events with macro experts.",
+        "one_line": "Truflation posts daily US/UK CPI figures, launches TruOil index, and promotes PCE forecast events with macro experts.",
         "key_events": [
-          "Daily US CPI updates (1.81%-1.94% YoY range)",
-          "Daily UK CPI updates (2.00%-2.36% YoY range)",
-          "TruOil global crude oil benchmark index launched",
-          "PCE forecast space with experts scheduled June 25"
+          "Daily US CPI updates (1.81%-1.94% YoY)",
+          "Daily UK CPI updates (2.00%-2.36% YoY)",
+          "TruOil global crude oil index launched",
+          "PCE forecast and live events with experts"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.65,
-        "theme_fit_score": 0.8,
+        "bullish_score": 0.7,
+        "theme_fit_score": 0.85,
         "sentiment_score": 0.75,
         "market_cap_usd": null,
         "fdv_usd": null,
@@ -1139,12 +1153,12 @@
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 60.7,
+      "upside_score": 63.6,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 19.5,
-        "themeFit": 22.4,
+        "newsworthy": 21,
+        "themeFit": 23.8,
         "unlock": 4.4,
         "social": 7.5,
         "holders": 3,
@@ -1164,12 +1178,14 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 5000000,
+        "market_cap_usd": 4990000,
         "market_cap_source": "cmc",
-        "fdv_usd": 5380000,
+        "fdv_usd": 5370000,
         "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 12.7,
+        "top10_holder_pct": 12.69,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
@@ -1178,7 +1194,7 @@
         "status": "active",
         "collapsed": false,
         "stale": false,
-        "days_since_last_tweet": 3,
+        "days_since_last_tweet": 4,
         "red_flags": []
       },
       "sentiment": {
@@ -1206,7 +1222,7 @@
             "id": "2049511599610777882",
             "url": "https://x.com/realio_network/status/2049511599610777882",
             "text": "Official launch: @freehold_wallet RWA Tokenization Studio, May 26. https://t.co/OqXUAMYuOa",
-            "likes": 662,
+            "likes": 663,
             "retweets": 215,
             "posted_at": "2026-04-29T15:30:18.000Z"
           },
@@ -1334,7 +1350,7 @@
             "id": "1951320474920566796",
             "url": "https://x.com/realio_network/status/1951320474920566796",
             "text": "Say hello to the new https://t.co/DfXm8ZOGsg\n\n- Fresh new design\n- In-depth RWA EBook\n\nIt was time we leveled up just like the rest of the fam 💙\nhttps://t.co/n17psAXmAs | https://t.co/kbzgUn1D0C | https://t.co/r2ezjgkJSl https://t.co/V2gSZJ7fRx",
-            "likes": 1070,
+            "likes": 1069,
             "retweets": 233,
             "posted_at": "2025-08-01T16:33:49.000Z"
           },
@@ -1342,7 +1358,7 @@
             "id": "1950210367864635636",
             "url": "https://x.com/realio_network/status/1950210367864635636",
             "text": "RT @freehold_wallet: It’s official: Freehold Mobile is now live on the App Store.\n\nA secure, multichain self-custody wallet — now on iOS.…",
-            "likes": 517,
+            "likes": 516,
             "retweets": 151,
             "posted_at": "2025-07-29T15:02:39.000Z"
           }
@@ -1350,37 +1366,37 @@
         "hero_tweet_id": "1951320474920566796"
       },
       "grok_brief": {
-        "one_line": "Realio pushing RWA tokenization via Freehold wallet: studio launch May 26, live swaps/staking, DSTRX integration.",
+        "one_line": "Realio Network pushing RWA tokenization via Freehold wallet launches, swaps, staking integrations and $DSTRX support.",
         "key_events": [
           "Freehold RWA Tokenization Studio official launch May 26",
-          "Swaps live on Freehold Mobile (gasless EVM incl. RIO)",
-          "RIO/DSTRX/RST staking now live in Freehold Mobile",
-          "$DSTRX approved as staking token on Realio Network",
-          "Website refresh + RWA eBook released"
+          "Swaps live on Freehold Mobile with 0x support",
+          "Realio staking live in Freehold Mobile for $RIO/$DSTRX/$RST",
+          "$DSTRX proposal passed as staking token on Realio Network",
+          "New realio.network site with RWA EBook live"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.75,
+        "bullish_score": 0.8,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.85,
-        "market_cap_usd": 5000000,
-        "fdv_usd": 5380000,
+        "market_cap_usd": 4990000,
+        "fdv_usd": 5370000,
         "fully_unlocked": false,
-        "top10_holder_pct": 12.7,
+        "top10_holder_pct": 12.69,
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 71,
+      "upside_score": 90.1,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 22.5,
+        "newsworthy": 24,
         "themeFit": 26.6,
-        "unlock": 4.4,
+        "unlock": 22,
         "social": 8.5,
         "holders": 5.2,
         "marketCap": 3.8
       },
-      "rank_today": 4
+      "rank_today": 3
     },
     {
       "slug": "resolv",
@@ -1393,28 +1409,30 @@
         "rwa"
       ],
       "metrics": {
-        "price_usd": 0.020509,
-        "market_cap_usd": 8680000,
+        "price_usd": 0.020516,
+        "market_cap_usd": 8690000,
         "market_cap_source": "cmc",
-        "fdv_usd": 20500000,
+        "fdv_usd": 20520000,
         "fully_unlocked": false,
+        "unlock_locked_pct": 56.8,
+        "unlock_light": "red",
         "forward_unlock_state": "elevated",
-        "top10_holder_pct": 90.2,
-        "vol_24h_usd": 16914075.22,
-        "vol_to_mcap_pct": 194.86
+        "top10_holder_pct": 90.53,
+        "vol_24h_usd": 16236964.74,
+        "vol_to_mcap_pct": 186.85
       },
       "liveness": {
         "active": true,
         "status": "active",
         "collapsed": false,
         "stale": false,
-        "days_since_last_tweet": 5,
+        "days_since_last_tweet": 6,
         "red_flags": [
-          "security incident recovery ongoing"
+          "USR security incident ongoing recovery"
         ]
       },
       "sentiment": {
-        "score": 0.55
+        "score": 0.45
       },
       "social": {
         "tweets": [
@@ -1582,35 +1600,35 @@
         "hero_tweet_id": "2040480752643580252"
       },
       "grok_brief": {
-        "one_line": "Resolv recovering from USR exploit via remediation deals, recovery portal, and snapshots",
+        "one_line": "Resolv advancing USR exploit recovery via portals, partner remediation deals, snapshots and Q1 report amid ongoing remediation.",
         "key_events": [
-          "Re7/Resolv remediation agreement finalized",
           "Recovery portal open for post-incident USR/wstUSR and LP positions",
-          "Snapshot of post-hack positions on June 3",
-          "Gauntlet remediation path agreed",
-          "Q1 2026 report released amid ongoing recovery"
+          "Agreements finalized with Re7Labs and Gauntlet on remediation",
+          "Snapshot of post-hack positions scheduled June 3",
+          "Q1 2026 Foundation report released focusing on incident response",
+          "Mandiant forensic investigation interim report received"
         ],
         "post_count_24h": 20,
         "bullish_score": 0.35,
         "theme_fit_score": 0.85,
-        "sentiment_score": 0.55,
-        "market_cap_usd": 8680000,
-        "fdv_usd": 20500000,
-        "fully_unlocked": false,
-        "top10_holder_pct": 90.2,
+        "sentiment_score": 0.45,
+        "market_cap_usd": 8690000,
+        "fdv_usd": 20520000,
+        "fully_unlocked": null,
+        "top10_holder_pct": 90.53,
         "project_status": "active",
         "red_flags": [
-          "security incident recovery ongoing"
+          "USR security incident ongoing recovery"
         ]
       },
-      "upside_score": 48.4,
+      "upside_score": 47.4,
       "eligible": true,
       "active": true,
       "score_breakdown": {
         "newsworthy": 10.5,
         "themeFit": 23.8,
         "unlock": 4.4,
-        "social": 5.5,
+        "social": 4.5,
         "holders": 0.6,
         "marketCap": 3.7
       },
@@ -1628,10 +1646,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 1200000,
+        "market_cap_usd": 1180000,
         "market_cap_source": "cmc",
-        "fdv_usd": 1930000,
+        "fdv_usd": 1890000,
         "fully_unlocked": false,
+        "unlock_locked_pct": 37.7,
+        "unlock_light": "red",
         "forward_unlock_state": "unknown",
         "top10_holder_pct": 63.4,
         "vol_24h_usd": null,
@@ -1642,7 +1662,7 @@
         "status": "active",
         "collapsed": false,
         "stale": false,
-        "days_since_last_tweet": 60,
+        "days_since_last_tweet": 61,
         "red_flags": []
       },
       "sentiment": {
@@ -1806,7 +1826,7 @@
             "id": "2032490988833268093",
             "url": "https://x.com/SwarmMarkets/status/2032490988833268093",
             "text": "Tokenization is more than just about putting assets on-chain.\n\nIt’s about making them:\n\n▪ tradable\n▪ programmable\n▪ usable as collateral\n▪ compliant across jurisdictions\n\nThat’s the infrastructure Swarm is building.\n#RWAs #DeFi #Tokenization https://t.co/nbu8O93BVK",
-            "likes": 71,
+            "likes": 72,
             "retweets": 16,
             "posted_at": "2026-03-13T16:16:28.000Z"
           }
@@ -1814,37 +1834,37 @@
         "hero_tweet_id": "2032490988833268093"
       },
       "grok_brief": {
-        "one_line": "Swarm Markets promotes 100% backed RWAs, self-custody, multi-chain access and regulatory compliance for institutions.",
+        "one_line": "Swarm Markets pushes compliant self-custodial RWAs, multi-chain access and 24/7 trading amid tokenization focus",
         "key_events": [
-          "100% asset-backed RWAs with real-time verification and institutional custody",
-          "Full self-custody and direct wallet trading emphasized",
+          "100% asset-backed RWAs with real-time verification and self-custody",
           "Multi-chain RWA access on Ethereum, Polygon, Hedera, Base, BNB, Hyperliquid",
-          "Tokenized commodities on XRPL surpass $1.14B; equities cross $1B",
-          "Focus on compliance to attract institutional capital"
+          "Embraces regulation for institutional capital; tokenized equities/commodities >$1B",
+          "24/7 markets, programmable collateral use, no market hours",
+          "Agentic asset mgmt via Swarm + Inveniam stack; TVL ~$30k"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.75,
+        "bullish_score": 0.65,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.85,
-        "market_cap_usd": 1200000,
-        "fdv_usd": 1930000,
+        "market_cap_usd": 1180000,
+        "fdv_usd": 1890000,
         "fully_unlocked": false,
         "top10_holder_pct": 63.4,
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 68.1,
+      "upside_score": 65.1,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 22.5,
+        "newsworthy": 19.5,
         "themeFit": 26.6,
         "unlock": 4.4,
         "social": 8.5,
         "holders": 2.2,
         "marketCap": 4
       },
-      "rank_today": 6
+      "rank_today": 8
     },
     {
       "slug": "dusk-network",
@@ -1858,10 +1878,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 45852160,
+        "market_cap_usd": 44923120,
         "market_cap_source": "coingecko",
         "fdv_usd": null,
         "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
         "forward_unlock_state": "unknown",
         "top10_holder_pct": null,
         "vol_24h_usd": null,
@@ -1884,7 +1906,7 @@
             "id": "2070578665541300711",
             "url": "https://x.com/DuskFoundation/status/2070578665541300711",
             "text": "RT @DuskFoundation: Regulated markets cannot operate with every position, counterparty, and audit trail exposed.\n\nThey need programmable pr…",
-            "likes": 49,
+            "likes": 52,
             "retweets": 16,
             "posted_at": "2026-06-26T18:43:18.000Z"
           },
@@ -1892,7 +1914,7 @@
             "id": "2070483002480554249",
             "url": "https://x.com/DuskFoundation/status/2070483002480554249",
             "text": "Regulated markets cannot operate with every position, counterparty, and audit trail exposed.\n\nThey need programmable privacy where sensitive data remains private, with selective disclosure when required.\n\nDusk enables private smart contracts for regulated markets.",
-            "likes": 49,
+            "likes": 52,
             "retweets": 16,
             "posted_at": "2026-06-26T12:23:10.000Z"
           },
@@ -2044,13 +2066,13 @@
         "hero_tweet_id": "2066501209838780661"
       },
       "grok_brief": {
-        "one_line": "Dusk pushes RWA/tokenization with privacy tools, launches browser wallet + Sozu staking, attends Dutch Blockchain Week.",
+        "one_line": "Dusk pushes RWA/tokenization with new wallet, staking integration, privacy tools for regulated markets, and event presence.",
         "key_events": [
           "Dusk Wallet extension live on Chrome/Firefox with Sozu staking",
           "Dusk Trade waitlist open for tokenized assets",
           "Dusk at Dutch Blockchain Week June 24-25",
-          "Phoenix/Hedger/Moonlight privacy stack for regulated markets",
-          "Web Wallet & Explorer UI refresh"
+          "Phoenix/Hedger/Moonlight for programmable privacy + selective disclosure",
+          "Emphasizing compliance for tokenized securities and AMLR"
         ],
         "post_count_24h": 20,
         "bullish_score": 0.8,
@@ -2063,13 +2085,13 @@
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 68.7,
+      "upside_score": 86.3,
       "eligible": true,
       "active": true,
       "score_breakdown": {
         "newsworthy": 24,
         "themeFit": 26.6,
-        "unlock": 4.4,
+        "unlock": 22,
         "social": 8.5,
         "holders": 3,
         "marketCap": 2.2
@@ -2089,10 +2111,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 16190336,
+        "market_cap_usd": 15738965,
         "market_cap_source": "coingecko",
         "fdv_usd": null,
         "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
         "forward_unlock_state": "unknown",
         "top10_holder_pct": null,
         "vol_24h_usd": null,
@@ -2107,7 +2131,7 @@
         "red_flags": []
       },
       "sentiment": {
-        "score": 0.9
+        "score": 0.92
       },
       "social": {
         "tweets": [
@@ -2275,17 +2299,18 @@
         "hero_tweet_id": "2008734537787064554"
       },
       "grok_brief": {
-        "one_line": "Chintai $CHEX pushing RWA tokenization via MAJV $28B deal, Valereum partnership, AMAs and 2026 institutional distribution plans.",
+        "one_line": "Chintai advancing RWA tokenization via $28B MAJV deal, Valereum partnership, institutional yield pipelines and frequent CEO AMAs.",
         "key_events": [
-          "Chintai-MAJV $28bn tokenisation of development rights announced",
-          "Partnership with Valereum for RWA distribution",
-          "Multiple CEO AMAs scheduled for community updates",
-          "Focus on yield-bearing RWAs and institutional buyers in 2025-2026"
+          "$28B MAJV tokenization of development rights announced",
+          "Valereum partnership for RWA distribution",
+          "Yield-bearing RWAs seeing institutional buyer demand",
+          "Multiple CEO AMAs scheduled for Feb-Apr",
+          "Deflationary flywheel narrative via CHEX gas/fees/burns"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.85,
+        "bullish_score": 0.9,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.9,
+        "sentiment_score": 0.92,
         "market_cap_usd": null,
         "fdv_usd": null,
         "fully_unlocked": null,
@@ -2293,14 +2318,14 @@
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 71.9,
+      "upside_score": 91.2,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 25.5,
+        "newsworthy": 27,
         "themeFit": 26.6,
-        "unlock": 4.4,
-        "social": 9,
+        "unlock": 22,
+        "social": 9.2,
         "holders": 3,
         "marketCap": 3.4
       },
