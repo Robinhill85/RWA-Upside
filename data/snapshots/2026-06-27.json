@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated_at_utc": "2026-06-27T12:36:25.422Z",
+  "generated_at_utc": "2026-06-27T13:33:15.473Z",
   "skills_used": [
     "altcoin_token_profile",
     "analyze_token_unlock_impact",
@@ -19,12 +19,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 9920000,
+        "market_cap_usd": 9910000,
         "market_cap_source": "cmc",
-        "fdv_usd": 9920000,
+        "fdv_usd": 9910000,
         "fully_unlocked": true,
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 23.9,
+        "top10_holder_pct": 23.89,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
@@ -37,7 +37,7 @@
         "red_flags": []
       },
       "sentiment": {
-        "score": 0.9
+        "score": 0.88
       },
       "social": {
         "tweets": [
@@ -205,32 +205,31 @@
         "hero_tweet_id": "2068946668267979184"
       },
       "grok_brief": {
-        "one_line": "IXS pushing RWA vaults, AI agent yield, XDC validator role and tokenized asset infrastructure amid positive momentum",
+        "one_line": "IXS pushing RWA vaults, onchain yield, AI agent integrations and XDC institutional validator role amid tokenization momentum.",
         "key_events": [
-          "IXS became institutional masternode validator on XDC Network alongside Animoca, Deutsche Telekom",
+          "IXS becomes institutional masternode validator on XDC Network alongside Animoca, Deutsche Telekom etc.",
           "AI agents on BNB Chain to deposit USDC into IXS RWA vaults via Finance District Agent Wallet",
-          "RWA vault deposits highlighted as prompt-based with no forms or calls",
-          "Focus on yield-bearing tokenized assets, 24/7 markets and programmable collateral"
+          "Posts highlight shift to real revenue, 24/7 markets, programmable collateral and yield-bearing tokenized assets"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.85,
+        "bullish_score": 0.82,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.9,
-        "market_cap_usd": 9920000,
-        "fdv_usd": 9920000,
-        "fully_unlocked": true,
-        "top10_holder_pct": 23.9,
+        "sentiment_score": 0.88,
+        "market_cap_usd": null,
+        "fdv_usd": 9910000,
+        "fully_unlocked": null,
+        "top10_holder_pct": 23.89,
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 91.3,
+      "upside_score": 90.2,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 25.5,
+        "newsworthy": 24.6,
         "themeFit": 26.6,
         "unlock": 22,
-        "social": 9,
+        "social": 8.8,
         "holders": 4.6,
         "marketCap": 3.6
       },
@@ -248,12 +247,12 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 19200000,
+        "market_cap_usd": 19730000,
         "market_cap_source": "cmc",
-        "fdv_usd": 19700000,
+        "fdv_usd": 20230000,
         "fully_unlocked": true,
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": 52.8,
+        "top10_holder_pct": 52.83,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
@@ -274,7 +273,7 @@
             "id": "2070749395641827424",
             "url": "https://x.com/ClearpoolFin/status/2070749395641827424",
             "text": "US regulators are moving to require stablecoin issuers to run customer identification programs. Six agencies, including the Fed, OCC and FDIC, advanced KYC rules under the GENIUS Act this month, with final regulations due by July 18.\n\nKnow-your-customer is becoming the baseline",
-            "likes": 54,
+            "likes": 59,
             "retweets": 13,
             "posted_at": "2026-06-27T06:01:43.000Z"
           },
@@ -434,26 +433,26 @@
         "hero_tweet_id": "2064231281681162344"
       },
       "grok_brief": {
-        "one_line": "Clearpool expanding RWA credit with XDC launch, Prime loans >$5M, X-Pool >$2.5M deposits and stablecoin yields amid tokenization momentum.",
+        "one_line": "Clearpool expanding XDC integration, Prime loans to $5M, X-Pool deposits to $2.5M amid RWA/tokenization momentum.",
         "key_events": [
           "Prime active loans crossed $5M",
-          "Live on XDCNetwork as Masternode Validator with $930M+ originated loans",
-          "X-Pool crossed $2.5M deposits offering 6-15% APR on stables",
-          "Citi Tokenization 2030 report: $17B today to $5.5T base case by 2030",
-          "50+ institutions joining DTCC tokenization pilot"
+          "Live on XDCNetwork as Masternode Validator",
+          "X-Pool deposits crossed $2.5M (6-15% APR on stables)",
+          "Citi Tokenization 2030 report: $5.5T base case by 2030",
+          "Bernstein: tokenized RWAs at $51B (+40% YTD)"
         ],
         "post_count_24h": 20,
         "bullish_score": 0.85,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.9,
-        "market_cap_usd": 19200000,
-        "fdv_usd": 19700000,
+        "market_cap_usd": 19730000,
+        "fdv_usd": 20230000,
         "fully_unlocked": true,
-        "top10_holder_pct": 52.8,
+        "top10_holder_pct": 52.83,
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 89.2,
+      "upside_score": 89.1,
       "eligible": true,
       "active": true,
       "score_breakdown": {
@@ -492,12 +491,10 @@
         "collapsed": false,
         "stale": false,
         "days_since_last_tweet": 3,
-        "red_flags": [
-          "High top-10 holder concentration"
-        ]
+        "red_flags": []
       },
       "sentiment": {
-        "score": 0.7
+        "score": 0.78
       },
       "social": {
         "tweets": [
@@ -545,7 +542,7 @@
             "id": "2063871867656810911",
             "url": "https://x.com/Polytrade_fin/status/2063871867656810911",
             "text": "RT @RWAFoundation_: The big 3:\n\n&gt; Tokenized Real World Assets \n&gt; Vaults \n&gt; Stablecoins",
-            "likes": 110,
+            "likes": 109,
             "retweets": 15,
             "posted_at": "2026-06-08T06:32:52.000Z"
           },
@@ -569,7 +566,7 @@
             "id": "2061072225147703715",
             "url": "https://x.com/Polytrade_fin/status/2061072225147703715",
             "text": "RT @Securitize: Tokenization will do for finance what the internet did for communication.",
-            "likes": 1272,
+            "likes": 1273,
             "retweets": 228,
             "posted_at": "2026-05-31T13:08:06.000Z"
           },
@@ -665,34 +662,32 @@
         "hero_tweet_id": "2061072225147703715"
       },
       "grok_brief": {
-        "one_line": "Polytrade community pushes RWA/tokenization narrative with T1 listing, Integra congrats, and $34B growth mentions.",
+        "one_line": "Polytrade community posts on RWA/tokenization momentum, $TRADE T1 listing, Integra milestone, and industry RTs amid low TVL.",
         "key_events": [
-          "Listed on T1 exchange",
-          "Congrats to Integra on 550K testnet users",
-          "$34B RWAs highlighted",
-          "788k tokenized RWA owners noted"
+          "$TRADE listed on T1 markets",
+          "Integra Layer hits 550K testnet users (Polytrade as lead anchor)",
+          "RTs on RWA growth to $34B, tokenization benefits, and Ondo/BUIDL highlights",
+          "Sad note on OndoFinance founder passing"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.55,
+        "bullish_score": 0.65,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.7,
+        "sentiment_score": 0.78,
         "market_cap_usd": 1560000,
         "fdv_usd": 3780000,
         "fully_unlocked": false,
         "top10_holder_pct": 89.3,
         "project_status": "active",
-        "red_flags": [
-          "High top-10 holder concentration"
-        ]
+        "red_flags": []
       },
-      "upside_score": 59.1,
+      "upside_score": 62.9,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 16.5,
+        "newsworthy": 19.5,
         "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 7,
+        "social": 7.8,
         "holders": 0.6,
         "marketCap": 3.9
       },
@@ -709,9 +704,9 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 601900,
+        "market_cap_usd": 601500,
         "market_cap_source": "cmc",
-        "fdv_usd": 804000,
+        "fdv_usd": 803500,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
         "top10_holder_pct": 59.5,
@@ -895,37 +890,38 @@
         "hero_tweet_id": "2056434613933789618"
       },
       "grok_brief": {
-        "one_line": "Credefi pushing RWA/yield narrative via REAL mainnet, $CREDI burns, revenue share, and TradFi partnerships.",
+        "one_line": "Credefi pushing RWA/yield via REAL mainnet, $CREDI burns, revenue share, partnerships & P2P lending.",
         "key_events": [
           "REAL mainnet launch campaign announced",
           "60M $CREDI burned via Module X",
-          "Revenue share resumed for $xCREDI",
-          "New TradFi institution partnership ($160M AUM)",
-          "$ASSET token live on Ethereum"
+          "Revenue share resumed for xCREDI",
+          "$ASSET token live on Ethereum",
+          "TradFi institution partnership ($160M AUM)",
+          "Joined RWA Foundation"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.75,
-        "theme_fit_score": 0.9,
+        "bullish_score": 0.8,
+        "theme_fit_score": 0.95,
         "sentiment_score": 0.85,
-        "market_cap_usd": 601900,
-        "fdv_usd": 804000,
+        "market_cap_usd": 601500,
+        "fdv_usd": 803500,
         "fully_unlocked": false,
         "top10_holder_pct": 59.5,
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 67,
+      "upside_score": 69.9,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 22.5,
-        "themeFit": 25.2,
+        "newsworthy": 24,
+        "themeFit": 26.6,
         "unlock": 4.4,
         "social": 8.5,
         "holders": 2.4,
         "marketCap": 4
       },
-      "rank_today": 6
+      "rank_today": 4
     },
     {
       "slug": "truflation",
@@ -939,7 +935,7 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 1918889,
+        "market_cap_usd": 1918894,
         "market_cap_source": "coingecko",
         "fdv_usd": null,
         "fully_unlocked": false,
@@ -953,14 +949,30 @@
         "status": "active",
         "collapsed": false,
         "stale": false,
-        "days_since_last_tweet": 1,
+        "days_since_last_tweet": 0,
         "red_flags": []
       },
       "sentiment": {
-        "score": 0.75
+        "score": 0.7
       },
       "social": {
         "tweets": [
+          {
+            "id": "2070857685634089404",
+            "url": "https://x.com/truflation/status/2070857685634089404",
+            "text": "🇬🇧 Truflation Daily UK CPI: 2.00% YoY, ⬇️ -0.36% 🇬🇧\n\nClaim FREE CREDITS NOW and explore more https://t.co/EfAgPRDzue https://t.co/0siWwHMS6m",
+            "likes": 4,
+            "retweets": 1,
+            "posted_at": "2026-06-27T13:12:01.000Z"
+          },
+          {
+            "id": "2070851141890666878",
+            "url": "https://x.com/truflation/status/2070851141890666878",
+            "text": "🇺🇸 Truflation Daily US CPI is 1.94% YoY today, ⬆️ +0.01%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/IemIgx51s8",
+            "likes": 13,
+            "retweets": 0,
+            "posted_at": "2026-06-27T12:46:01.000Z"
+          },
           {
             "id": "2070528898278830108",
             "url": "https://x.com/truflation/status/2070528898278830108",
@@ -1074,22 +1086,6 @@
             "posted_at": "2026-06-22T16:42:42.000Z"
           },
           {
-            "id": "2069037122728960117",
-            "url": "https://x.com/truflation/status/2069037122728960117",
-            "text": "🇺🇸 Truflation Daily US CPI is 1.84% YoY today, ⬇️ -0.01%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/uXrlOn3DN3",
-            "likes": 51,
-            "retweets": 7,
-            "posted_at": "2026-06-22T12:37:45.000Z"
-          },
-          {
-            "id": "2068970205649551631",
-            "url": "https://x.com/truflation/status/2068970205649551631",
-            "text": "🇬🇧 Truflation Daily UK CPI: 2.20% YoY, ⬆️ +0.00% 🇬🇧\n\nClaim FREE CREDITS NOW and explore more https://t.co/EfAgPRDzue https://t.co/q3BzN70maK",
-            "likes": 16,
-            "retweets": 1,
-            "posted_at": "2026-06-22T08:11:51.000Z"
-          },
-          {
             "id": "2070158216281960946",
             "url": "https://x.com/truflation/status/2070158216281960946",
             "text": "The Truflation Global Crude Oil Benchmark Index (TruOil) is NOW LIVE.\n\nOil is on everyone's mind.\n\nWe now have a real time, market based index to track global crude oil price dynamics 👇🧵 https://t.co/KhAunasMrK",
@@ -1114,28 +1110,28 @@
             "posted_at": "2026-06-25T14:52:36.000Z"
           },
           {
-            "id": "2068682353212641346",
-            "url": "https://x.com/truflation/status/2068682353212641346",
-            "text": "🇬🇧 Truflation Daily UK CPI: 2.20% YoY, ⬆️ +0.02% 🇬🇧\n\nClaim FREE CREDITS NOW and explore more https://t.co/EfAgPRDzue https://t.co/Ry3nc4yTYZ",
-            "likes": 26,
-            "retweets": 3,
-            "posted_at": "2026-06-21T13:08:01.000Z"
+            "id": "2069037122728960117",
+            "url": "https://x.com/truflation/status/2069037122728960117",
+            "text": "🇺🇸 Truflation Daily US CPI is 1.84% YoY today, ⬇️ -0.01%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/uXrlOn3DN3",
+            "likes": 51,
+            "retweets": 7,
+            "posted_at": "2026-06-22T12:37:45.000Z"
           }
         ],
         "hero_tweet_id": "2069762720506024293"
       },
       "grok_brief": {
-        "one_line": "Truflation posts daily US/UK CPI figures, launches TruOil crude index, and promotes PCE forecast events with macro experts.",
+        "one_line": "Truflation posts daily US/UK CPI updates (1.81-1.94% US, 2.00-2.36% UK) plus PCE forecasts and new TruOil crude index launch",
         "key_events": [
-          "Daily US CPI updates (1.81%-1.93% YoY)",
-          "Daily UK CPI updates (2.13%-2.36% YoY)",
-          "TruOil global crude oil benchmark index launched",
-          "PCE forecast space and T-1 report promoted"
+          "Daily US CPI tweets at 1.81-1.94% YoY",
+          "Daily UK CPI tweets at 2.00-2.36% YoY",
+          "PCE forecast and macro space with experts",
+          "TruOil global crude oil benchmark index launched"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.7,
-        "theme_fit_score": 0.85,
-        "sentiment_score": 0.75,
+        "bullish_score": 0.65,
+        "theme_fit_score": 0.8,
+        "sentiment_score": 0.7,
         "market_cap_usd": null,
         "fdv_usd": null,
         "fully_unlocked": null,
@@ -1143,24 +1139,24 @@
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 63.6,
+      "upside_score": 60.2,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 21,
-        "themeFit": 23.8,
+        "newsworthy": 19.5,
+        "themeFit": 22.4,
         "unlock": 4.4,
-        "social": 7.5,
+        "social": 7,
         "holders": 3,
         "marketCap": 3.9
       },
-      "rank_today": 7
+      "rank_today": 9
     },
     {
-      "slug": "landshare",
-      "symbol": "LAND",
-      "name": "Landshare",
-      "x_handle": "landshareio",
+      "slug": "realio-network",
+      "symbol": "RIO",
+      "name": "Realio Network",
+      "x_handle": "realio_network",
       "themes": [
         "rwa",
         "tokenization",
@@ -1168,461 +1164,452 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": null,
-        "market_cap_source": null,
-        "fdv_usd": 20500,
+        "market_cap_usd": 5000000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 5380000,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
-        "top10_holder_pct": null,
+        "top10_holder_pct": 12.71,
         "vol_24h_usd": null,
         "vol_to_mcap_pct": null
       },
       "liveness": {
-        "active": false,
+        "active": true,
         "status": "active",
-        "collapsed": true,
+        "collapsed": false,
         "stale": false,
-        "days_since_last_tweet": 53,
-        "red_flags": [
-          "extremely thin liquidity",
-          "BingX delisting"
-        ]
+        "days_since_last_tweet": 3,
+        "red_flags": []
       },
       "sentiment": {
-        "score": 0.8
+        "score": 0.85
       },
       "social": {
         "tweets": [
           {
-            "id": "2051705318833307679",
-            "url": "https://x.com/Landshareio/status/2051705318833307679",
-            "text": "https://t.co/ay47kZvAX8",
-            "likes": 29,
-            "retweets": 3,
-            "posted_at": "2026-05-05T16:47:21.000Z"
+            "id": "2069732875654582653",
+            "url": "https://x.com/realio_network/status/2069732875654582653",
+            "text": "Don’t forget to follow @freehold_wallet  for the latest updates on the project!\n\nWe’re growing fast, and you don’t want to miss what’s next. Join us:\n\n→ X: @freehold_wallet \n→ Telegram: https://t.co/vKGshKQFfq",
+            "likes": 225,
+            "retweets": 47,
+            "posted_at": "2026-06-24T10:42:25.000Z"
           },
           {
-            "id": "2048416597585350876",
-            "url": "https://x.com/Landshareio/status/2048416597585350876",
-            "text": "🏠 Traditional real estate is slowing down\n\nIn March, U.S. existing home sales fell 3.6% to a 3.98M annual pace, while inventory climbed to 4.1 months of supply. Median price? Still up, around $408.8K – harder to buy, slower to sell.\n\nBut you don’t need a mortgage, agent, or https://t.co/nBHS6pF8bF",
-            "likes": 38,
-            "retweets": 9,
-            "posted_at": "2026-04-26T14:59:09.000Z"
+            "id": "2069732364058525892",
+            "url": "https://x.com/realio_network/status/2069732364058525892",
+            "text": "GM to everyone who follows the Freehold X account and joined the Freehold Telegram chat.",
+            "likes": 210,
+            "retweets": 28,
+            "posted_at": "2026-06-24T10:40:24.000Z"
           },
           {
-            "id": "2047580811336077454",
-            "url": "https://x.com/Landshareio/status/2047580811336077454",
-            "text": "In a market obsessed with hype, resilience wins.\n\nCrypto loves to hunt for the next 100x, but most serious investors don’t actually need lottery tickets – they need something that can compound quietly in the background.\n\nFor decades, residential real estate has been one of the https://t.co/mt43s4LNj3",
-            "likes": 42,
-            "retweets": 6,
-            "posted_at": "2026-04-24T07:38:02.000Z"
+            "id": "2049511599610777882",
+            "url": "https://x.com/realio_network/status/2049511599610777882",
+            "text": "Official launch: @freehold_wallet RWA Tokenization Studio, May 26. https://t.co/OqXUAMYuOa",
+            "likes": 662,
+            "retweets": 215,
+            "posted_at": "2026-04-29T15:30:18.000Z"
           },
           {
-            "id": "2046626359305195612",
-            "url": "https://x.com/Landshareio/status/2046626359305195612",
-            "text": "When you buy $LSRWA, you’re not buying a promise – you’re buying into real, cash‑flowing homes like these.\n\nMost “tokenized real estate” plays are actually tokenized rental income streams, and Landshare is no different – $LSRWA represents a claim on the rental cash flow and value https://t.co/nFZlggLykK",
-            "likes": 38,
-            "retweets": 7,
-            "posted_at": "2026-04-21T16:25:23.000Z"
+            "id": "2036829563779477682",
+            "url": "https://x.com/realio_network/status/2036829563779477682",
+            "text": "New feature release on @freehold_wallet\nSwaps are LIVE on Freehold Mobile\nFreehold × @0xProject: swap support EVM tokens\nGasless • Trustless • On-chain\nSimple. Secure. Seamless. https://t.co/UR8oALI9ZB",
+            "likes": 494,
+            "retweets": 138,
+            "posted_at": "2026-03-25T15:36:25.000Z"
           },
           {
-            "id": "2044740942679171364",
-            "url": "https://x.com/Landshareio/status/2044740942679171364",
-            "text": "Landshare NFT Ecosystem Mini‑Guide 🎮🏡\n\nNFTs aren’t just collectibles – they’re yield multipliers for your real estate exposure.\n\nHere’s how the system works:\n\n1️⃣ NFT Credits (Primary Market Only)\n\nWhen the primary market is live, KYC’d users who buy LSRWA through the Landshare https://t.co/euYQJWfb6I",
-            "likes": 53,
-            "retweets": 11,
-            "posted_at": "2026-04-16T11:33:24.000Z"
+            "id": "2036144043822882829",
+            "url": "https://x.com/realio_network/status/2036144043822882829",
+            "text": "Swaps hit Freehold Mobile this week.\nGasless, trustless, EVM tokens (incl. $RIO).\nFollow @freehold_wallet for the latest updates from the team.",
+            "likes": 436,
+            "retweets": 96,
+            "posted_at": "2026-03-23T18:12:24.000Z"
           },
           {
-            "id": "2043730149594603763",
-            "url": "https://x.com/Landshareio/status/2043730149594603763",
-            "text": "Why liquidity &gt; listings for $LAND 🧵\n\nIn crypto, it’s tempting to chase as many CEX logos as possible. But for actual traders and long‑term holders, deep books on a few venues beat vanity listings every time.\n\nA thread 🧵👇\n\nScattered liquidity = worse execution.\n\nIf volume is https://t.co/15FVo7yV0S",
-            "likes": 48,
-            "retweets": 9,
-            "posted_at": "2026-04-13T16:36:52.000Z"
+            "id": "2032471062152462336",
+            "url": "https://x.com/realio_network/status/2032471062152462336",
+            "text": "RT @districts_xyz: Tokyo voting is live right now, and Paris voting is now open. Two legendary cities, one community governance system. Thi…",
+            "likes": 173,
+            "retweets": 32,
+            "posted_at": "2026-03-13T14:57:17.000Z"
           },
           {
-            "id": "2041519281871995327",
-            "url": "https://x.com/Landshareio/status/2041519281871995327",
-            "text": "RWAs are supposed to be the bridge between trillions in real‑world value and on‑chain liquidity – but most “#RWA” products still feel like Web2 dashboards with a token stapled on.\n\n👇 Here’s what real estate RWAs should unlock:\n\n• Lower minimums: fractional exposure instead of https://t.co/RqoTyfxZG2",
-            "likes": 40,
-            "retweets": 10,
-            "posted_at": "2026-04-07T14:11:41.000Z"
+            "id": "2032351429948571803",
+            "url": "https://x.com/realio_network/status/2032351429948571803",
+            "text": "hey fam,\n\nYes, we’re still building.\n\nThe team is expanding and things are moving fast behind the scenes.\n\nFollow @freehold_wallet for product updates.",
+            "likes": 702,
+            "retweets": 147,
+            "posted_at": "2026-03-13T07:01:54.000Z"
           },
           {
-            "id": "2041209004580323761",
-            "url": "https://x.com/Landshareio/status/2041209004580323761",
-            "text": "$LSRWA in 60 seconds ⏱️\n\nLSRWA is a tokenized slice of a professionally managed pool of U.S. rental properties and cash reserves – built to behave like a DeFi asset, not a paper share.\n\n⬇️ Here’s what that means for you:\n\n• Real-world backing: Exposure to rental income and https://t.co/GFYd5q3ZdM",
-            "likes": 45,
-            "retweets": 11,
-            "posted_at": "2026-04-06T17:38:45.000Z"
+            "id": "2032078149496750525",
+            "url": "https://x.com/realio_network/status/2032078149496750525",
+            "text": "RT @freehold_wallet: Soon you’ll be able to unlock the power of RWAs with Freehold's Tokenization Studio. https://t.co/MM4rTC0oxg",
+            "likes": 237,
+            "retweets": 64,
+            "posted_at": "2026-03-12T12:55:59.000Z"
           },
           {
-            "id": "2040688747033842076",
-            "url": "https://x.com/Landshareio/status/2040688747033842076",
-            "text": "Happy Easter to the entire Landshare community! 🐣\n\nWhether you’re with family, friends, or just taking a well‑earned break, thank you for supporting our vision for on‑chain real estate.\n\nEnjoy the holidays 🙌🐰 https://t.co/DnPzcj4DBM",
-            "likes": 39,
-            "retweets": 8,
-            "posted_at": "2026-04-05T07:11:26.000Z"
+            "id": "2015199051935780957",
+            "url": "https://x.com/realio_network/status/2015199051935780957",
+            "text": "RT @derekboirun: “You said to create a team, there’s your team” @realio_network https://t.co/cwN2T0uH5d",
+            "likes": 231,
+            "retweets": 30,
+            "posted_at": "2026-01-24T23:04:29.000Z"
           },
           {
-            "id": "2039741975859957760",
-            "url": "https://x.com/Landshareio/status/2039741975859957760",
-            "text": "📥 $LAND Rewards Turned Up\n\nThe latest Landshare DAO proposal has officially passed, and the community has voted to boost daily LAND emissions across staking vaults.\n\n⬇️ Here’s what’s live now:\n\n• LAND Staking: rewards increased from 1,500 → 3,550 LAND/day\n\n• LAND‑BNB LP: https://t.co/7SgfrIJE91",
-            "likes": 53,
-            "retweets": 10,
-            "posted_at": "2026-04-02T16:29:18.000Z"
+            "id": "2011830839353495811",
+            "url": "https://x.com/realio_network/status/2011830839353495811",
+            "text": "Scheduled Maintenance: We’ll be performing infrastructure maintenance on all Realio products &amp; websites today, Thursday, January 15th from 4:00–5:00 PM EST. Services may be intermittently unavailable.\n\nThanks for your patience as we work to improve performance.",
+            "likes": 326,
+            "retweets": 48,
+            "posted_at": "2026-01-15T16:00:24.000Z"
           },
           {
-            "id": "2039085929655337029",
-            "url": "https://x.com/Landshareio/status/2039085929655337029",
-            "text": "📢 Landshare KYC &amp; Dashboard Update\n\nWe’re making some important upgrades behind the scenes:\n\n1⃣ The Stobox dashboard is being phased out and will no longer be used for Landshare services.\n\n2⃣ As a result, all KYC completed through the Stobox dashboard will no longer be https://t.co/zyIbIDSJAB",
-            "likes": 27,
-            "retweets": 10,
-            "posted_at": "2026-03-31T21:02:24.000Z"
+            "id": "2000622409595105390",
+            "url": "https://x.com/realio_network/status/2000622409595105390",
+            "text": "RT @freehold_wallet: Realio Network staking is now live in Freehold Mobile!\n\nYou can now stake $RIO, $DSTRX, and $RST in Freehold Mobile to…",
+            "likes": 260,
+            "retweets": 55,
+            "posted_at": "2025-12-15T17:42:06.000Z"
           },
           {
-            "id": "2034364677405257879",
-            "url": "https://x.com/Landshareio/status/2034364677405257879",
-            "text": "$LAND is the token that powers everything behind the scenes at Landshare.\n\nWhile $LSRWA gives you exposure to real estate, LAND captures the value of the platform itself – staking, fees, incentives, governance, and future upgrades across the RWA + DeFi stack.\n\n👇Right now, LAND https://t.co/QunSG7h1xr",
-            "likes": 38,
-            "retweets": 11,
-            "posted_at": "2026-03-18T20:21:50.000Z"
+            "id": "1995515730851148269",
+            "url": "https://x.com/realio_network/status/1995515730851148269",
+            "text": "Scheduled Maintenance: We’ll be performing infrastructure maintenance on all Realio products &amp; websites on Monday from 5–7 PM EST. Services may be intermittently unavailable. \n\nThanks for your patience as we work to improve performance.",
+            "likes": 351,
+            "retweets": 43,
+            "posted_at": "2025-12-01T15:29:59.000Z"
           },
           {
-            "id": "2033196667814428805",
-            "url": "https://x.com/Landshareio/status/2033196667814428805",
-            "text": "“Should I buy $LAND or $LSRWA?” is one of the most common questions we get, so here’s the simple breakdown.\n\n👇 Choose $LSRWA if you want:\n• Direct exposure to a pool of tokenized U.S. rental properties\n• Returns driven by rental income + property value over time\n• The ability https://t.co/QrhGJED2nK",
-            "likes": 48,
-            "retweets": 13,
-            "posted_at": "2026-03-15T15:00:35.000Z"
+            "id": "1988644145335062784",
+            "url": "https://x.com/realio_network/status/1988644145335062784",
+            "text": "The first look at our RWA Tokenization Studio in development 👀",
+            "likes": 637,
+            "retweets": 150,
+            "posted_at": "2025-11-12T16:24:46.000Z"
           },
           {
-            "id": "2029947062746226890",
-            "url": "https://x.com/Landshareio/status/2029947062746226890",
-            "text": "Real estate that trades like any other DeFi token is a bigger deal than it sounds.\n\nDEX‑native #RWA means:\n- No gated broker front‑end\n- Permissionless secondary markets\n- LP yield + real‑world cash flows\n- Composability with money markets, leverage, hedging\n\nInstead of waiting https://t.co/86d5hXRPjw",
-            "likes": 35,
-            "retweets": 10,
-            "posted_at": "2026-03-06T15:47:49.000Z"
+            "id": "1978872700966965380",
+            "url": "https://x.com/realio_network/status/1978872700966965380",
+            "text": "Empowering investors, transforming assets, we're building the @freehold_wallet to be at the forefront of RWAs for issuers and investors, reshaping the investment landscape. We’re proud to see the first step of that journey come alive today: https://t.co/1hC6633t61",
+            "likes": 574,
+            "retweets": 128,
+            "posted_at": "2025-10-16T17:16:32.000Z"
           },
           {
-            "id": "2029291323044360387",
-            "url": "https://x.com/Landshareio/status/2029291323044360387",
-            "text": "Phase 1 was just the beginning 👀\n\nNext up: Landshare v2  Phase 2, where $LSRWA becomes a scalable, institution‑ready #RWA primitive.\n\n↔️ Expanding LSRWA into an index‑style token backed by a diversified pool of real‑world assets.\n\n⚖️ Upgraded primary market with priority https://t.co/XTLfaLJHcN",
-            "likes": 40,
-            "retweets": 14,
-            "posted_at": "2026-03-04T20:22:08.000Z"
+            "id": "1978472915596173385",
+            "url": "https://x.com/realio_network/status/1978472915596173385",
+            "text": "Welcome $DSTRX token stakers and validators to the Realio Network 🌐",
+            "likes": 418,
+            "retweets": 66,
+            "posted_at": "2025-10-15T14:47:55.000Z"
           },
           {
-            "id": "2027662143403745400",
-            "url": "https://x.com/Landshareio/status/2027662143403745400",
-            "text": "$LSRWA / $USDT on @PancakeSwap has passed $100K liquidity.\n\nLiquidity providers can earn an estimated 9.27% APY from rental income + appreciation, plus ~11% APR in liquidity incentives.\n\n👉 Trade $LSRWA now: https://t.co/zHhlYVtBTK https://t.co/XLGX0lJaRu",
-            "likes": 34,
-            "retweets": 6,
-            "posted_at": "2026-02-28T08:28:21.000Z"
+            "id": "1975244680401981776",
+            "url": "https://x.com/realio_network/status/1975244680401981776",
+            "text": "✅ Proposal PASSED! $DSTRX, the native token of @districts_xyz is now a staking token on Realio Network.\n\nWe’re expanding from Cosmos to EVM-compatible chains, unlocking new opportunities for delegators, validators + $DSTRX holders.",
+            "likes": 555,
+            "retweets": 116,
+            "posted_at": "2025-10-06T17:00:04.000Z"
           },
           {
-            "id": "2024907422406672399",
-            "url": "https://x.com/Landshareio/status/2024907422406672399",
-            "text": "📣 $LSRWA / $USDT Liquidity Pool is Now Closed\n\nAs part of the first phase of the Landshare v2 rollout, the existing pool on DS Swap has been closed and no longer generates rewards.\n\n⚠️ If you are currently providing liquidity to this pool, please withdraw and decouple your https://t.co/IeP9YNMb8D",
-            "likes": 36,
-            "retweets": 6,
-            "posted_at": "2026-02-20T18:02:05.000Z"
+            "id": "1974138834897285335",
+            "url": "https://x.com/realio_network/status/1974138834897285335",
+            "text": "Proposal #24 is now live to make $DSTRX an eligible staking token on the Realio Network.\n\nBy supporting this: \n✅ $DSTRX holders gain governance voting \n✅ Earn $RIO staking rewards \n✅ Strengthen the Realio x @districts_xyz ecosystem\n\nhttps://t.co/rUkePt55Of",
+            "likes": 566,
+            "retweets": 113,
+            "posted_at": "2025-10-03T15:45:50.000Z"
           },
           {
-            "id": "2019505985149407621",
-            "url": "https://x.com/Landshareio/status/2019505985149407621",
-            "text": "the only green chart you saw today 👇💚",
-            "likes": 59,
-            "retweets": 21,
-            "posted_at": "2026-02-05T20:18:42.000Z"
+            "id": "1973812916022653099",
+            "url": "https://x.com/realio_network/status/1973812916022653099",
+            "text": "It’s been a minute since we last posted — but we haven’t been idle. We’ve been building for the RWA space, where tokenization unlocks what the old system couldn't: fractional ownership, 24/7 liquidity, no middlemen. We’re back, &amp; excited to share more about our projects &amp; RWAs.",
+            "likes": 1050,
+            "retweets": 239,
+            "posted_at": "2025-10-02T18:10:45.000Z"
           },
           {
-            "id": "2042863539216338970",
-            "url": "https://x.com/Landshareio/status/2042863539216338970",
-            "text": "📢 We will be delisting the $LAND spot trading pair from @BingXOfficial on April 15, 2026 at 03:00 UTC.\n\nAfter reviewing volumes and user activity, we’ve found that the vast majority of LAND trading happens on other venues. At the same time, BingX has introduced higher",
-            "likes": 39,
-            "retweets": 6,
-            "posted_at": "2026-04-11T07:13:16.000Z"
+            "id": "1951320474920566796",
+            "url": "https://x.com/realio_network/status/1951320474920566796",
+            "text": "Say hello to the new https://t.co/DfXm8ZOGsg\n\n- Fresh new design\n- In-depth RWA EBook\n\nIt was time we leveled up just like the rest of the fam 💙\nhttps://t.co/n17psAXmAs | https://t.co/kbzgUn1D0C | https://t.co/r2ezjgkJSl https://t.co/V2gSZJ7fRx",
+            "likes": 1070,
+            "retweets": 233,
+            "posted_at": "2025-08-01T16:33:49.000Z"
           },
           {
-            "id": "2042863575501304319",
-            "url": "https://x.com/Landshareio/status/2042863575501304319",
-            "text": "@BingXOfficial 👇You can buy LAND through the following methods:\n\n• PancakeSwap: https://t.co/OMlCFTqaeK\n\n• Gate: https://t.co/TD8QPMGzzh\n\n• MEXC: https://t.co/cm9WixluqC\n\n• Bitmart: https://t.co/iJAVYhNkCG\n\n• AscendEX: https://t.co/8izqhtgg85",
-            "likes": 8,
-            "retweets": 1,
-            "posted_at": "2026-04-11T07:13:25.000Z"
+            "id": "1950210367864635636",
+            "url": "https://x.com/realio_network/status/1950210367864635636",
+            "text": "RT @freehold_wallet: It’s official: Freehold Mobile is now live on the App Store.\n\nA secure, multichain self-custody wallet — now on iOS.…",
+            "likes": 517,
+            "retweets": 151,
+            "posted_at": "2025-07-29T15:02:39.000Z"
           }
         ],
-        "hero_tweet_id": "2019505985149407621"
+        "hero_tweet_id": "1951320474920566796"
       },
       "grok_brief": {
-        "one_line": "Landshare pushes RWA real estate tokenization via $LSRWA pools, $LAND staking boosts, v2 plans amid low liquidity.",
+        "one_line": "Realio ($RIO) advancing RWA tokenization via Freehold wallet launches, mobile swaps, staking, and $DSTRX integration.",
         "key_events": [
-          "DAO vote boosts LAND staking rewards to 3,550/day",
-          "$LSRWA/USDT PancakeSwap LP hits $100k liquidity",
-          "Phase 2: index-style LSRWA expansion planned",
-          "BingX $LAND spot pair delisted Apr 2026",
-          "NFT ecosystem guide and KYC/dashboard upgrades announced"
+          "Freehold RWA Tokenization Studio official launch May 26",
+          "Swaps LIVE on Freehold Mobile (gasless, EVM incl. $RIO)",
+          "Realio staking live in Freehold Mobile ($RIO, $DSTRX, $RST)",
+          "$DSTRX approved as staking token on Realio Network",
+          "New realio.network site with RWA EBook released"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.55,
+        "bullish_score": 0.75,
         "theme_fit_score": 0.95,
-        "sentiment_score": 0.8,
-        "market_cap_usd": 10950,
-        "fdv_usd": 20500,
+        "sentiment_score": 0.85,
+        "market_cap_usd": 5000000,
+        "fdv_usd": 5380000,
         "fully_unlocked": false,
-        "top10_holder_pct": null,
+        "top10_holder_pct": 12.71,
         "project_status": "active",
-        "red_flags": [
-          "extremely thin liquidity",
-          "BingX delisting"
-        ]
+        "red_flags": []
       },
-      "upside_score": 12,
-      "eligible": null,
-      "active": false,
+      "upside_score": 71,
+      "eligible": true,
+      "active": true,
       "score_breakdown": {
-        "newsworthy": 16.5,
+        "newsworthy": 22.5,
         "themeFit": 26.6,
         "unlock": 4.4,
-        "social": 8,
-        "holders": 3,
-        "marketCap": 2.8
+        "social": 8.5,
+        "holders": 5.2,
+        "marketCap": 3.8
       },
-      "rank_today": 9
+      "rank_today": 3
     },
     {
-      "slug": "tangible",
-      "symbol": "TNGBL",
-      "name": "Tangible",
-      "x_handle": "tangibleDAO",
+      "slug": "resolv",
+      "symbol": "RESOLV",
+      "name": "Resolv",
+      "x_handle": "ResolvLabs",
       "themes": [
-        "rwa",
-        "realestate",
-        "yield"
+        "stablecoin",
+        "yield",
+        "rwa"
       ],
       "metrics": {
-        "price_usd": null,
-        "market_cap_usd": 19184976,
-        "market_cap_source": "coingecko-fdv",
-        "fdv_usd": 18230000,
-        "fully_unlocked": true,
-        "forward_unlock_state": "unknown",
-        "top10_holder_pct": 99.8,
-        "vol_24h_usd": null,
-        "vol_to_mcap_pct": null
+        "price_usd": 0.020616,
+        "market_cap_usd": 8720000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 20620000,
+        "fully_unlocked": false,
+        "forward_unlock_state": "elevated",
+        "top10_holder_pct": 90.19,
+        "vol_24h_usd": 17050136.4,
+        "vol_to_mcap_pct": 195.53
       },
       "liveness": {
-        "active": false,
-        "status": "winding_down",
+        "active": true,
+        "status": "active",
         "collapsed": false,
-        "stale": true,
-        "days_since_last_tweet": 284,
-        "red_flags": [
-          "real_rwa chain shutting down",
-          "top-10 holders control 99.8%"
-        ]
+        "stale": false,
+        "days_since_last_tweet": 5,
+        "red_flags": []
       },
       "sentiment": {
-        "score": 0.25
+        "score": 0.55
       },
       "social": {
         "tweets": [
           {
-            "id": "1968003501457617100",
-            "url": "https://x.com/tangibleDAO/status/1968003501457617100",
-            "text": "USDR update:\n\nProperty auctions are near completion and we have a clear path to redemption established.\n\nFor more detailed info 👉\nhttps://t.co/VIOQeq2B9s",
-            "likes": 12,
-            "retweets": 3,
-            "posted_at": "2025-09-16T17:26:13.000Z"
+            "id": "2069005298317017511",
+            "url": "https://x.com/ResolvLabs/status/2069005298317017511",
+            "text": "RT @Re7Labs: Following the USR security incident, $223k USDC in recovery proceeds is now claimable for affected wallets that held positions…",
+            "likes": 24,
+            "retweets": 6,
+            "posted_at": "2026-06-22T10:31:18.000Z"
           },
           {
-            "id": "1950321681886765403",
-            "url": "https://x.com/tangibleDAO/status/1950321681886765403",
-            "text": "RT @real_rwa: The https://t.co/i8y8SbUDLM chain has stopped producing blocks, and withdrawals are no longer possible.\n\n✅Over 95% of funds w…",
-            "likes": 14,
-            "retweets": 4,
-            "posted_at": "2025-07-29T22:24:58.000Z"
+            "id": "2064744263535968652",
+            "url": "https://x.com/ResolvLabs/status/2064744263535968652",
+            "text": "RT @Re7Labs: Re7 and Resolv have finalized an agreement outlining a remediation framework in connection with the USR incident. \n\nAdditional…",
+            "likes": 21,
+            "retweets": 10,
+            "posted_at": "2026-06-10T16:19:28.000Z"
           },
           {
-            "id": "1949868768290623760",
-            "url": "https://x.com/tangibleDAO/status/1949868768290623760",
-            "text": "RT @real_rwa: ⏳Less than 24 hours until @real_rwa closes permanently.      \n\nPlease secure your assets today. \n\nChain closes at 10am UTC, T…",
-            "likes": 5,
-            "retweets": 2,
-            "posted_at": "2025-07-28T16:25:15.000Z"
+            "id": "2064314680391127208",
+            "url": "https://x.com/ResolvLabs/status/2064314680391127208",
+            "text": "RT @ResolvCore: The recovery portal is open for Stage 2\n\nEligible categories:\n• USR/wstUSR acquired post-incident\n1 USR : 0.5 USDC\n\n• LP po…",
+            "likes": 47,
+            "retweets": 10,
+            "posted_at": "2026-06-09T11:52:27.000Z"
           },
           {
-            "id": "1949625974003478558",
-            "url": "https://x.com/tangibleDAO/status/1949625974003478558",
-            "text": "RT @real_rwa: 🚨Only 2 days until @real_rwa closes permanently 🚨 \n\nUsers have less than 48 hours to withdraw and secure their funds. https:/…",
-            "likes": 5,
-            "retweets": 2,
-            "posted_at": "2025-07-28T00:20:29.000Z"
-          },
-          {
-            "id": "1949330277249274296",
-            "url": "https://x.com/tangibleDAO/status/1949330277249274296",
-            "text": "RT @real_rwa: 🚨3 days left until @real_rwa closes permanently 🚨     \n\n⌛️Please make sure you secure your assets in time. https://t.co/gWYqB…",
-            "likes": 3,
-            "retweets": 1,
-            "posted_at": "2025-07-27T04:45:29.000Z"
-          },
-          {
-            "id": "1948793479951516027",
-            "url": "https://x.com/tangibleDAO/status/1948793479951516027",
-            "text": "RT @real_rwa: ⏳Only 4 days left until @real_rwa closes permanently.    \n\n🚨Please make sure you secure your assets in time 🚨 https://t.co/FD…",
-            "likes": 1,
-            "retweets": 1,
-            "posted_at": "2025-07-25T17:12:27.000Z"
-          },
-          {
-            "id": "1948451252893090286",
-            "url": "https://x.com/tangibleDAO/status/1948451252893090286",
-            "text": "RT @real_rwa: ⏳5 days left until @real_rwa closes permanently.  \n\n🚨Please make sure you secure your assets in time. 🚨 https://t.co/jNnOHyZX…",
-            "likes": 7,
+            "id": "2062803102718456029",
+            "url": "https://x.com/ResolvLabs/status/2062803102718456029",
+            "text": "Presenting Vault Street in New York.\n\nKeen to ideate on onchain yield generation, RWAs and risk curation — reach out to set up a meeting with Fedor or Danyal on site. https://t.co/ChyeUoorLu",
+            "likes": 26,
             "retweets": 5,
-            "posted_at": "2025-07-24T18:32:33.000Z"
+            "posted_at": "2026-06-05T07:45:59.000Z"
           },
           {
-            "id": "1948088257419583913",
-            "url": "https://x.com/tangibleDAO/status/1948088257419583913",
-            "text": "RT @real_rwa: ⏳6 day countdown until @real_rwa closes permanently.\n\nPlease secure your assets in time. https://t.co/DuKKwkfd2n",
-            "likes": 7,
+            "id": "2062293837104415044",
+            "url": "https://x.com/ResolvLabs/status/2062293837104415044",
+            "text": "RT @ResolvCore: Important Snapshot Notice\n\nOn June 3, 23:59 UTC, a snapshot of all post-hack USR positions and RLP will be taken to enable…",
+            "likes": 35,
+            "retweets": 8,
+            "posted_at": "2026-06-03T22:02:20.000Z"
+          },
+          {
+            "id": "2062199524420997388",
+            "url": "https://x.com/ResolvLabs/status/2062199524420997388",
+            "text": "RT @gauntlet_xyz: Gauntlet and Resolv have reached an agreement regarding a remediation path related to the USR exploit.\n\nWallets with posi…",
+            "likes": 29,
+            "retweets": 9,
+            "posted_at": "2026-06-03T15:47:35.000Z"
+          },
+          {
+            "id": "2060354778387841352",
+            "url": "https://x.com/ResolvLabs/status/2060354778387841352",
+            "text": "RT @ResolvCore: In the next 24 hours, there are expected movements of funds across wallets associated with @ResolvLabs and Resolv Foundatio…",
+            "likes": 28,
+            "retweets": 5,
+            "posted_at": "2026-05-29T13:37:13.000Z"
+          },
+          {
+            "id": "2059299707013222537",
+            "url": "https://x.com/ResolvLabs/status/2059299707013222537",
+            "text": "RT @ResolvCore: https://t.co/gxPjOWHKnf",
+            "likes": 147,
+            "retweets": 30,
+            "posted_at": "2026-05-26T15:44:44.000Z"
+          },
+          {
+            "id": "2053963032070438939",
+            "url": "https://x.com/ResolvLabs/status/2053963032070438939",
+            "text": "RT @DeFi_Made_Here: Challenges happen in DeFi - what matters is how teams respond.\n\nWe've seen examples in the past when protocols fully re…",
+            "likes": 52,
             "retweets": 3,
-            "posted_at": "2025-07-23T18:30:08.000Z"
+            "posted_at": "2026-05-11T22:18:42.000Z"
           },
           {
-            "id": "1947697234180509993",
-            "url": "https://x.com/tangibleDAO/status/1947697234180509993",
-            "text": "RT @real_rwa: ⏳7 day countdown until @real_rwa closes permanently.    \n\nPlease secure your assets before next week. https://t.co/RRz56L3Nbf",
-            "likes": 3,
-            "retweets": 2,
-            "posted_at": "2025-07-22T16:36:21.000Z"
+            "id": "2053937612768121072",
+            "url": "https://x.com/ResolvLabs/status/2053937612768121072",
+            "text": "Over the past weeks, Resolv has been actively working with affected counterparties and ecosystem participants to move the recovery process forward across both pre-incident and post-incident user groups.\n\nAs part of this process, we have reached a shared understanding with",
+            "likes": 69,
+            "retweets": 7,
+            "posted_at": "2026-05-11T20:37:41.000Z"
           },
           {
-            "id": "1943542351714037907",
-            "url": "https://x.com/tangibleDAO/status/1943542351714037907",
-            "text": "RT @real_rwa: ⏳Two week warning. \n\nUsers have less than three weeks to withdraw their funds before @real_rwa closes permanently.  \n\nPlease…",
-            "likes": 7,
-            "retweets": 3,
-            "posted_at": "2025-07-11T05:26:20.000Z"
+            "id": "2047702792807076209",
+            "url": "https://x.com/ResolvLabs/status/2047702792807076209",
+            "text": "RT @ResolvCore: Resolv Foundation Q1 2026 Report is out.\n\nQ1 was a challenging period for Resolv. Since late March, main focus has been on…",
+            "likes": 55,
+            "retweets": 14,
+            "posted_at": "2026-04-24T15:42:44.000Z"
           },
           {
-            "id": "1942254599936827717",
-            "url": "https://x.com/tangibleDAO/status/1942254599936827717",
-            "text": "RT @real_rwa: @real_rwa is shutting down. \n\nUsers have less than three weeks to withdraw their funds before @real_rwa closes permanently.…",
-            "likes": 6,
-            "retweets": 3,
-            "posted_at": "2025-07-07T16:09:16.000Z"
+            "id": "2046985293320880266",
+            "url": "https://x.com/ResolvLabs/status/2046985293320880266",
+            "text": "RT @chmilevfa: Recently, we received an interim report from @Mandiant, who have been conducting an independent forensic investigation since…",
+            "likes": 31,
+            "retweets": 5,
+            "posted_at": "2026-04-22T16:11:39.000Z"
           },
           {
-            "id": "1938720060618715517",
-            "url": "https://x.com/tangibleDAO/status/1938720060618715517",
-            "text": "RT @jagTNFT: There is $18m USDR redemption contract pls pls withdraw in the next 29 days share this in all your group chats and retweet htt…",
-            "likes": 4,
-            "retweets": 4,
-            "posted_at": "2025-06-27T22:04:16.000Z"
+            "id": "2043290902085382510",
+            "url": "https://x.com/ResolvLabs/status/2043290902085382510",
+            "text": "RT @Iv4n_Ko: A brief take on Resolv post-incident process https://t.co/sUqlt4fm0E",
+            "likes": 88,
+            "retweets": 5,
+            "posted_at": "2026-04-12T11:31:28.000Z"
           },
           {
-            "id": "1938341418332004843",
-            "url": "https://x.com/tangibleDAO/status/1938341418332004843",
-            "text": "RT @jagTNFT: Do you have dust stuck on @real_rwa ? Theres $200k+ stuck on bridges you have 30 days to withdraw. \n\nPlease withdraw all funds…",
-            "likes": 6,
-            "retweets": 2,
-            "posted_at": "2025-06-26T20:59:41.000Z"
-          },
-          {
-            "id": "1938273291384590549",
-            "url": "https://x.com/tangibleDAO/status/1938273291384590549",
-            "text": "RT @real_rwa: ⚠️ Important Announcement: \n\n@real_rwa  is shutting down. \n\nThe chain is now operational again and users have 30 days to with…",
-            "likes": 10,
-            "retweets": 2,
-            "posted_at": "2025-06-26T16:28:58.000Z"
-          },
-          {
-            "id": "1907194597140541449",
-            "url": "https://x.com/tangibleDAO/status/1907194597140541449",
-            "text": "USDR liquidation status:\n\nOver the past several months the Tangible team has pursued several paths to liquidating the $USDR treasury.\n\nFirst was to liquidate on chain in the form of UKRE; this was unsuccessful.\n\nAn attempt was then made to sell the portfolio off chain. It was https://t.co/mNatNQTjJ7",
-            "likes": 17,
+            "id": "2041527471938383954",
+            "url": "https://x.com/ResolvLabs/status/2041527471938383954",
+            "text": "RT @yellowlizzzard: I believe in Resolv and the team more than ever. Hacks happen, and that’s very unfortunate, they’re becoming more sophi…",
+            "likes": 28,
             "retweets": 1,
-            "posted_at": "2025-04-01T22:13:20.000Z"
+            "posted_at": "2026-04-07T14:44:13.000Z"
           },
           {
-            "id": "1851711203762147511",
-            "url": "https://x.com/tangibleDAO/status/1851711203762147511",
-            "text": "USDR redemptions remain ongoing.\n\nOver 75% of total supply (33 million $USDR) has been allocated to the redemption contract.\n\n$3.5 million in $USDC has been returned to users.\n\nResulting in nearly $4MM USDR burned.\n\nStart now: https://t.co/9V39TNBLEW https://t.co/Q2C6cPRsso",
-            "likes": 14,
-            "retweets": 0,
-            "posted_at": "2024-10-30T19:42:08.000Z"
+            "id": "2041091607047418006",
+            "url": "https://x.com/ResolvLabs/status/2041091607047418006",
+            "text": "RT @MixBytes: It might be tempting to describe this incident as simply a “compromised private key.” However, in this case the attack path a…",
+            "likes": 44,
+            "retweets": 4,
+            "posted_at": "2026-04-06T09:52:15.000Z"
           },
           {
-            "id": "1851711205746053352",
-            "url": "https://x.com/tangibleDAO/status/1851711205746053352",
-            "text": "Total USDR: 44,249,558\nTotal Allocated (all time): 33,617,388\nAllocated Percentage: 75.97%\nTotal USDC Distributed: 3,500,000\nUSDR burned: 3,888,889\nBurned Supply %: 8.79%",
-            "likes": 10,
-            "retweets": 0,
-            "posted_at": "2024-10-30T19:42:09.000Z"
+            "id": "2040480752643580252",
+            "url": "https://x.com/ResolvLabs/status/2040480752643580252",
+            "text": "https://t.co/vuNDr5CTa4",
+            "likes": 233,
+            "retweets": 36,
+            "posted_at": "2026-04-04T17:24:56.000Z"
           },
           {
-            "id": "1848812323151995230",
-            "url": "https://x.com/tangibleDAO/status/1848812323151995230",
-            "text": "USDR redemptions continue forward.\n\nOver 33 million $USDR has been allocated to the redemption contract, over 75% of supply.\n\n$2.5 million in $USDC has been returned to users.\n\nWith 2.77MM USDR permanently removed from circulation.\n\nStart now: https://t.co/9V39TNBdPo https://t.co/vpQOeY4U3L",
-            "likes": 7,
-            "retweets": 0,
-            "posted_at": "2024-10-22T19:43:01.000Z"
+            "id": "2038963136443600944",
+            "url": "https://x.com/ResolvLabs/status/2038963136443600944",
+            "text": "Ivan, co-founder of Resolv, has shared an update on the protocol security incident and recovery process.\n\nSome of the questions covered:\n\n→ Why were whitelisted USR users redeemed first?\nVerified wallets allowed the team to act within 24 hours manually to limit further impact on",
+            "likes": 84,
+            "retweets": 9,
+            "posted_at": "2026-03-31T12:54:28.000Z"
           },
           {
-            "id": "1848812326482276372",
-            "url": "https://x.com/tangibleDAO/status/1848812326482276372",
-            "text": "Total USDR: 44,249,558\nTotal Allocated (all time): 33,410,695\nAllocated Percentage: 75.51%\nTotal USDC Distributed: 2,500,000\nUSDR burned: 2,777,778",
-            "likes": 1,
-            "retweets": 0,
-            "posted_at": "2024-10-22T19:43:02.000Z"
+            "id": "2037491322525749598",
+            "url": "https://x.com/ResolvLabs/status/2037491322525749598",
+            "text": "RT @lista_dao: Update on the USR incident:\n\nPreviously Lista DAO had $8.6M in total USR-related loans.\nTo date, $8.4M has been fully repaid…",
+            "likes": 83,
+            "retweets": 5,
+            "posted_at": "2026-03-27T11:26:00.000Z"
           },
           {
-            "id": "1848423973782241542",
-            "url": "https://x.com/tangibleDAO/status/1848423973782241542",
-            "text": "RT @PearlFi_: Pool Spotlight 🔦\n\nPair: UKRE/arcUSD\nAPR: 142%\n\n• $UKRE is a basket token by @tangibleDAO backed by UK real estate properties…",
-            "likes": 16,
+            "id": "2037481320218079591",
+            "url": "https://x.com/ResolvLabs/status/2037481320218079591",
+            "text": "RT @hardcore_labs: We’ve been working with @ResolvLabs for a long time, and the team has always struck us as extremely capable and professi…",
+            "likes": 38,
             "retweets": 3,
-            "posted_at": "2024-10-21T17:59:52.000Z"
+            "posted_at": "2026-03-27T10:46:15.000Z"
+          },
+          {
+            "id": "2037181044965752929",
+            "url": "https://x.com/ResolvLabs/status/2037181044965752929",
+            "text": "As the mitigation process continues, we want to provide clarity on an important point. We strongly advise against trading or acquiring USR at this time.\n\nOnchain data indicates that illicitly minted USR has mixed with pre-hack USR across many wallets and continues to change hands",
+            "likes": 77,
+            "retweets": 9,
+            "posted_at": "2026-03-26T14:53:04.000Z"
           }
         ],
-        "hero_tweet_id": "1848423973782241542"
+        "hero_tweet_id": "2040480752643580252"
       },
       "grok_brief": {
-        "one_line": "USDR redemptions at 76% with $3.5M USDC returned; real_rwa chain shutting down, users urged to withdraw.",
+        "one_line": "Resolv advancing USR exploit recovery via remediation deals, claim portals, snapshots and forensic reports.",
         "key_events": [
-          "real_rwa permanent shutdown in progress with 30-day withdrawal window",
-          "USDR redemptions: 33.6M allocated (75.97%), $3.5M USDC distributed, 3.89M USDR burned",
-          "Property auctions near completion for USDR redemption path"
+          "Re7 agreement on $223k USDC recovery proceeds",
+          "Stage 2 recovery portal open (1 USR : 0.5 USDC for post-incident)",
+          "June 3 snapshot of post-hack USR/RLP positions",
+          "Gauntlet remediation path agreed",
+          "Q1 2026 report released; Mandiant forensic update",
+          "Lista DAO repaid $8.4M of $8.6M USR loans"
         ],
-        "post_count_24h": 19,
-        "bullish_score": 0.2,
+        "post_count_24h": 20,
+        "bullish_score": 0.35,
         "theme_fit_score": 0.85,
-        "sentiment_score": 0.25,
-        "market_cap_usd": null,
-        "fdv_usd": 18230000,
-        "fully_unlocked": null,
-        "top10_holder_pct": 99.8,
-        "project_status": "winding_down",
-        "red_flags": [
-          "real_rwa chain shutting down",
-          "top-10 holders control 99.8%"
-        ]
+        "sentiment_score": 0.55,
+        "market_cap_usd": 8720000,
+        "fdv_usd": 20620000,
+        "fully_unlocked": false,
+        "top10_holder_pct": 90.19,
+        "project_status": "active",
+        "red_flags": []
       },
-      "upside_score": 12,
+      "upside_score": 48.4,
       "eligible": true,
-      "active": false,
+      "active": true,
       "score_breakdown": {
-        "newsworthy": 6,
+        "newsworthy": 10.5,
         "themeFit": 23.8,
-        "unlock": 22,
-        "social": 2.5,
-        "holders": 0,
-        "marketCap": 3.2
+        "unlock": 4.4,
+        "social": 5.5,
+        "holders": 0.6,
+        "marketCap": 3.7
       },
       "rank_today": 10
     },
@@ -1638,9 +1625,9 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 1220000,
+        "market_cap_usd": 1200000,
         "market_cap_source": "cmc",
-        "fdv_usd": 1960000,
+        "fdv_usd": 1930000,
         "fully_unlocked": false,
         "forward_unlock_state": "unknown",
         "top10_holder_pct": 63.4,
@@ -1816,7 +1803,7 @@
             "id": "2032490988833268093",
             "url": "https://x.com/SwarmMarkets/status/2032490988833268093",
             "text": "Tokenization is more than just about putting assets on-chain.\n\nIt’s about making them:\n\n▪ tradable\n▪ programmable\n▪ usable as collateral\n▪ compliant across jurisdictions\n\nThat’s the infrastructure Swarm is building.\n#RWAs #DeFi #Tokenization https://t.co/nbu8O93BVK",
-            "likes": 72,
+            "likes": 71,
             "retweets": 16,
             "posted_at": "2026-03-13T16:16:28.000Z"
           }
@@ -1824,20 +1811,20 @@
         "hero_tweet_id": "2032490988833268093"
       },
       "grok_brief": {
-        "one_line": "Swarm Markets pushes RWA tokenization with 100% backing, self-custody, multi-chain access and regulatory compliance.",
+        "one_line": "Swarm Markets pushes RWA tokenization emphasizing 100% asset-backed tokens, self-custody, multi-chain access and regulatory compliance.",
         "key_events": [
-          "100% asset-backed RWAs with real-time verification and self-custody",
+          "100% asset-backed RWAs with real-time verification and institutional custody",
           "Multi-chain RWA access on Ethereum, Polygon, Hedera, Base, BNB, Hyperliquid",
-          "Embraces regulation for institutional capital vs most DeFi",
-          "24/7/365 trading, tokenized stocks/commodities >$1B milestones",
-          "Swarm + Inveniam for agentic asset management with trusted data"
+          "Embraces regulation for institutional capital inflow",
+          "24/7/365 trading with full self-custody",
+          "Tokenized commodities on XRPL hit $1.14B; equities >$1B"
         ],
         "post_count_24h": 20,
         "bullish_score": 0.75,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.85,
-        "market_cap_usd": 1220000,
-        "fdv_usd": 1960000,
+        "market_cap_usd": 1200000,
+        "fdv_usd": 1930000,
         "fully_unlocked": false,
         "top10_holder_pct": 63.4,
         "project_status": "active",
@@ -1868,7 +1855,7 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 45880560,
+        "market_cap_usd": 45756713,
         "market_cap_source": "coingecko",
         "fdv_usd": null,
         "fully_unlocked": false,
@@ -2054,15 +2041,16 @@
         "hero_tweet_id": "2066501209838780661"
       },
       "grok_brief": {
-        "one_line": "Dusk pushes programmable privacy for regulated RWAs/tokenized securities, launches browser wallet with staking, and attends Dutch Blockchain Week.",
+        "one_line": "Dusk pushes programmable privacy for RWA tokenization and regulated markets, ships wallet extensions with staking, and joins Dutch Blockchain Week.",
         "key_events": [
-          "New Dusk Wallet extension live on Chrome/Firefox with Sozu staking",
-          "Dusk Trade waitlist open for tokenized asset neobroker",
-          "Emphasis on selective disclosure, investor eligibility, and AML compliance for RWAs",
-          "Dusk at Dutch Blockchain Week June 24-25"
+          "Dusk Wallet extension live on Chrome/Firefox with Sozu staking",
+          "Dusk Trade waitlist open for tokenized RWA trading",
+          "Dutch Blockchain Week appearance June 24-25",
+          "Phoenix/Hedger/Moonlight tools for privacy + selective disclosure",
+          "Emphasis on AMLR compliance and non-anonymous regulated flows"
         ],
         "post_count_24h": 20,
-        "bullish_score": 0.8,
+        "bullish_score": 0.75,
         "theme_fit_score": 0.95,
         "sentiment_score": 0.85,
         "market_cap_usd": null,
@@ -2072,18 +2060,18 @@
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 68.7,
+      "upside_score": 67.2,
       "eligible": true,
       "active": true,
       "score_breakdown": {
-        "newsworthy": 24,
+        "newsworthy": 22.5,
         "themeFit": 26.6,
         "unlock": 4.4,
         "social": 8.5,
         "holders": 3,
         "marketCap": 2.2
       },
-      "rank_today": 4
+      "rank_today": 7
     },
     {
       "slug": "chintai",
@@ -2098,7 +2086,7 @@
       ],
       "metrics": {
         "price_usd": null,
-        "market_cap_usd": 16257267,
+        "market_cap_usd": 16204053,
         "market_cap_source": "coingecko",
         "fdv_usd": null,
         "fully_unlocked": false,
@@ -2116,7 +2104,7 @@
         "red_flags": []
       },
       "sentiment": {
-        "score": 0.88
+        "score": 0.9
       },
       "social": {
         "tweets": [
@@ -2284,17 +2272,17 @@
         "hero_tweet_id": "2008734537787064554"
       },
       "grok_brief": {
-        "one_line": "Chintai advancing RWA tokenization via MAJV $28B deal, Valereum partnership, yield assets and frequent CEO AMAs",
+        "one_line": "Chintai advances RWA tokenization via $28B MAJV deal, Valereum partnership, institutional demand and CEO AMAs.",
         "key_events": [
-          "MAJV $28bn tokenization of development rights",
-          "Valereum partnership for RWA distribution",
-          "Multiple CEO AMAs scheduled",
-          "Focus on institutional yield-bearing RWAs"
+          "$28B MAJV tokenization partnership announced",
+          "Valereum collab for RWA distribution",
+          "Multiple CEO AMAs scheduled (Apr 15, Mar 11, Feb 4)",
+          "Bullish 2026 outlook for trillions on-chain and CHEX flywheel"
         ],
         "post_count_24h": 20,
         "bullish_score": 0.85,
-        "theme_fit_score": 0.9,
-        "sentiment_score": 0.88,
+        "theme_fit_score": 0.8,
+        "sentiment_score": 0.9,
         "market_cap_usd": null,
         "fdv_usd": null,
         "fully_unlocked": null,
@@ -2302,18 +2290,18 @@
         "project_status": "active",
         "red_flags": []
       },
-      "upside_score": 70.2,
+      "upside_score": 67.7,
       "eligible": true,
       "active": true,
       "score_breakdown": {
         "newsworthy": 25.5,
-        "themeFit": 25.2,
+        "themeFit": 22.4,
         "unlock": 4.4,
-        "social": 8.8,
+        "social": 9,
         "holders": 3,
-        "marketCap": 3.3
+        "marketCap": 3.4
       },
-      "rank_today": 3
+      "rank_today": 6
     }
   ],
   "data_gaps": []
