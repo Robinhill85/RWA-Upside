@@ -67,7 +67,7 @@ export default async function Page() {
                       <tr className={t.active === false ? "dimmed" : undefined}>
                         <td className="rank">{t.rank_today}</td>
                         <td>
-                          <strong>{t.symbol}</strong> <span className="muted">{t.name}</span>
+                          <strong>{t.symbol}</strong>{t.name && t.name !== t.symbol ? <span className="muted"> {t.name}</span> : null}
                           <div className="themes">{(t.themes || []).join(" · ")}</div>
                           {t.grok_brief?.one_line && <div className="brief">{t.grok_brief.one_line}</div>}
                           {t.active === false && (

@@ -1,7 +1,7 @@
 {
   "_note": "Fixed cohort. ALWAYS reference tokens by slug/cmcid, never bare symbol. 'coingecko_id' is the CoinGecko fallback used for market cap when the CMC Skill Hub doesn't return one (note: most equal the CMC slug, but Chintai's is 'chex-token'). The daily top-10 ranking is computed over this cohort; market cap ≤ $30M is a hard gate.",
   "tokens": [
-    { "slug": "ix-swap",       "cmcid": null, "symbol": "IXS",   "name": "IX Swap",        "x_handle": "ixsfinance",      "coingecko_id": "ix-swap",       "themes": ["rwa", "tokenization", "yield"],            "verified": true },
+    { "slug": "ix-swap",       "cmcid": null, "symbol": "IXS",   "name": "IXS",            "x_handle": "ixsfinance",      "coingecko_id": "ix-swap",       "themes": ["rwa", "tokenization", "yield"],            "verified": true },
     { "slug": "clearpool",     "cmcid": null, "symbol": "CPOOL", "name": "Clearpool",      "x_handle": "ClearpoolFin",    "coingecko_id": "clearpool",     "themes": ["rwa", "yield", "stablecoin"],              "verified": true },
     { "slug": "polytrade",     "cmcid": null, "symbol": "TRADE", "name": "Polytrade",      "x_handle": "Polytrade_fin",   "coingecko_id": "polytrade",     "themes": ["rwa", "tokenization"],                     "verified": true },
     { "slug": "credefi",       "cmcid": null, "symbol": "CREDI", "name": "Credefi",        "x_handle": "credefi_finance", "coingecko_id": "credefi",       "themes": ["rwa", "yield"],                            "verified": true },
