@@ -47,11 +47,12 @@ export default async function Page() {
         </section>
       ) : (
         <section>
+          <div className="board-wrap">
           <table className="board">
             <thead>
               <tr>
                 <th>#</th><th>Token</th><th>Upside</th><th>Δ wk</th>
-                <th>Mkt cap</th><th>Unlocked</th><th>Top-10</th><th>Theme</th><th>Bullish</th>
+                <th>Mkt cap</th><th>Tokenomics</th><th>Top-10</th><th>Theme</th><th>Bullish</th>
               </tr>
             </thead>
             <tbody>
@@ -80,7 +81,10 @@ export default async function Page() {
                           {d == null ? "—" : d > 0 ? `▲${d}` : d < 0 ? `▼${Math.abs(d)}` : "0"}
                         </td>
                         <td>{fmtUsd(t.metrics?.market_cap_usd)}</td>
-                        <td>{t.metrics?.fully_unlocked ? "✓" : "—"}</td>
+                        <td className="tok" title={t.metrics?.unlock_locked_pct != null ? `${t.metrics.unlock_locked_pct}% of supply still locked` : "unlock data unavailable"}>
+                          <span className={`light ${t.metrics?.unlock_light || "unknown"}`} />
+                          {t.metrics?.unlock_locked_pct != null ? ` ${t.metrics.unlock_locked_pct}%` : " —"}
+                        </td>
                         <td>{t.metrics?.top10_holder_pct != null ? `${t.metrics.top10_holder_pct}%` : "—"}</td>
                         <td>{pct(t.grok_brief?.theme_fit_score)}</td>
                         <td>{pct(t.grok_brief?.bullish_score)}</td>
@@ -114,7 +118,14 @@ export default async function Page() {
                 })}
             </tbody>
           </table>
+          </div>
 
+          <p className="legend">
+            <strong>Tokenomics</strong> = % of supply still locked ·{" "}
+            <span className="light green" /> fully circulating ·{" "}
+            <span className="light yellow" /> ≤20% left to unlock ·{" "}
+            <span className="light red" /> &gt;20% left to unlock
+          </p>
           {latest.data_gaps?.length ? (
             <p className="gaps">⚠ {latest.data_gaps.length} data gap(s) this run — values shown as “—” are unconfirmed, not zero.</p>
           ) : null}

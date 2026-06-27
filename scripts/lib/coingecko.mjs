@@ -36,6 +36,8 @@ export async function fetchMarketCaps(ids) {
         out.set(row.id, {
           market_cap: Number.isFinite(row.market_cap) ? row.market_cap : null,
           fdv: Number.isFinite(row.fully_diluted_valuation) ? row.fully_diluted_valuation : null,
+          circulating_supply: Number.isFinite(row.circulating_supply) ? row.circulating_supply : null,
+          total_supply: Number.isFinite(row.total_supply) ? row.total_supply : null,
         });
       }
     }

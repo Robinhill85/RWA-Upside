@@ -100,12 +100,28 @@ function extractMetrics(profile, unlock, grok = {}, cg = null) {
           Number.isFinite(fdv_usd) &&
           fdv_usd > 0 &&
           market_cap_usd / fdv_usd >= 0.98);
+  // % of supply still locked — CoinGecko circulating vs total (fallback: FDV/mcap, then Grok flag)
+  let unlock_locked_pct = null;
+  if (Number.isFinite(cg?.circulating_supply) && Number.isFinite(cg?.total_supply) && cg.total_supply > 0) {
+    unlock_locked_pct = (1 - cg.circulating_supply / cg.total_supply) * 100;
+  } else if (Number.isFinite(market_cap_usd) && Number.isFinite(fdv_usd) && fdv_usd > 0) {
+    unlock_locked_pct = (1 - market_cap_usd / fdv_usd) * 100;
+  } else if (grok.fully_unlocked === true) {
+    unlock_locked_pct = 0;
+  }
+  if (unlock_locked_pct != null) unlock_locked_pct = round(Math.max(0, Math.min(100, unlock_locked_pct)), 1);
+  // traffic light: green = fully circulating, yellow = ≤20% left to unlock, red = >20%
+  const unlock_light =
+    unlock_locked_pct == null ? "unknown" : unlock_locked_pct <= 2 ? "green" : unlock_locked_pct <= 20 ? "yellow" : "red";
+
   return {
     price_usd: price_usd ?? null,
     market_cap_usd: market_cap_usd ?? null,
     market_cap_source,
     fdv_usd: fdv_usd ?? null,
     fully_unlocked,
+    unlock_locked_pct,
+    unlock_light,
     forward_unlock_state: deepFind(blob, ["sell_pressure_state"], "string") ?? "unknown",
     top10_holder_pct,
     vol_24h_usd: vol_24h_usd ?? null,

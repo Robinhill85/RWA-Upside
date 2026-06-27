@@ -36,8 +36,9 @@ function holderScore(top10) {
   if (!Number.isFinite(top10)) return 0.5;
   return clamp01(1 - top10 / 100); // lower concentration = better
 }
-function unlockScore(fully) {
-  return fully === true ? 1 : fully === false ? 0.2 : 0.5; // unknown = neutral
+function unlockScore(light) {
+  // green = fully circulating, yellow = ≤20% locked, red = >20% locked, unknown = neutral
+  return light === "green" ? 1 : light === "yellow" ? 0.6 : light === "red" ? 0.2 : 0.5;
 }
 
 export function scoreCohort(rows) {
@@ -51,7 +52,7 @@ export function scoreCohort(rows) {
     const factors = {
       newsworthy: clamp01(r.grok_brief?.bullish_score),
       themeFit: clamp01(r.grok_brief?.theme_fit_score),
-      unlock: unlockScore(r.metrics?.fully_unlocked),
+      unlock: unlockScore(r.metrics?.unlock_light),
       social: clamp01(r.sentiment?.score ?? r.grok_brief?.sentiment_score),
       holders: holderScore(r.metrics?.top10_holder_pct),
       marketCap: mcapBandScore(mcap),
