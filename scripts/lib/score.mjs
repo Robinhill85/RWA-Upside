@@ -1,8 +1,9 @@
 // Upside-scoring rubric.
 //
-// Market cap is a GATE, not a linear factor: ≤ $30M to qualify. Inside the band a $1M coin is
+// Market cap is a GATE, not a linear factor: ≤ $50M to qualify. Inside the band a $1M coin is
 // NOT meaningfully better than a $10M or $20M coin — potential comes from the OTHER factors.
 // So market cap carries a tiny weight (gentle tilt only) and above the gate a token is ineligible.
+// A second gate is LIVENESS: discontinued or long-silent projects are pushed out of the ranking.
 //
 // What actually drives upside (per Robin):
 //   newsworthy/bullish  ── valued most
@@ -10,7 +11,7 @@
 //   fully unlocked       ── no dilution overhang
 //   then: social momentum, holder distribution, and a small market-cap tilt.
 
-export const GATE_MCAP_USD = 30_000_000;
+export const GATE_MCAP_USD = 50_000_000;
 
 export const WEIGHTS = {
   newsworthy: 30, // bullish / newsworthy momentum
@@ -60,9 +61,12 @@ export function scoreCohort(rows) {
     );
     let raw = Object.values(breakdown).reduce((a, b) => a + b, 0) * (100 / total);
 
-    // hard gate: above $30M is not an eligible low-cap pick
+    // hard gate: above the cap is not an eligible low-cap pick
     if (eligible === false) raw = Math.min(raw, 20);
+    // liveness gate: discontinued / long-silent projects are pushed out of the ranking
+    const active = r.liveness?.active !== false; // default active unless explicitly flagged
+    if (!active) raw = Math.min(raw, 12);
 
-    return { upside_score: round(raw), eligible, score_breakdown: roundAll(breakdown) };
+    return { upside_score: round(raw), eligible, active, score_breakdown: roundAll(breakdown) };
   });
 }

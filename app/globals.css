@@ -31,6 +31,7 @@ table.board { width: 100%; border-collapse: collapse; background: var(--panel); 
 .up { color: var(--up); }
 .down { color: var(--down); }
 .themes { font-size: 11px; color: var(--muted); margin-top: 2px; }
+.flag { display: inline-block; font-size: 10px; color: var(--down); border: 1px solid var(--down); border-radius: 4px; padding: 0 5px; margin-top: 3px; margin-right: 4px; opacity: 0.85; }
 .gaps { color: var(--muted); font-size: 13px; margin-top: 14px; }
 
 footer { margin-top: 28px; color: var(--muted); font-size: 13px; }

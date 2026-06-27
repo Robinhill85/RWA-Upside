@@ -18,8 +18,8 @@ export default async function Page() {
       <header className="hdr">
         <h1>RWA-Upside</h1>
         <p className="tag">
-          Daily <strong>RWA / tokenization / stablecoin-yield</strong> radar · market cap ≤ $30M ·
-          ranked by bullishness, AI/theme-fit &amp; unlock status — not by size alone
+          Daily <strong>RWA / tokenization / stablecoin-yield</strong> radar · market cap ≤ $50M ·
+          live projects only · ranked by bullishness, AI/theme-fit &amp; unlock status — not by size alone
         </p>
         <p className="status">
           {latest
@@ -53,6 +53,10 @@ export default async function Page() {
                       <td>
                         <strong>{t.symbol}</strong> <span className="muted">{t.name}</span>
                         <div className="themes">{(t.themes || []).join(" · ")}</div>
+                        {t.active === false && (
+                          <div className="flag">⚠ {t.liveness?.status === "discontinued" ? "discontinued" : t.liveness?.collapsed ? "cap collapsed" : "inactive"}</div>
+                        )}
+                        {t.eligible === false && <div className="flag">over $50M cap</div>}
                       </td>
                       <td className="score">{t.upside_score}</td>
                       <td className={d > 0 ? "up" : d < 0 ? "down" : "muted"}>

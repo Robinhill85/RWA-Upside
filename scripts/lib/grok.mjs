@@ -33,7 +33,9 @@ Return JSON with this exact shape:
   "market_cap_usd": <number in USD from the notes, or null>,
   "fdv_usd": <fully diluted valuation in USD from the notes, or null>,
   "fully_unlocked": <true|false|null — true ONLY if circulating supply ≈ total supply or FDV ≈ market cap>,
-  "top10_holder_pct": <top-10 holder concentration percent from the notes, or null>
+  "top10_holder_pct": <top-10 holder concentration percent from the notes, or null>,
+  "project_status": "active | winding_down | discontinued | unknown — judge from the tweets above AND your knowledge of the project; mark 'discontinued' if you know it shut down or discontinued its core product/dApps; 'winding_down' if scaling back; 'unknown' if unsure; else 'active'",
+  "red_flags": ["short phrases for any liveness/quality concerns, e.g. 'discontinued dApp', 'no roadmap progress', 'team inactive'; empty array if none"]
 }`;
 
   const resp = await fetch(`${base}/chat/completions`, {

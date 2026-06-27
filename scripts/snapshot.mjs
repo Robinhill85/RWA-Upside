@@ -115,6 +115,16 @@ function extractMetrics(profile, unlock, grok = {}, cg = null) {
 }
 const round = (v, d = 2) => Math.round(v * 10 ** d) / 10 ** d;
 
+function daysSinceLastTweet(tweets) {
+  if (!tweets?.length) return null;
+  let newest = 0;
+  for (const t of tweets) {
+    const d = Date.parse(t.posted_at);
+    if (Number.isFinite(d) && d > newest) newest = d;
+  }
+  return newest ? Math.round((Date.now() - newest) / 86400000) : null;
+}
+
 async function pool(items, n, fn) {
   const out = [];
   let i = 0;
@@ -144,6 +154,27 @@ async function gather(client, token, cg = null) {
   const cmcProse = collectProse({ profile, unlock });
   const grok = await safe("grok", grokBrief({ token, tweets: tweets || [], cmcProse }));
   const metrics = extractMetrics(profile, unlock, grok || {}, cg);
+
+  // liveness gate. Two reliable signals:
+  //  1) COLLAPSED CAP — a definite, tiny live market cap ($0 < cap < $250k) means the token has
+  //     price-collapsed / been abandoned (e.g. Landshare at ~$15k). Objective and dependable.
+  //  2) Grok's project_status === "discontinued" from its training knowledge.
+  // Tweet recency is recorded for display only — CreatorCrawl caches some handles for months, so
+  // an old "last tweet" date is unreliable as a liveness signal.
+  const days_since_last_tweet = daysSinceLastTweet(tweets || []);
+  const status = (grok && grok.project_status) || "unknown";
+  const cgCap = cg && cg.market_cap;
+  const collapsed = Number.isFinite(cgCap) && cgCap > 0 && cgCap < 250000;
+  const active = status !== "discontinued" && !collapsed;
+  const liveness = {
+    active,
+    status,
+    collapsed,
+    days_since_last_tweet,
+    tweet_date_caveat: "CreatorCrawl cache may lag — not used for gating",
+    red_flags: (grok && grok.red_flags) || [],
+  };
+
   return {
     slug: token.slug,
     symbol: token.symbol,
@@ -151,6 +182,7 @@ async function gather(client, token, cg = null) {
     x_handle: token.x_handle,
     themes: token.themes,
     metrics,
+    liveness,
     sentiment: { score: deepFind({ sentiment }, ["sentiment_score"]) ?? grok?.sentiment_score ?? null },
     social: { tweets: tweets || [], hero_tweet_id: pickHero(tweets || []) },
     grok_brief: grok || {},

@@ -54,9 +54,15 @@ renders committed snapshots — all keys live on the VPS cron). Each snapshot pu
 
 ### Scoring weights
 
-**Market cap is a GATE (≤ $30M), not a linear factor.** Inside the band a $1M coin is not
-meaningfully better than a $10M or $20M coin — upside comes from the other factors. Above $30M a
+**Market cap is a GATE (≤ $50M), not a linear factor.** Inside the band a $1M coin is not
+meaningfully better than a $10M or $20M coin — upside comes from the other factors. Above $50M a
 token is ineligible (score capped). Market cap therefore carries only a tiny tilt.
+
+**Liveness gate.** Abandoned projects are pushed out of the ranking (score capped at 12) when either
+(a) a definite live market cap has collapsed to `$0 < cap < $250k` (objective abandonment marker, e.g.
+Landshare), or (b) Grok flags `project_status: discontinued` from its knowledge. Tweet recency is
+shown for context but NOT gated on — CreatorCrawl caches some handles for months, so an old "last
+tweet" date is unreliable.
 
 | Factor | Direction | Weight |
 |---|---|---|
