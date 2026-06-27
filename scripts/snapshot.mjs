@@ -65,7 +65,7 @@ function collectProse(obj) {
 const numOr = (v) => (Number.isFinite(v) ? v : null);
 
 // Grok-extracted figures are preferred (robust to non-deterministic CMC prose); regex is fallback.
-function extractMetrics(profile, unlock, grok = {}, cgMcap = null) {
+function extractMetrics(profile, unlock, grok = {}, cg = null) {
   const blob = { profile, unlock };
   const prose = collectProse(blob);
   let market_cap_usd =
@@ -74,11 +74,15 @@ function extractMetrics(profile, unlock, grok = {}, cgMcap = null) {
     parseMoney(prose, "market cap");
   // sanity floor: sub-$50k "caps" are almost always a misread (price, TVL, holder count) → unknown
   if (Number.isFinite(market_cap_usd) && market_cap_usd < 50000) market_cap_usd = null;
-  // fall back to CoinGecko when CMC doesn't give us a usable cap
+  // fall back to CoinGecko: real circulating cap first, then FDV as a labeled proxy
   let market_cap_source = Number.isFinite(market_cap_usd) ? "cmc" : null;
-  if (!Number.isFinite(market_cap_usd) && Number.isFinite(cgMcap) && cgMcap >= 50000) {
-    market_cap_usd = cgMcap;
+  const FLOOR = 50000;
+  if (!Number.isFinite(market_cap_usd) && Number.isFinite(cg?.market_cap) && cg.market_cap >= FLOOR) {
+    market_cap_usd = cg.market_cap;
     market_cap_source = "coingecko";
+  } else if (!Number.isFinite(market_cap_usd) && Number.isFinite(cg?.fdv) && cg.fdv >= FLOOR) {
+    market_cap_usd = cg.fdv;
+    market_cap_source = "coingecko-fdv";
   }
   const fdv_usd =
     numOr(grok.fdv_usd) ??
@@ -125,7 +129,7 @@ async function pool(items, n, fn) {
   return out;
 }
 
-async function gather(client, token, cgMcap = null) {
+async function gather(client, token, cg = null) {
   const gaps = [];
   const safe = async (label, p) => {
     try { return await p; } catch (e) { gaps.push(`${token.slug}:${label}: ${e.message}`); return null; }
@@ -139,7 +143,7 @@ async function gather(client, token, cgMcap = null) {
   const tweets = await tweetsP;
   const cmcProse = collectProse({ profile, unlock });
   const grok = await safe("grok", grokBrief({ token, tweets: tweets || [], cmcProse }));
-  const metrics = extractMetrics(profile, unlock, grok || {}, cgMcap);
+  const metrics = extractMetrics(profile, unlock, grok || {}, cg);
   return {
     slug: token.slug,
     symbol: token.symbol,

@@ -1,11 +1,11 @@
-// CoinGecko fallback for market cap when the CMC Skill Hub doesn't return one.
+// CoinGecko fallback for market cap (and FDV) when the CMC Skill Hub doesn't return one.
 // Single batched call for the whole cohort; retries on free-tier throttling.
 
 const BASE = process.env.COINGECKO_BASE_URL || "https://api.coingecko.com/api/v3";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// ids: array of coingecko ids → returns Map<id, market_cap_usd>
+// ids: array of coingecko ids → returns Map<id, { market_cap, fdv }>
 export async function fetchMarketCaps(ids) {
   const out = new Map();
   const unique = [...new Set(ids.filter(Boolean))];
@@ -32,7 +32,12 @@ export async function fetchMarketCaps(ids) {
       continue;
     }
     for (const row of JSON.parse(text)) {
-      if (row?.id && Number.isFinite(row.market_cap)) out.set(row.id, row.market_cap);
+      if (row?.id) {
+        out.set(row.id, {
+          market_cap: Number.isFinite(row.market_cap) ? row.market_cap : null,
+          fdv: Number.isFinite(row.fully_diluted_valuation) ? row.fully_diluted_valuation : null,
+        });
+      }
     }
     return out;
   }
