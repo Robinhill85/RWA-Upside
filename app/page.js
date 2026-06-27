@@ -38,20 +38,7 @@ export default async function Page() {
             : "No snapshots yet — the daily job hasn't run. Run `npm run snapshot`."}
         </p>
         </div>
-        <svg className="hero-motif" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <g stroke="#9db4ff" strokeWidth="2">
-            <line x1="22" y1="74" x2="22" y2="104" />
-            <rect x="16" y="82" width="12" height="16" fill="#9db4ff" opacity="0.5" />
-            <line x1="58" y1="60" x2="58" y2="96" />
-            <rect x="52" y="70" width="12" height="18" fill="#9db4ff" opacity="0.5" />
-            <line x1="94" y1="66" x2="94" y2="100" />
-            <rect x="88" y="74" width="12" height="20" fill="#9db4ff" opacity="0.5" />
-            <line x1="130" y1="44" x2="130" y2="86" />
-            <rect x="124" y="52" width="12" height="24" fill="#9db4ff" opacity="0.5" />
-          </g>
-          <path d="M14 98 L58 80 L94 86 L150 52 L188 26" stroke="#ffb224" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-          <path d="M176 24 L190 24 L188 40" stroke="#ffb224" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+        <img className="hero-img" src="/hero.jpg" alt="Tokenized real-world assets — bull market" />
       </header>
 
       {!latest ? (

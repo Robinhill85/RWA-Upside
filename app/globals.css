@@ -42,7 +42,7 @@ main { position: relative; z-index: 1; max-width: 1000px; margin: 0 auto; paddin
 .tag { color: #e6ecff; margin: 0 0 8px; max-width: 640px; }
 .tag strong { color: #fff; }
 .status { color: var(--muted); font-size: 13px; margin: 0; }
-.hero-motif { flex: 0 0 auto; width: 180px; height: 108px; opacity: 0.92; }
+.hero-img { flex: 0 0 auto; width: 360px; max-width: 42%; height: auto; border-radius: 12px; border: 1px solid var(--line); display: block; box-shadow: 0 8px 30px rgba(0,0,0,0.25); }
 
 .empty { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 44px; text-align: center; color: var(--muted); backdrop-filter: blur(4px); }
 
@@ -83,4 +83,4 @@ footer a { color: #fff; text-decoration: underline; }
 footer code { background: rgba(0,0,0,0.25); padding: 1px 5px; border-radius: 4px; font-size: 12px; color: var(--accent2); }
 .disc { font-size: 12px; margin-top: 6px; opacity: 0.8; }
 
-@media (max-width: 640px) { .hero-motif { display: none; } .hdr h1 { font-size: 30px; } }
+@media (max-width: 640px) { .hero-img { display: none; } .hdr h1 { font-size: 30px; } }
