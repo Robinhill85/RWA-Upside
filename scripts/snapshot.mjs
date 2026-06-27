@@ -7,7 +7,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { connectCmc, tokenProfile, unlockImpact, kolSentiment } from "./lib/cmc.mjs";
-import { fetchTweets, pickHero } from "./lib/creatorcrawl.mjs";
+import { fetchTweets, pickHero } from "./lib/apify-x.mjs";
 import { grokBrief } from "./lib/grok.mjs";
 import { scoreCohort } from "./lib/score.mjs";
 import { fetchMarketCaps } from "./lib/coingecko.mjs";
@@ -155,23 +155,23 @@ async function gather(client, token, cg = null) {
   const grok = await safe("grok", grokBrief({ token, tweets: tweets || [], cmcProse }));
   const metrics = extractMetrics(profile, unlock, grok || {}, cg);
 
-  // liveness gate. Two reliable signals:
-  //  1) COLLAPSED CAP — a definite, tiny live market cap ($0 < cap < $250k) means the token has
-  //     price-collapsed / been abandoned (e.g. Landshare at ~$15k). Objective and dependable.
-  //  2) Grok's project_status === "discontinued" from its training knowledge.
-  // Tweet recency is recorded for display only — CreatorCrawl caches some handles for months, so
-  // an old "last tweet" date is unreliable as a liveness signal.
+  // liveness gate. Three reliable signals (Apify gives fresh tweet dates, so recency is dependable now):
+  //  1) COLLAPSED CAP — a definite tiny live market cap ($0 < cap < $250k) = price-collapsed/abandoned.
+  //  2) STALE — no tweet in > STALE_DAYS (project gone silent).
+  //  3) Grok project_status === "discontinued".
+  const STALE_DAYS = 75;
   const days_since_last_tweet = daysSinceLastTweet(tweets || []);
   const status = (grok && grok.project_status) || "unknown";
   const cgCap = cg && cg.market_cap;
   const collapsed = Number.isFinite(cgCap) && cgCap > 0 && cgCap < 250000;
-  const active = status !== "discontinued" && !collapsed;
+  const stale = Number.isFinite(days_since_last_tweet) && days_since_last_tweet > STALE_DAYS;
+  const active = status !== "discontinued" && !collapsed && !stale;
   const liveness = {
     active,
     status,
     collapsed,
+    stale,
     days_since_last_tweet,
-    tweet_date_caveat: "CreatorCrawl cache may lag — not used for gating",
     red_flags: (grok && grok.red_flags) || [],
   };
 

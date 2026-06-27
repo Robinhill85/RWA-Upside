@@ -54,7 +54,7 @@ export default async function Page() {
                         <strong>{t.symbol}</strong> <span className="muted">{t.name}</span>
                         <div className="themes">{(t.themes || []).join(" · ")}</div>
                         {t.active === false && (
-                          <div className="flag">⚠ {t.liveness?.status === "discontinued" ? "discontinued" : t.liveness?.collapsed ? "cap collapsed" : "inactive"}</div>
+                          <div className="flag">⚠ {t.liveness?.status === "discontinued" ? "discontinued" : t.liveness?.collapsed ? "cap collapsed" : t.liveness?.stale ? "no recent activity" : "inactive"}</div>
                         )}
                         {t.eligible === false && <div className="flag">over $50M cap</div>}
                       </td>
