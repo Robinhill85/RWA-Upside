@@ -144,7 +144,7 @@ async function gather(client, token, cg = null) {
   const safe = async (label, p) => {
     try { return await p; } catch (e) { gaps.push(`${token.slug}:${label}: ${e.message}`); return null; }
   };
-  // Tweets (CreatorCrawl) can run in parallel, but serialize the CMC/MCP calls —
+  // Tweets (Apify) can run in parallel, but serialize the CMC/MCP calls —
   // the skill-hub times out under many concurrent requests.
   const tweetsP = safe("tweets", fetchTweets(token.x_handle));
   const profile = await safe("profile", tokenProfile(client, token));

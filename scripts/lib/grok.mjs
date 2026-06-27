@@ -1,5 +1,5 @@
 // Grok (xAI) — daily brief + theme/bullish scoring, GROUNDED on fetched tweets.
-// We never ask Grok to invent tweet IDs; it only summarizes what CreatorCrawl gave us.
+// We never ask Grok to invent tweet IDs; it only summarizes the tweets Apify fetched.
 
 export async function grokBrief({ token, tweets, cmcProse = "" }) {
   const key = process.env.GROK_API_KEY;

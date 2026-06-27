@@ -1,7 +1,12 @@
 # CMC RWA Radar — Live Low-Cap RWA Dashboard
 
+> ⚠️ **Original design doc (kept for history).** The as-built architecture differs in places —
+> notably tweets come from **Apify** (not CreatorCrawl), the market-cap gate is **$50M**, there's a
+> **liveness gate**, and CoinGecko is the market-cap fallback. See **`DECISIONS.md`** and **`README.md`**
+> for the current state.
+
 **A self-updating, progression-tracking dashboard of low-market-cap RWA / tokenization /
-stablecoin-yield tokens, powered by the CoinMarketCap Skill Hub + Grok + CreatorCrawl.**
+stablecoin-yield tokens, powered by the CoinMarketCap Skill Hub + Grok + Apify (live X) + CoinGecko.**
 Built as an entry for the CMC Agent Hub content competition.
 
 ---

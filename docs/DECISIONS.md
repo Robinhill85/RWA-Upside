@@ -1,36 +1,37 @@
-# Decisions (locked Jun 26 2026)
+# Decisions (as-built)
 
-Answers to SPEC §14, as decided by Robin:
+This is the current architecture. For the original design doc see `SPEC.md` (kept for history).
 
-1. **Public board, no client disclosure.** Focus is purely low-mcap, high-upside RWA coins.
-   IXS may or may not appear — it's just one candidate, ranked on merit. (A generic
-   "not financial advice" line is kept on-page as standard prudence, separate from any
-   client relationship.)
+1. **Public board, no client disclosure.** Focus is purely low-mcap, high-upside RWA coins; every
+   token is ranked on merit. A generic "not financial advice" line stays on-page as standard prudence.
 
-2. **Cohort size = 10** (was 8). See `watchlist.json`. Slugs/handles seeded but `verified:false`
-   until `npm run resolve` confirms them.
+2. **Cohort = 10 tokens** (`watchlist.json`), referenced by slug/cmcid + `coingecko_id` — never bare symbol.
 
-3. **Hermes runs it autonomously, daily.** Lowest-friction path chosen: the snapshot is a
-   **deterministic script (no LLM in the loop)** that Hermes (or a system crontab) invokes once
-   a day. Cheaper and more reliable than driving an agent; CMC is reached via the MCP SDK,
-   Grok + CreatorCrawl via REST.
+3. **Runs autonomously, daily.** The snapshot is a **deterministic script (no LLM in the loop)** invoked
+   by cron once a day. CMC is reached via the MCP SDK; Grok, Apify, and CoinGecko via REST.
 
 4. **Repo:** `RWA-Upside` (public). **Vercel project:** `rwa-upside`.
 
-5. **Scoring rubric — v2 (revised Jun 26 after first live run):**
-   - **Market cap is a GATE, not linear.** ≤ $30M to qualify; above = ineligible (score capped at 20).
-     Within the band, market cap carries only a tiny tilt (weight 4) — a $1M coin is NOT treated as
-     much better than a $10M/$20M coin. Upside comes from the other factors.
-   - **Newsworthy / bullish momentum** weight **30** (valued most).
-   - **Theme fit / AI-ready** (AI/agentic, yield, stablecoin, RWA, tokenization) weight **28**.
-   - **Fully unlocked** weight **22** — and now extracted reliably via Grok (grounded on CMC prose),
-     not brittle regex, since it's weighted heavily.
-   - Social momentum 10, holder distribution 6.
-   Theme/bullish/extraction all produced by Grok. Full table in `README.md` / `scripts/lib/score.mjs`.
+5. **Scoring rubric.**
+   - **Market cap is a GATE (≤ $50M), not linear** — above = ineligible (score capped); within the band
+     only a tiny tilt (weight 4). A $1M coin is not treated as much better than a $20M coin.
+   - **Liveness gate** — excluded if cap collapsed (`$0 < cap < $250k`), no tweet in > 75 days, or Grok
+     marks `discontinued`.
+   - Weights: newsworthy/bullish **30**, theme-fit/AI **28**, fully-unlocked **22**, social 10,
+     holders 6, market cap 4. (Full table in `README.md` / `scripts/lib/score.mjs`.)
 
-## Still open / to confirm on first run
+## Data sources (and why)
 
-- Verify the 10 slugs (`npm run resolve`) and confirm the X handles.
-- Confirm Grok + CreatorCrawl keys work from the VPS; confirm CreatorCrawl REST endpoint shape.
-- Smoke-test the CMC-over-MCP transport from Node.
-- Decide hero-tweet embedding (P2) vs snapshot cards once tweets are flowing.
+- **Tweets → Apify** (`apidojo/tweet-scraper`, paid). The original plan used CreatorCrawl, but its
+  backend (shared with "SocialCrawl") served months-stale cache for some handles — so it was dropped
+  in favour of Apify's live X data, which fixed both bullishness accuracy and the recency liveness gate.
+- **Market cap → CMC first, CoinGecko fallback.** CMC's analyst prose doesn't always expose a clean
+  cap; CoinGecko (`coins/markets`, then FDV) fills the gap so the $50M gate always applies.
+- **Grok extracts figures** (mcap / FDV / unlock / top-10) from CMC prose — robust to its
+  non-deterministic wording — and writes the brief + theme/bullish scores.
+
+## Notes
+
+- xAI **Live Search** (`search_parameters`) is deprecated; Grok's `project_status` uses model knowledge,
+  with the collapsed-cap + tweet-recency signals doing the heavy lifting for liveness.
+- Tweet recency is reliable only because Apify is live; do **not** revert to a cached tweet source.
