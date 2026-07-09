@@ -15,9 +15,18 @@ function delta(now, then) {
   if (now == null || then == null) return null;
   return Math.round((now - then) * 10) / 10;
 }
+// Latest tweet with readable content: newest non-retweet that has real text (not media/link-only).
 function heroTweet(t) {
   const tw = t.social?.tweets || [];
-  return tw.find((x) => x.id === t.social?.hero_tweet_id) || tw[0] || null;
+  if (!tw.length) return null;
+  const byNewest = [...tw].sort((a, b) => (Date.parse(b.posted_at) || 0) - (Date.parse(a.posted_at) || 0));
+  const isRT = (x) => /^RT @/i.test((x.text || "").trim());
+  const readable = (x) => (x.text || "").replace(/https?:\/\/\S+/g, "").trim().length >= 15;
+  return byNewest.find((x) => !isRT(x) && readable(x)) || byNewest.find((x) => !isRT(x)) || byNewest[0];
+}
+function tweetText(x) {
+  const s = (x?.text || "").replace(/^RT @\S+:?\s*/i, "").replace(/https?:\/\/\S+/g, "").trim();
+  return s || "🔗 media post — view on X";
 }
 
 export default async function Page() {
@@ -104,7 +113,7 @@ export default async function Page() {
                                 {hero && (
                                   <a className="tweet" href={hero.url || "#"} target="_blank" rel="noopener noreferrer">
                                     <div className="tweet-head">@{t.x_handle}{hero.posted_at ? ` · ${fmtDate(hero.posted_at)}` : ""}</div>
-                                    <div className="tweet-text">{hero.text}</div>
+                                    <div className="tweet-text">{tweetText(hero)}</div>
                                     <div className="tweet-eng">❤ {hero.likes} · ↺ {hero.retweets} · View on X →</div>
                                   </a>
                                 )}
