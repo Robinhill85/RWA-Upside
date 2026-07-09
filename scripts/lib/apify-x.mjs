@@ -43,7 +43,13 @@ function normalize(t) {
   };
 }
 
+// Hero = the LATEST tweet (matches the "latest tweet" label), skipping retweets so it's
+// original content. Falls back to newest-of-any if every recent post is a retweet.
 export function pickHero(tweets) {
   if (!tweets?.length) return null;
-  return [...tweets].sort((a, b) => b.likes + b.retweets - (a.likes + a.retweets))[0]?.id ?? null;
+  const byNewest = [...tweets].sort(
+    (a, b) => (Date.parse(b.posted_at) || 0) - (Date.parse(a.posted_at) || 0)
+  );
+  const original = byNewest.find((t) => !/^RT @/i.test((t.text || "").trim()));
+  return (original || byNewest[0])?.id ?? null;
 }
