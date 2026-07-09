@@ -28,6 +28,17 @@ function tweetText(x) {
   const s = (x?.text || "").replace(/^RT @\S+:?\s*/i, "").replace(/https?:\/\/\S+/g, "").trim();
   return s || "🔗 media post — view on X";
 }
+// Recent original posts (newest first, retweets dropped) for the swipeable card row.
+function recentTweets(t, n = 6) {
+  const tw = (t.social?.tweets || []).filter((x) => !/^RT @/i.test((x.text || "").trim()));
+  return [...tw]
+    .sort((a, b) => (Date.parse(b.posted_at) || 0) - (Date.parse(a.posted_at) || 0))
+    .slice(0, n);
+}
+const fmtDateTime = (s) => {
+  const d = new Date(s);
+  return isNaN(d) ? "" : d.toLocaleString("en-US", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+};
 
 export default async function Page() {
   const [latest, weekAgo, dates] = await Promise.all([loadLatest(), loadWeekAgo(), listSnapshotDates()]);
@@ -70,7 +81,7 @@ export default async function Page() {
                 .map((t) => {
                   const prev = weekAgo?.tokens.find((x) => x.slug === t.slug);
                   const d = delta(t.upside_score, prev?.upside_score);
-                  const hero = heroTweet(t);
+                  const tweets = recentTweets(t);
                   const events = Array.isArray(t.grok_brief?.key_events) ? t.grok_brief.key_events.slice(0, 4) : [];
                   return (
                     <Fragment key={t.slug}>
@@ -98,24 +109,28 @@ export default async function Page() {
                         <td>{pct(t.grok_brief?.theme_fit_score)}</td>
                         <td>{pct(t.grok_brief?.bullish_score)}</td>
                       </tr>
-                      {(events.length > 0 || hero) && (
+                      {(events.length > 0 || tweets.length > 0) && (
                         <tr className="detail-row">
                           <td></td>
                           <td colSpan={8}>
                             <details>
-                              <summary>📰 brief &amp; latest tweet</summary>
+                              <summary>📰 brief &amp; recent tweets{tweets.length > 1 ? ` (${tweets.length})` : ""}</summary>
                               <div className="detail">
                                 {events.length > 0 && (
                                   <ul className="events">
                                     {events.map((e, i) => <li key={i}>{e}</li>)}
                                   </ul>
                                 )}
-                                {hero && (
-                                  <a className="tweet" href={hero.url || "#"} target="_blank" rel="noopener noreferrer">
-                                    <div className="tweet-head">@{t.x_handle}{hero.posted_at ? ` · ${fmtDate(hero.posted_at)}` : ""}</div>
-                                    <div className="tweet-text">{tweetText(hero)}</div>
-                                    <div className="tweet-eng">❤ {hero.likes} · ↺ {hero.retweets} · View on X →</div>
-                                  </a>
+                                {tweets.length > 0 && (
+                                  <div className="tweets-row">
+                                    {tweets.map((tw) => (
+                                      <a key={tw.id} className="tweet" href={tw.url || "#"} target="_blank" rel="noopener noreferrer">
+                                        <div className="tweet-head">@{t.x_handle}{tw.posted_at ? ` · ${fmtDateTime(tw.posted_at)}` : ""}</div>
+                                        <div className="tweet-text">{tweetText(tw)}</div>
+                                        <div className="tweet-eng">❤ {tw.likes} · ↺ {tw.retweets} · View on X →</div>
+                                      </a>
+                                    ))}
+                                  </div>
                                 )}
                               </div>
                             </details>

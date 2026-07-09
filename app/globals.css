@@ -68,7 +68,11 @@ tr.dimmed td { opacity: 0.5; }
 .detail-row summary { cursor: pointer; color: var(--muted); font-size: 12px; padding: 6px 0; list-style: none; user-select: none; }
 .detail-row summary:hover { color: var(--accent); }
 .detail-row summary::-webkit-details-marker { display: none; }
-.detail { display: flex; gap: 16px; flex-wrap: wrap; padding: 4px 0 12px; }
+.detail { display: flex; flex-direction: column; gap: 12px; padding: 4px 0 12px; }
+.tweets-row { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; max-width: min(calc(100vw - 48px), 920px); }
+.tweets-row .tweet { flex: 0 0 300px; max-width: 84vw; scroll-snap-align: start; }
+.tweets-row::-webkit-scrollbar { height: 6px; }
+.tweets-row::-webkit-scrollbar-thumb { background: var(--line); border-radius: 3px; }
 .events { margin: 0; padding-left: 18px; font-size: 12px; color: var(--muted); flex: 1; min-width: 200px; }
 .events li { margin-bottom: 3px; }
 .tweet { display: block; flex: 1; min-width: 260px; max-width: 460px; text-decoration: none; background: rgba(4, 10, 40, 0.6); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; color: var(--text); }
