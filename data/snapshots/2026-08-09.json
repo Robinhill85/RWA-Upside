@@ -1,0 +1,2174 @@
+{
+  "date": "2026-08-09",
+  "generated_at_utc": "2026-08-09T00:06:14.018Z",
+  "skills_used": [
+    "altcoin_token_profile",
+    "analyze_token_unlock_impact",
+    "altcoin_kol_sentiment"
+  ],
+  "tokens": [
+    {
+      "slug": "ix-swap",
+      "symbol": "IXS",
+      "name": "IXS",
+      "x_handle": "ixsfinance",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "yield"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 11100000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 11100000,
+        "fully_unlocked": true,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": 23.72,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": 1,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": 0.9
+      },
+      "social": {
+        "tweets": [
+          {
+            "id": "2085713996531818799",
+            "url": "https://x.com/IxsFinance/status/2085713996531818799",
+            "text": "Tokenisation won’t be a winner-takes-all market.\n\nEvery bank, asset manager, broker and fintech has different requirements around compliance, distribution, UX and economics.\n\nThat complexity creates opportunity. We are still at the very beginning. https://t.co/6Q3XVYxCjD",
+            "likes": 71,
+            "retweets": 14,
+            "posted_at": "2026-08-07T13:05:42.000Z"
+          },
+          {
+            "id": "2085021848144625772",
+            "url": "https://x.com/IxsFinance/status/2085021848144625772",
+            "text": "https://t.co/dbFp82xhHd",
+            "likes": 68,
+            "retweets": 18,
+            "posted_at": "2026-08-05T15:15:21.000Z"
+          },
+          {
+            "id": "2084648839126888631",
+            "url": "https://x.com/IxsFinance/status/2084648839126888631",
+            "text": "Huge kudos to @RobinhoodCrypto . \n\nBuilding the largest catalogue of tokenised RWAs this quickly is a serious achievement. \n\nAsset count isn’t the same as value, but distribution at this scale changes everything. \n\nNext comes liquidity, collateral, regulated yield and agents",
+            "likes": 77,
+            "retweets": 10,
+            "posted_at": "2026-08-04T14:33:08.000Z"
+          },
+          {
+            "id": "2083591677113975157",
+            "url": "https://x.com/IxsFinance/status/2083591677113975157",
+            "text": "The vault never sleeps.\n\nRegulated real-world assets. Institutional yield. Accessible onchain, around the clock. https://t.co/B1QCAQRpRV",
+            "likes": 98,
+            "retweets": 20,
+            "posted_at": "2026-08-01T16:32:21.000Z"
+          },
+          {
+            "id": "2083224699396317332",
+            "url": "https://x.com/IxsFinance/status/2083224699396317332",
+            "text": "July was a crazy month for RWAs:\n\nWe launched the first regulated tokenized RWA vaults on BNB Chain, giving users and AI agents access to institutional yield onchain.\n\nThen the sector exploded:\n\n• Tokenized RWAs crossed $35B\n• RWA holders surpassed 1.3M\n• Tokenized stock",
+            "likes": 103,
+            "retweets": 18,
+            "posted_at": "2026-07-31T16:14:07.000Z"
+          },
+          {
+            "id": "2082850409928913055",
+            "url": "https://x.com/IxsFinance/status/2082850409928913055",
+            "text": "Regulators want transparency 🔍\n\nBut shareholder records still take weeks or months to move between lawyers, transfer agents and corporate registries.\n\nIXS spent years building the regulated onchain infrastructure to fix this.\n\nNow, platforms can simply plug into our rails and https://t.co/N4Ls7Q8HAy",
+            "likes": 79,
+            "retweets": 16,
+            "posted_at": "2026-07-30T15:26:49.000Z"
+          },
+          {
+            "id": "2082380458222866526",
+            "url": "https://x.com/IxsFinance/status/2082380458222866526",
+            "text": "Agents will become the interface. Vaults will become the financial infrastructure behind them.\n\nIXS is building the picks and shovels: compliant access to real-world yield, designed for an agent-driven economy.",
+            "likes": 70,
+            "retweets": 11,
+            "posted_at": "2026-07-29T08:19:24.000Z"
+          },
+          {
+            "id": "2082153843106676823",
+            "url": "https://x.com/IxsFinance/status/2082153843106676823",
+            "text": "The market just got a clear signal from @base on where it plans to deploy capital.\n\nAt the top of its Ecosystem Fund thesis:\n\n1⃣Yield-bearing real-world assets\n2⃣Agents that transact autonomously\n\nThese may look like two separate opportunities. They’re not.\n\nAgents that buy, sell https://t.co/jfAZ3Auwy3",
+            "likes": 85,
+            "retweets": 18,
+            "posted_at": "2026-07-28T17:18:55.000Z"
+          },
+          {
+            "id": "2081703710892175851",
+            "url": "https://x.com/IxsFinance/status/2081703710892175851",
+            "text": "The CLARITY Act is moving closer to a vote.\n\nFor IXS, this is how regulated tokenisation moves from promising infrastructure to mainstream financial markets.\n\nClear rules unlock institutional capital. Compliance turns that clarity into adoption.",
+            "likes": 72,
+            "retweets": 13,
+            "posted_at": "2026-07-27T11:30:15.000Z"
+          },
+          {
+            "id": "2081438349022363679",
+            "url": "https://x.com/IxsFinance/status/2081438349022363679",
+            "text": "The new terminal is not for flights.\n\nIt is for capital. https://t.co/UyWZyQF1ns",
+            "likes": 92,
+            "retweets": 15,
+            "posted_at": "2026-07-26T17:55:48.000Z"
+          },
+          {
+            "id": "2081036920399057190",
+            "url": "https://x.com/IxsFinance/status/2081036920399057190",
+            "text": "Efficiency compounds. Friction extracts.\n\nEvery intermediary, delay and manual process adds cost, blocks access and slows capital down.\n\nFriction is the hidden tax of finance. Tokenization is how we remove it.\n\nFew. https://t.co/n9kiywJerL",
+            "likes": 54,
+            "retweets": 13,
+            "posted_at": "2026-07-25T15:20:40.000Z"
+          },
+          {
+            "id": "2080686612631945591",
+            "url": "https://x.com/IxsFinance/status/2080686612631945591",
+            "text": "Why does the CLARITY Act matter?\n\n• Clear SEC vs CFTC roles\n• Rules institutions can build around\n• Less regulatory uncertainty\n• A path for RWAs to scale in the US\n\nFor IXS clear rules unlock institutional capital. Institutional capital unlocks tokenization at scale.",
+            "likes": 59,
+            "retweets": 6,
+            "posted_at": "2026-07-24T16:08:40.000Z"
+          },
+          {
+            "id": "2080340503879413814",
+            "url": "https://x.com/IxsFinance/status/2080340503879413814",
+            "text": "https://t.co/VuVwZe8bfH",
+            "likes": 59,
+            "retweets": 12,
+            "posted_at": "2026-07-23T17:13:21.000Z"
+          },
+          {
+            "id": "2080299846028664907",
+            "url": "https://x.com/IxsFinance/status/2080299846028664907",
+            "text": "RT @julian2kwan: great work being done by @HesterPeirce we appreciate you\n\nCommissioner Hester Peirce just published one of the clearest th…",
+            "likes": 68,
+            "retweets": 11,
+            "posted_at": "2026-07-23T14:31:48.000Z"
+          },
+          {
+            "id": "2085364614708044287",
+            "url": "https://x.com/IxsFinance/status/2085364614708044287",
+            "text": "The trading floor sleeps. Your capital doesn’t have to.\n\nBlackRock corporate bond yield, accessible onchain through IXS. \n\nAround the clock.⤵️ https://t.co/CbDw7MR3a6",
+            "likes": 66,
+            "retweets": 11,
+            "posted_at": "2026-08-06T13:57:23.000Z"
+          },
+          {
+            "id": "2085364617308447225",
+            "url": "https://x.com/IxsFinance/status/2085364617308447225",
+            "text": "Learn more https://t.co/1lozsd6VrR",
+            "likes": 7,
+            "retweets": 0,
+            "posted_at": "2026-08-06T13:57:23.000Z"
+          },
+          {
+            "id": "2084202190239842558",
+            "url": "https://x.com/IxsFinance/status/2084202190239842558",
+            "text": "You can now access regulated RWA yield directly onchain.\n\nHuge shoutout to our community member Ralph Realm for this step-by-step walkthrough showing how to:  Set up with @FD_XYZ Finance District\n\n💳 Fund it on BNB Smart Chain\n🔍 Discover the IXS Finance Vault\n💵 Deposit USDC https://t.co/lYKLNVGwEq",
+            "likes": 94,
+            "retweets": 18,
+            "posted_at": "2026-08-03T08:58:19.000Z"
+          },
+          {
+            "id": "2084202193578582197",
+            "url": "https://x.com/IxsFinance/status/2084202193578582197",
+            "text": "https://t.co/FVf32EcXIf",
+            "likes": 23,
+            "retweets": 4,
+            "posted_at": "2026-08-03T08:58:20.000Z"
+          },
+          {
+            "id": "2082518148712890712",
+            "url": "https://x.com/IxsFinance/status/2082518148712890712",
+            "text": "The @wef  is writing the AI playbook for financial services.\n\nAgentic AI is now a top-three focus across fintech, consumer finance and capital markets.\n\nThe next phase is agents deploying capital through regulated, auditable infrastructure.\n\nIXS is ready for it. https://t.co/rL5Se3X3Bk",
+            "likes": 56,
+            "retweets": 10,
+            "posted_at": "2026-07-29T17:26:32.000Z"
+          },
+          {
+            "id": "2082518151292403768",
+            "url": "https://x.com/IxsFinance/status/2082518151292403768",
+            "text": "https://t.co/anQiHLeP3T",
+            "likes": 5,
+            "retweets": 0,
+            "posted_at": "2026-07-29T17:26:33.000Z"
+          }
+        ],
+        "hero_tweet_id": "2085713996531818799"
+      },
+      "grok_brief": {
+        "one_line": "IXS advancing regulated RWA vaults/yield on BNB, agent infra, CLARITY Act push amid $35B sector growth",
+        "key_events": [
+          "Launched first regulated tokenized RWA vaults on BNB Chain",
+          "Tokenized RWAs crossed $35B, holders >1.3M",
+          "CLARITY Act nearing vote for institutional scaling",
+          "Focus on agent-driven yield access and Base ecosystem alignment"
+        ],
+        "post_count_24h": 20,
+        "bullish_score": 0.85,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.9,
+        "market_cap_usd": 11100000,
+        "fdv_usd": 11100000,
+        "fully_unlocked": true,
+        "top10_holder_pct": 23.72,
+        "project_status": "active",
+        "red_flags": []
+      },
+      "upside_score": 91.2,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 25.5,
+        "themeFit": 26.6,
+        "unlock": 22,
+        "social": 9,
+        "holders": 4.6,
+        "marketCap": 3.6
+      },
+      "rank_today": 1
+    },
+    {
+      "slug": "clearpool",
+      "symbol": "CPOOL",
+      "name": "Clearpool",
+      "x_handle": "ClearpoolFin",
+      "themes": [
+        "rwa",
+        "yield",
+        "stablecoin"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 17370000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 17800000,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": 52.05,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": 3,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": 0.9
+      },
+      "social": {
+        "tweets": [
+          {
+            "id": "2085240245201842429",
+            "url": "https://x.com/ClearpoolFin/status/2085240245201842429",
+            "text": "For a growing number of trading firms, market makers, and fintechs, dollars on-chain do more than settle trades. They are part of everyday liquidity management on the balance sheet.\n\nWith over $328M in loans originated, Clearpool Prime is where verified institutions borrow and https://t.co/bYKYfmQdOD",
+            "likes": 91,
+            "retweets": 22,
+            "posted_at": "2026-08-06T05:43:11.000Z"
+          },
+          {
+            "id": "2084229774860595546",
+            "url": "https://x.com/ClearpoolFin/status/2084229774860595546",
+            "text": "Trade finance is one of the oldest forms of credit in the world, and one of the most underfunded.\n\n@tradevu_co is building an on-chain credit layer for global trade, working capital for the SMEs that move goods across borders. Our latest breaks it down.\n\nRead more 👉🏻 https://t.co/zEdY004dwL",
+            "likes": 94,
+            "retweets": 14,
+            "posted_at": "2026-08-03T10:47:56.000Z"
+          },
+          {
+            "id": "2082104786154053861",
+            "url": "https://x.com/ClearpoolFin/status/2082104786154053861",
+            "text": "New Trade Finance Vault is live on Clearpool! Launched by @tradevu_co and managed by @cicadacredit.\n\nTrade finance is one of the oldest forms of real-world credit. Now it's on-chain.\n\nSupply USDC, 15% target yield, funding tokenized invoices, purchase orders, and letters of https://t.co/BvXyFBdRii",
+            "likes": 88,
+            "retweets": 24,
+            "posted_at": "2026-07-28T14:03:59.000Z"
+          },
+          {
+            "id": "2077281181830381904",
+            "url": "https://x.com/ClearpoolFin/status/2077281181830381904",
+            "text": "a16z frames it nicely: \"Building for institutions requires understanding procurement, compliance, controls, channel partners, and long sales cycles.\"\n\nInstitutions are reconfiguring DeFi around exactly those constraints, keeping the primitives that fit and rebuilding the rest.",
+            "likes": 88,
+            "retweets": 14,
+            "posted_at": "2026-07-15T06:36:42.000Z"
+          },
+          {
+            "id": "2075414215486284192",
+            "url": "https://x.com/ClearpoolFin/status/2075414215486284192",
+            "text": "JPMorgan's new tokenized money market fund holds $693 million about two months after launch, driven largely by stablecoin issuers. The GENIUS Act bars them from paying interest on their tokens, so they park reserves in regulated onchain funds that earn it instead.\n\nRegulated https://t.co/6b8TTyyMcE",
+            "likes": 118,
+            "retweets": 23,
+            "posted_at": "2026-07-10T02:58:02.000Z"
+          },
+          {
+            "id": "2075092205115740578",
+            "url": "https://x.com/ClearpoolFin/status/2075092205115740578",
+            "text": "Forbes reported that the tokenized asset market has reached roughly $60 billion, with most of it sitting idle onchain.\n\nTokenizing an asset is the first step. Putting it to work requires institutional credit rails.\n\n$CPOOL https://t.co/uJ822xiOrz",
+            "likes": 127,
+            "retweets": 24,
+            "posted_at": "2026-07-09T05:38:29.000Z"
+          },
+          {
+            "id": "2075090729643520311",
+            "url": "https://x.com/ClearpoolFin/status/2075090729643520311",
+            "text": "RT @coinbureau: 🚨NEW: EU SET TO EXPAND MiCA RULES TO TOKENIZATION &amp; STABLECOINS\n\nThe European Commission is reportedly preparing to expand…",
+            "likes": 386,
+            "retweets": 105,
+            "posted_at": "2026-07-09T05:32:37.000Z"
+          },
+          {
+            "id": "2073708040680038404",
+            "url": "https://x.com/ClearpoolFin/status/2073708040680038404",
+            "text": "RT @swissarmysteven: Prime crossed $10M in active loans this week.\n\nIn this market, slow and steady is the kind of growth we want.",
+            "likes": 46,
+            "retweets": 10,
+            "posted_at": "2026-07-05T09:58:19.000Z"
+          },
+          {
+            "id": "2072151664015069249",
+            "url": "https://x.com/ClearpoolFin/status/2072151664015069249",
+            "text": "Prime active loans just crossed $10M 🙌🏻\n\nPermissioned, KYC and AML compliant access to a global network for wholesale borrowing and lending.\n\n$CPOOL https://t.co/O5mY6kv3el",
+            "likes": 145,
+            "retweets": 29,
+            "posted_at": "2026-07-01T02:53:50.000Z"
+          },
+          {
+            "id": "2071914406234259900",
+            "url": "https://x.com/ClearpoolFin/status/2071914406234259900",
+            "text": "Onchain lending coming to the XRP Ledger.\nBringing institutional credit rails to networks where real capital already lives 👀\n\n$CPOOL",
+            "likes": 131,
+            "retweets": 25,
+            "posted_at": "2026-06-30T11:11:03.000Z"
+          },
+          {
+            "id": "2071648703589609821",
+            "url": "https://x.com/ClearpoolFin/status/2071648703589609821",
+            "text": "Japan just approved RLUSD for launch via SBI. The compliant money layer keeps expanding across Asia, and that settlement base is what institutional onchain credit is built on.",
+            "likes": 117,
+            "retweets": 15,
+            "posted_at": "2026-06-29T17:35:14.000Z"
+          },
+          {
+            "id": "2070749395641827424",
+            "url": "https://x.com/ClearpoolFin/status/2070749395641827424",
+            "text": "US regulators are moving to require stablecoin issuers to run customer identification programs. Six agencies, including the Fed, OCC and FDIC, advanced KYC rules under the GENIUS Act this month, with final regulations due by July 18.\n\nKnow-your-customer is becoming the baseline",
+            "likes": 115,
+            "retweets": 21,
+            "posted_at": "2026-06-27T06:01:43.000Z"
+          },
+          {
+            "id": "2069308017146052936",
+            "url": "https://x.com/ClearpoolFin/status/2069308017146052936",
+            "text": "Bernstein report this week: tokenized RWAs at $51B, up 40% YTD, despite the broader crypto market falling.\n\nPrivate credit is the largest category at 47% of the total.\n\nInstitutional interest in tokenization is accelerating independent of crypto market conditions.\n\nStep by step,",
+            "likes": 110,
+            "retweets": 24,
+            "posted_at": "2026-06-23T06:34:11.000Z"
+          },
+          {
+            "id": "2066400046166540519",
+            "url": "https://x.com/ClearpoolFin/status/2066400046166540519",
+            "text": "Prime active loans just crossed $5,000,000 🙌🏻 \n\nThe institutional demand for permissioned onchain credit is here.\n\n$CPOOL https://t.co/0lD1F7vbvA",
+            "likes": 164,
+            "retweets": 28,
+            "posted_at": "2026-06-15T05:58:57.000Z"
+          },
+          {
+            "id": "2064967179532218848",
+            "url": "https://x.com/ClearpoolFin/status/2064967179532218848",
+            "text": "Clearpool is live on @XDCNetwork. Now XDC-native institutions can tap into Clearpool's credit markets directly⚡️\n\nMore to come.\n\n$CPOOL https://t.co/wjPkhfbTqI",
+            "likes": 281,
+            "retweets": 67,
+            "posted_at": "2026-06-11T07:05:15.000Z"
+          },
+          {
+            "id": "2064231281681162344",
+            "url": "https://x.com/ClearpoolFin/status/2064231281681162344",
+            "text": "Citi just published their Tokenization 2030 report.\n\nKey takeaways:\n- $17B today, $5.5T by 2030 (base case). Bull case $8T - Five asset classes drive the call: public equities, US treasuries, private credit, private equity and real estate funds.\n- Stablecoins hitting $1.9T is https://t.co/Nfx84xc24H",
+            "likes": 198,
+            "retweets": 111,
+            "posted_at": "2026-06-09T06:21:03.000Z"
+          },
+          {
+            "id": "2061713311377637494",
+            "url": "https://x.com/ClearpoolFin/status/2061713311377637494",
+            "text": "Prime is back and we're just getting started. Just crossed $2,000,000 in active loans ⚡️\n\nPermissioned, KYC &amp; AML compliant access to the largest global network for wholesale borrowing and lending.\n\n$CPOOL https://t.co/ntoucp3eKp",
+            "likes": 139,
+            "retweets": 25,
+            "posted_at": "2026-06-02T07:35:32.000Z"
+          },
+          {
+            "id": "2061443035561591075",
+            "url": "https://x.com/ClearpoolFin/status/2061443035561591075",
+            "text": "Clearpool Prime is back 🙌🏻\nThe product built for how institutions actually borrow.\n\n$CPOOL https://t.co/JYGY7rpDqO",
+            "likes": 135,
+            "retweets": 30,
+            "posted_at": "2026-06-01T13:41:34.000Z"
+          },
+          {
+            "id": "2058764667573723299",
+            "url": "https://x.com/ClearpoolFin/status/2058764667573723299",
+            "text": "Clearpool has joined @XDCNetwork as an institutional Masternode Validator 💥\n\nXDC has already processed over $1B in tokenized trade finance and real-world assets, and we're bringing credit infrastructure with $930M+ in originated loans to that ecosystem.\n\nClearpool will run https://t.co/nb7GRorHx5",
+            "likes": 259,
+            "retweets": 62,
+            "posted_at": "2026-05-25T04:18:41.000Z"
+          },
+          {
+            "id": "2056565469881282780",
+            "url": "https://x.com/ClearpoolFin/status/2056565469881282780",
+            "text": "The stacks are converging.\nOne step closer to 24/7 markets.",
+            "likes": 77,
+            "retweets": 10,
+            "posted_at": "2026-05-19T02:39:51.000Z"
+          }
+        ],
+        "hero_tweet_id": "2085240245201842429"
+      },
+      "grok_brief": {
+        "one_line": "Clearpool expanding institutional RWA credit with Prime loans >$10M, new trade finance vault, XDC integration amid tokenized asset growth.",
+        "key_events": [
+          "Prime active loans crossed $10M",
+          "New Trade Finance Vault live (15% target yield)",
+          "Live on XDC Network as Masternode Validator",
+          "$328M loans originated via Clearpool Prime",
+          "Tokenized RWAs at $51B-$60B per reports"
+        ],
+        "post_count_24h": 20,
+        "bullish_score": 0.85,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.9,
+        "market_cap_usd": 17370000,
+        "fdv_usd": 17800000,
+        "fully_unlocked": false,
+        "top10_holder_pct": 52.05,
+        "project_status": "active",
+        "red_flags": []
+      },
+      "upside_score": 89.3,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 25.5,
+        "themeFit": 26.6,
+        "unlock": 22,
+        "social": 9,
+        "holders": 2.9,
+        "marketCap": 3.3
+      },
+      "rank_today": 4
+    },
+    {
+      "slug": "polytrade",
+      "symbol": "TRADE",
+      "name": "Polytrade",
+      "x_handle": "Polytrade_fin",
+      "themes": [
+        "rwa",
+        "tokenization"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 1580000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 3840000,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": 89.1,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": [
+          "high holder concentration",
+          "thin public coverage"
+        ]
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "Polytrade TRADE at ~$0.0384, MC ~$1.58M, FDV ~$3.84M; high top10 concentration 89.1%, thin coverage.",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.85,
+        "sentiment_score": null,
+        "market_cap_usd": 1580000,
+        "fdv_usd": 3840000,
+        "fully_unlocked": false,
+        "top10_holder_pct": 89.1,
+        "project_status": "active",
+        "red_flags": [
+          "high holder concentration",
+          "thin public coverage"
+        ],
+        "no_social_data": true
+      },
+      "upside_score": 70.4,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 23.8,
+        "unlock": 22,
+        "social": 5,
+        "holders": 0.7,
+        "marketCap": 3.9
+      },
+      "rank_today": 7
+    },
+    {
+      "slug": "credefi",
+      "symbol": "CREDI",
+      "name": "Credefi",
+      "x_handle": "credefi_finance",
+      "themes": [
+        "rwa",
+        "yield"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 378039,
+        "market_cap_source": "cmc",
+        "fdv_usd": 505013,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": 59.1,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": 29,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": 0.85
+      },
+      "social": {
+        "tweets": [
+          {
+            "id": "2075636397017284709",
+            "url": "https://x.com/credefi_finance/status/2075636397017284709",
+            "text": "RT @CredefiOfficial: Most DeFi yield comes from one place: other people's money rotating in.\nCredefi yield comes from somewhere different.…",
+            "likes": 20,
+            "retweets": 6,
+            "posted_at": "2026-07-10T17:40:55.000Z"
+          },
+          {
+            "id": "2074185195519934466",
+            "url": "https://x.com/credefi_finance/status/2074185195519934466",
+            "text": "RT @CredefiOfficial: Credefi is set to become the first lending dApp on the REAL Blockchain — a Layer 1 built specifically for real-world a…",
+            "likes": 17,
+            "retweets": 7,
+            "posted_at": "2026-07-06T17:34:21.000Z"
+          },
+          {
+            "id": "2073454259534733658",
+            "url": "https://x.com/credefi_finance/status/2073454259534733658",
+            "text": "RT @CredefiOfficial: $30,000 in revenue share distributed to the Credefi community over the last six months.\n\nThat's not a projection. Not…",
+            "likes": 18,
+            "retweets": 4,
+            "posted_at": "2026-07-04T17:09:53.000Z"
+          },
+          {
+            "id": "2071646405853135116",
+            "url": "https://x.com/credefi_finance/status/2071646405853135116",
+            "text": "RT @CredefiOfficial: To everyone who stayed — we owe you better communication, and we know it.\n\nThe past few months have been quieter than…",
+            "likes": 27,
+            "retweets": 5,
+            "posted_at": "2026-06-29T17:26:07.000Z"
+          },
+          {
+            "id": "2066582988054229275",
+            "url": "https://x.com/credefi_finance/status/2066582988054229275",
+            "text": "RT @CredefiOfficial: Over the past weeks, many new eyes have been looking at Credefi.\n\nSome arrived through REAL.\nSome through the recent $…",
+            "likes": 20,
+            "retweets": 6,
+            "posted_at": "2026-06-15T18:05:54.000Z"
+          },
+          {
+            "id": "2059317054365192634",
+            "url": "https://x.com/credefi_finance/status/2059317054365192634",
+            "text": "RT @CredefiOfficial: The next phase of RWAs is not only about infrastructure.\n\nIt’s about participation.\n\nAs part of the upcoming REAL main…",
+            "likes": 28,
+            "retweets": 5,
+            "posted_at": "2026-05-26T16:53:40.000Z"
+          },
+          {
+            "id": "2057879210597728406",
+            "url": "https://x.com/credefi_finance/status/2057879210597728406",
+            "text": "RT @CredefiOfficial: What’s happening around REAL is important for a reason.\n\nThe conversation around RWAs is evolving beyond simple tokeni…",
+            "likes": 39,
+            "retweets": 6,
+            "posted_at": "2026-05-22T17:40:12.000Z"
+          },
+          {
+            "id": "2056434613933789618",
+            "url": "https://x.com/credefi_finance/status/2056434613933789618",
+            "text": "RT @RealFinOfficial: REAL mainnet is coming.\n\nTo mark the launch, we’re preparing a high-signal community activation campaign with our part…",
+            "likes": 246,
+            "retweets": 103,
+            "posted_at": "2026-05-18T17:59:53.000Z"
+          },
+          {
+            "id": "2051352590693085442",
+            "url": "https://x.com/credefi_finance/status/2051352590693085442",
+            "text": "RT @CredefiOfficial: A huge step forward from our partners at @RealFinOfficial \n\n$ASSET token is live on Ethereum (ERC-20), with early list…",
+            "likes": 34,
+            "retweets": 7,
+            "posted_at": "2026-05-04T17:25:44.000Z"
+          },
+          {
+            "id": "2046630563872665625",
+            "url": "https://x.com/credefi_finance/status/2046630563872665625",
+            "text": "RT @CredefiOfficial: Over the past week, we’ve taken a step that reflects where Credefi stands today.\n\nMore than 10M $CREDI has been bought…",
+            "likes": 23,
+            "retweets": 7,
+            "posted_at": "2026-04-21T16:42:05.000Z"
+          },
+          {
+            "id": "2044012509263253762",
+            "url": "https://x.com/credefi_finance/status/2044012509263253762",
+            "text": "RT @CredefiOfficial: We’re introducing a new step forward for the ecosystem.\n\nTo reinforce our continuous commitment to Credefi and the com…",
+            "likes": 34,
+            "retweets": 10,
+            "posted_at": "2026-04-14T11:18:52.000Z"
+          },
+          {
+            "id": "2041205101478519207",
+            "url": "https://x.com/credefi_finance/status/2041205101478519207",
+            "text": "RT @CredefiOfficial: Revenue share has been resumed.\n\nAfter a period focused on building and aligning different parts of the ecosystem, dis…",
+            "likes": 15,
+            "retweets": 4,
+            "posted_at": "2026-04-06T17:23:14.000Z"
+          },
+          {
+            "id": "2037524319501176939",
+            "url": "https://x.com/credefi_finance/status/2037524319501176939",
+            "text": "RT @CredefiOfficial: We want to address the recent ST (Special Treatment) tag on KuCoin for $CREDI.\n\nThe tag was applied following a routin…",
+            "likes": 26,
+            "retweets": 8,
+            "posted_at": "2026-03-27T13:37:07.000Z"
+          },
+          {
+            "id": "2036146190513795406",
+            "url": "https://x.com/credefi_finance/status/2036146190513795406",
+            "text": "RT @CredefiOfficial: P2P lending has been live on Credefi, connecting DeFi liquidity with real businesses and real economic activity.\n\nThe…",
+            "likes": 29,
+            "retweets": 8,
+            "posted_at": "2026-03-23T18:20:56.000Z"
+          },
+          {
+            "id": "2033605243301241156",
+            "url": "https://x.com/credefi_finance/status/2033605243301241156",
+            "text": "RT @CredefiOfficial: $xCREDI holders have been earning monthly profit share since June 2024, as part of the long-term model designed to ali…",
+            "likes": 26,
+            "retweets": 7,
+            "posted_at": "2026-03-16T18:04:07.000Z"
+          },
+          {
+            "id": "2031787535622390031",
+            "url": "https://x.com/credefi_finance/status/2031787535622390031",
+            "text": "RT @CredefiOfficial: We are excited to join The RWA Watering Hole #29 with @WALLY_DAO this Thursday and contribute to the conversation arou…",
+            "likes": 28,
+            "retweets": 7,
+            "posted_at": "2026-03-11T17:41:11.000Z"
+          },
+          {
+            "id": "2031069721706078559",
+            "url": "https://x.com/credefi_finance/status/2031069721706078559",
+            "text": "RT @CredefiOfficial: 60M $CREDI burned through Module X so far.\n\nEvery burn reduces the circulating supply and reinforces the long-term val…",
+            "likes": 38,
+            "retweets": 10,
+            "posted_at": "2026-03-09T18:08:51.000Z"
+          },
+          {
+            "id": "2029239815535812994",
+            "url": "https://x.com/credefi_finance/status/2029239815535812994",
+            "text": "RT @CredefiOfficial: A quick update from our side.\n\nWe’ve agreed on terms with a TradFi institution managing over $160M in assets to become…",
+            "likes": 43,
+            "retweets": 8,
+            "posted_at": "2026-03-04T16:57:28.000Z"
+          },
+          {
+            "id": "2025991004646523321",
+            "url": "https://x.com/credefi_finance/status/2025991004646523321",
+            "text": "RT @CredefiOfficial: Quiet months on the surface — but full-speed building behind the scenes.\n\nWhile things may have seemed calm, the work…",
+            "likes": 26,
+            "retweets": 7,
+            "posted_at": "2026-02-23T17:47:51.000Z"
+          },
+          {
+            "id": "2019820544921854089",
+            "url": "https://x.com/credefi_finance/status/2019820544921854089",
+            "text": "RT @CredefiOfficial: Credefi has officially joined the @RWAFoundation_ Community!\n\nThis is a solid step forward as we continue building at…",
+            "likes": 32,
+            "retweets": 8,
+            "posted_at": "2026-02-06T17:08:39.000Z"
+          }
+        ],
+        "hero_tweet_id": "2075636397017284709"
+      },
+      "grok_brief": {
+        "one_line": "Credefi pushes RWA lending on REAL L1 with resumed revenue shares, 60M CREDI burned, new TradFi deal and $ASSET token launch.",
+        "key_events": [
+          "$30k revenue share distributed last 6 months",
+          "Revenue share resumed",
+          "60M CREDI burned via Module X",
+          "Terms agreed with $160M AUM TradFi institution",
+          "$ASSET token live on Ethereum",
+          "REAL mainnet launch campaign incoming"
+        ],
+        "post_count_24h": 20,
+        "bullish_score": 0.8,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.85,
+        "market_cap_usd": 378039,
+        "fdv_usd": 505013,
+        "fully_unlocked": false,
+        "top10_holder_pct": 59.1,
+        "project_status": "active",
+        "red_flags": []
+      },
+      "upside_score": 87.5,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 24,
+        "themeFit": 26.6,
+        "unlock": 22,
+        "social": 8.5,
+        "holders": 2.5,
+        "marketCap": 4
+      },
+      "rank_today": 5
+    },
+    {
+      "slug": "truflation",
+      "symbol": "TRUF",
+      "name": "Truflation",
+      "x_handle": "truflation",
+      "themes": [
+        "rwa",
+        "ai",
+        "data"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 1854418,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 45.2,
+        "unlock_light": "red",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": 0,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": 0.8
+      },
+      "social": {
+        "tweets": [
+          {
+            "id": "2086107824078426347",
+            "url": "https://x.com/truflation/status/2086107824078426347",
+            "text": "BLS CPI drops August 12, 8:30AM EST.\n\nLast month: −0.4%  the biggest decline since 2020, driven by energy crash.\n\nOur gasoline index bottomed at $3.91 in early July and has rebounded to $4.13. Brent crude is up 20%+.\n\nAccess our T-1 CPI forecast report Aug 11, 24h before BLS.",
+            "likes": 27,
+            "retweets": 3,
+            "posted_at": "2026-08-08T15:10:37.000Z"
+          },
+          {
+            "id": "2086071432577237194",
+            "url": "https://x.com/truflation/status/2086071432577237194",
+            "text": "🇺🇸 Truflation Daily US CPI is 2.32% YoY today, ⬆️ +0.00%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/ISbzGSYpzi",
+            "likes": 64,
+            "retweets": 9,
+            "posted_at": "2026-08-08T12:46:01.000Z"
+          },
+          {
+            "id": "2085740469594566853",
+            "url": "https://x.com/truflation/status/2085740469594566853",
+            "text": "July payrolls: −23,000. Wall Street exp +80K.\n\nUnemployment fell to 4.1%. Participation hit 61.5%, the lowest since March 2021.\n\nLast week, 3 Fed officials voted to hike rates. Markets were pricing 50bp of tightening. Real-time data is critical.\n\nAll 👀 Aug 12 for the BLS CPI.",
+            "likes": 38,
+            "retweets": 6,
+            "posted_at": "2026-08-07T14:50:53.000Z"
+          },
+          {
+            "id": "2085709045059695074",
+            "url": "https://x.com/truflation/status/2085709045059695074",
+            "text": "🇺🇸 Truflation Daily US CPI is 2.32% YoY today, ⬆️ +0.02%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/ODVhsimDuA",
+            "likes": 53,
+            "retweets": 3,
+            "posted_at": "2026-08-07T12:46:01.000Z"
+          },
+          {
+            "id": "2085668849857200429",
+            "url": "https://x.com/truflation/status/2085668849857200429",
+            "text": "The cost of living has also changed in the UK.\n  \n37.90%.  \n\nThat is the UK Compounded inflation rate since January 2020. https://t.co/94Yif9hJQf",
+            "likes": 31,
+            "retweets": 1,
+            "posted_at": "2026-08-07T10:06:18.000Z"
+          },
+          {
+            "id": "2085378870014828785",
+            "url": "https://x.com/truflation/status/2085378870014828785",
+            "text": "US GDP Growth: A Slow but Encouraging Story. https://t.co/taFrFItmLd",
+            "likes": 23,
+            "retweets": 2,
+            "posted_at": "2026-08-06T14:54:01.000Z"
+          },
+          {
+            "id": "2085346657504506118",
+            "url": "https://x.com/truflation/status/2085346657504506118",
+            "text": "🇺🇸 Truflation Daily US CPI is 2.30% YoY today, ⬆️ +0.02%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/qJabEpmteW",
+            "likes": 56,
+            "retweets": 7,
+            "posted_at": "2026-08-06T12:46:01.000Z"
+          },
+          {
+            "id": "2085000864628900330",
+            "url": "https://x.com/truflation/status/2085000864628900330",
+            "text": "RT @fiftyfly: New York’s $36B attack on Kalshi isn’t about “protecting consumers.\"  Who’s allowed to turn information into economic value a…",
+            "likes": 14,
+            "retweets": 4,
+            "posted_at": "2026-08-05T13:51:58.000Z"
+          },
+          {
+            "id": "2084984268850397206",
+            "url": "https://x.com/truflation/status/2084984268850397206",
+            "text": "🇺🇸 Truflation Daily US CPI is 2.28% YoY today, ⬆️ +0.02%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/gNn3QkqJ8B",
+            "likes": 36,
+            "retweets": 7,
+            "posted_at": "2026-08-05T12:46:01.000Z"
+          },
+          {
+            "id": "2084621482366472334",
+            "url": "https://x.com/truflation/status/2084621482366472334",
+            "text": "🇺🇸 Truflation Daily US CPI is 2.26% YoY today, ⬇️ -0.03%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/24OROjKwJt",
+            "likes": 72,
+            "retweets": 10,
+            "posted_at": "2026-08-04T12:44:26.000Z"
+          },
+          {
+            "id": "2084577630045495515",
+            "url": "https://x.com/truflation/status/2084577630045495515",
+            "text": "There's the signal and there's the noise.\n\n500+ Indexes from inflation to housing and consumer trends all derived from real-time market prices.\n\nGo beyond the headline data.\n\nFind your edge with Truflation. https://t.co/MttttiUxDn",
+            "likes": 20,
+            "retweets": 4,
+            "posted_at": "2026-08-04T09:50:11.000Z"
+          },
+          {
+            "id": "2084377505553686800",
+            "url": "https://x.com/truflation/status/2084377505553686800",
+            "text": "ISM Manufacturing PMI July: 55.6\nThe highest reading since May 2022 (55.9).\n\nProduction: 58.5 (was 52.2)\nNew Orders: 56.7 (was 56.0) —&gt; 7th month expanding. Employment: 52.8 (was 49.7)\n\nCan we keep this pace? \n\nTomorrow: JOLTS and BEA Balance of Trade.",
+            "likes": 66,
+            "retweets": 11,
+            "posted_at": "2026-08-03T20:34:57.000Z"
+          },
+          {
+            "id": "2083897104913879072",
+            "url": "https://x.com/truflation/status/2083897104913879072",
+            "text": "🇺🇸 Truflation Daily US CPI is 2.27% YoY today, 🔼 +0.04%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/M7IrbIyhai",
+            "likes": 91,
+            "retweets": 12,
+            "posted_at": "2026-08-02T12:46:01.000Z"
+          },
+          {
+            "id": "2083578349746602073",
+            "url": "https://x.com/truflation/status/2083578349746602073",
+            "text": "Everyone is watching rate cuts. We’re watching M2, velocity, and the Fed’s balance sheet. https://t.co/aIKbHBGVfY",
+            "likes": 46,
+            "retweets": 5,
+            "posted_at": "2026-08-01T15:39:24.000Z"
+          },
+          {
+            "id": "2085030951264845894",
+            "url": "https://x.com/truflation/status/2085030951264845894",
+            "text": "In Finance, latency is death.\n\nHaving access to and understanding real-time data gives you an edge. Don't be exit liquidity.\n\n Here's how to get ahead with Truflation 🧵👇 https://t.co/ksfc1N2Pb9",
+            "likes": 15,
+            "retweets": 1,
+            "posted_at": "2026-08-05T15:51:31.000Z"
+          },
+          {
+            "id": "2085030961377317095",
+            "url": "https://x.com/truflation/status/2085030961377317095",
+            "text": "Here's what community members shared with us on how they used our CPI forecasts to make 1000%+ returns. These examples are from prediction markets but could also be used on equity and money markets as our institutional users do. [not financial advice]. https://t.co/HHPAK4fOTa",
+            "likes": 4,
+            "retweets": 2,
+            "posted_at": "2026-08-05T15:51:33.000Z"
+          },
+          {
+            "id": "2085030963742949856",
+            "url": "https://x.com/truflation/status/2085030963742949856",
+            "text": "Your feedback is very important.\nAny questions?  Ask us or better, Ask Truman.\nTell us what you like. \nTell us what you want to see more.\n\nWe're continuously improving our UX, adding more indexes and insights. More updates coming very soon. https://t.co/YZdeEbgHa3",
+            "likes": 3,
+            "retweets": 1,
+            "posted_at": "2026-08-05T15:51:34.000Z"
+          },
+          {
+            "id": "2083534717442498959",
+            "url": "https://x.com/truflation/status/2083534717442498959",
+            "text": "🇺🇸 Truflation Daily US CPI is 2.23% YoY today,  ⬆️ -0.13%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/aBHqgui5nT",
+            "likes": 88,
+            "retweets": 10,
+            "posted_at": "2026-08-01T12:46:01.000Z"
+          },
+          {
+            "id": "2083254268249636975",
+            "url": "https://x.com/truflation/status/2083254268249636975",
+            "text": "We'll be sharing tomorrow a detailed research article on the Federal Reserve, Money Supply and its impact on Inflation.\n\nIn the meantime, you can Ask Truman our new agentic system for macro insights and get a real-time pulse on the economy.",
+            "likes": 33,
+            "retweets": 4,
+            "posted_at": "2026-07-31T18:11:37.000Z"
+          },
+          {
+            "id": "2083172329824436684",
+            "url": "https://x.com/truflation/status/2083172329824436684",
+            "text": "🇺🇸 Truflation Daily US CPI is 2.10% YoY today, ⬇️ -0.02%.🇺🇸\n\nClaim FREE CREDITS NOW and explore more https://t.co/q9gmUZij7L https://t.co/wFnGfZwnNI",
+            "likes": 86,
+            "retweets": 12,
+            "posted_at": "2026-07-31T12:46:01.000Z"
+          }
+        ],
+        "hero_tweet_id": "2086107824078426347"
+      },
+      "grok_brief": {
+        "one_line": "Truflation posts daily US CPI (~2.1-2.3% YoY) plus macro data, BLS preview, and new agentic AI tools in RWA/data space.",
+        "key_events": [
+          "Daily US CPI steady near 2.3% YoY with small daily moves",
+          "BLS CPI drop Aug 12 preview; gasoline index rebound noted",
+          "New agentic system 'Truman' for macro insights launched",
+          "UK compounded inflation since 2020 at 37.9%",
+          "ISM PMI July 55.6, highest since May 2022"
+        ],
+        "post_count_24h": 20,
+        "bullish_score": 0.75,
+        "theme_fit_score": 0.9,
+        "sentiment_score": 0.8,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "active",
+        "red_flags": []
+      },
+      "upside_score": 67,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 22.5,
+        "themeFit": 25.2,
+        "unlock": 4.4,
+        "social": 8,
+        "holders": 3,
+        "marketCap": 3.9
+      },
+      "rank_today": 8
+    },
+    {
+      "slug": "realio-network",
+      "symbol": "RIO",
+      "name": "Realio Network",
+      "x_handle": "realio_network",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "realestate"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 5350000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 5890000,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": 13.4,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": 46,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": 0.85
+      },
+      "social": {
+        "tweets": [
+          {
+            "id": "2069732875654582653",
+            "url": "https://x.com/realio_network/status/2069732875654582653",
+            "text": "Don’t forget to follow @freehold_wallet  for the latest updates on the project!\n\nWe’re growing fast, and you don’t want to miss what’s next. Join us:\n\n→ X: @freehold_wallet \n→ Telegram: https://t.co/vKGshKQFfq",
+            "likes": 255,
+            "retweets": 52,
+            "posted_at": "2026-06-24T10:42:25.000Z"
+          },
+          {
+            "id": "2069732364058525892",
+            "url": "https://x.com/realio_network/status/2069732364058525892",
+            "text": "GM to everyone who follows the Freehold X account and joined the Freehold Telegram chat.",
+            "likes": 235,
+            "retweets": 30,
+            "posted_at": "2026-06-24T10:40:24.000Z"
+          },
+          {
+            "id": "2049511599610777882",
+            "url": "https://x.com/realio_network/status/2049511599610777882",
+            "text": "Official launch: @freehold_wallet RWA Tokenization Studio, May 26. https://t.co/OqXUAMYuOa",
+            "likes": 664,
+            "retweets": 212,
+            "posted_at": "2026-04-29T15:30:18.000Z"
+          },
+          {
+            "id": "2036829563779477682",
+            "url": "https://x.com/realio_network/status/2036829563779477682",
+            "text": "New feature release on @freehold_wallet\nSwaps are LIVE on Freehold Mobile\nFreehold × @0xProject: swap support EVM tokens\nGasless • Trustless • On-chain\nSimple. Secure. Seamless. https://t.co/UR8oALI9ZB",
+            "likes": 493,
+            "retweets": 137,
+            "posted_at": "2026-03-25T15:36:25.000Z"
+          },
+          {
+            "id": "2036144043822882829",
+            "url": "https://x.com/realio_network/status/2036144043822882829",
+            "text": "Swaps hit Freehold Mobile this week.\nGasless, trustless, EVM tokens (incl. $RIO).\nFollow @freehold_wallet for the latest updates from the team.",
+            "likes": 431,
+            "retweets": 95,
+            "posted_at": "2026-03-23T18:12:24.000Z"
+          },
+          {
+            "id": "2032471062152462336",
+            "url": "https://x.com/realio_network/status/2032471062152462336",
+            "text": "RT @districts_xyz: Tokyo voting is live right now, and Paris voting is now open. Two legendary cities, one community governance system. Thi…",
+            "likes": 173,
+            "retweets": 32,
+            "posted_at": "2026-03-13T14:57:17.000Z"
+          },
+          {
+            "id": "2032351429948571803",
+            "url": "https://x.com/realio_network/status/2032351429948571803",
+            "text": "hey fam,\n\nYes, we’re still building.\n\nThe team is expanding and things are moving fast behind the scenes.\n\nFollow @freehold_wallet for product updates.",
+            "likes": 697,
+            "retweets": 146,
+            "posted_at": "2026-03-13T07:01:54.000Z"
+          },
+          {
+            "id": "2032078149496750525",
+            "url": "https://x.com/realio_network/status/2032078149496750525",
+            "text": "RT @freehold_wallet: Soon you’ll be able to unlock the power of RWAs with Freehold's Tokenization Studio. https://t.co/MM4rTC0oxg",
+            "likes": 239,
+            "retweets": 64,
+            "posted_at": "2026-03-12T12:55:59.000Z"
+          },
+          {
+            "id": "2015199051935780957",
+            "url": "https://x.com/realio_network/status/2015199051935780957",
+            "text": "RT @derekboirun: “You said to create a team, there’s your team” @realio_network https://t.co/cwN2T0uH5d",
+            "likes": 231,
+            "retweets": 30,
+            "posted_at": "2026-01-24T23:04:29.000Z"
+          },
+          {
+            "id": "2011830839353495811",
+            "url": "https://x.com/realio_network/status/2011830839353495811",
+            "text": "Scheduled Maintenance: We’ll be performing infrastructure maintenance on all Realio products &amp; websites today, Thursday, January 15th from 4:00–5:00 PM EST. Services may be intermittently unavailable.\n\nThanks for your patience as we work to improve performance.",
+            "likes": 325,
+            "retweets": 47,
+            "posted_at": "2026-01-15T16:00:24.000Z"
+          },
+          {
+            "id": "2000622409595105390",
+            "url": "https://x.com/realio_network/status/2000622409595105390",
+            "text": "RT @freehold_wallet: Realio Network staking is now live in Freehold Mobile!\n\nYou can now stake $RIO, $DSTRX, and $RST in Freehold Mobile to…",
+            "likes": 261,
+            "retweets": 56,
+            "posted_at": "2025-12-15T17:42:06.000Z"
+          },
+          {
+            "id": "1995515730851148269",
+            "url": "https://x.com/realio_network/status/1995515730851148269",
+            "text": "Scheduled Maintenance: We’ll be performing infrastructure maintenance on all Realio products &amp; websites on Monday from 5–7 PM EST. Services may be intermittently unavailable. \n\nThanks for your patience as we work to improve performance.",
+            "likes": 350,
+            "retweets": 43,
+            "posted_at": "2025-12-01T15:29:59.000Z"
+          },
+          {
+            "id": "1988644145335062784",
+            "url": "https://x.com/realio_network/status/1988644145335062784",
+            "text": "The first look at our RWA Tokenization Studio in development 👀",
+            "likes": 634,
+            "retweets": 149,
+            "posted_at": "2025-11-12T16:24:46.000Z"
+          },
+          {
+            "id": "1978872700966965380",
+            "url": "https://x.com/realio_network/status/1978872700966965380",
+            "text": "Empowering investors, transforming assets, we're building the @freehold_wallet to be at the forefront of RWAs for issuers and investors, reshaping the investment landscape. We’re proud to see the first step of that journey come alive today: https://t.co/1hC6633t61",
+            "likes": 574,
+            "retweets": 127,
+            "posted_at": "2025-10-16T17:16:32.000Z"
+          },
+          {
+            "id": "1978472915596173385",
+            "url": "https://x.com/realio_network/status/1978472915596173385",
+            "text": "Welcome $DSTRX token stakers and validators to the Realio Network 🌐",
+            "likes": 415,
+            "retweets": 65,
+            "posted_at": "2025-10-15T14:47:55.000Z"
+          },
+          {
+            "id": "1975244680401981776",
+            "url": "https://x.com/realio_network/status/1975244680401981776",
+            "text": "✅ Proposal PASSED! $DSTRX, the native token of @districts_xyz is now a staking token on Realio Network.\n\nWe’re expanding from Cosmos to EVM-compatible chains, unlocking new opportunities for delegators, validators + $DSTRX holders.",
+            "likes": 553,
+            "retweets": 115,
+            "posted_at": "2025-10-06T17:00:04.000Z"
+          },
+          {
+            "id": "1974138834897285335",
+            "url": "https://x.com/realio_network/status/1974138834897285335",
+            "text": "Proposal #24 is now live to make $DSTRX an eligible staking token on the Realio Network.\n\nBy supporting this: \n✅ $DSTRX holders gain governance voting \n✅ Earn $RIO staking rewards \n✅ Strengthen the Realio x @districts_xyz ecosystem\n\nhttps://t.co/rUkePt55Of",
+            "likes": 564,
+            "retweets": 113,
+            "posted_at": "2025-10-03T15:45:50.000Z"
+          },
+          {
+            "id": "1973812916022653099",
+            "url": "https://x.com/realio_network/status/1973812916022653099",
+            "text": "It’s been a minute since we last posted — but we haven’t been idle. We’ve been building for the RWA space, where tokenization unlocks what the old system couldn't: fractional ownership, 24/7 liquidity, no middlemen. We’re back, &amp; excited to share more about our projects &amp; RWAs.",
+            "likes": 1045,
+            "retweets": 237,
+            "posted_at": "2025-10-02T18:10:45.000Z"
+          },
+          {
+            "id": "1951320474920566796",
+            "url": "https://x.com/realio_network/status/1951320474920566796",
+            "text": "Say hello to the new https://t.co/DfXm8ZOGsg\n\n- Fresh new design\n- In-depth RWA EBook\n\nIt was time we leveled up just like the rest of the fam 💙\nhttps://t.co/n17psAXmAs | https://t.co/kbzgUn1D0C | https://t.co/r2ezjgkJSl https://t.co/V2gSZJ7fRx",
+            "likes": 1066,
+            "retweets": 232,
+            "posted_at": "2025-08-01T16:33:49.000Z"
+          },
+          {
+            "id": "1950210367864635636",
+            "url": "https://x.com/realio_network/status/1950210367864635636",
+            "text": "RT @freehold_wallet: It’s official: Freehold Mobile is now live on the App Store.\n\nA secure, multichain self-custody wallet — now on iOS.…",
+            "likes": 512,
+            "retweets": 149,
+            "posted_at": "2025-07-29T15:02:39.000Z"
+          }
+        ],
+        "hero_tweet_id": "2069732875654582653"
+      },
+      "grok_brief": {
+        "one_line": "Realio Network pushing RWA focus via Freehold wallet: Tokenization Studio launch, mobile swaps/staking live, $DSTRX integration.",
+        "key_events": [
+          "Freehold RWA Tokenization Studio official launch May 26",
+          "Swaps live on Freehold Mobile (0x, gasless EVM incl. $RIO)",
+          "RIO/DSTRX/RST staking live in Freehold Mobile",
+          "$DSTRX approved as staking token on Realio Network",
+          "New website + RWA EBook released"
+        ],
+        "post_count_24h": 20,
+        "bullish_score": 0.8,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.85,
+        "market_cap_usd": 5350000,
+        "fdv_usd": 5890000,
+        "fully_unlocked": false,
+        "top10_holder_pct": 13.4,
+        "project_status": "active",
+        "red_flags": []
+      },
+      "upside_score": 90.1,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 24,
+        "themeFit": 26.6,
+        "unlock": 22,
+        "social": 8.5,
+        "holders": 5.2,
+        "marketCap": 3.8
+      },
+      "rank_today": 2
+    },
+    {
+      "slug": "resolv",
+      "symbol": "RESOLV",
+      "name": "Resolv",
+      "x_handle": "ResolvLabs",
+      "themes": [
+        "stablecoin",
+        "yield",
+        "rwa"
+      ],
+      "metrics": {
+        "price_usd": 0.018316,
+        "market_cap_usd": 8120000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 18320000,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 53.6,
+        "unlock_light": "red",
+        "forward_unlock_state": "elevated",
+        "top10_holder_pct": 90.7,
+        "vol_24h_usd": 4080001.29,
+        "vol_to_mcap_pct": 50.25
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": 5,
+        "red_flags": [
+          "USR security incident recovery ongoing"
+        ]
+      },
+      "sentiment": {
+        "score": 0.8
+      },
+      "social": {
+        "tweets": [
+          {
+            "id": "2084298049539436658",
+            "url": "https://x.com/ResolvLabs/status/2084298049539436658",
+            "text": "RT @Vault_St: New research is live: JTRSY, the Janus Henderson Anemoy Treasury Fund, tokenized by @Centrifuge.\n\nJTRSY holds ~$900M in short…",
+            "likes": 36,
+            "retweets": 6,
+            "posted_at": "2026-08-03T15:19:14.000Z"
+          },
+          {
+            "id": "2083111207037276362",
+            "url": "https://x.com/ResolvLabs/status/2083111207037276362",
+            "text": "RT @Iv4n_Ko: A good Friday to cross $30mn in gross AUM for @Vault_St primeUSD:\n\nhttps://t.co/oQab65JpVx https://t.co/UE3MsQ50p1",
+            "likes": 9,
+            "retweets": 4,
+            "posted_at": "2026-07-31T08:43:08.000Z"
+          },
+          {
+            "id": "2082830515955278299",
+            "url": "https://x.com/ResolvLabs/status/2082830515955278299",
+            "text": "RT @Iv4n_Ko: Consistently getting to the target 5.50%-7.00% APY with @Vault_St primeUSD vault 👀 https://t.co/YqtMbm2ihO",
+            "likes": 8,
+            "retweets": 4,
+            "posted_at": "2026-07-30T14:07:46.000Z"
+          },
+          {
+            "id": "2081727890165751994",
+            "url": "https://x.com/ResolvLabs/status/2081727890165751994",
+            "text": "RT @ResolvCore: $RESOLV staking now operates through @Vault_St app, consolidating staking and Vault Street's products under a single interf…",
+            "likes": 32,
+            "retweets": 6,
+            "posted_at": "2026-07-27T13:06:20.000Z"
+          },
+          {
+            "id": "2077775032248598893",
+            "url": "https://x.com/ResolvLabs/status/2077775032248598893",
+            "text": "RT @ResolvCore: Resolv Foundation Q2 2026 Report is out.\n\nHighlights from the quarter Resolv rebuilt:\n\n• recovery framework was developed,…",
+            "likes": 16,
+            "retweets": 4,
+            "posted_at": "2026-07-16T15:19:05.000Z"
+          },
+          {
+            "id": "2077710597161197748",
+            "url": "https://x.com/ResolvLabs/status/2077710597161197748",
+            "text": "RT @centrifuge: On @aave Horizon, JAAA works as borrowable collateral.\n\n@ResolvLabs built leveraged strategies on it at up to $100M scale e…",
+            "likes": 73,
+            "retweets": 12,
+            "posted_at": "2026-07-16T11:03:03.000Z"
+          },
+          {
+            "id": "2077662534321029255",
+            "url": "https://x.com/ResolvLabs/status/2077662534321029255",
+            "text": "With Vault Street's dedicated institutional and RWA focus, we are looking to expand the current marketing function.  \n\nIf you have a proven track record and high level of ownership - don't hesitate to check out the job description below.\n\nhttps://t.co/MUm2fvlszu",
+            "likes": 22,
+            "retweets": 0,
+            "posted_at": "2026-07-16T07:52:03.000Z"
+          },
+          {
+            "id": "2072382060002435295",
+            "url": "https://x.com/ResolvLabs/status/2072382060002435295",
+            "text": "RT @ResolvCore: European traders can now get regulated exposure to $RESOLV on OKX X-Perps.\n\nMiFID-regulated, up to 10x leverage, fixed expi…",
+            "likes": 16,
+            "retweets": 3,
+            "posted_at": "2026-07-01T18:09:20.000Z"
+          },
+          {
+            "id": "2072284127902982590",
+            "url": "https://x.com/ResolvLabs/status/2072284127902982590",
+            "text": "RT @centrifuge: $JTRSY is one of the first assets supported in the primeUSD launch.\n\nTokenized US Treasuries are now collateral for a new o…",
+            "likes": 58,
+            "retweets": 16,
+            "posted_at": "2026-07-01T11:40:11.000Z"
+          },
+          {
+            "id": "2071965996852592682",
+            "url": "https://x.com/ResolvLabs/status/2071965996852592682",
+            "text": "RT @Token_Logic: Over $320M in institutional capital already sits on Aave Horizon.\n\n@ResolvLabs primeUSD plugs tokenized U.S. Treasuries in…",
+            "likes": 30,
+            "retweets": 5,
+            "posted_at": "2026-06-30T14:36:03.000Z"
+          },
+          {
+            "id": "2071955671294046295",
+            "url": "https://x.com/ResolvLabs/status/2071955671294046295",
+            "text": "RT @SuperstateInc: Great to see Vault Street building with USTB as part of their new vault, primeUSD.\n\nprimeUSD shows how tokenized Treasur…",
+            "likes": 9,
+            "retweets": 1,
+            "posted_at": "2026-06-30T13:55:01.000Z"
+          },
+          {
+            "id": "2069005298317017511",
+            "url": "https://x.com/ResolvLabs/status/2069005298317017511",
+            "text": "RT @Re7Labs: Following the USR security incident, $223k USDC in recovery proceeds is now claimable for affected wallets that held positions…",
+            "likes": 25,
+            "retweets": 6,
+            "posted_at": "2026-06-22T10:31:18.000Z"
+          },
+          {
+            "id": "2064744263535968652",
+            "url": "https://x.com/ResolvLabs/status/2064744263535968652",
+            "text": "RT @Re7Labs: Re7 and Resolv have finalized an agreement outlining a remediation framework in connection with the USR incident. \n\nAdditional…",
+            "likes": 22,
+            "retweets": 10,
+            "posted_at": "2026-06-10T16:19:28.000Z"
+          },
+          {
+            "id": "2077020041128935900",
+            "url": "https://x.com/ResolvLabs/status/2077020041128935900",
+            "text": "primeUSD is integrating Janus Henderson's AAA CLO fund (JAAA) tokenized by @centrifuge, with leverage sourced via @aave Horizon.\n\nThe vault's yield architecture extends beyond short-duration T-bills into actively leveraged, AAA-rated institutional credit. https://t.co/EdN0BG9vzo",
+            "likes": 57,
+            "retweets": 5,
+            "posted_at": "2026-07-14T13:19:01.000Z"
+          },
+          {
+            "id": "2077020053984448833",
+            "url": "https://x.com/ResolvLabs/status/2077020053984448833",
+            "text": "JAAA is managed by Janus Henderson Investors, who run the largest AAA CLO strategy globally with $29B in AUM in its off-chain ETF form.\n\nCentrifuge brought the strategy onchain in 2025; it has since grown to ~$800M in tokenized assets.\n\nprimeUSD × JAAA deployment parameters:\n\n•",
+            "likes": 9,
+            "retweets": 0,
+            "posted_at": "2026-07-14T13:19:04.000Z"
+          },
+          {
+            "id": "2077020066055647586",
+            "url": "https://x.com/ResolvLabs/status/2077020066055647586",
+            "text": "At primeUSD level, this means:\n\n→ an expected yield increase of 0.6–1.0% at current market conditions without compromising its investment-grade mandate;\n\n→ a second collateral leg with a different return driver, expanding the vault's yield profile.",
+            "likes": 6,
+            "retweets": 0,
+            "posted_at": "2026-07-14T13:19:07.000Z"
+          },
+          {
+            "id": "2075240717426000069",
+            "url": "https://x.com/ResolvLabs/status/2075240717426000069",
+            "text": "Vault Street is launching a research portal: the diligence layer for onchain credit.\n\nOur team will be publishing allocator notes with a dedicated focus on RWAs, reflecting the due-diligence framework we apply before committing capital.\n\nFirst coverage: USTB by @SuperstateInc. https://t.co/3bivsip8sc",
+            "likes": 32,
+            "retweets": 3,
+            "posted_at": "2026-07-09T15:28:37.000Z"
+          },
+          {
+            "id": "2075240729669177404",
+            "url": "https://x.com/ResolvLabs/status/2075240729669177404",
+            "text": "The goal: give allocators a comprehensive overview for evaluating an asset.\n\nEach report follows the same structure with legal, economic, operational, and technical analysis of the product, plus live data on yield, AUM, and redemption buffer.",
+            "likes": 9,
+            "retweets": 0,
+            "posted_at": "2026-07-09T15:28:40.000Z"
+          },
+          {
+            "id": "2075240742084383128",
+            "url": "https://x.com/ResolvLabs/status/2075240742084383128",
+            "text": "USTB is already part of primeUSD collateral: real-time NAV, USDC settlement, and uncapped capacity.\n\nFull report:\nhttps://t.co/ttriZ2EmCl",
+            "likes": 8,
+            "retweets": 0,
+            "posted_at": "2026-07-09T15:28:43.000Z"
+          },
+          {
+            "id": "2064314680391127208",
+            "url": "https://x.com/ResolvLabs/status/2064314680391127208",
+            "text": "RT @ResolvCore: The recovery portal is open for Stage 2\n\nEligible categories:\n• USR/wstUSR acquired post-incident\n1 USR : 0.5 USDC\n\n• LP po…",
+            "likes": 49,
+            "retweets": 10,
+            "posted_at": "2026-06-09T11:52:27.000Z"
+          }
+        ],
+        "hero_tweet_id": "2077662534321029255"
+      },
+      "grok_brief": {
+        "one_line": "Resolv integrates staking with Vault Street primeUSD vault backed by tokenized Treasuries/CLOs (JTRSY/JAAA) for 5.5-7% APY amid RWA growth.",
+        "key_events": [
+          "primeUSD crosses $30M gross AUM, targets 5.5-7% APY",
+          "$RESOLV staking moves to Vault Street app",
+          "primeUSD adds JTRSY (~$900M) and JAAA (~$800M) tokenized collateral via Centrifuge/Aave",
+          "Resolv Q2 2026 report and USR incident recovery framework released",
+          "European OKX X-Perps for $RESOLV launched"
+        ],
+        "post_count_24h": 20,
+        "bullish_score": 0.75,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.8,
+        "market_cap_usd": 8120000,
+        "fdv_usd": 18320000,
+        "fully_unlocked": false,
+        "top10_holder_pct": 90.7,
+        "project_status": "active",
+        "red_flags": [
+          "USR security incident recovery ongoing"
+        ]
+      },
+      "upside_score": 65.7,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 22.5,
+        "themeFit": 26.6,
+        "unlock": 4.4,
+        "social": 8,
+        "holders": 0.6,
+        "marketCap": 3.7
+      },
+      "rank_today": 9
+    },
+    {
+      "slug": "swarm-markets",
+      "symbol": "SMT",
+      "name": "Swarm Markets",
+      "x_handle": "swarmmarkets",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "defi"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 1080000,
+        "market_cap_source": "cmc",
+        "fdv_usd": 1730000,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 37.3,
+        "unlock_light": "red",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": 63.2,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": false,
+        "status": "active",
+        "collapsed": false,
+        "stale": true,
+        "days_since_last_tweet": 103,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": 0.8
+      },
+      "social": {
+        "tweets": [
+          {
+            "id": "2049066091503132709",
+            "url": "https://x.com/SwarmMarkets/status/2049066091503132709",
+            "text": "On Swarm, every RWA is 100% asset-backed with real-time verification. Securely held by institutional custodians, your tokens remain fully redeemable for the underlying assets at any time.\n\nExperience RWAs done right.\nhttps://t.co/sJ9y8Umtuk https://t.co/hjh6AGHIF1",
+            "likes": 57,
+            "retweets": 12,
+            "posted_at": "2026-04-28T10:00:00.000Z"
+          },
+          {
+            "id": "2049001840751017990",
+            "url": "https://x.com/SwarmMarkets/status/2049001840751017990",
+            "text": "RT @InveniamIO: Who’s building the infrastructure for AI accountability?  \n\nMeet the @NVNM_Chain team taking the stage at @CoinDesk @consen…",
+            "likes": 46,
+            "retweets": 8,
+            "posted_at": "2026-04-28T05:44:42.000Z"
+          },
+          {
+            "id": "2047646750438051908",
+            "url": "https://x.com/SwarmMarkets/status/2047646750438051908",
+            "text": "Not your keys. Not your assets.\n\nOn Swarm, you retain full control. You trade directly from your wallet, maintaining the transparency and sovereignty that DeFi was built for.\n\nExperience RWAs done right.\n🔗 https://t.co/sJ9y8Umtuk https://t.co/iTe3agJMkN",
+            "likes": 36,
+            "retweets": 6,
+            "posted_at": "2026-04-24T12:00:03.000Z"
+          },
+          {
+            "id": "2047254160782057883",
+            "url": "https://x.com/SwarmMarkets/status/2047254160782057883",
+            "text": "Quality and accessibility of RWAs matter.\n\nIf you value:\n✅ 100% asset-backed (Stocks, Bonds, Gold)\n✅ 24/7/365 trading\n✅ Full self-custody \n\nThen you already know where to trade.\n https://t.co/sJ9y8Un1jS https://t.co/gwLpFnnubr",
+            "likes": 44,
+            "retweets": 12,
+            "posted_at": "2026-04-23T10:00:02.000Z"
+          },
+          {
+            "id": "2046910135486804380",
+            "url": "https://x.com/SwarmMarkets/status/2046910135486804380",
+            "text": "RT @InveniamIO: Tokenization has moved past the \"why\" and \"how\"—the focus is now entirely on the speed and scale of institutional adoption.…",
+            "likes": 37,
+            "retweets": 5,
+            "posted_at": "2026-04-22T11:13:00.000Z"
+          },
+          {
+            "id": "2041516352846889357",
+            "url": "https://x.com/SwarmMarkets/status/2041516352846889357",
+            "text": "Majority of DeFi protocols avoid regulation.\nSwarm embraces it.\n\nThe next wave of capital won’t come from anon wallets- it comes from institutions that need compliance. https://t.co/LbEoEmIo55",
+            "likes": 55,
+            "retweets": 15,
+            "posted_at": "2026-04-07T14:00:02.000Z"
+          },
+          {
+            "id": "2039954260419301577",
+            "url": "https://x.com/SwarmMarkets/status/2039954260419301577",
+            "text": "The real structural shift tokenization enables is combining the efficiency of onchain logic with the sovereignty of the user.\n\nIf it isn’t user-owned, it’s just a faster version of the legacy system. Always opt for self-custody of your assets.",
+            "likes": 43,
+            "retweets": 10,
+            "posted_at": "2026-04-03T06:32:50.000Z"
+          },
+          {
+            "id": "2039946261558632874",
+            "url": "https://x.com/SwarmMarkets/status/2039946261558632874",
+            "text": "RT @InveniamIO: How do you know your AI is reasoning on verifiable information? \n\nIn capital markets, where AI agents are beginning to exec…",
+            "likes": 31,
+            "retweets": 6,
+            "posted_at": "2026-04-03T06:01:03.000Z"
+          },
+          {
+            "id": "2039644005034496283",
+            "url": "https://x.com/SwarmMarkets/status/2039644005034496283",
+            "text": "Not all RWAs are equal. \n\nSome are synthetic exposure. Some are 1:1 backed by real assets. \n\nThat difference matters.",
+            "likes": 50,
+            "retweets": 10,
+            "posted_at": "2026-04-02T10:00:00.000Z"
+          },
+          {
+            "id": "2039571638899945894",
+            "url": "https://x.com/SwarmMarkets/status/2039571638899945894",
+            "text": "RT @InveniamIO: 1/ According to @moodysratings' 2026 Outlook, private credit is expected to exceed $2 trillion in global AUM — yet it still…",
+            "likes": 31,
+            "retweets": 8,
+            "posted_at": "2026-04-02T05:12:26.000Z"
+          },
+          {
+            "id": "2038863725327790489",
+            "url": "https://x.com/SwarmMarkets/status/2038863725327790489",
+            "text": "Tokenized markets shouldn’t live on a single chain.\n\nSwarm connects across @ethereum, @0xPolygon, @hedera, @base, @BNBCHAIN, @HyperliquidX &amp; @Plasma - giving users seamless multi-chain access to RWAs.",
+            "likes": 49,
+            "retweets": 11,
+            "posted_at": "2026-03-31T06:19:27.000Z"
+          },
+          {
+            "id": "2038641350246109451",
+            "url": "https://x.com/SwarmMarkets/status/2038641350246109451",
+            "text": "RT @RWAFoundation_: https://t.co/SlfppaXRJC",
+            "likes": 39,
+            "retweets": 10,
+            "posted_at": "2026-03-30T15:35:48.000Z"
+          },
+          {
+            "id": "2038587043291476072",
+            "url": "https://x.com/SwarmMarkets/status/2038587043291476072",
+            "text": "24/7/365.\n\nNo closing bells. No market hours. No borders.\n\nOnchain markets never sleep. https://t.co/husC5VCxFt",
+            "likes": 49,
+            "retweets": 10,
+            "posted_at": "2026-03-30T12:00:00.000Z"
+          },
+          {
+            "id": "2037571737697587391",
+            "url": "https://x.com/SwarmMarkets/status/2037571737697587391",
+            "text": "Agentic asset management requires two things: trusted data and programmable execution. \n\nThis is what the Swarm + @InveniamIO stack delivers.",
+            "likes": 35,
+            "retweets": 9,
+            "posted_at": "2026-03-27T16:45:33.000Z"
+          },
+          {
+            "id": "2037569629711700464",
+            "url": "https://x.com/SwarmMarkets/status/2037569629711700464",
+            "text": "RT @InveniamIO: The @Inveniam team is heading to Cannes next week 🇫🇷 \n\nETHcc • Real World Asset Summit • Vault Summit \n\nWe're looking forwa…",
+            "likes": 37,
+            "retweets": 5,
+            "posted_at": "2026-03-27T16:37:10.000Z"
+          },
+          {
+            "id": "2034949902447394831",
+            "url": "https://x.com/SwarmMarkets/status/2034949902447394831",
+            "text": "RT @InveniamIO: 1/ Institutional Bitcoin finance is here. With the launch of Hashi on @SuiNetwork, a new market is being activated.\n\nAt the…",
+            "likes": 38,
+            "retweets": 18,
+            "posted_at": "2026-03-20T11:07:18.000Z"
+          },
+          {
+            "id": "2033581930285760723",
+            "url": "https://x.com/SwarmMarkets/status/2033581930285760723",
+            "text": "📰 Tokenization headlines\n\n1. Tokenized commodities on XRPL surpass $1B\n\nTokenized commodities on the XRP Ledger have grown to $1.14B in value, now accounting for more than 50% of the RWA market on that network. \n\n➡️ Why it matters: Commodities, especially energy and metals, are",
+            "likes": 57,
+            "retweets": 10,
+            "posted_at": "2026-03-16T16:31:28.000Z"
+          },
+          {
+            "id": "2033581933037343016",
+            "url": "https://x.com/SwarmMarkets/status/2033581933037343016",
+            "text": "2. Banks in the US won’t face extra capital charges for tokenized securities \n\nU.S. regulators indicated banks won’t be penalized with additional capital requirements for holding tokenized securities. \n\n➡️ Why it matters: This removes a major institutional barrier and could",
+            "likes": 25,
+            "retweets": 3,
+            "posted_at": "2026-03-16T16:31:29.000Z"
+          },
+          {
+            "id": "2033581936464072769",
+            "url": "https://x.com/SwarmMarkets/status/2033581936464072769",
+            "text": "3. Tokenized equities market crosses $1B milestone\n\nTokenized stocks have surpassed $1B in total value, signaling early growth in on-chain equity markets. \n\n➡️ Why it matters: Still small relative to global equities, but growth is accelerating as regulated exchanges explore https://t.co/JW3eECW7A3",
+            "likes": 24,
+            "retweets": 3,
+            "posted_at": "2026-03-16T16:31:30.000Z"
+          },
+          {
+            "id": "2032490988833268093",
+            "url": "https://x.com/SwarmMarkets/status/2032490988833268093",
+            "text": "Tokenization is more than just about putting assets on-chain.\n\nIt’s about making them:\n\n▪ tradable\n▪ programmable\n▪ usable as collateral\n▪ compliant across jurisdictions\n\nThat’s the infrastructure Swarm is building.\n#RWAs #DeFi #Tokenization https://t.co/nbu8O93BVK",
+            "likes": 72,
+            "retweets": 16,
+            "posted_at": "2026-03-13T16:16:28.000Z"
+          }
+        ],
+        "hero_tweet_id": "2049066091503132709"
+      },
+      "grok_brief": {
+        "one_line": "Swarm Markets promotes 100% backed RWAs, self-custody, multi-chain access and regulatory compliance for tokenization.",
+        "key_events": [
+          "100% asset-backed RWAs with real-time verification",
+          "Full self-custody and wallet trading emphasized",
+          "Multi-chain RWA access on Ethereum, Polygon, Hedera, Base, BNB, Hyperliquid",
+          "24/7/365 trading highlighted",
+          "Tokenized commodities on XRPL >$1B, equities >$1B"
+        ],
+        "post_count_24h": 20,
+        "bullish_score": 0.65,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.8,
+        "market_cap_usd": 1080000,
+        "fdv_usd": 1730000,
+        "fully_unlocked": false,
+        "top10_holder_pct": 63.2,
+        "project_status": "active",
+        "red_flags": []
+      },
+      "upside_score": 12,
+      "eligible": true,
+      "active": false,
+      "score_breakdown": {
+        "newsworthy": 19.5,
+        "themeFit": 26.6,
+        "unlock": 4.4,
+        "social": 8,
+        "holders": 2.2,
+        "marketCap": 4
+      },
+      "rank_today": 10
+    },
+    {
+      "slug": "dusk-network",
+      "symbol": "DUSK",
+      "name": "Dusk",
+      "x_handle": "DuskFoundation",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "compliance"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 32803501,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 16.3,
+        "unlock_light": "yellow",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": 0,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": 0.85
+      },
+      "social": {
+        "tweets": [
+          {
+            "id": "2086161048466596165",
+            "url": "https://x.com/DuskFoundation/status/2086161048466596165",
+            "text": "RT @DuskFoundation: Which part of your trading activity would you least want other traders to see?\n\nA) Position size\nB) Entry and exit timi…",
+            "likes": 37,
+            "retweets": 11,
+            "posted_at": "2026-08-08T18:42:07.000Z"
+          },
+          {
+            "id": "2086059858424426881",
+            "url": "https://x.com/DuskFoundation/status/2086059858424426881",
+            "text": "Which part of your trading activity would you least want other traders to see?\n\nA) Position size\nB) Entry and exit timing\nC) Counterparties\nD) Accumulation and selling patterns\n\nExplain your answer in the comments.",
+            "likes": 37,
+            "retweets": 11,
+            "posted_at": "2026-08-08T12:00:02.000Z"
+          },
+          {
+            "id": "2085764585790091691",
+            "url": "https://x.com/DuskFoundation/status/2085764585790091691",
+            "text": "RT @DuskFoundation: A tokenized bond can reveal an investor’s position without that investor ever announcing it.\n\nImagine an investment fun…",
+            "likes": 46,
+            "retweets": 12,
+            "posted_at": "2026-08-07T16:26:43.000Z"
+          },
+          {
+            "id": "2085678178341626239",
+            "url": "https://x.com/DuskFoundation/status/2085678178341626239",
+            "text": "A tokenized bond can reveal an investor’s position without that investor ever announcing it.\n\nImagine an investment fund holds a bond on a fully public blockchain. A smart contract sends interest payments automatically.\n\nIf the bond terms and each payment are visible, observers",
+            "likes": 46,
+            "retweets": 12,
+            "posted_at": "2026-08-07T10:43:22.000Z"
+          },
+          {
+            "id": "2085434935180189839",
+            "url": "https://x.com/DuskFoundation/status/2085434935180189839",
+            "text": "RT @DuskFoundation: Are you running a Dusk node?\n\nState Snapshots lets you package, sign and verify node state before you restore it.\n\nBuil…",
+            "likes": 43,
+            "retweets": 11,
+            "posted_at": "2026-08-06T18:36:48.000Z"
+          },
+          {
+            "id": "2084987910647054625",
+            "url": "https://x.com/DuskFoundation/status/2084987910647054625",
+            "text": "A tokenized bond shows why public blockchain automation need privacy.\n\nA smart contract can coordinate eligibility checks, interest payments, transfers, settlement and reporting.\n\nOn a fully transparent blockchain, that activity can expose:\n- investor balances\n- payment amounts\n-",
+            "likes": 57,
+            "retweets": 17,
+            "posted_at": "2026-08-05T13:00:29.000Z"
+          },
+          {
+            "id": "2084977164718628871",
+            "url": "https://x.com/DuskFoundation/status/2084977164718628871",
+            "text": "RT @cyphertalkmedia: One of the unexpected benefits of AI?\n\nBeing able to apply knowledge from different, specialised areas to what you're…",
+            "likes": 10,
+            "retweets": 4,
+            "posted_at": "2026-08-05T12:17:47.000Z"
+          },
+          {
+            "id": "2084263562919235722",
+            "url": "https://x.com/DuskFoundation/status/2084263562919235722",
+            "text": "Another community-built explorer is now live.\n\nExplore network activity with DuskScan by @pieswap_dusk ↓",
+            "likes": 51,
+            "retweets": 12,
+            "posted_at": "2026-08-03T13:02:11.000Z"
+          },
+          {
+            "id": "2084259752620576985",
+            "url": "https://x.com/DuskFoundation/status/2084259752620576985",
+            "text": "RT @pieswap_dusk: DuskScan is live: an independent block explorer for @DuskFoundation, mainnet and testnet.\n\nGive it a try.\n\nhttps://t.co/G…",
+            "likes": 26,
+            "retweets": 13,
+            "posted_at": "2026-08-03T12:47:03.000Z"
+          },
+          {
+            "id": "2083853000804634966",
+            "url": "https://x.com/DuskFoundation/status/2083853000804634966",
+            "text": "RT @HeinDauven: We're integrating $DUSK more deeply into our own products and services.\n\nNo account creation, separate login, card or invoi…",
+            "likes": 47,
+            "retweets": 10,
+            "posted_at": "2026-08-02T09:50:46.000Z"
+          },
+          {
+            "id": "2083252475398647963",
+            "url": "https://x.com/DuskFoundation/status/2083252475398647963",
+            "text": "RT @cyphertalkmedia: Founder turned bug finder?\n\nThree days with Fable, and Emanuele Francioni (@autholykos of @DuskFoundation) had already…",
+            "likes": 5,
+            "retweets": 3,
+            "posted_at": "2026-07-31T18:04:29.000Z"
+          },
+          {
+            "id": "2085380212771164525",
+            "url": "https://x.com/DuskFoundation/status/2085380212771164525",
+            "text": "Are you running a Dusk node?\n\nState Snapshots lets you package, sign and verify node state before you restore it.\n\nBuild a safer, repeatable recovery path. Check it out below ↓ https://t.co/1tQ37XmrMO",
+            "likes": 43,
+            "retweets": 11,
+            "posted_at": "2026-08-06T14:59:21.000Z"
+          },
+          {
+            "id": "2085380216218861610",
+            "url": "https://x.com/DuskFoundation/status/2085380216218861610",
+            "text": "Explore State Snapshots:\nhttps://t.co/rvd2wCcoS0",
+            "likes": 5,
+            "retweets": 0,
+            "posted_at": "2026-08-06T14:59:22.000Z"
+          },
+          {
+            "id": "2085380218789998647",
+            "url": "https://x.com/DuskFoundation/status/2085380218789998647",
+            "text": "End of official thread.\n\nAny replies below are not part of this thread. Verify any link against the official @DuskFoundation account before interacting. https://t.co/RzoECegZGk",
+            "likes": 2,
+            "retweets": 0,
+            "posted_at": "2026-08-06T14:59:23.000Z"
+          },
+          {
+            "id": "2084579008520323154",
+            "url": "https://x.com/DuskFoundation/status/2084579008520323154",
+            "text": "Automating finance on public blockchains can expose sensitive data.\n\nInstitutions can use smart contracts for checks, payments, settlement and reporting.\n\nOn Dusk, you can use privacy-perserving smart contracts to keep your data confidential.\n\nSee the docs in the replies ↓ https://t.co/uhLHbF8Vuh",
+            "likes": 64,
+            "retweets": 13,
+            "posted_at": "2026-08-04T09:55:39.000Z"
+          },
+          {
+            "id": "2084579011791917322",
+            "url": "https://x.com/DuskFoundation/status/2084579011791917322",
+            "text": "Explore how Dusk supports public coordination, protected data, selective disclosure and settlement for regulated market workflows ↓\nhttps://t.co/ckomEMc4O8",
+            "likes": 9,
+            "retweets": 1,
+            "posted_at": "2026-08-04T09:55:40.000Z"
+          },
+          {
+            "id": "2084579695232713088",
+            "url": "https://x.com/DuskFoundation/status/2084579695232713088",
+            "text": "End of official thread.\n\nAny replies below are not part of this thread. Verify any link against the official @DuskFoundation account before interacting. https://t.co/AuPV9NUtcy",
+            "likes": 5,
+            "retweets": 0,
+            "posted_at": "2026-08-04T09:58:23.000Z"
+          },
+          {
+            "id": "2083179763733061972",
+            "url": "https://x.com/DuskFoundation/status/2083179763733061972",
+            "text": "Public blockchains can expose more than an investor’s holdings.\n\nTransfers, dividend payments and shareholder votes can reveal positions and strategy.\n\nDusk’s privacy-preserving smart contracts can protect sensitive data while enabling automatic financial flows. https://t.co/cXKQdV9xjh",
+            "likes": 55,
+            "retweets": 12,
+            "posted_at": "2026-07-31T13:15:33.000Z"
+          },
+          {
+            "id": "2083179767486873889",
+            "url": "https://x.com/DuskFoundation/status/2083179767486873889",
+            "text": "Explore how Dusk approaches regulated asset workflows, from eligibility and transfers to corporate actions and selective disclosure ↓\nhttps://t.co/ckomEMc4O8",
+            "likes": 16,
+            "retweets": 2,
+            "posted_at": "2026-07-31T13:15:34.000Z"
+          },
+          {
+            "id": "2083179777100276047",
+            "url": "https://x.com/DuskFoundation/status/2083179777100276047",
+            "text": "End of official thread.\n\nAny replies below are not part of this thread. Verify any link against the official @DuskFoundation account before interacting. https://t.co/BAUdl8117M",
+            "likes": 5,
+            "retweets": 0,
+            "posted_at": "2026-07-31T13:15:37.000Z"
+          }
+        ],
+        "hero_tweet_id": "2086059858424426881"
+      },
+      "grok_brief": {
+        "one_line": "Dusk promotes privacy-preserving smart contracts for RWA/tokenized bonds, node snapshots, and new community explorer.",
+        "key_events": [
+          "Privacy focus for tokenized bonds/investor data",
+          "State Snapshots for node recovery",
+          "DuskScan explorer launched by community",
+          "Integrations into products/services",
+          "Docs on regulated asset workflows"
+        ],
+        "post_count_24h": 20,
+        "bullish_score": 0.75,
+        "theme_fit_score": 0.9,
+        "sentiment_score": 0.85,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "active",
+        "red_flags": []
+      },
+      "upside_score": 75.1,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 22.5,
+        "themeFit": 25.2,
+        "unlock": 13.2,
+        "social": 8.5,
+        "holders": 3,
+        "marketCap": 2.7
+      },
+      "rank_today": 6
+    },
+    {
+      "slug": "chintai",
+      "symbol": "CHEX",
+      "name": "Chintai",
+      "x_handle": "ChintaiNexus",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "ai",
+        "agentic"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 12744646,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": 17,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": 0.9
+      },
+      "social": {
+        "tweets": [
+          {
+            "id": "2079963627369414766",
+            "url": "https://x.com/ChintaiNexus/status/2079963627369414766",
+            "text": "https://t.co/kpTHzM9BJd",
+            "likes": 24,
+            "retweets": 5,
+            "posted_at": "2026-07-22T16:15:47.000Z"
+          },
+          {
+            "id": "2079957510740480161",
+            "url": "https://x.com/ChintaiNexus/status/2079957510740480161",
+            "text": "https://t.co/7V9AgEh6Ec",
+            "likes": 22,
+            "retweets": 2,
+            "posted_at": "2026-07-22T15:51:28.000Z"
+          },
+          {
+            "id": "2075233716469654008",
+            "url": "https://x.com/ChintaiNexus/status/2075233716469654008",
+            "text": "Join our CEO @GunnisonCap for another Chintai and $CHEX community AMA\n\n📅 7/22/2026 12PM ET. \nhttps://t.co/XJSZN07yGS",
+            "likes": 74,
+            "retweets": 21,
+            "posted_at": "2026-07-09T15:00:48.000Z"
+          },
+          {
+            "id": "2054952044302041249",
+            "url": "https://x.com/ChintaiNexus/status/2054952044302041249",
+            "text": "https://t.co/woIbOzG3f1",
+            "likes": 38,
+            "retweets": 10,
+            "posted_at": "2026-05-14T15:48:41.000Z"
+          },
+          {
+            "id": "2052039822290591906",
+            "url": "https://x.com/ChintaiNexus/status/2052039822290591906",
+            "text": "Join our CEO @GunnisonCap for the next Chintai $CHEX community AMA. \n\nhttps://t.co/oluNhpPsRi",
+            "likes": 108,
+            "retweets": 31,
+            "posted_at": "2026-05-06T14:56:33.000Z"
+          },
+          {
+            "id": "2048056984067260604",
+            "url": "https://x.com/ChintaiNexus/status/2048056984067260604",
+            "text": "Our distribution pipeline is filling up fast. Yield bearing RWAs are finally seeing institutional and accredited buyers lining up. The global BD model for tokenized assets is here.",
+            "likes": 144,
+            "retweets": 45,
+            "posted_at": "2026-04-25T15:10:10.000Z"
+          },
+          {
+            "id": "2047727922018967841",
+            "url": "https://x.com/ChintaiNexus/status/2047727922018967841",
+            "text": "Together with @ValereumPLC we're cracking the code for profound distribution of RWA's. The next phase is here.",
+            "likes": 121,
+            "retweets": 41,
+            "posted_at": "2026-04-24T17:22:36.000Z"
+          },
+          {
+            "id": "2044443146658992367",
+            "url": "https://x.com/ChintaiNexus/status/2044443146658992367",
+            "text": "https://t.co/3EOcIWveNg",
+            "likes": 41,
+            "retweets": 5,
+            "posted_at": "2026-04-15T15:50:04.000Z"
+          },
+          {
+            "id": "2039375096335278128",
+            "url": "https://x.com/ChintaiNexus/status/2039375096335278128",
+            "text": "Join us for the next AMA with CEO @GunnisonCap \nApril 15th 12pm ET. \n\nhttps://t.co/lMgrt3sKC7",
+            "likes": 100,
+            "retweets": 31,
+            "posted_at": "2026-04-01T16:11:27.000Z"
+          },
+          {
+            "id": "2031769239229514200",
+            "url": "https://x.com/ChintaiNexus/status/2031769239229514200",
+            "text": "https://t.co/ejOv4efWhj",
+            "likes": 34,
+            "retweets": 11,
+            "posted_at": "2026-03-11T16:28:29.000Z"
+          },
+          {
+            "id": "2031757971445747775",
+            "url": "https://x.com/ChintaiNexus/status/2031757971445747775",
+            "text": "https://t.co/mVe2EPKJfh",
+            "likes": 24,
+            "retweets": 4,
+            "posted_at": "2026-03-11T15:43:43.000Z"
+          },
+          {
+            "id": "2029235591821328644",
+            "url": "https://x.com/ChintaiNexus/status/2029235591821328644",
+            "text": "Join our CEO @GunnisonCap for the next community update on:\n\n⏰ Wednesday 3/11 12pm EST.   \n\n👇🏻https://t.co/9TAduPOw61",
+            "likes": 78,
+            "retweets": 25,
+            "posted_at": "2026-03-04T16:40:41.000Z"
+          },
+          {
+            "id": "2019091075516756457",
+            "url": "https://x.com/ChintaiNexus/status/2019091075516756457",
+            "text": "https://t.co/QX6waYzZWV",
+            "likes": 68,
+            "retweets": 20,
+            "posted_at": "2026-02-04T16:49:59.000Z"
+          },
+          {
+            "id": "2016563500584157326",
+            "url": "https://x.com/ChintaiNexus/status/2016563500584157326",
+            "text": "Join our CEO @GunnisonCap for a community update on \n\n⏰ Wednesday 2/4 12pm EST. \n\n⛓👇🏻\nhttps://t.co/QX6waYzZWV",
+            "likes": 139,
+            "retweets": 50,
+            "posted_at": "2026-01-28T17:26:19.000Z"
+          },
+          {
+            "id": "2011130427273019625",
+            "url": "https://x.com/ChintaiNexus/status/2011130427273019625",
+            "text": "RT @ChintaiNetwork: Chintai-MAJV $28bn tokenisation tests new development finance model https://t.co/aBTuM3oNeD via @asiatimesonline",
+            "likes": 180,
+            "retweets": 52,
+            "posted_at": "2026-01-13T17:37:13.000Z"
+          },
+          {
+            "id": "2009281310754308322",
+            "url": "https://x.com/ChintaiNexus/status/2009281310754308322",
+            "text": "Without touching property rights, $28B in real-world development rights were tokenized, unlocking global access, fractional ownership, and liquidity at a speed traditional finance could never match.\n\nhttps://t.co/c8VQdNx5GF via @asiatimesonline",
+            "likes": 198,
+            "retweets": 68,
+            "posted_at": "2026-01-08T15:09:29.000Z"
+          },
+          {
+            "id": "2008752125401329831",
+            "url": "https://x.com/ChintaiNexus/status/2008752125401329831",
+            "text": "RT @GunnisonCap: We’re going to just deliver in 2026 and let the results speak for themselves.  This partnership is very exciting news for…",
+            "likes": 275,
+            "retweets": 90,
+            "posted_at": "2026-01-07T04:06:42.000Z"
+          },
+          {
+            "id": "2008734537787064554",
+            "url": "https://x.com/ChintaiNexus/status/2008734537787064554",
+            "text": "RT @ChintaiNetwork: Chintai and Maluku Archipelago Joint Venture (MAJV) to tokenise real-world assets tied to the venture's 60-year nature-…",
+            "likes": 310,
+            "retweets": 113,
+            "posted_at": "2026-01-07T02:56:48.000Z"
+          },
+          {
+            "id": "2031093816598339736",
+            "url": "https://x.com/ChintaiNexus/status/2031093816598339736",
+            "text": "https://t.co/dDJqPBqkrI",
+            "likes": 96,
+            "retweets": 22,
+            "posted_at": "2026-03-09T19:44:36.000Z"
+          },
+          {
+            "id": "2031094093300826580",
+            "url": "https://x.com/ChintaiNexus/status/2031094093300826580",
+            "text": "David will be discussing in further detail on our upcoming AMA. https://t.co/EOKdsMwOz8",
+            "likes": 43,
+            "retweets": 6,
+            "posted_at": "2026-03-09T19:45:42.000Z"
+          }
+        ],
+        "hero_tweet_id": "2079963627369414766"
+      },
+      "grok_brief": {
+        "one_line": "Chintai pushing RWA tokenization via $28B MAJV deal, Valereum partnership, institutional yield buyers, and ongoing CEO AMAs.",
+        "key_events": [
+          "$28B MAJV tokenization of development rights",
+          "Valereum partnership for RWA distribution",
+          "Yield-bearing RWAs attracting institutional buyers",
+          "Multiple CEO @GunnisonCap AMAs in 2025-2026"
+        ],
+        "post_count_24h": 20,
+        "bullish_score": 0.85,
+        "theme_fit_score": 0.95,
+        "sentiment_score": 0.9,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "active",
+        "red_flags": []
+      },
+      "upside_score": 89.6,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 25.5,
+        "themeFit": 26.6,
+        "unlock": 22,
+        "social": 9,
+        "holders": 3,
+        "marketCap": 3.5
+      },
+      "rank_today": 3
+    }
+  ],
+  "data_gaps": []
+}
