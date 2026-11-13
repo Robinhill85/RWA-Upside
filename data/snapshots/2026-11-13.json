@@ -1,0 +1,682 @@
+{
+  "date": "2026-11-13",
+  "generated_at_utc": "2026-11-13T00:01:15.677Z",
+  "skills_used": [
+    "altcoin_token_profile",
+    "analyze_token_unlock_impact",
+    "altcoin_kol_sentiment"
+  ],
+  "tokens": [
+    {
+      "slug": "ix-swap",
+      "symbol": "IXS",
+      "name": "IXS",
+      "x_handle": "ixsfinance",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "yield"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 5443946,
+        "market_cap_source": "coingecko-fdv",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 100,
+        "unlock_light": "red",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "unknown",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or analyst notes available for $IXS (RWA/tokenization/yield).",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.8,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "unknown",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 53.6,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 22.4,
+        "unlock": 4.4,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 3.8
+      },
+      "rank_today": 9
+    },
+    {
+      "slug": "clearpool",
+      "symbol": "CPOOL",
+      "name": "Clearpool",
+      "x_handle": "ClearpoolFin",
+      "themes": [
+        "rwa",
+        "yield",
+        "stablecoin"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 25965410,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "active",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or analyst notes available for Clearpool ($CPOOL)",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.8,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "active",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 70.4,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 22.4,
+        "unlock": 22,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 3
+      },
+      "rank_today": 4
+    },
+    {
+      "slug": "polytrade",
+      "symbol": "TRADE",
+      "name": "Polytrade",
+      "x_handle": "Polytrade_fin",
+      "themes": [
+        "rwa",
+        "tokenization"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 2036564,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "unknown",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or analyst notes for Polytrade ($TRADE) in RWA/tokenization.",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.8,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "unknown",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 71.3,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 22.4,
+        "unlock": 22,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 3.9
+      },
+      "rank_today": 3
+    },
+    {
+      "slug": "credefi",
+      "symbol": "CREDI",
+      "name": "Credefi",
+      "x_handle": "credefi_finance",
+      "themes": [
+        "rwa",
+        "yield"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 479809,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 5.9,
+        "unlock_light": "yellow",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "unknown",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or analyst notes available for Credefi ($CREDI).",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.5,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "unknown",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 54.2,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 14,
+        "unlock": 13.2,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 4
+      },
+      "rank_today": 6
+    },
+    {
+      "slug": "truflation",
+      "symbol": "TRUF",
+      "name": "Truflation",
+      "x_handle": "truflation",
+      "themes": [
+        "rwa",
+        "ai",
+        "data"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 1424470,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 42.5,
+        "unlock_light": "red",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "unknown",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or analyst notes available for Truflation ($TRUF).",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.8,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "unknown",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 53.7,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 22.4,
+        "unlock": 4.4,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 3.9
+      },
+      "rank_today": 8
+    },
+    {
+      "slug": "realio-network",
+      "symbol": "RIO",
+      "name": "Realio Network",
+      "x_handle": "realio_network",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "realestate"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 11057445,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "unknown",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or analyst notes for Realio Network ($RIO) in RWA/tokenization.",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.9,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "unknown",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 73.8,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 25.2,
+        "unlock": 22,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 3.6
+      },
+      "rank_today": 1
+    },
+    {
+      "slug": "resolv",
+      "symbol": "RESOLV",
+      "name": "Resolv",
+      "x_handle": "ResolvLabs",
+      "themes": [
+        "stablecoin",
+        "yield",
+        "rwa"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 6964283,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 48.5,
+        "unlock_light": "red",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "unknown",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or CMC notes available for Resolv ($RESOLV) stablecoin project.",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.8,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "unknown",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 53.5,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 22.4,
+        "unlock": 4.4,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 3.7
+      },
+      "rank_today": 10
+    },
+    {
+      "slug": "swarm-markets",
+      "symbol": "SMT",
+      "name": "Swarm Markets",
+      "x_handle": "swarmmarkets",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "defi"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 388423,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 37.3,
+        "unlock_light": "red",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "unknown",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or analyst notes available for Swarm Markets ($SMT).",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.8,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "unknown",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 53.8,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 22.4,
+        "unlock": 4.4,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 4
+      },
+      "rank_today": 7
+    },
+    {
+      "slug": "dusk-network",
+      "symbol": "DUSK",
+      "name": "Dusk",
+      "x_handle": "DuskFoundation",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "compliance"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 41268416,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "unknown",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or analyst notes available for Dusk ($DUSK) in RWA/tokenization.",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.7,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "unknown",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 66.9,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 19.6,
+        "unlock": 22,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 2.3
+      },
+      "rank_today": 5
+    },
+    {
+      "slug": "chintai",
+      "symbol": "CHEX",
+      "name": "Chintai",
+      "x_handle": "ChintaiNexus",
+      "themes": [
+        "rwa",
+        "tokenization",
+        "ai",
+        "agentic"
+      ],
+      "metrics": {
+        "price_usd": null,
+        "market_cap_usd": 11646817,
+        "market_cap_source": "coingecko",
+        "fdv_usd": null,
+        "fully_unlocked": false,
+        "unlock_locked_pct": 0,
+        "unlock_light": "green",
+        "forward_unlock_state": "unknown",
+        "top10_holder_pct": null,
+        "vol_24h_usd": null,
+        "vol_to_mcap_pct": null
+      },
+      "liveness": {
+        "active": true,
+        "status": "unknown",
+        "collapsed": false,
+        "stale": false,
+        "days_since_last_tweet": null,
+        "red_flags": []
+      },
+      "sentiment": {
+        "score": null
+      },
+      "social": {
+        "tweets": [],
+        "hero_tweet_id": null
+      },
+      "grok_brief": {
+        "one_line": "No recent tweets or CMC notes available for Chintai ($CHEX).",
+        "key_events": [],
+        "post_count_24h": 0,
+        "bullish_score": null,
+        "theme_fit_score": 0.9,
+        "sentiment_score": null,
+        "market_cap_usd": null,
+        "fdv_usd": null,
+        "fully_unlocked": null,
+        "top10_holder_pct": null,
+        "project_status": "unknown",
+        "red_flags": [],
+        "no_social_data": true
+      },
+      "upside_score": 73.7,
+      "eligible": true,
+      "active": true,
+      "score_breakdown": {
+        "newsworthy": 15,
+        "themeFit": 25.2,
+        "unlock": 22,
+        "social": 5,
+        "holders": 3,
+        "marketCap": 3.5
+      },
+      "rank_today": 2
+    }
+  ],
+  "data_gaps": [
+    "ix-swap:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+    "clearpool:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+    "polytrade:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+    "credefi:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+    "truflation:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+    "realio-network:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+    "resolv:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+    "swarm-markets:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+    "dusk-network:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
+    "chintai:tweets: Apify 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
+  ]
+}
